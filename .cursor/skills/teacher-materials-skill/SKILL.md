@@ -1,98 +1,125 @@
 ---
 name: teacher-materials-skill
 description: >-
-  Пише методичні матеріали курсу Python AI Materials: веб-пару журналу,
-  потім роздатковий пакет для студентів. Презентація автономна (тултіпи
-  запечені в HTML). Рішення завдань 1–N у results/, без рішень для 1.1 / 2.1 / 3.1 / 4.1.
-  Використовувати лише коли користувач явно назвав teacher-materials-skill.
+  Пише методичні матеріали Python AI Materials: зріз teacher_kb → веб-пара
+  журналу → автономний роздаток у lesson_materials/ (тултіпи запечені в HTML).
+  Рішення 1–N у results/, без X.1. Лише коли користувач явно назвав
+  teacher-materials-skill.
 disable-model-invocation: true
 ---
 
-# Методичні матеріали пар · Python AI Materials
+# teacher-materials-skill
 
-Працюй у репозиторії `lesson_helper` (не в цьому skills-репо):
+Працюй у `lesson_helper`:
 
 `/Users/abuiluk/LessonPython/pet_projects/lesson_helper`
 
-Мова матеріалів — **українська**. Еталон роздаткового пакета: `lessons/PythonAI61_Lesson1_Lesson2/`. Еталон веб-пари: `backend/data/courses/python_ai_materials/m01/pair_01/` і `m01/pair_02/`.
+Канон навички в тому репо: `.agents/skills/teaching/teacher-materials-skill/` (дзеркало — цей каталог). Мова матеріалів — **українська**.
 
-Деталі іменування: [pack-layout.md](pack-layout.md). HTML-блоки й запікання словника: [presentation.md](presentation.md).
+Не збирай роздаток руками. Після веб-пари запускай білдер.
 
-## Два етапи (не міняти місцями)
+Деталі: [kb.md](kb.md), [pack-layout.md](pack-layout.md), [presentation.md](presentation.md).
+
+## Голос: студент читає сам
+
+`presentation.html` і `lesson_materials/` викладач віддає студентам як є. Пиши до читача.
+
+Заборонено в цих файлах: «типова помилка студентів», «студенти часто плутають», «поясніть / наголосіть / попросіть», «з бази викладача», внутрішні id нотаток KB.
+
+Так: «Часто плутають A і B. Зверніть увагу: …».  
+Не так: «Студенти часто плутають A і B. Поясніть: …».
+
+Callout: «Зверніть увагу», «Часта пастка», «Коротко», «Джерела», «Орієнтир», «Ваше рішення». Асисти викладачу — лише в `teacher.md` на вебі.
+
+## Пайплайн (не міняти місцями)
 
 ```
-1. Веб-пара  →  backend/data/courses/python_ai_materials/mXX/pair_YY/
-2. Роздаток  →  lessons/PythonAI61_Lesson{odd}_Lesson{even}/
+1. query_teacher_kb          зріз, не PDF
+2. веб-пара                  mXX/pair_YY/
+3. verify_pair_windows       вікно 80 хв
+4. build_lesson_materials_1_14.py
 ```
 
-Веб-версія — джерело істини. Роздаток **копіює зміст** вебу, адаптує шляхи й **запікає тултіпи в HTML**, щоб папку можна було надіслати студентам і відкрити локально (`file://`), без журналу.
+```
+1. Веб  → backend/data/courses/python_ai_materials/mXX/pair_YY/
+2. Zip  → lesson_materials/PythonAI61_Lesson{odd}_Lesson{even}/
+```
 
-## Етап 1. Веб-пара
+`lessons/` — **legacy**. Звідти білдер копіює старі стартери/CSV/results. Новий zip туди не пиши. Методичку студентам не клади.
 
-Шлях: `m{module:02d}/pair_{pair_index:02d}/`. Глобальний номер пари = Lesson N.
+## Крок 0. База
 
-Обовʼязкові файли:
+Канон: `teacher_kb.sqlite` у корені `lesson_helper` (gitignored). Як питати — [kb.md](kb.md).
+
+```bash
+python3 backend/data/courses/python_ai_materials/tools/query_teacher_kb.py --note numpy
+python3 backend/data/courses/python_ai_materials/tools/query_teacher_kb.py --sheet practical_2.1
+python3 backend/data/courses/python_ai_materials/tools/query_teacher_kb.py "numpy reshape"
+```
+
+Спочатку `--note`, потім `--sheet` для офіційних 1–N, потім короткий FTS. Повні extracts книжок у контекст не клади.
+
+## Крок 1. Веб-пара
+
+Шлях: `m{module:02d}/pair_{pair_index:02d}/`. `global_index` N = Lesson N.
 
 | Файл | Роль |
 |------|------|
-| `presentation.html` | Студентська презентація (оболонка як у готових пар) |
-| `plan.json` | Цілі, теми, таймінг; слоти збігаються з годинниками в HTML |
-| `teacher.md` | Короткі нотатки викладача |
-| `term-glossary.js` | Спільний словник курсу (окремий файл — журнал його віддає) |
+| `presentation.html` | Студентська презентація |
+| `plan.json` | Цілі, теми, таймінг = годинники HTML |
+| `teacher.md` | Нотатки викладача (не в zip) |
+| `term-glossary.js` | Словник; на вебі окремий файл |
 | `SLOVNYK_TERMINOLOGII.html` / `.md` | Повний словник |
-| `manifest.json` | Список файлів для журналу |
+| `manifest.json` | Для журналу |
 
-Правила вебу:
+Правила (див. [presentation.md](presentation.md)):
 
-- Непарна `global_index`: вікно **18:30–19:50**. Парна: **20:00–21:20**. Сума timed-блоків = `duration_min` (зазвичай 80).
-- `kind: extra` / «Додатково: глибоке вивчення» — **без** слоту HH:MM пари.
-- Теорія короткими `article.block` (`kind main`), практика — `kind task`.
-- ITSTEP: умова + орієнтир (фрагмент коду), **не** повне рішення. Для X.1 — «зробіть за аналогією», без розвʼязку.
-- Код у слайдах має запускатись. Посилання словника: `SLOVNYK_TERMINOLOGII.html` і `term-glossary.js` у тій самій папці.
-- Після змін: `python3 backend/data/courses/python_ai_materials/tools/verify_pair_windows.py` (якщо скрипт покриває цю пару).
+- Непарна пара: **18:30–19:50**. Парна: **20:00–21:20**. Сума timed = `duration_min` (зазвичай 80).
+- Порядок: теорія (`main`) → extra з KB **перед** практикою (без HH:MM) → ITSTEP (`task`) → `deep-study` в кінці (take-home).
+- ITSTEP: умова + орієнтир. X.1 — «за аналогією», без розвʼязку.
+- Extra: «Джерела» без sqlite-id. Нові терміни — в `assets/term-glossary.js`, далі копії в пари.
+- Оболонка як у готових пар (wide stage). Після правок HTML:
 
-Не пиши роздаток, поки веб-пара не зібрана.
+```bash
+python3 backend/data/courses/python_ai_materials/tools/verify_pair_windows.py
+```
 
-## Етап 2. Роздатковий пакет
+Не пиши `lesson_materials/`, поки веб-пара не зібрана.
 
-Папка: `lessons/PythonAI61_Lesson{N}_Lesson{N+1}/` (дві послідовні пари).
+## Крок 2. Роздаток — лише білдер
 
-Візьми HTML/план/методичку з вебу й адаптуй:
+```bash
+python3 backend/data/courses/python_ai_materials/tools/build_lesson_materials_1_14.py
+```
 
-1. Перейменуй файли за схемою LessonN (див. [pack-layout.md](pack-layout.md)).
-2. Посилання тільки відносні всередині папки. Жодних `/course/...`, `localhost`, шляхів журналу.
-3. **Запечи** `term-glossary.js` у `LessonN_00_presentation.html` як інлайн `<script>` (див. [presentation.md](presentation.md)). Тултіпи мають працювати, навіть якщо відкрити лише HTML.
-4. Навігація: `Lesson{N-1}_00_presentation.html` / `Lesson{N+1}_00_presentation.html` у тій самій папці.
-5. Методичка: `LessonN_ab_teacher.md` (+ за бажанням `LessonN_aa_teacher.html` як у пар 1–2) — з вебового `teacher.md`, шляхи на Lesson-імена.
-6. `LessonN_ac_plan.json` — копія вебового `plan.json`.
-7. Стартери для студентів: `LessonN_01_…`, `LessonN_02_…` — робочий код/ноутбуки до розбору на парі, не розвʼязки X.1.
-8. `requirements.txt` — лише те, що реально запускає практику пакета.
-9. Дані (CSV тощо) поруч зі стартерами, відносні шляхи.
+Білдер: запікає словник у HTML, ставить відносну навігацію (і між пакетами), пише `requirements.txt`, стартери (`write_handout_starters.py`), `results/` без X.1. Не редагуй згенерований HTML вручну — виправ веб і перезапусти.
 
-### `results/` — рішення офіційних завдань
+Стартери `LessonN_01_…`: робочі приклади (легко / середнє / складніше), не розвʼязки X.1. CSV через `Path(__file__).with_name(...)`. Matplotlib у `results/` — `savefig` поруч зі скриптом.
 
-Окремо, з готовим робочим кодом:
+Нова пара поза 1–14: додай її в `PACKS` / `PAIR_WEB` білдера, не збирай zip руками.
 
-- Так: завдання **1, 2, 3, 4** (і 5, 6, якщо вони є в офіційному практичному).
-- Ні: **1.1, 2.1, 3.1, 4.1** (і будь-які `X.1`). Аналоги студент робить сам за підказками в презентації.
+## `results/`
 
-Не клади у `results/` файли на кшталт `task2.1.ipynb`, `task1_1_solution.py`.
+Так: офіційні **1–N** (і 5–6, якщо є в аркуші).  
+Ні: **1.1 / 2.1 / 3.1 / 4.1** і будь-яке `X.1`.
 
-У `results/README.txt` коротко: які файли до яких офіційних задач, і що аналоги X.1 у пакеті навмисно відсутні.
+Немає файлів на кшталт `task2.1.ipynb`. У `results/README.txt` — що є і що навмисно відсутнє.
 
 ## Що не робити
 
-- Не починати з роздатку, минаючи веб.
-- Не лишати в роздатковій презентації `<script src="term-glossary.js">` або `<script src="LessonN_ad_term_glossary.js">` як єдине джерело тултіпів — словник має бути **вбудований**.
-- Не вставляти повні розвʼязки X.1 ні в презентацію, ні в `results/`.
-- Не ламати автономність: один zip папки → відкрив `LessonN_00_presentation.html` → зміст, таймери, тултіпи працюють.
+- Не починати з zip, минаючи веб і KB.
+- Не класти в zip `teacher.md`, `plan.json`, окремий словник.
+- Не лишати в роздатковій презентації `<script src="term-glossary.js">`.
+- Не вставляти розвʼязки X.1.
+- Не тягнути PDF/ZIP LMS у контекст і не цитувати внутрішні id KB на слайді.
 
-## Чеклист перед здачею
+## Чеклист
 
-- [ ] Веб-пара на місці; таймінг HTML = `plan.json`
-- [ ] Роздаток згенеровано з вебу, не навпаки
-- [ ] Презентація відкривається локально; тултіпи без мережі й без журналу
-- [ ] Стартери запускаються
-- [ ] У `results/` є робочі розвʼязки 1–N і **немає** X.1
-- [ ] `requirements.txt` достатній
-- [ ] Мова — українська; код — робочий Python
+- [ ] Взято `--note` / `--sheet`, не весь extract
+- [ ] Веб: таймінг HTML = `plan.json`; extra перед практикою; deep-study в кінці
+- [ ] `verify_pair_windows.py` для курсу — OK
+- [ ] Запущено `build_lesson_materials_1_14.py` без помилок
+- [ ] У HTML роздатку є `const ENTRIES` і коментар `baked term-glossary.js`
+- [ ] Немає `/course/`, `localhost`, посилання на `SLOVNYK_TERMINOLOGII.html`
+- [ ] Стартери запускаються; у `results/` є 1–N і немає X.1
+- [ ] Голос слайда — до студента

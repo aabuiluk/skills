@@ -1,72 +1,50 @@
-# Презентація і запікання тултіпів
+# Презентація
 
-Оболонку (CSS, TOC, таймери блоків, embed) копіюй з готової веб-пари, наприклад `m01/pair_02/presentation.html` або `tools/_presentation_shell_parts.py`. Не вигадуй нову тему.
+Оболонку (CSS, TOC, таймери, embed, wide stage) копіюй з готової веб-пари, напр. `m01/pair_02/presentation.html`. Не вигадуй тему. На широкому десктопі `.stage` до ~1360px (`widen_presentation_stage.py`).
 
-## Структура сторінки
+## Порядок блоків
 
-1. Banner `#agenda`: kicker, h2, lead, `.timing-strip` (сума pill = вікно пари), `.goals`, `.term-hint`.
-2. Статті `article.block`:
-   - `kind main` — теорія, `data-minutes` + `.clock` зі слотом
-   - `kind task` — практика ITSTEP / курована
-   - `kind deep` / extra — після вікна, без HH:MM пари
-3. Код: `<pre><code class="language-python">` — мінімальний, запускається.
-4. Підказки: `.callout.tip` (орієнтир), `.callout.task` (критерій здачі / «ваше рішення»).
-5. Візуал: SVG у `.viz.diagram`, Chart.js canvas — опційно; без мережі графіки Chart.js можуть не зʼявитись, **тултіпи мусять**.
+1. Banner `#agenda`: kicker, h2, lead, `.timing-strip` (сума pill = 80 хв), `.goals`, `.term-hint`.
+2. Теорія `article.block` + `kind main`: `data-minutes` і `.clock` зі слотом.
+3. **Extra з KB** після останньої теорії, **перед** практикою: `kind deep`, без HH:MM пари. Типовий id: `extra-kb-…`.
+4. Практика `kind task` (ITSTEP або курована).
+5. **`deep-study`** в кінці: take-home ~30 хв, без слоту вікна.
+6. Усередині extra дозволений другий шар `<div class="extra-more" data-kb="extra-more">` — не чіпай timed-годинники.
 
-## Практика ITSTEP у слайдах
+## Тон і розмітка
 
-На блок X + X.1:
+- Код: `<pre><code class="language-python">` — мінімальний, запускається.
+- `.callout.tip` — орієнтир / «Зверніть увагу»; `.callout.task` — критерій / «Ваше рішення». Текст **до студента**.
+- Кожен extra: список «Джерела» (docs, підручник, OECD). Без sqlite-id.
+- Візуал: SVG у `.viz.diagram`; Chart.js опційно (без мережі може зникнути). Тултіпи на вебі — з `term-glossary.js`.
 
-- X: умова списком + `.callout.tip` «Орієнтир» з коротким фрагментом (не весь файл з `results/`).
-- X.1: «зробіть за аналогією», умова, `.callout.task` «Ваше рішення». **Без** готового коду розвʼязку.
+## Практика ITSTEP
 
-Повні розвʼязки X — лише в `results/`.
+Блок X + X.1:
 
-## Запікання словника (обовʼязково для роздатку)
+- X: умова + `.callout.tip` «Орієнтир» (фрагмент, не файл з `results/`).
+- X.1: «зробіть за аналогією» + `.callout.task` «Ваше рішення». Без коду розвʼязку.
 
-На вебі лишай `<script src="term-glossary.js" defer></script>`.
+Повні розвʼязки X — лише в `lesson_materials/…/results/` після білдера.
 
-У `LessonN_00_presentation.html` **заміни** зовнішній скрипт на інлайн. Джерело: `backend/data/courses/python_ai_materials/assets/term-glossary.js` (або копія в парі).
+## Словник
 
-Було (недостатньо для одного HTML-файла):
+**Веб:** лишай `<script src="term-glossary.js" defer></script>`. Нові терміни — `assets/term-glossary.js`, формат tip: English name + рядок українською.
 
-```html
-<script src="Lesson1_ad_term_glossary.js" defer></script>
-```
+**Роздаток:** не запікай вручну. `build_lesson_materials_1_14.py` замінює тег на інлайн-скрипт (`/* baked term-glossary.js */` + `const ENTRIES`), прибирає посилання на `SLOVNYK_TERMINOLOGII.html`, ставить `.nav`, ріже `/course/` і `localhost`.
 
-Має бути:
-
-```html
-<script>
-/* повний вміст term-glossary.js: ENTRIES + walk + bindTips */
-</script>
-```
-
-Вставляй **перед** скриптом Chart.js / перед `</body>`. Не лишай `src` на словник як єдине джерело.
-
-Навіщо: студент відкриває HTML з папки або навіть один файл — пунктирні терміни (`.term`) показують English name + українське пояснення без журналу й без сусіднього JS.
-
-`LessonN_ad_term_glossary.js` усе одно клади в папку: HTML-словник може підключати його. Презентація від цього файлу не залежить.
-
-Перевірка: відкрий `LessonN_00_presentation.html` як `file://`, наведи на термін із пунктиром — тултіп є. Вимкни мережу — тултіп лишається (шрифти Google / Chart.js CDN можуть відпасти; це прийнятно).
-
-## Локальні посилання роздатку
-
-| Що | Значення |
-|----|----------|
-| Словник HTML | `LessonN_ae_slovnyk_terminologii.html` |
-| Словник MD | `LessonN_af_slovnyk_terminologii.md` |
-| Попередня / наступна пара | `Lesson{N-1}_00_presentation.html` / `Lesson{N+1}_00_presentation.html` |
-| Журнал, localhost, `/course/` | заборонено |
-
-У `LessonN_ae_slovnyk_terminologii.html` посилання на MD теж Lesson-імена.
+Перевірка білдера: немає зовнішнього glossary-тега, є `ENTRIES`, немає витоку журналу. Chart.js/шрифти з CDN можуть не завантажитись офлайн — це прийнятно; тултіпи мусять працювати з `file://`.
 
 ## Таймінг
 
-`plan.json` / `LessonN_ac_plan.json` і годинники в HTML мають збігатися. Непарна пара: старт 18:30; парна: 20:00. Extra-блоки не входять у суму вікна.
+`plan.json` і годинники HTML збігаються. Extra і `deep-study` не входять у суму 80 хв. Після правок вебу:
+
+```bash
+python3 backend/data/courses/python_ai_materials/tools/verify_pair_windows.py
+```
+
+(скрипт ще дивиться legacy `lessons/`; для нового zip орієнтир — вихід білдера.)
 
 ## Методичка
 
-Короткий `teacher.md` / `LessonN_ab_teacher.md`: курс, модуль, тривалість, цілі, теми/акценти, посилання на презентацію й словник.
-
-Повна `teacher.html` (як Lesson 1–2) — світла «паперова» тема, ті самі цілі й хід пари, що на вебі. Формуй з вебової методички, не з нуля.
+Тільки на вебі: `teacher.md` (курс, модуль, 80 хв, цілі, акценти, що extra стоїть перед практикою). `teacher.html` — опційно, як m01. У `lesson_materials/` не копіюй.
