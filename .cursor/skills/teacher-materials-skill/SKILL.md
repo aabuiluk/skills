@@ -14,7 +14,8 @@ disable-model-invocation: true
 
 `/Users/abuiluk/LessonPython/pet_projects/lesson_helper`
 
-Канон навички в тому репо: `.agents/skills/teaching/teacher-materials-skill/` (дзеркало — цей каталог). Мова матеріалів — **українська**.
+Канон у `lesson_helper`: `.agents/skills/teaching/teacher-materials-skill/`.
+Опубліковане дзеркало — цей каталог (`skills` / aabuiluk/skills). Мова матеріалів — **українська**.
 
 Не збирай роздаток руками. Після веб-пари запускай білдер.
 
@@ -46,6 +47,39 @@ Callout: «Зверніть увагу», «Часта пастка», «Кор�
 ```
 
 `lessons/` — **legacy**. Звідти білдер копіює старі стартери/CSV/results. Новий zip туди не пиши. Методичку студентам не клади.
+
+## Окремий курс: Python AI Additional Materials
+
+Лише якщо користувач **явно** назвав Additional Materials. Не підміняй пайплайн вище.
+
+- Веб: `backend/data/courses/python_ai_additional_materials/`
+- Zip: `additional_lesson_materials/`
+- Журнал: `/course/python_ai_additional_materials`
+- Інструменти: `…/python_ai_additional_materials/tools/` (`complete_all_modules.py`, `build_lesson_materials_1_14.py`, `verify_pair_windows.py`)
+- Не чіпати `python_ai_materials/` і `lesson_materials/`
+- Не запускати скопійований `build_teacher_kb.py` з additional-курсу (спільна KB — read-only)
+
+## Окремий курс: Python AI Modify Materials
+
+Лише якщо користувач **явно** назвав Modify Materials. Не підміняй пайплайн Materials і не чіпай Additional.
+
+- Веб: `backend/data/courses/python_ai_modify_materials/`
+- Zip: `modify_lesson_materials/` (після підтвердження веб-пар; білдер `tools/build_lesson_materials_1_14.py`)
+- Журнал: `/course/python_ai_modify_materials`
+- Цикл слайда: теорія (таймінг) → extra студента (без таймінгу) → блок викладача (без таймінгу, унікальний, лише по темі) → практика (таймінг, ITSTEP після блоку)
+- Інструменти: `…/python_ai_modify_materials/tools/` (`reshape_modify_pairs.py`, `verify_pair_windows.py`)
+- Не чіпати `python_ai_materials/`, `python_ai_additional_materials/`, `lesson_materials/`, `additional_lesson_materials/`
+
+## Окремий курс: Python AI Codex Modify Materials
+
+Лише якщо користувач **явно** назвав Codex Modify Materials. Не підміняй пайплайн Materials / Additional / Modify.
+
+- Веб: `backend/data/courses/python_ai_codex_modify_materials/`
+- Zip: `modify_codex_lesson_materials/` (білдер `tools/build_lesson_materials_1_14.py`; starters з `handout_src/`)
+- Журнал: `/course/python_ai_codex_modify_materials`
+- Цикл слайда: як у Modify — теорія → extra → блок викладача → практика
+- Інструменти: `…/python_ai_codex_modify_materials/tools/` (`reshape_modify_pairs.py`, `verify_pair_windows.py`, `validate_codex_course.py`)
+- Не чіпати `python_ai_modify_materials/`, `modify_lesson_materials/`, `python_ai_materials/`, `lesson_materials/`
 
 ## Крок 0. База
 

@@ -1,0 +1,924 @@
+{
+  "how_to_use": "Перед збіркою пари прочитай assignments/<id>.json (умови 1–N). Повний текст книжок — data/kb_extracts/books/*.txt (не клади в контекст цілком). Статті — reading[].url; сирий fetch у data/kb_extracts/articles/ якщо є.",
+  "sheets": [
+    {
+      "id": "homework_1",
+      "week": 1,
+      "kind": "homework",
+      "code": "1",
+      "topic": "Вступ до штучного інтелекту та науки про дані",
+      "task_count": 4,
+      "file": "assignments/homework_1.json"
+    },
+    {
+      "id": "homework_2.1",
+      "week": 1,
+      "kind": "homework",
+      "code": "2.1",
+      "topic": "Обробка та аналіз даних. NumPy",
+      "task_count": 6,
+      "file": "assignments/homework_2.1.json"
+    },
+    {
+      "id": "practical_1",
+      "week": 1,
+      "kind": "practical",
+      "code": "1",
+      "topic": "Вступ до штучного інтелекту та науки про дані",
+      "task_count": 4,
+      "file": "assignments/practical_1.json"
+    },
+    {
+      "id": "practical_2.1",
+      "week": 1,
+      "kind": "practical",
+      "code": "2.1",
+      "topic": "Обробка та аналіз даних. NumPy",
+      "task_count": 6,
+      "file": "assignments/practical_2.1.json"
+    },
+    {
+      "id": "homework_2.2",
+      "week": 2,
+      "kind": "homework",
+      "code": "2.2",
+      "topic": "Обробка та аналіз даних. Pandas",
+      "task_count": 6,
+      "file": "assignments/homework_2.2.json"
+    },
+    {
+      "id": "homework_2.3",
+      "week": 2,
+      "kind": "homework",
+      "code": "2.3",
+      "topic": "Обробка та аналіз даних. Mathplotlib",
+      "task_count": 6,
+      "file": "assignments/homework_2.3.json"
+    },
+    {
+      "id": "homework_2.4",
+      "week": 2,
+      "kind": "homework",
+      "code": "2.4",
+      "topic": "Обробка та аналіз даних. Основи статистики",
+      "task_count": 4,
+      "file": "assignments/homework_2.4.json"
+    },
+    {
+      "id": "practical_2.2",
+      "week": 2,
+      "kind": "practical",
+      "code": "2.2",
+      "topic": "Обробка та аналіз даних. Pandas",
+      "task_count": 6,
+      "file": "assignments/practical_2.2.json"
+    },
+    {
+      "id": "practical_2.3",
+      "week": 2,
+      "kind": "practical",
+      "code": "2.3",
+      "topic": "Обробка та аналіз даних. Matplotlib",
+      "task_count": 6,
+      "file": "assignments/practical_2.3.json"
+    },
+    {
+      "id": "practical_2.4",
+      "week": 2,
+      "kind": "practical",
+      "code": "2.4",
+      "topic": "Обробка та аналіз даних. Основи статистики",
+      "task_count": 4,
+      "file": "assignments/practical_2.4.json"
+    },
+    {
+      "id": "homework_3.1",
+      "week": 3,
+      "kind": "homework",
+      "code": "3.1",
+      "topic": "Алгоритми навчання з учителем. Частина 1",
+      "task_count": 4,
+      "file": "assignments/homework_3.1.json"
+    },
+    {
+      "id": "homework_3.2",
+      "week": 3,
+      "kind": "homework",
+      "code": "3.2",
+      "topic": "Алгоритми навчання з учителем. Частина 2",
+      "task_count": 4,
+      "file": "assignments/homework_3.2.json"
+    },
+    {
+      "id": "homework_3.3",
+      "week": 3,
+      "kind": "homework",
+      "code": "3.3",
+      "topic": "Алгоритми навчання з учителем. Частина 3",
+      "task_count": 4,
+      "file": "assignments/homework_3.3.json"
+    },
+    {
+      "id": "practical_3.1",
+      "week": 3,
+      "kind": "practical",
+      "code": "3.1",
+      "topic": "Алгоритми навчання з учителем. Частина 1",
+      "task_count": 4,
+      "file": "assignments/practical_3.1.json"
+    },
+    {
+      "id": "practical_3.2",
+      "week": 3,
+      "kind": "practical",
+      "code": "3.2",
+      "topic": "Алгоритми навчання з учителем. Частина 2",
+      "task_count": 4,
+      "file": "assignments/practical_3.2.json"
+    },
+    {
+      "id": "practical_3.3",
+      "week": 3,
+      "kind": "practical",
+      "code": "3.3",
+      "topic": "Алгоритми навчання з учителем. Частина 3",
+      "task_count": 4,
+      "file": "assignments/practical_3.3.json"
+    },
+    {
+      "id": "homework_3.4",
+      "week": 4,
+      "kind": "homework",
+      "code": "3.4",
+      "topic": "Алгоритми навчання з учителем. Частина 4",
+      "task_count": 4,
+      "file": "assignments/homework_3.4.json"
+    },
+    {
+      "id": "homework_4.1",
+      "week": 4,
+      "kind": "homework",
+      "code": "4.1",
+      "topic": "Основи нейронних мереж. Частина 1",
+      "task_count": 4,
+      "file": "assignments/homework_4.1.json"
+    },
+    {
+      "id": "practical_3.4",
+      "week": 4,
+      "kind": "practical",
+      "code": "3.4",
+      "topic": "Алгоритми навчання з учителем. Частина 4",
+      "task_count": 4,
+      "file": "assignments/practical_3.4.json"
+    },
+    {
+      "id": "practical_4.1",
+      "week": 4,
+      "kind": "practical",
+      "code": "4.1",
+      "topic": "Основи нейронних мереж. Частина 1",
+      "task_count": 4,
+      "file": "assignments/practical_4.1.json"
+    },
+    {
+      "id": "homework_4.2",
+      "week": 5,
+      "kind": "homework",
+      "code": "4.2",
+      "topic": "Основи нейронних мереж і PyTorch. Частина 2",
+      "task_count": 4,
+      "file": "assignments/homework_4.2.json"
+    },
+    {
+      "id": "practical_4.2",
+      "week": 5,
+      "kind": "practical",
+      "code": "4.2",
+      "topic": "Основи нейронних мереж і PyTorch. Частина 2",
+      "task_count": 4,
+      "file": "assignments/practical_4.2.json"
+    },
+    {
+      "id": "homework_5.1",
+      "week": 6,
+      "kind": "homework",
+      "code": "5.1",
+      "topic": "Нейронні мережі в комп'ютерному зорі. Частина 1",
+      "task_count": 4,
+      "file": "assignments/homework_5.1.json"
+    },
+    {
+      "id": "practical_5.1",
+      "week": 6,
+      "kind": "practical",
+      "code": "5.1",
+      "topic": "Нейронні мережі в комп'ютерному зорі. Частина 1",
+      "task_count": 4,
+      "file": "assignments/practical_5.1.json"
+    },
+    {
+      "id": "homework_5.2",
+      "week": 7,
+      "kind": "homework",
+      "code": "5.2",
+      "topic": "Нейронні мережі в комп'ютерному зорі. Частина 2",
+      "task_count": 4,
+      "file": "assignments/homework_5.2.json"
+    },
+    {
+      "id": "homework_6.1",
+      "week": 7,
+      "kind": "homework",
+      "code": "6.1",
+      "topic": "Обробка природної мови. Частина 1",
+      "task_count": 4,
+      "file": "assignments/homework_6.1.json"
+    },
+    {
+      "id": "practical_5.2",
+      "week": 7,
+      "kind": "practical",
+      "code": "5.2",
+      "topic": "Нейронні мережі в комп'ютерному зорі. Частина 2",
+      "task_count": 4,
+      "file": "assignments/practical_5.2.json"
+    },
+    {
+      "id": "practical_6.1",
+      "week": 7,
+      "kind": "practical",
+      "code": "6.1",
+      "topic": "Обробка природної мови. Частина 1",
+      "task_count": 4,
+      "file": "assignments/practical_6.1.json"
+    },
+    {
+      "id": "homework_6.2",
+      "week": 8,
+      "kind": "homework",
+      "code": "6.2",
+      "topic": "Обробка природної мови. Частина 2",
+      "task_count": 4,
+      "file": "assignments/homework_6.2.json"
+    },
+    {
+      "id": "homework_6.3",
+      "week": 8,
+      "kind": "homework",
+      "code": "6.3",
+      "topic": "Обробка природної мови. Частина 3",
+      "task_count": 4,
+      "file": "assignments/homework_6.3.json"
+    },
+    {
+      "id": "homework_7.1",
+      "week": 8,
+      "kind": "homework",
+      "code": "7.1",
+      "topic": "Навчання без вчителя. Частина 1",
+      "task_count": 4,
+      "file": "assignments/homework_7.1.json"
+    },
+    {
+      "id": "practical_6.2",
+      "week": 8,
+      "kind": "practical",
+      "code": "6.2",
+      "topic": "Обробка природної мови. Частина 2",
+      "task_count": 4,
+      "file": "assignments/practical_6.2.json"
+    },
+    {
+      "id": "practical_6.3",
+      "week": 8,
+      "kind": "practical",
+      "code": "6.3",
+      "topic": "Обробка природної мови. Частина 3",
+      "task_count": 4,
+      "file": "assignments/practical_6.3.json"
+    },
+    {
+      "id": "practical_7.1",
+      "week": 8,
+      "kind": "practical",
+      "code": "7.1",
+      "topic": "Навчання без вчителя. Частина 1",
+      "task_count": 4,
+      "file": "assignments/practical_7.1.json"
+    },
+    {
+      "id": "homework_7.2",
+      "week": 9,
+      "kind": "homework",
+      "code": "7.2",
+      "topic": "Навчання без вчителя. Частина 2",
+      "task_count": 4,
+      "file": "assignments/homework_7.2.json"
+    },
+    {
+      "id": "homework_7.3",
+      "week": 9,
+      "kind": "homework",
+      "code": "7.3",
+      "topic": "Навчання без вчителя. Частина 3",
+      "task_count": 4,
+      "file": "assignments/homework_7.3.json"
+    },
+    {
+      "id": "practical_7.2",
+      "week": 9,
+      "kind": "practical",
+      "code": "7.2",
+      "topic": "Навчання без вчителя. Частина 2",
+      "task_count": 4,
+      "file": "assignments/practical_7.2.json"
+    },
+    {
+      "id": "practical_7.3",
+      "week": 9,
+      "kind": "practical",
+      "code": "7.3",
+      "topic": "Навчання без вчителя. Частина 3",
+      "task_count": 4,
+      "file": "assignments/practical_7.3.json"
+    },
+    {
+      "id": "homework_7",
+      "week": 10,
+      "kind": "homework",
+      "code": "7",
+      "topic": "Generative AI, LLM",
+      "task_count": 12,
+      "file": "assignments/homework_7.json"
+    },
+    {
+      "id": "practical_7",
+      "week": 10,
+      "kind": "practical",
+      "code": "7",
+      "topic": "Generative AI, LLM",
+      "task_count": 12,
+      "file": "assignments/practical_7.json"
+    }
+  ],
+  "by_week": {
+    "w01": [
+      "homework_1",
+      "homework_2.1",
+      "practical_1",
+      "practical_2.1"
+    ],
+    "w02": [
+      "homework_2.2",
+      "homework_2.3",
+      "homework_2.4",
+      "practical_2.2",
+      "practical_2.3",
+      "practical_2.4"
+    ],
+    "w03": [
+      "homework_3.1",
+      "homework_3.2",
+      "homework_3.3",
+      "practical_3.1",
+      "practical_3.2",
+      "practical_3.3"
+    ],
+    "w04": [
+      "homework_3.4",
+      "homework_4.1",
+      "practical_3.4",
+      "practical_4.1"
+    ],
+    "w05": [
+      "homework_4.2",
+      "practical_4.2"
+    ],
+    "w06": [
+      "homework_5.1",
+      "practical_5.1"
+    ],
+    "w07": [
+      "homework_5.2",
+      "homework_6.1",
+      "practical_5.2",
+      "practical_6.1"
+    ],
+    "w08": [
+      "homework_6.2",
+      "homework_6.3",
+      "homework_7.1",
+      "practical_6.2",
+      "practical_6.3",
+      "practical_7.1"
+    ],
+    "w09": [
+      "homework_7.2",
+      "homework_7.3",
+      "practical_7.2",
+      "practical_7.3"
+    ],
+    "w10": [
+      "homework_7",
+      "practical_7"
+    ]
+  },
+  "pair_hints": [
+    {
+      "sheet": "practical_1",
+      "pair": "m01/pair_02",
+      "note": "Jupyter, датасети"
+    },
+    {
+      "sheet": "homework_1",
+      "pair": "m01/pair_01",
+      "note": "AI / DS / ML вступ"
+    },
+    {
+      "sheet": "practical_2.1",
+      "pair": "m02/pair_01",
+      "note": "NumPy"
+    },
+    {
+      "sheet": "homework_2.1",
+      "pair": "m02/pair_01",
+      "note": "NumPy"
+    },
+    {
+      "sheet": "practical_2.2",
+      "pair": "m02/pair_02",
+      "note": "Pandas"
+    },
+    {
+      "sheet": "homework_2.2",
+      "pair": "m02/pair_02",
+      "note": "Pandas"
+    },
+    {
+      "sheet": "practical_2.3",
+      "pair": "m02/pair_05",
+      "note": "Matplotlib"
+    },
+    {
+      "sheet": "homework_2.3",
+      "pair": "m02/pair_06",
+      "note": "Matplotlib"
+    },
+    {
+      "sheet": "practical_2.4",
+      "pair": "m02/pair_03",
+      "note": "статистика"
+    },
+    {
+      "sheet": "homework_2.4",
+      "pair": "m02/pair_04",
+      "note": "статистика"
+    },
+    {
+      "sheet": "practical_3.1",
+      "pair": "m03/pair_01",
+      "note": "лінійна регресія"
+    },
+    {
+      "sheet": "homework_3.1",
+      "pair": "m03/pair_02",
+      "note": "регресія / метрики"
+    },
+    {
+      "sheet": "practical_3.2",
+      "pair": "m03/pair_04",
+      "note": "множинна регресія"
+    },
+    {
+      "sheet": "homework_3.2",
+      "pair": "m03/pair_04",
+      "note": "множинна регресія"
+    },
+    {
+      "sheet": "practical_3.3",
+      "pair": "m03/pair_06",
+      "note": "поліноми / регуляризація"
+    },
+    {
+      "sheet": "homework_3.3",
+      "pair": "m03/pair_06",
+      "note": "поліноми / регуляризація"
+    },
+    {
+      "sheet": "practical_3.4",
+      "pair": "m03/pair_06",
+      "note": "дерева / класифікація"
+    },
+    {
+      "sheet": "homework_3.4",
+      "pair": "m03/pair_06",
+      "note": "дерева / класифікація"
+    }
+  ],
+  "books": [
+    {
+      "id": "build_your_own_ai_investor_with_machine_learning_and_python_step_by_step",
+      "title": "Build Your Own AI Investor_ With Machine Learning and Python, Step by Step",
+      "extract": "data/kb_extracts/books/build_your_own_ai_investor_with_machine_learning_and_python_step_by_step.txt"
+    },
+    {
+      "id": "essentials_of_python_for_artificial_intelligence_and_machine_learning",
+      "title": "Essentials of Python for Artificial Intelligence and Machine Learning",
+      "extract": "data/kb_extracts/books/essentials_of_python_for_artificial_intelligence_and_machine_learning.txt"
+    },
+    {
+      "id": "generative_ai_with_langchain_build_large_language_model_llm_apps_with_python_cha",
+      "title": "Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a",
+      "extract": "data/kb_extracts/books/generative_ai_with_langchain_build_large_language_model_llm_apps_with_python_cha.txt"
+    },
+    {
+      "id": "generative_ai_with_python_and_tensorflow_2_create_images_text_and_music_with_vae",
+      "title": "Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs",
+      "extract": "data/kb_extracts/books/generative_ai_with_python_and_tensorflow_2_create_images_text_and_music_with_vae.txt"
+    },
+    {
+      "id": "learning_opencv_5_computer_vision_with_python_fourth_edition",
+      "title": "Learning OpenCV 5 Computer Vision with Python - Fourth Edition",
+      "extract": "data/kb_extracts/books/learning_opencv_5_computer_vision_with_python_fourth_edition.txt"
+    },
+    {
+      "id": "neural_network_computer_vision_with_opencv_5_build_computer_vision_solutions_usi",
+      "title": "Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python",
+      "extract": "data/kb_extracts/books/neural_network_computer_vision_with_opencv_5_build_computer_vision_solutions_usi.txt"
+    },
+    {
+      "id": "practical_explainable_ai_using_python_artificial_intelligence_model_explanations",
+      "title": "Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py",
+      "extract": "data/kb_extracts/books/practical_explainable_ai_using_python_artificial_intelligence_model_explanations.txt"
+    },
+    {
+      "id": "pro_deep_learning_with_tensorflow_2_0_a_mathematical_approach_to_advanced_artifi",
+      "title": "Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte",
+      "extract": "data/kb_extracts/books/pro_deep_learning_with_tensorflow_2_0_a_mathematical_approach_to_advanced_artifi.txt"
+    },
+    {
+      "id": "python_for_scientific_computing_and_artificial_intelligence",
+      "title": "Python for Scientific Computing and Artificial Intelligence",
+      "extract": "data/kb_extracts/books/python_for_scientific_computing_and_artificial_intelligence.txt"
+    },
+    {
+      "id": "python_beginner_s_guide_to_artificial_intelligence_build_applications_to_intelli",
+      "title": "Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i",
+      "extract": "data/kb_extracts/books/python_beginner_s_guide_to_artificial_intelligence_build_applications_to_intelli.txt"
+    }
+  ],
+  "articles": [
+    {
+      "id": "w01_ai_datasets_unlocking_the_secrets_of_artificial_intelligence",
+      "week": 1,
+      "kind": "article",
+      "title": "AI Datasets_ Unlocking the Secrets of Artificial Intelligence",
+      "url": "https://resources.defined.ai/blog/ai-datasets/",
+      "host": "resources.defined.ai",
+      "url_file": "data/AI PYTHON_3161/programy/w01_AI Datasets_ Unlocking the Secrets of Artificial Intelligence.url"
+    },
+    {
+      "id": "w01_how_to_use_jupyter_notebooks_the_ultimate_guide",
+      "week": 1,
+      "kind": "article",
+      "title": "How to Use Jupyter Notebooks_ The Ultimate Guide",
+      "url": "https://www.datacamp.com/tutorial/tutorial-jupyter-notebook",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_How to Use Jupyter Notebooks_ The Ultimate Guide.url"
+    },
+    {
+      "id": "w01_numpy_tutorial",
+      "week": 1,
+      "kind": "article",
+      "title": "NumPy Tutorial",
+      "url": "https://www.w3schools.com/python/numpy/default.asp",
+      "host": "www.w3schools.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_NumPy Tutorial.url"
+    },
+    {
+      "id": "w01_numpy_the_absolute_basics_for_beginners",
+      "week": 1,
+      "kind": "docs",
+      "title": "NumPy_ the absolute basics for beginners",
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+      "host": "numpy.org",
+      "url_file": "data/AI PYTHON_3161/programy/w01_NumPy_ the absolute basics for beginners.url"
+    },
+    {
+      "id": "w01_the_50_best_free_datasets_for_machine_learning",
+      "week": 1,
+      "kind": "article",
+      "title": "The 50 best free datasets for machine learning",
+      "url": "https://www.telusinternational.com/insights/ai-data/article/the-50-best-free-datasets-for-machine-learning",
+      "host": "www.telusinternational.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_The 50 best free datasets for machine learning.url"
+    },
+    {
+      "id": "w01_what_is_ai_artificial_intelligence",
+      "week": 1,
+      "kind": "article",
+      "title": "What is AI (artificial intelligence)_",
+      "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-ai",
+      "host": "www.mckinsey.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_What is AI (artificial intelligence)_.url"
+    },
+    {
+      "id": "w01_what_is_artificial_intelligence_ai_everything_you_need_to_know",
+      "week": 1,
+      "kind": "article",
+      "title": "What is artificial intelligence (AI)_ Everything you need to know",
+      "url": "https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence",
+      "host": "www.techtarget.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_What is artificial intelligence (AI)_ Everything you need to know.url"
+    },
+    {
+      "id": "w02_pandas_tutorial",
+      "week": 2,
+      "kind": "article",
+      "title": "Pandas Tutorial",
+      "url": "https://www.w3schools.com/python/pandas/default.asp",
+      "host": "www.w3schools.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Pandas Tutorial.url"
+    },
+    {
+      "id": "w02_python_pandas_tutorial_the_ultimate_guide_for_beginners",
+      "week": 2,
+      "kind": "article",
+      "title": "Python pandas tutorial_ The ultimate guide for beginners",
+      "url": "https://www.datacamp.com/tutorial/pandas",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Python pandas tutorial_ The ultimate guide for beginners.url"
+    },
+    {
+      "id": "w03_basics_of_regression",
+      "week": 3,
+      "kind": "article",
+      "title": "Basics of Regression",
+      "url": "https://makemeanalyst.com/basics-of-regression/",
+      "host": "makemeanalyst.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Basics of Regression.url"
+    },
+    {
+      "id": "w03_introduction_to_plotting_with_matplotlib_in_python",
+      "week": 3,
+      "kind": "article",
+      "title": "Introduction to Plotting with Matplotlib in Python",
+      "url": "https://www.datacamp.com/tutorial/matplotlib-tutorial-python",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Introduction to Plotting with Matplotlib in Python.url"
+    },
+    {
+      "id": "w03_statistics_tutorial",
+      "week": 3,
+      "kind": "article",
+      "title": "Statistics Tutorial",
+      "url": "https://www.w3schools.com/statistics/",
+      "host": "www.w3schools.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Statistics Tutorial.url"
+    },
+    {
+      "id": "w03_statistics_as_the_foundation_of_data_science",
+      "week": 3,
+      "kind": "article",
+      "title": "Statistics as the Foundation of Data Science",
+      "url": "https://dedekurniawann.medium.com/statistics-as-the-foundation-of-data-science-9b42ab6a50e7",
+      "host": "dedekurniawann.medium.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Statistics as the Foundation of Data Science.url"
+    },
+    {
+      "id": "w03_supervised_machine_learning",
+      "week": 3,
+      "kind": "article",
+      "title": "Supervised Machine Learning",
+      "url": "https://www.geeksforgeeks.org/supervised-machine-learning/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Supervised Machine Learning.url"
+    },
+    {
+      "id": "w03_supervised_machine_learning_2",
+      "week": 3,
+      "kind": "article",
+      "title": "Supervised Machine Learning_2",
+      "url": "https://www.javatpoint.com/supervised-machine-learning",
+      "host": "www.javatpoint.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Supervised Machine Learning_2.url"
+    },
+    {
+      "id": "w03_top_10_machine_learning_algorithms_for_beginners_supervised_and_more",
+      "week": 3,
+      "kind": "article",
+      "title": "Top 10 Machine Learning Algorithms For Beginners_ Supervised, and More",
+      "url": "https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Top 10 Machine Learning Algorithms For Beginners_ Supervised, and More.url"
+    },
+    {
+      "id": "w04_an_ultimate_tutorial_to_neural_networks",
+      "week": 4,
+      "kind": "article",
+      "title": "An Ultimate Tutorial to Neural Networks",
+      "url": "https://www.simplilearn.com/tutorials/deep-learning-tutorial/neural-network",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w04_An Ultimate Tutorial to Neural Networks.url"
+    },
+    {
+      "id": "w04_introduction_to_neural_networks",
+      "week": 4,
+      "kind": "article",
+      "title": "Introduction to Neural Networks",
+      "url": "https://pyimagesearch.com/2021/05/06/introduction-to-neural-networks/",
+      "host": "pyimagesearch.com",
+      "url_file": "data/AI PYTHON_3161/programy/w04_Introduction to Neural Networks.url"
+    },
+    {
+      "id": "w05_introduction_to_deep_neural_networks",
+      "week": 5,
+      "kind": "article",
+      "title": "Introduction to Deep Neural Networks",
+      "url": "https://www.datacamp.com/tutorial/introduction-to-deep-neural-networks",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w05_Introduction to Deep Neural Networks.url"
+    },
+    {
+      "id": "w05_what_is_a_neural_network",
+      "week": 5,
+      "kind": "article",
+      "title": "What is a neural network_",
+      "url": "https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w05_What is a neural network_.url"
+    },
+    {
+      "id": "w06_a_gentle_introduction_to_computer_vision",
+      "week": 6,
+      "kind": "article",
+      "title": "A Gentle Introduction to Computer Vision",
+      "url": "https://machinelearningmastery.com/what-is-computer-vision/",
+      "host": "machinelearningmastery.com",
+      "url_file": "data/AI PYTHON_3161/programy/w06_A Gentle Introduction to Computer Vision.url"
+    },
+    {
+      "id": "w06_computer_vision_tutorial",
+      "week": 6,
+      "kind": "article",
+      "title": "Computer Vision Tutorial",
+      "url": "https://www.geeksforgeeks.org/computer-vision/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w06_Computer Vision Tutorial.url"
+    },
+    {
+      "id": "w06_python_computer_vision_tutorials",
+      "week": 6,
+      "kind": "article",
+      "title": "Python Computer Vision Tutorials",
+      "url": "https://realpython.com/tutorials/computer-vision/",
+      "host": "realpython.com",
+      "url_file": "data/AI PYTHON_3161/programy/w06_Python Computer Vision Tutorials.url"
+    },
+    {
+      "id": "w06_the_top_10_computer_vision_packages_for_python",
+      "week": 6,
+      "kind": "article",
+      "title": "The Top 10 Computer Vision Packages for Python",
+      "url": "https://www.activestate.com/blog/the-top-10-computer-vision-packages-for-python/",
+      "host": "www.activestate.com",
+      "url_file": "data/AI PYTHON_3161/programy/w06_The Top 10 Computer Vision Packages for Python.url"
+    },
+    {
+      "id": "w07_nlp_tutorial_text_pre_processing_techniques_for_beginners",
+      "week": 7,
+      "kind": "article",
+      "title": "NLP Tutorial – Text Pre-Processing Techniques for Beginners",
+      "url": "https://www.freecodecamp.org/news/natural-language-processing-techniques-for-beginners/",
+      "host": "www.freecodecamp.org",
+      "url_file": "data/AI PYTHON_3161/programy/w07_NLP Tutorial – Text Pre-Processing Techniques for Beginners.url"
+    },
+    {
+      "id": "w07_what_is_natural_language_processing_nlp_a_comprehensive_guide_for_beginners",
+      "week": 7,
+      "kind": "article",
+      "title": "What is Natural Language Processing (NLP)_ A Comprehensive Guide for Beginners",
+      "url": "https://www.datacamp.com/blog/what-is-natural-language-processing",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w07_What is Natural Language Processing (NLP)_ A Comprehensive Guide for Beginners.url"
+    },
+    {
+      "id": "w08_natural_language_processing_nlp_tutorial",
+      "week": 8,
+      "kind": "article",
+      "title": "Natural Language Processing (NLP) Tutorial",
+      "url": "https://www.geeksforgeeks.org/natural-language-processing-nlp-tutorial/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w08_Natural Language Processing (NLP) Tutorial.url"
+    },
+    {
+      "id": "w08_what_is_natural_language_processing_nlp",
+      "week": 8,
+      "kind": "article",
+      "title": "What is Natural Language Processing (NLP)_",
+      "url": "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-natural-language-processing-nlp",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w08_What is Natural Language Processing (NLP)_.url"
+    },
+    {
+      "id": "w09_a_beginner_s_guide_to_the_openai_api_hands_on_tutorial_and_best_practices",
+      "week": 9,
+      "kind": "article",
+      "title": "A Beginner's Guide to The OpenAI API_ Hands-On Tutorial and Best Practices",
+      "url": "https://www.datacamp.com/tutorial/guide-to-openai-api-on-tutorial-best-practices",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_A Beginner's Guide to The OpenAI API_ Hands-On Tutorial and Best Practices.url"
+    },
+    {
+      "id": "w09_a_complete_langchain_guide",
+      "week": 9,
+      "kind": "article",
+      "title": "A Complete LangChain Guide",
+      "url": "https://nanonets.com/blog/langchain/",
+      "host": "nanonets.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_A Complete LangChain Guide.url"
+    },
+    {
+      "id": "w09_developer_quickstart",
+      "week": 9,
+      "kind": "docs",
+      "title": "Developer quickstart",
+      "url": "https://platform.openai.com/docs/quickstart",
+      "host": "platform.openai.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Developer quickstart.url"
+    },
+    {
+      "id": "w09_introduction_to_unsupervised_learning",
+      "week": 9,
+      "kind": "article",
+      "title": "Introduction to Unsupervised Learning",
+      "url": "https://www.datacamp.com/blog/introduction-to-unsupervised-learning",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Introduction to Unsupervised Learning.url"
+    },
+    {
+      "id": "w09_unsupervised_learning_clearly_explained",
+      "week": 9,
+      "kind": "article",
+      "title": "Unsupervised Learning_ Clearly Explained",
+      "url": "https://www.alexanderthamm.com/en/blog/this-is-how-unsupervised-machine-learning-works/",
+      "host": "www.alexanderthamm.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Unsupervised Learning_ Clearly Explained.url"
+    },
+    {
+      "id": "w09_unsupervised_machine_learning",
+      "week": 9,
+      "kind": "article",
+      "title": "Unsupervised Machine Learning",
+      "url": "https://www.javatpoint.com/unsupervised-machine-learning",
+      "host": "www.javatpoint.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Unsupervised Machine Learning.url"
+    },
+    {
+      "id": "w09_unsupervised_machine_learning_algorithms_types_with_example",
+      "week": 9,
+      "kind": "article",
+      "title": "Unsupervised Machine Learning_ Algorithms, Types with Example",
+      "url": "https://www.guru99.com/unsupervised-machine-learning.html",
+      "host": "www.guru99.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Unsupervised Machine Learning_ Algorithms, Types with Example.url"
+    },
+    {
+      "id": "w10_introduction_to_generative_ai_and_large_language_models",
+      "week": 10,
+      "kind": "docs",
+      "title": "Introduction to Generative AI and Large Language Models",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners/blob/main/01-introduction-to-genai/README.md",
+      "host": "github.com",
+      "url_file": "data/AI PYTHON_3161/programy/w10_Introduction to Generative AI and Large Language Models.url"
+    },
+    {
+      "id": "w10_prompt_engineering_guide",
+      "week": 10,
+      "kind": "article",
+      "title": "Prompt Engineering Guide",
+      "url": "https://learnprompting.org/docs/intro",
+      "host": "learnprompting.org",
+      "url_file": "data/AI PYTHON_3161/programy/w10_Prompt Engineering Guide.url"
+    },
+    {
+      "id": "w10_prompt_engineering",
+      "week": 10,
+      "kind": "docs",
+      "title": "Prompt engineering",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "host": "platform.openai.com",
+      "url_file": "data/AI PYTHON_3161/programy/w10_Prompt engineering.url"
+    },
+    {
+      "id": "w10_what_is_generative_ai_and_how_does_it_work",
+      "week": 10,
+      "kind": "article",
+      "title": "What Is Generative AI and How Does it Work_",
+      "url": "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-generative-ai",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w10_What Is Generative AI and How Does it Work_.url"
+    }
+  ]
+}

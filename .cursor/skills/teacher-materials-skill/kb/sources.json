@@ -1,0 +1,653 @@
+{
+  "course": "python_ai_materials",
+  "dump": "data/AI PYTHON_3161",
+  "assignments": 40,
+  "books_extracted": 10,
+  "programy": 58,
+  "books": [
+    {
+      "id": "build_your_own_ai_investor_with_machine_learning_and_python_step_by_step",
+      "title": "Build Your Own AI Investor_ With Machine Learning and Python, Step by Step",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Build Your Own AI Investor_ With Machine Learning and Python, Step by Step/Build Your Own AI Investor_ With Machine Learning and Python, Step by Step.pdf",
+      "extract": "data/kb_extracts/books/build_your_own_ai_investor_with_machine_learning_and_python_step_by_step.txt",
+      "toc": "data/kb_extracts/books/build_your_own_ai_investor_with_machine_learning_and_python_step_by_step.toc.json",
+      "chars": 333724,
+      "words": 51929,
+      "tokens_est": 83431,
+      "toc_entries": 86
+    },
+    {
+      "id": "essentials_of_python_for_artificial_intelligence_and_machine_learning",
+      "title": "Essentials of Python for Artificial Intelligence and Machine Learning",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Essentials of Python for Artificial Intelligence and Machine Learning/Essentials of Python for Artificial Intelligence and Machine Learning.pdf",
+      "extract": "data/kb_extracts/books/essentials_of_python_for_artificial_intelligence_and_machine_learning.txt",
+      "toc": "data/kb_extracts/books/essentials_of_python_for_artificial_intelligence_and_machine_learning.toc.json",
+      "chars": 900758,
+      "words": 128607,
+      "tokens_est": 225189,
+      "toc_entries": 153
+    },
+    {
+      "id": "generative_ai_with_langchain_build_large_language_model_llm_apps_with_python_cha",
+      "title": "Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a/Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a.pdf",
+      "extract": "data/kb_extracts/books/generative_ai_with_langchain_build_large_language_model_llm_apps_with_python_cha.txt",
+      "toc": "data/kb_extracts/books/generative_ai_with_langchain_build_large_language_model_llm_apps_with_python_cha.toc.json",
+      "chars": 640567,
+      "words": 92511,
+      "tokens_est": 160141,
+      "toc_entries": 180
+    },
+    {
+      "id": "generative_ai_with_python_and_tensorflow_2_create_images_text_and_music_with_vae",
+      "title": "Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs/Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs.pdf",
+      "extract": "data/kb_extracts/books/generative_ai_with_python_and_tensorflow_2_create_images_text_and_music_with_vae.txt",
+      "toc": "data/kb_extracts/books/generative_ai_with_python_and_tensorflow_2_create_images_text_and_music_with_vae.toc.json",
+      "chars": 801970,
+      "words": 116136,
+      "tokens_est": 200492,
+      "toc_entries": 250
+    },
+    {
+      "id": "learning_opencv_5_computer_vision_with_python_fourth_edition",
+      "title": "Learning OpenCV 5 Computer Vision with Python - Fourth Edition",
+      "format": "epub",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Learning OpenCV 5 Computer Vision with Python - Fourth Edition/Learning OpenCV 5 Computer Vision with Python - Fourth Edition.epub",
+      "extract": "data/kb_extracts/books/learning_opencv_5_computer_vision_with_python_fourth_edition.txt",
+      "toc": "data/kb_extracts/books/learning_opencv_5_computer_vision_with_python_fourth_edition.toc.json",
+      "chars": 157834,
+      "words": 24163,
+      "tokens_est": 39458,
+      "toc_entries": 6
+    },
+    {
+      "id": "neural_network_computer_vision_with_opencv_5_build_computer_vision_solutions_usi",
+      "title": "Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python",
+      "format": "epub",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python/Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python.epub",
+      "extract": "data/kb_extracts/books/neural_network_computer_vision_with_opencv_5_build_computer_vision_solutions_usi.txt",
+      "toc": "data/kb_extracts/books/neural_network_computer_vision_with_opencv_5_build_computer_vision_solutions_usi.toc.json",
+      "chars": 424455,
+      "words": 57399,
+      "tokens_est": 106113,
+      "toc_entries": 22
+    },
+    {
+      "id": "practical_explainable_ai_using_python_artificial_intelligence_model_explanations",
+      "title": "Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py/Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py.pdf",
+      "extract": "data/kb_extracts/books/practical_explainable_ai_using_python_artificial_intelligence_model_explanations.txt",
+      "toc": "data/kb_extracts/books/practical_explainable_ai_using_python_artificial_intelligence_model_explanations.toc.json",
+      "chars": 489730,
+      "words": 68047,
+      "tokens_est": 122432,
+      "toc_entries": 141
+    },
+    {
+      "id": "pro_deep_learning_with_tensorflow_2_0_a_mathematical_approach_to_advanced_artifi",
+      "title": "Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte/Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte.pdf",
+      "extract": "data/kb_extracts/books/pro_deep_learning_with_tensorflow_2_0_a_mathematical_approach_to_advanced_artifi.txt",
+      "toc": "data/kb_extracts/books/pro_deep_learning_with_tensorflow_2_0_a_mathematical_approach_to_advanced_artifi.toc.json",
+      "chars": 971449,
+      "words": 151762,
+      "tokens_est": 242862,
+      "toc_entries": 319
+    },
+    {
+      "id": "python_for_scientific_computing_and_artificial_intelligence",
+      "title": "Python for Scientific Computing and Artificial Intelligence",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Python for Scientific Computing and Artificial Intelligence/Python for Scientific Computing and Artificial Intelligence.pdf",
+      "extract": "data/kb_extracts/books/python_for_scientific_computing_and_artificial_intelligence.txt",
+      "toc": "data/kb_extracts/books/python_for_scientific_computing_and_artificial_intelligence.toc.json",
+      "chars": 456485,
+      "words": 74526,
+      "tokens_est": 114121,
+      "toc_entries": 118
+    },
+    {
+      "id": "python_beginner_s_guide_to_artificial_intelligence_build_applications_to_intelli",
+      "title": "Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i",
+      "format": "pdf",
+      "path": "data/AI PYTHON_3161/faily/gdrive/Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i/Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i.pdf",
+      "extract": "data/kb_extracts/books/python_beginner_s_guide_to_artificial_intelligence_build_applications_to_intelli.txt",
+      "toc": "data/kb_extracts/books/python_beginner_s_guide_to_artificial_intelligence_build_applications_to_intelli.toc.json",
+      "chars": 960167,
+      "words": 147477,
+      "tokens_est": 240041,
+      "toc_entries": 552
+    }
+  ],
+  "reading": [
+    {
+      "id": "w01_ai_datasets_unlocking_the_secrets_of_artificial_intelligence",
+      "week": 1,
+      "kind": "article",
+      "title": "AI Datasets_ Unlocking the Secrets of Artificial Intelligence",
+      "url": "https://resources.defined.ai/blog/ai-datasets/",
+      "host": "resources.defined.ai",
+      "url_file": "data/AI PYTHON_3161/programy/w01_AI Datasets_ Unlocking the Secrets of Artificial Intelligence.url"
+    },
+    {
+      "id": "w01_build_your_own_ai_investor_with_machine_learning_and_python_step_by_step",
+      "week": 1,
+      "kind": "book",
+      "title": "Build Your Own AI Investor_ With Machine Learning and Python, Step by Step",
+      "url": "https://drive.google.com/file/d/1POreBRYGXTJAJn790HzD6lYb1CB92PVm/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_Build Your Own AI Investor_ With Machine Learning and Python, Step by Step.url"
+    },
+    {
+      "id": "w01_generative_ai_with_python_and_tensorflow_2_create_images_text_and_music_with",
+      "week": 1,
+      "kind": "book",
+      "title": "Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs",
+      "url": "https://drive.google.com/file/d/1hn-HLJb9I96hR18AbxrdfkER7faKYxyr/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs.url"
+    },
+    {
+      "id": "w01_how_to_use_jupyter_notebooks_the_ultimate_guide",
+      "week": 1,
+      "kind": "article",
+      "title": "How to Use Jupyter Notebooks_ The Ultimate Guide",
+      "url": "https://www.datacamp.com/tutorial/tutorial-jupyter-notebook",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_How to Use Jupyter Notebooks_ The Ultimate Guide.url"
+    },
+    {
+      "id": "w01_numpy_tutorial",
+      "week": 1,
+      "kind": "article",
+      "title": "NumPy Tutorial",
+      "url": "https://www.w3schools.com/python/numpy/default.asp",
+      "host": "www.w3schools.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_NumPy Tutorial.url"
+    },
+    {
+      "id": "w01_numpy_the_absolute_basics_for_beginners",
+      "week": 1,
+      "kind": "docs",
+      "title": "NumPy_ the absolute basics for beginners",
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+      "host": "numpy.org",
+      "url_file": "data/AI PYTHON_3161/programy/w01_NumPy_ the absolute basics for beginners.url"
+    },
+    {
+      "id": "w01_practical_explainable_ai_using_python_artificial_intelligence_model_explanat",
+      "week": 1,
+      "kind": "book",
+      "title": "Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py",
+      "url": "https://drive.google.com/file/d/1oKy4BAOF7C9jCg4AYuUbGMcrnnCBXamK/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py.url"
+    },
+    {
+      "id": "w01_pro_deep_learning_with_tensorflow_2_0_a_mathematical_approach_to_advanced_ar",
+      "week": 1,
+      "kind": "book",
+      "title": "Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte",
+      "url": "https://drive.google.com/file/d/1HwL-UF3eG2RVQTVUqADgdx2WMe88UjC7/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte.url"
+    },
+    {
+      "id": "w01_python_beginner_s_guide_to_artificial_intelligence_build_applications_to_int",
+      "week": 1,
+      "kind": "book",
+      "title": "Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i",
+      "url": "https://drive.google.com/file/d/1X0W4VEZQLMEiitQHHsVhwB7dH8tHHc1E/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i.url"
+    },
+    {
+      "id": "w01_the_50_best_free_datasets_for_machine_learning",
+      "week": 1,
+      "kind": "article",
+      "title": "The 50 best free datasets for machine learning",
+      "url": "https://www.telusinternational.com/insights/ai-data/article/the-50-best-free-datasets-for-machine-learning",
+      "host": "www.telusinternational.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_The 50 best free datasets for machine learning.url"
+    },
+    {
+      "id": "w01_what_is_ai_artificial_intelligence",
+      "week": 1,
+      "kind": "article",
+      "title": "What is AI (artificial intelligence)_",
+      "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-ai",
+      "host": "www.mckinsey.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_What is AI (artificial intelligence)_.url"
+    },
+    {
+      "id": "w01_what_is_artificial_intelligence_ai_everything_you_need_to_know",
+      "week": 1,
+      "kind": "article",
+      "title": "What is artificial intelligence (AI)_ Everything you need to know",
+      "url": "https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence",
+      "host": "www.techtarget.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_What is artificial intelligence (AI)_ Everything you need to know.url"
+    },
+    {
+      "id": "w01_pearson_o_reilly_media_skill_up_with_python_data_science_and_machine_learnin",
+      "week": 1,
+      "kind": "course",
+      "title": "[Pearson _ O'Reilly Media] Skill Up with Python_ Data Science and Machine Learning Recipes",
+      "url": "https://drive.google.com/drive/folders/1Isx_2iWxi4Evj6_VWFk4xtDxa9eQ_0Wd?usp=drive_link",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_[Pearson _ O'Reilly Media] Skill Up with Python_ Data Science and Machine Learning Recipes.url"
+    },
+    {
+      "id": "w01_udemy_learn_opencv_python_2022_computer_vision_course_2022_eng",
+      "week": 1,
+      "kind": "course",
+      "title": "[Udemy] Learn OpenCV Python 2022 _ Computer Vision Course [2022, ENG]",
+      "url": "https://drive.google.com/drive/folders/1bRC0kSAVZ2bP0oi9eGfHFcGxOEIckQrL?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_[Udemy] Learn OpenCV Python 2022 _ Computer Vision Course [2022, ENG].url"
+    },
+    {
+      "id": "w01_udemy_practical_ai_with_python_and_reinforcement_learning_07_2021_eng",
+      "week": 1,
+      "kind": "course",
+      "title": "[Udemy] Practical AI with Python and Reinforcement Learning [07.2021, ENG]",
+      "url": "https://drive.google.com/drive/folders/1iME5ABgd3MKtUs8goM9pqmjmAR1d0rrv?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_[Udemy] Practical AI with Python and Reinforcement Learning [07.2021, ENG].url"
+    },
+    {
+      "id": "w01_udemy_the_complete_python_pro_bootcamp_for_data_science_and_ai_2022_eng",
+      "week": 1,
+      "kind": "course",
+      "title": "[Udemy] The Complete Python Pro Bootcamp for Data Science and AI [2022, ENG]",
+      "url": "https://drive.google.com/drive/folders/1B1Nqp3sue-Pucd4p87KkGB-8jLfMxvNd?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w01_[Udemy] The Complete Python Pro Bootcamp for Data Science and AI [2022, ENG].url"
+    },
+    {
+      "id": "w02_essentials_of_python_for_artificial_intelligence_and_machine_learning",
+      "week": 2,
+      "kind": "book",
+      "title": "Essentials of Python for Artificial Intelligence and Machine Learning",
+      "url": "https://drive.google.com/file/d/1NwEOSIKHesWsr52bdL1xuOcC4PwsWa05/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Essentials of Python for Artificial Intelligence and Machine Learning.url"
+    },
+    {
+      "id": "w02_generative_ai_with_langchain_build_large_language_model_llm_apps_with_python",
+      "week": 2,
+      "kind": "book",
+      "title": "Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a",
+      "url": "https://drive.google.com/file/d/1VxQ4DPpcsCIhK-I2iE0CBH03U9w2Hu1e/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a.url"
+    },
+    {
+      "id": "w02_learning_opencv_5_computer_vision_with_python_fourth_edition",
+      "week": 2,
+      "kind": "book",
+      "title": "Learning OpenCV 5 Computer Vision with Python - Fourth Edition",
+      "url": "https://drive.google.com/file/d/1JjFY1_RtyZpF9qONz12U8BtxI7DdF71b/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Learning OpenCV 5 Computer Vision with Python - Fourth Edition.url"
+    },
+    {
+      "id": "w02_neural_network_computer_vision_with_opencv_5_build_computer_vision_solutions",
+      "week": 2,
+      "kind": "book",
+      "title": "Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python",
+      "url": "https://drive.google.com/file/d/1yybX-CggVoIzidd5NhRBfLJgpdC9DjB1/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python.url"
+    },
+    {
+      "id": "w02_pandas_tutorial",
+      "week": 2,
+      "kind": "article",
+      "title": "Pandas Tutorial",
+      "url": "https://www.w3schools.com/python/pandas/default.asp",
+      "host": "www.w3schools.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Pandas Tutorial.url"
+    },
+    {
+      "id": "w02_python_for_scientific_computing_and_artificial_intelligence",
+      "week": 2,
+      "kind": "book",
+      "title": "Python for Scientific Computing and Artificial Intelligence",
+      "url": "https://drive.google.com/file/d/1onoQBH7-WQFwFqjonhkh19J4MvPfqjS3/view?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Python for Scientific Computing and Artificial Intelligence.url"
+    },
+    {
+      "id": "w02_python_pandas_tutorial_the_ultimate_guide_for_beginners",
+      "week": 2,
+      "kind": "article",
+      "title": "Python pandas tutorial_ The ultimate guide for beginners",
+      "url": "https://www.datacamp.com/tutorial/pandas",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_Python pandas tutorial_ The ultimate guide for beginners.url"
+    },
+    {
+      "id": "w02_packtpub_com_matthew_rever_computer_vision_projects_with_python_3_2018_eng",
+      "week": 2,
+      "kind": "course",
+      "title": "[Packtpub.com _ Matthew Rever] Computer Vision Projects with Python 3 [2018, ENG]",
+      "url": "https://drive.google.com/drive/folders/1t5TY27oCYM39JImzbJLu7eQgPY6O8Fno?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_[Packtpub.com _ Matthew Rever] Computer Vision Projects with Python 3 [2018, ENG].url"
+    },
+    {
+      "id": "w02_udemy_machine_learning_in_python_with_5_machine_learning_projects_04_2021_en",
+      "week": 2,
+      "kind": "course",
+      "title": "[Udemy] Machine Learning in Python with 5 Machine Learning Projects [04.2021, ENG]",
+      "url": "https://drive.google.com/drive/folders/1AXymogqWnyOgkBBtHcngYMfqj5_azoZn?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_[Udemy] Machine Learning in Python with 5 Machine Learning Projects [04.2021, ENG].url"
+    },
+    {
+      "id": "w02_udemy_natural_language_processing_nlp_in_python_with_8_projects_11_2021_eng",
+      "week": 2,
+      "kind": "course",
+      "title": "[Udemy] Natural Language Processing (NLP) in Python with 8 Projects [11.2021, ENG]",
+      "url": "https://drive.google.com/drive/folders/1D9lz_MXJeY77OjeshSFrweoh5izHH__r?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_[Udemy] Natural Language Processing (NLP) in Python with 8 Projects [11.2021, ENG].url"
+    },
+    {
+      "id": "w02_udemy_python_programming_machine_learning_deep_learning_python_05_2021_eng",
+      "week": 2,
+      "kind": "course",
+      "title": "[Udemy] Python Programming_ Machine Learning, Deep Learning _ Python [05.2021, ENG]",
+      "url": "https://drive.google.com/drive/folders/1zJItqyddYRH0fdiAeHgQhOsxMDvhQ46W?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_[Udemy] Python Programming_ Machine Learning, Deep Learning _ Python [05.2021, ENG].url"
+    },
+    {
+      "id": "w02_udemy_python_for_data_science_machine_learning_from_a_z_01_2021_eng",
+      "week": 2,
+      "kind": "course",
+      "title": "[Udemy] Python for Data Science & Machine Learning from A-Z [01.2021, ENG]",
+      "url": "https://drive.google.com/drive/folders/1zSbbqpEh83Ly8MnVpA4G_m-o2Sd0KaRE?usp=sharing",
+      "host": "drive.google.com",
+      "url_file": "data/AI PYTHON_3161/programy/w02_[Udemy] Python for Data Science & Machine Learning from A-Z [01.2021, ENG].url"
+    },
+    {
+      "id": "w03_basics_of_regression",
+      "week": 3,
+      "kind": "article",
+      "title": "Basics of Regression",
+      "url": "https://makemeanalyst.com/basics-of-regression/",
+      "host": "makemeanalyst.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Basics of Regression.url"
+    },
+    {
+      "id": "w03_introduction_to_plotting_with_matplotlib_in_python",
+      "week": 3,
+      "kind": "article",
+      "title": "Introduction to Plotting with Matplotlib in Python",
+      "url": "https://www.datacamp.com/tutorial/matplotlib-tutorial-python",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Introduction to Plotting with Matplotlib in Python.url"
+    },
+    {
+      "id": "w03_statistics_tutorial",
+      "week": 3,
+      "kind": "article",
+      "title": "Statistics Tutorial",
+      "url": "https://www.w3schools.com/statistics/",
+      "host": "www.w3schools.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Statistics Tutorial.url"
+    },
+    {
+      "id": "w03_statistics_as_the_foundation_of_data_science",
+      "week": 3,
+      "kind": "article",
+      "title": "Statistics as the Foundation of Data Science",
+      "url": "https://dedekurniawann.medium.com/statistics-as-the-foundation-of-data-science-9b42ab6a50e7",
+      "host": "dedekurniawann.medium.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Statistics as the Foundation of Data Science.url"
+    },
+    {
+      "id": "w03_supervised_machine_learning",
+      "week": 3,
+      "kind": "article",
+      "title": "Supervised Machine Learning",
+      "url": "https://www.geeksforgeeks.org/supervised-machine-learning/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Supervised Machine Learning.url"
+    },
+    {
+      "id": "w03_supervised_machine_learning_2",
+      "week": 3,
+      "kind": "article",
+      "title": "Supervised Machine Learning_2",
+      "url": "https://www.javatpoint.com/supervised-machine-learning",
+      "host": "www.javatpoint.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Supervised Machine Learning_2.url"
+    },
+    {
+      "id": "w03_top_10_machine_learning_algorithms_for_beginners_supervised_and_more",
+      "week": 3,
+      "kind": "article",
+      "title": "Top 10 Machine Learning Algorithms For Beginners_ Supervised, and More",
+      "url": "https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w03_Top 10 Machine Learning Algorithms For Beginners_ Supervised, and More.url"
+    },
+    {
+      "id": "w04_an_ultimate_tutorial_to_neural_networks",
+      "week": 4,
+      "kind": "article",
+      "title": "An Ultimate Tutorial to Neural Networks",
+      "url": "https://www.simplilearn.com/tutorials/deep-learning-tutorial/neural-network",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w04_An Ultimate Tutorial to Neural Networks.url"
+    },
+    {
+      "id": "w04_introduction_to_neural_networks",
+      "week": 4,
+      "kind": "article",
+      "title": "Introduction to Neural Networks",
+      "url": "https://pyimagesearch.com/2021/05/06/introduction-to-neural-networks/",
+      "host": "pyimagesearch.com",
+      "url_file": "data/AI PYTHON_3161/programy/w04_Introduction to Neural Networks.url"
+    },
+    {
+      "id": "w05_introduction_to_deep_neural_networks",
+      "week": 5,
+      "kind": "article",
+      "title": "Introduction to Deep Neural Networks",
+      "url": "https://www.datacamp.com/tutorial/introduction-to-deep-neural-networks",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w05_Introduction to Deep Neural Networks.url"
+    },
+    {
+      "id": "w05_what_is_a_neural_network",
+      "week": 5,
+      "kind": "article",
+      "title": "What is a neural network_",
+      "url": "https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w05_What is a neural network_.url"
+    },
+    {
+      "id": "w06_a_gentle_introduction_to_computer_vision",
+      "week": 6,
+      "kind": "article",
+      "title": "A Gentle Introduction to Computer Vision",
+      "url": "https://machinelearningmastery.com/what-is-computer-vision/",
+      "host": "machinelearningmastery.com",
+      "url_file": "data/AI PYTHON_3161/programy/w06_A Gentle Introduction to Computer Vision.url"
+    },
+    {
+      "id": "w06_computer_vision_tutorial",
+      "week": 6,
+      "kind": "article",
+      "title": "Computer Vision Tutorial",
+      "url": "https://www.geeksforgeeks.org/computer-vision/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w06_Computer Vision Tutorial.url"
+    },
+    {
+      "id": "w06_python_computer_vision_tutorials",
+      "week": 6,
+      "kind": "article",
+      "title": "Python Computer Vision Tutorials",
+      "url": "https://realpython.com/tutorials/computer-vision/",
+      "host": "realpython.com",
+      "url_file": "data/AI PYTHON_3161/programy/w06_Python Computer Vision Tutorials.url"
+    },
+    {
+      "id": "w06_the_top_10_computer_vision_packages_for_python",
+      "week": 6,
+      "kind": "article",
+      "title": "The Top 10 Computer Vision Packages for Python",
+      "url": "https://www.activestate.com/blog/the-top-10-computer-vision-packages-for-python/",
+      "host": "www.activestate.com",
+      "url_file": "data/AI PYTHON_3161/programy/w06_The Top 10 Computer Vision Packages for Python.url"
+    },
+    {
+      "id": "w07_nlp_tutorial_text_pre_processing_techniques_for_beginners",
+      "week": 7,
+      "kind": "article",
+      "title": "NLP Tutorial – Text Pre-Processing Techniques for Beginners",
+      "url": "https://www.freecodecamp.org/news/natural-language-processing-techniques-for-beginners/",
+      "host": "www.freecodecamp.org",
+      "url_file": "data/AI PYTHON_3161/programy/w07_NLP Tutorial – Text Pre-Processing Techniques for Beginners.url"
+    },
+    {
+      "id": "w07_what_is_natural_language_processing_nlp_a_comprehensive_guide_for_beginners",
+      "week": 7,
+      "kind": "article",
+      "title": "What is Natural Language Processing (NLP)_ A Comprehensive Guide for Beginners",
+      "url": "https://www.datacamp.com/blog/what-is-natural-language-processing",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w07_What is Natural Language Processing (NLP)_ A Comprehensive Guide for Beginners.url"
+    },
+    {
+      "id": "w08_natural_language_processing_nlp_tutorial",
+      "week": 8,
+      "kind": "article",
+      "title": "Natural Language Processing (NLP) Tutorial",
+      "url": "https://www.geeksforgeeks.org/natural-language-processing-nlp-tutorial/",
+      "host": "www.geeksforgeeks.org",
+      "url_file": "data/AI PYTHON_3161/programy/w08_Natural Language Processing (NLP) Tutorial.url"
+    },
+    {
+      "id": "w08_what_is_natural_language_processing_nlp",
+      "week": 8,
+      "kind": "article",
+      "title": "What is Natural Language Processing (NLP)_",
+      "url": "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-natural-language-processing-nlp",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w08_What is Natural Language Processing (NLP)_.url"
+    },
+    {
+      "id": "w09_a_beginner_s_guide_to_the_openai_api_hands_on_tutorial_and_best_practices",
+      "week": 9,
+      "kind": "article",
+      "title": "A Beginner's Guide to The OpenAI API_ Hands-On Tutorial and Best Practices",
+      "url": "https://www.datacamp.com/tutorial/guide-to-openai-api-on-tutorial-best-practices",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_A Beginner's Guide to The OpenAI API_ Hands-On Tutorial and Best Practices.url"
+    },
+    {
+      "id": "w09_a_complete_langchain_guide",
+      "week": 9,
+      "kind": "article",
+      "title": "A Complete LangChain Guide",
+      "url": "https://nanonets.com/blog/langchain/",
+      "host": "nanonets.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_A Complete LangChain Guide.url"
+    },
+    {
+      "id": "w09_developer_quickstart",
+      "week": 9,
+      "kind": "docs",
+      "title": "Developer quickstart",
+      "url": "https://platform.openai.com/docs/quickstart",
+      "host": "platform.openai.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Developer quickstart.url"
+    },
+    {
+      "id": "w09_introduction_to_unsupervised_learning",
+      "week": 9,
+      "kind": "article",
+      "title": "Introduction to Unsupervised Learning",
+      "url": "https://www.datacamp.com/blog/introduction-to-unsupervised-learning",
+      "host": "www.datacamp.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Introduction to Unsupervised Learning.url"
+    },
+    {
+      "id": "w09_unsupervised_learning_clearly_explained",
+      "week": 9,
+      "kind": "article",
+      "title": "Unsupervised Learning_ Clearly Explained",
+      "url": "https://www.alexanderthamm.com/en/blog/this-is-how-unsupervised-machine-learning-works/",
+      "host": "www.alexanderthamm.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Unsupervised Learning_ Clearly Explained.url"
+    },
+    {
+      "id": "w09_unsupervised_machine_learning",
+      "week": 9,
+      "kind": "article",
+      "title": "Unsupervised Machine Learning",
+      "url": "https://www.javatpoint.com/unsupervised-machine-learning",
+      "host": "www.javatpoint.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Unsupervised Machine Learning.url"
+    },
+    {
+      "id": "w09_unsupervised_machine_learning_algorithms_types_with_example",
+      "week": 9,
+      "kind": "article",
+      "title": "Unsupervised Machine Learning_ Algorithms, Types with Example",
+      "url": "https://www.guru99.com/unsupervised-machine-learning.html",
+      "host": "www.guru99.com",
+      "url_file": "data/AI PYTHON_3161/programy/w09_Unsupervised Machine Learning_ Algorithms, Types with Example.url"
+    },
+    {
+      "id": "w10_introduction_to_generative_ai_and_large_language_models",
+      "week": 10,
+      "kind": "docs",
+      "title": "Introduction to Generative AI and Large Language Models",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners/blob/main/01-introduction-to-genai/README.md",
+      "host": "github.com",
+      "url_file": "data/AI PYTHON_3161/programy/w10_Introduction to Generative AI and Large Language Models.url"
+    },
+    {
+      "id": "w10_prompt_engineering_guide",
+      "week": 10,
+      "kind": "article",
+      "title": "Prompt Engineering Guide",
+      "url": "https://learnprompting.org/docs/intro",
+      "host": "learnprompting.org",
+      "url_file": "data/AI PYTHON_3161/programy/w10_Prompt Engineering Guide.url"
+    },
+    {
+      "id": "w10_prompt_engineering",
+      "week": 10,
+      "kind": "docs",
+      "title": "Prompt engineering",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "host": "platform.openai.com",
+      "url_file": "data/AI PYTHON_3161/programy/w10_Prompt engineering.url"
+    },
+    {
+      "id": "w10_what_is_generative_ai_and_how_does_it_work",
+      "week": 10,
+      "kind": "article",
+      "title": "What Is Generative AI and How Does it Work_",
+      "url": "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-generative-ai",
+      "host": "www.simplilearn.com",
+      "url_file": "data/AI PYTHON_3161/programy/w10_What Is Generative AI and How Does it Work_.url"
+    }
+  ]
+}

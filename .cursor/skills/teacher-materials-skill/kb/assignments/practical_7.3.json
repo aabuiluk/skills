@@ -1,0 +1,55 @@
+{
+  "id": "practical_7.3",
+  "week": 9,
+  "kind": "practical",
+  "code": "7.3",
+  "title": "Навчання без вчителя. Частина 3 :: Практичне завдання 7.3",
+  "topic": "Навчання без вчителя. Частина 3",
+  "source_html": "data/AI PYTHON_3161/faily/w09_Практичне завдання 7.3.html",
+  "business_context": "КомпаніяBookSphereбудує систему рекомендацій книг на основі даних про читачів і характеристики книг. Необхідно реалізувати просту контентну і колаборативну модель рекомендацій",
+  "preamble": "Навчання без вчителя. Частина 3 :: Практичне завдання 7.3\n\nНавчання без вчителя. Частина 3\n\nСтворення AI додатків з використанням Python\n\nПрактичні завдання\n\n## Рекомендаційні системи\n(TF-IDF, Cosine Similarity, Collaborative Filtering)\n\n## Бізнес-контекст\n\nКомпаніяBookSphereбудує систему рекомендацій книг на основі даних про читачів і характеристики книг. Необхідно реалізувати просту контентну і колаборативну модель рекомендацій.",
+  "task_count": 4,
+  "tasks": [
+    {
+      "id": "1",
+      "prompt": "Підготуйте дані.\nhttps://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/books.csv",
+      "bullets": [
+        "Завантажте датасет:",
+        "Прочитайте дані вpandas.DataFrame.",
+        "Залиште стовпці:book_id, title, authors, average_rating, ratings_count.",
+        "Видаліть пропущені значення."
+      ]
+    },
+    {
+      "id": "2",
+      "prompt": "Реалізуйтеконтент-basedрекомендації з використаннямTF-IDF.",
+      "bullets": [
+        "ВикористовуйтеTfidfVectorizerзsklearn.feature_extraction.text.",
+        "Застосуйте його до стовпцяauthors.",
+        "Обчисліть косинусну подібність(cosine_similarity).",
+        "Створіть функціюrecommend(title, n=5), яка повертає n найбільш схожих книг.",
+        "Перевірте роботу функції для кількох прикладів."
+      ]
+    },
+    {
+      "id": "3",
+      "prompt": "РеалізуйтеCollaborative Filtering.\nhttps://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/ratings.csv",
+      "bullets": [
+        "Завантажте датасет:",
+        "Використовуйте бібліотекуsurprise.",
+        "Розділіть дані на навчальну і тестову вибірки(train_test_split).",
+        "Навчіть модельSVDзsurprise.prediction_algorithms.matrix_factorization.",
+        "ОбчислітьRMSEна тестовій вибірці за допомогоюaccuracy.rmse()."
+      ]
+    },
+    {
+      "id": "4",
+      "prompt": "Перевірте рекомендації.",
+      "bullets": [
+        "Для одного користувача отримаєте список книжок з найвищими передбачуваними рейтингами.",
+        "Відобразіть 5 найкращих рекомендацій у консолі.",
+        "Збережіть результати у файлbook_recommendations.csv."
+      ]
+    }
+  ]
+}
