@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "6a43b8c73121943999cfb3be",
+    "title": "Build CLI Apps with Node.js",
+    "slug": "build-cli-apps-with-nodejs",
+    "description": "Learn how to build practical CLI apps with Node.js and npm",
+    "featuredImage": "",
+    "readingTime": 164,
+    "lessonCount": 21,
+    "quizCount": 0,
+    "projectCount": 9
+  },
+  {
+    "_id": "6a2aca8ed5b55a91aab11124",
+    "title": "JavaScript Foundations",
+    "slug": "javascript-foundations",
+    "description": "The JavaScript you need before Node.js, frontend frameworks, APIs, and CLI apps.",
+    "featuredImage": "",
+    "readingTime": 118,
+    "lessonCount": 15,
+    "quizCount": 0,
+    "projectCount": 15
+  },
+  {
+    "_id": "6a22adddac1c5fa9928ab3ab",
+    "title": "CSS Fundamentals",
+    "slug": "css",
+    "description": "Style, lay out, and debug real pages without fighting the cascade.",
+    "featuredImage": "",
+    "readingTime": 174,
+    "lessonCount": 20,
+    "quizCount": 0,
+    "projectCount": 6
+  },
+  {
+    "_id": "6a10b41ba95e0d5c68dede2f",
+    "title": "HTML Fundamentals",
+    "slug": "html",
+    "description": "Enough HTML to read, write, inspect, and understand real web pages.",
+    "featuredImage": "",
+    "readingTime": 58,
+    "lessonCount": 8,
+    "quizCount": 0,
+    "projectCount": 6
+  },
+  {
+    "_id": "6a022a7470a823016f6a40d0",
+    "title": "Internet Fundamentals",
+    "slug": "internet",
+    "description": "How the internet actually works: DNS, HTTP, hosting, and browsers.",
+    "featuredImage": "",
+    "readingTime": 46,
+    "lessonCount": 6,
+    "quizCount": 0,
+    "projectCount": 0
+  }
+]

@@ -1,0 +1,1024 @@
+{
+  "_id": "6a43b8c73121943999cfb3be",
+  "title": "Build CLI Apps with Node.js",
+  "slug": "build-cli-apps-with-nodejs",
+  "description": "Learn how to build practical CLI apps with Node.js and npm",
+  "learningGoals": [
+    "Build useful terminal tools with Node.js",
+    "Give your commands a name using npm",
+    "Args, flags, prompts, config, env, and pipes",
+    "Read and write files, folders, and JSON data",
+    "Call APIs and run Git from your CLI",
+    "Best practices for creating CLI applications"
+  ],
+  "lessonIds": [
+    "6a32bbf543b548b57e937f4e",
+    "6a39ac8fb1fa196058c95e74",
+    "6a39b5c5b1fa196058c95efc",
+    "6a3a79bdb1fa196058c9600e",
+    "6a3a7d85b1fa196058c96044",
+    "6a3abf1fb1fa196058c96207",
+    "6a3bbb84b1fa196058c96468",
+    "6a3bc345b1fa196058c96532",
+    "6a3bcacab1fa196058c9659b",
+    "6a3bceceb1fa196058c965ee",
+    "6a3bd0b5b1fa196058c9660c",
+    "6a3bd373b1fa196058c96637",
+    "6a3bdb4fb1fa196058c96694",
+    "6a3be8c2b1fa196058c966ce",
+    "6a3bf173b1fa196058c96792",
+    "6a3bf683b1fa196058c967fd",
+    "6a3bfc82b1fa196058c9688a",
+    "6a3d37f9b1fa196058c97213",
+    "6a3d3cc0b1fa196058c97532",
+    "6a3d42ecb096345546c4a0a5",
+    "6a3d4dc7b096345546c4a0dc"
+  ],
+  "projectIds": [
+    "6a43f19e3121943999cfb5ab",
+    "6a43f19f3121943999cfb5b0",
+    "6a43f19f3121943999cfb5b5",
+    "6a43f1a03121943999cfb5ba",
+    "6a43f1a03121943999cfb5bf",
+    "68b7185fffbff9183d772b25",
+    "68b7185fffbff9183d772b27",
+    "68b7185fffbff9183d772b2f",
+    "68b7185fffbff9183d772b37"
+  ],
+  "reviews": [],
+  "status": "published",
+  "seo": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "keywords": [],
+    "_id": "6a4e38255f54fe5295e00c70"
+  },
+  "viewCount": 0,
+  "createdAt": "2026-06-30T12:38:31.547Z",
+  "updatedAt": "2026-07-08T11:44:37.901Z",
+  "featuredImage": "",
+  "publishedAt": "2026-06-30T14:36:29.479Z",
+  "freeLessonIds": [
+    "6a39b5c5b1fa196058c95efc",
+    "6a3abf1fb1fa196058c96207",
+    "6a3a7d85b1fa196058c96044",
+    "6a3bfc82b1fa196058c9688a"
+  ],
+  "readingTime": 164,
+  "lessons": [
+    {
+      "_id": "6a32bbf543b548b57e937f4e",
+      "title": "CLIs and the Terminal",
+      "slug": "clis-and-the-terminal",
+      "type": "lesson",
+      "description": "Learn what CLI apps are and how terminal commands work.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a32bbf543b548b57e937f4b"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 0,
+      "questionTopicCount": 0,
+      "metadata": {
+        "questions": [],
+        "_id": "6a32bbf543b548b57e937f4c"
+      },
+      "readingTime": {
+        "computed": 4,
+        "_id": "6a4e55ecdd873c5a784d8dbf"
+      },
+      "createdAt": "2026-06-17T15:23:33.926Z",
+      "updatedAt": "2026-07-08T13:51:40.355Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a39ac8fb1fa196058c95e74",
+      "title": "Your First Node.js Script",
+      "slug": "nodejs-runtime-and-your-first-script",
+      "type": "lesson",
+      "description": "Run JavaScript with Node.js and build a small system-info script.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "metaTitle": "",
+        "metaDescription": "",
+        "keywords": [],
+        "_id": "6a4e4c06dd873c5a784d8b5e"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 5,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a39ac8fb1fa196058c95e72"
+      },
+      "readingTime": {
+        "computed": 6,
+        "_id": "6a4e55e4dd873c5a784d8dad"
+      },
+      "createdAt": "2026-06-22T21:43:43.250Z",
+      "updatedAt": "2026-07-08T13:51:32.053Z",
+      "featuredImage": "",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a39b5c5b1fa196058c95efc",
+      "title": "Creating a Node Project",
+      "slug": "creating-a-node-project",
+      "type": "lesson",
+      "description": "Create a Node.js project with package.json, scripts, and ES modules.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a39b5c5b1fa196058c95ef9"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 4,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a39b5c5b1fa196058c95efa"
+      },
+      "readingTime": {
+        "computed": 6,
+        "_id": "6a4e558fdd873c5a784d8d99"
+      },
+      "createdAt": "2026-06-22T22:23:01.545Z",
+      "updatedAt": "2026-07-08T13:50:07.806Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": true
+    },
+    {
+      "_id": "6a3a79bdb1fa196058c9600e",
+      "title": "Modules in Node.js",
+      "slug": "modules-in-nodejs",
+      "type": "lesson",
+      "description": "Split a Node.js CLI across files with ES module imports.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3a79bdb1fa196058c9600b"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 8,
+      "questionTopicCount": 3,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3a79bdb1fa196058c9600c"
+      },
+      "readingTime": {
+        "computed": 6,
+        "_id": "6a4e5584dd873c5a784d8d8f"
+      },
+      "createdAt": "2026-06-23T12:19:09.552Z",
+      "updatedAt": "2026-07-08T13:49:56.217Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3a7d85b1fa196058c96044",
+      "title": "Built-in Node Modules",
+      "slug": "built-in-node-modules",
+      "type": "lesson",
+      "description": "Use built-in Node modules for system info, paths, and files.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3a7d85b1fa196058c96041"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 5,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3a7d85b1fa196058c96042"
+      },
+      "readingTime": {
+        "computed": 8,
+        "_id": "6a4e5562dd873c5a784d8d85"
+      },
+      "createdAt": "2026-06-23T12:35:17.439Z",
+      "updatedAt": "2026-07-08T13:49:22.370Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": true
+    },
+    {
+      "_id": "6a3abf1fb1fa196058c96207",
+      "title": "npm Packages",
+      "slug": "npm-packages",
+      "type": "lesson",
+      "description": "Install npm packages and import them into a Node.js CLI.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3abf1fb1fa196058c96204"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 9,
+      "questionTopicCount": 3,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3abf1fb1fa196058c96205"
+      },
+      "readingTime": {
+        "computed": 6,
+        "_id": "6a4e5556dd873c5a784d8d7b"
+      },
+      "createdAt": "2026-06-23T17:15:11.879Z",
+      "updatedAt": "2026-07-08T13:49:10.940Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": true
+    },
+    {
+      "_id": "6a3bbb84b1fa196058c96468",
+      "title": "Reading Command Arguments",
+      "slug": "reading-command-arguments",
+      "type": "lesson",
+      "description": "Read terminal arguments with process.argv and npm scripts.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bbb84b1fa196058c96465"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 6,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bbb84b1fa196058c96466"
+      },
+      "readingTime": {
+        "computed": 7,
+        "_id": "6a4e5548dd873c5a784d8d71"
+      },
+      "createdAt": "2026-06-24T11:12:04.501Z",
+      "updatedAt": "2026-07-08T13:48:56.588Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bc345b1fa196058c96532",
+      "title": "Flags and Options",
+      "slug": "flags-and-options",
+      "type": "lesson",
+      "description": "Add flags, option values, defaults, and help text to a CLI.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bc345b1fa196058c9652f"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 8,
+      "questionTopicCount": 3,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bc345b1fa196058c96530"
+      },
+      "readingTime": {
+        "computed": 9,
+        "_id": "6a4e5540dd873c5a784d8d67"
+      },
+      "createdAt": "2026-06-24T11:45:09.849Z",
+      "updatedAt": "2026-07-08T13:48:48.690Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bcacab1fa196058c9659b",
+      "title": "CLI Libraries and Subcommands",
+      "slug": "cli-libraries-and-subcommands",
+      "type": "lesson",
+      "description": "Use Commander to build subcommands, options, and help output.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bcacab1fa196058c96598"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 6,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bcacab1fa196058c96599"
+      },
+      "readingTime": {
+        "computed": 8,
+        "_id": "6a4e5531dd873c5a784d8d5d"
+      },
+      "createdAt": "2026-06-24T12:17:14.658Z",
+      "updatedAt": "2026-07-08T13:48:33.666Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bceceb1fa196058c965ee",
+      "title": "Interactive Prompts",
+      "slug": "interactive-prompts",
+      "type": "lesson",
+      "description": "Ask terminal questions with prompts and use answers in a CLI.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bceceb1fa196058c965eb"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 6,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bceceb1fa196058c965ec"
+      },
+      "readingTime": {
+        "computed": 7,
+        "_id": "6a4e5525dd873c5a784d8d53"
+      },
+      "createdAt": "2026-06-24T12:34:22.657Z",
+      "updatedAt": "2026-07-08T13:48:21.108Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bd0b5b1fa196058c9660c",
+      "title": "Making a Real Command",
+      "slug": "making-a-real-command",
+      "type": "lesson",
+      "description": "Turn a Node.js project into a command that runs by name.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bd0b5b1fa196058c96609"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 8,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bd0b5b1fa196058c9660a"
+      },
+      "readingTime": {
+        "computed": 9,
+        "_id": "6a4e5515dd873c5a784d8d49"
+      },
+      "createdAt": "2026-06-24T12:42:29.346Z",
+      "updatedAt": "2026-07-08T13:48:05.066Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bd373b1fa196058c96637",
+      "title": "Output, Errors, and Exit Codes",
+      "slug": "output-errors-and-exit-codes",
+      "type": "lesson",
+      "description": "Route output, errors, and exit codes for a reliable CLI.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bd373b1fa196058c96634"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 8,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bd373b1fa196058c96635"
+      },
+      "readingTime": {
+        "computed": 7,
+        "_id": "6a4e550bdd873c5a784d8d3f"
+      },
+      "createdAt": "2026-06-24T12:54:11.755Z",
+      "updatedAt": "2026-07-08T13:47:55.410Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bdb4fb1fa196058c96694",
+      "title": "Handling Failures Well",
+      "slug": "handling-failures-well",
+      "type": "lesson",
+      "description": "Handle expected mistakes and unexpected bugs without messy crashes.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bdb4fb1fa196058c96691"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 7,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bdb4fb1fa196058c96692"
+      },
+      "readingTime": {
+        "computed": 8,
+        "_id": "6a4e5502dd873c5a784d8d35"
+      },
+      "createdAt": "2026-06-24T13:27:43.093Z",
+      "updatedAt": "2026-07-08T13:47:46.303Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3be8c2b1fa196058c966ce",
+      "title": "Reading Files",
+      "slug": "reading-files",
+      "type": "lesson",
+      "description": "Read files from a CLI and handle common path errors.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3be8c2b1fa196058c966cb"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 8,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3be8c2b1fa196058c966cc"
+      },
+      "readingTime": {
+        "computed": 8,
+        "_id": "6a4e54f8dd873c5a784d8d2b"
+      },
+      "createdAt": "2026-06-24T14:25:06.431Z",
+      "updatedAt": "2026-07-08T13:47:36.121Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bf173b1fa196058c96792",
+      "title": "Writing Files and Folders",
+      "slug": "writing-files-and-folders",
+      "type": "lesson",
+      "description": "Write files and create folders from a Node.js CLI.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bf173b1fa196058c9678f"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 8,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bf173b1fa196058c96790"
+      },
+      "readingTime": {
+        "computed": 11,
+        "_id": "6a4e54e7dd873c5a784d8d21"
+      },
+      "createdAt": "2026-06-24T15:02:11.341Z",
+      "updatedAt": "2026-07-08T13:47:19.946Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bf683b1fa196058c967fd",
+      "title": "JSON Storage",
+      "slug": "json-storage",
+      "type": "lesson",
+      "description": "Store structured CLI data in a local JSON file.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bf683b1fa196058c967fa"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 9,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bf683b1fa196058c967fb"
+      },
+      "readingTime": {
+        "computed": 10,
+        "_id": "6a4e54dddd873c5a784d8d17"
+      },
+      "createdAt": "2026-06-24T15:23:47.827Z",
+      "updatedAt": "2026-07-08T13:47:09.086Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3bfc82b1fa196058c9688a",
+      "title": "Pipes and Redirects",
+      "slug": "pipes-and-redirects",
+      "type": "lesson",
+      "description": "Make a CLI work with stdin, stdout, stderr, pipes, and redirects.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3bfc82b1fa196058c96887"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 10,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3bfc82b1fa196058c96888"
+      },
+      "readingTime": {
+        "computed": 7,
+        "_id": "6a4e54d0dd873c5a784d8d0d"
+      },
+      "createdAt": "2026-06-24T15:49:22.893Z",
+      "updatedAt": "2026-07-08T13:46:56.744Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": true
+    },
+    {
+      "_id": "6a3d37f9b1fa196058c97213",
+      "title": "Config and Environment Variables",
+      "slug": "config-and-environment-variables",
+      "type": "lesson",
+      "description": "Read config files and environment variables in a CLI.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3d37f9b1fa196058c97210"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 3,
+      "questionTopicCount": 1,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3d37f9b1fa196058c97211"
+      },
+      "readingTime": {
+        "computed": 11,
+        "_id": "6a4e54c8dd873c5a784d8cf7"
+      },
+      "createdAt": "2026-06-25T14:15:21.825Z",
+      "updatedAt": "2026-07-08T13:46:48.862Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3d3cc0b1fa196058c97532",
+      "title": "Calling APIs from a CLI",
+      "slug": "calling-apis-from-a-cli",
+      "type": "lesson",
+      "description": "Call an API from a CLI and format the JSON response.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3d3cc0b1fa196058c9752f"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 3,
+      "questionTopicCount": 1,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3d3cc0b1fa196058c97530"
+      },
+      "readingTime": {
+        "computed": 11,
+        "_id": "6a4e54bfdd873c5a784d8ced"
+      },
+      "createdAt": "2026-06-25T14:35:44.656Z",
+      "updatedAt": "2026-07-08T13:46:39.818Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3d42ecb096345546c4a0a5",
+      "title": "Running Other Commands",
+      "slug": "running-other-commands",
+      "type": "lesson",
+      "description": "Run Git from Node.js with child processes and capture output.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3d42ecb096345546c4a0a2"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 4,
+      "questionTopicCount": 2,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3d42ecb096345546c4a0a3"
+      },
+      "readingTime": {
+        "computed": 10,
+        "_id": "6a4e54aedd873c5a784d8cd9"
+      },
+      "createdAt": "2026-06-25T15:02:04.617Z",
+      "updatedAt": "2026-07-08T13:46:22.528Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    },
+    {
+      "_id": "6a3d4dc7b096345546c4a0dc",
+      "title": "Capstone: Build and Polish a CLI",
+      "slug": "capstone-build-and-polish-a-cli",
+      "type": "lesson",
+      "description": "Build a multi-command CLI from the course pieces.",
+      "authorId": "689e3be9a36f4a805da932b0",
+      "seo": {
+        "keywords": [],
+        "_id": "6a3d4dc7b096345546c4a0d9"
+      },
+      "tags": [],
+      "viewCount": 0,
+      "questionCount": 0,
+      "questionTopicCount": 0,
+      "metadata": {
+        "questions": [],
+        "_id": "6a3d4dc7b096345546c4a0da"
+      },
+      "readingTime": {
+        "computed": 5,
+        "_id": "6a4e547cdd873c5a784d8c18"
+      },
+      "createdAt": "2026-06-25T15:48:23.494Z",
+      "updatedAt": "2026-07-08T13:45:32.794Z",
+      "author": {
+        "_id": "689e3be9a36f4a805da932b0",
+        "name": "Kamran Ahmed",
+        "slug": "kamran",
+        "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+        "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+        "socialLinks": {
+          "twitter": "https://x.com/nilbuild",
+          "linkedin": "https://linkedin.com/in/nilbuild",
+          "github": "https://github.com/nilbuild",
+          "website": "https://kamran.fyi",
+          "_id": "6a7286d6c84807390820f848"
+        }
+      },
+      "isFree": false
+    }
+  ],
+  "projects": [
+    {
+      "_id": "6a43f19e3121943999cfb5ab",
+      "title": "Folder Info",
+      "description": "Inspect a folder and print its file and folder counts.",
+      "slug": "nodejs-folder-info",
+      "type": "code",
+      "difficulty": "beginner"
+    },
+    {
+      "_id": "6a43f19f3121943999cfb5b0",
+      "title": "File Counter",
+      "description": "Count lines, words, and characters in a text file.",
+      "slug": "nodejs-file-counter",
+      "type": "code",
+      "difficulty": "beginner"
+    },
+    {
+      "_id": "6a43f19f3121943999cfb5b5",
+      "title": "GitHub Profile Details",
+      "description": "Fetch and print public details for a GitHub user.",
+      "slug": "nodejs-github-profile-details",
+      "type": "code",
+      "difficulty": "beginner"
+    },
+    {
+      "_id": "6a43f1a03121943999cfb5ba",
+      "title": "JSON Formatter",
+      "description": "Read a JSON file and print clean formatted output.",
+      "slug": "nodejs-json-formatter",
+      "type": "code",
+      "difficulty": "beginner"
+    },
+    {
+      "_id": "6a43f1a03121943999cfb5bf",
+      "title": "Env Checker",
+      "description": "Check required environment variables without leaking values.",
+      "slug": "nodejs-env-checker",
+      "type": "code",
+      "difficulty": "beginner"
+    },
+    {
+      "_id": "68b7185fffbff9183d772b25",
+      "slug": "task-tracker",
+      "description": "Build a CLI app to track your tasks and manage your to-do list.",
+      "difficulty": "beginner",
+      "title": "Task Tracker",
+      "type": "code"
+    },
+    {
+      "_id": "68b7185fffbff9183d772b27",
+      "slug": "github-user-activity",
+      "description": "Use GitHub API to fetch user activity and display it in the terminal.",
+      "difficulty": "beginner",
+      "title": "GitHub User Activity",
+      "type": "code"
+    },
+    {
+      "_id": "68b7185fffbff9183d772b2f",
+      "slug": "expense-tracker",
+      "description": "Build a simple expense tracker to manage your finances.",
+      "difficulty": "beginner",
+      "title": "Expense Tracker",
+      "type": "code"
+    },
+    {
+      "_id": "68b7185fffbff9183d772b37",
+      "slug": "number-guessing-game",
+      "description": "Build a simple number guessing game to test your luck.",
+      "difficulty": "beginner",
+      "title": "Number Guessing Game",
+      "type": "code"
+    }
+  ],
+  "authors": [
+    {
+      "_id": "689e3be9a36f4a805da932b0",
+      "name": "Kamran Ahmed",
+      "slug": "kamran",
+      "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+      "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+      "socialLinks": {
+        "twitter": "https://x.com/nilbuild",
+        "linkedin": "https://linkedin.com/in/nilbuild",
+        "github": "https://github.com/nilbuild",
+        "website": "https://kamran.fyi",
+        "_id": "6a7286d6c84807390820f848"
+      }
+    }
+  ]
+}

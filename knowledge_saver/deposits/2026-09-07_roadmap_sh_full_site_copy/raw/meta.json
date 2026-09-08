@@ -1,0 +1,83 @@
+{
+  "synced_at": "2026-09-07T20:18:43.140681+00:00",
+  "source": "https://roadmap.sh",
+  "independent_local_copy": true,
+  "auth_ok": true,
+  "stats": {
+    "pages": 269,
+    "apis": 259,
+    "packs": 10,
+    "lessons": 140,
+    "assets": 413,
+    "errors": 1188,
+    "locked_lessons": 0
+  },
+  "note": "auth pass after public full copy",
+  "menu": [
+    {
+      "label": "AI Tutor",
+      "href": "/ai",
+      "local": "/site/ai"
+    },
+    {
+      "label": "Roadmaps",
+      "href": "/roadmaps",
+      "local": "/site/roadmaps"
+    },
+    {
+      "label": "Lesson Packs",
+      "href": "/packs",
+      "local": "/site/packs"
+    },
+    {
+      "label": "Guides",
+      "href": "/guides",
+      "local": "/site/guides"
+    },
+    {
+      "label": "Projects",
+      "href": "/projects",
+      "local": "/site/projects"
+    },
+    {
+      "label": "Best Practices",
+      "href": "/best-practices",
+      "local": "/site/best-practices"
+    },
+    {
+      "label": "Questions",
+      "href": "/questions",
+      "local": "/site/questions"
+    },
+    {
+      "label": "Newsletters",
+      "href": "/newsletters",
+      "local": "/site/newsletters"
+    },
+    {
+      "label": "Premium",
+      "href": "/premium",
+      "local": "/site/premium"
+    },
+    {
+      "label": "Dashboard",
+      "href": "/dashboard",
+      "local": "/site/dashboard"
+    },
+    {
+      "label": "Account",
+      "href": "/account",
+      "local": "/site/account"
+    },
+    {
+      "label": "Teams",
+      "href": "/teams",
+      "local": "/site/teams"
+    },
+    {
+      "label": "Get Started",
+      "href": "/get-started",
+      "local": "/site/get-started"
+    }
+  ]
+}
