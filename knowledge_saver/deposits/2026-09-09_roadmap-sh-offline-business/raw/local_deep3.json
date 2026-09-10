@@ -1,0 +1,214 @@
+{
+  "clicks": [
+    "Start Working",
+    "Learning",
+    "Subscribe"
+  ],
+  "mutations": [
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-billing-details",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-project-status/expense-tracker",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-me",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-visit",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-streak",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-start-project/expense-tracker",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-project-status/expense-tracker",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-billing-details",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-list-favorite-roadmaps",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-official-roadmap/python",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-get-user-resource-progress",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-visit",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-get-resource-tracker-count",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-streak",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-me",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-official-roadmap-questions/python",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-get-ai-course-limit",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-roadmap-tree-mapping/python",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-update-resource-progress",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-get-user-resource-progress",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-billing-details",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-list-favorite-roadmaps",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-visit",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-streak",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-me",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-pulse",
+      "s": 200
+    },
+    {
+      "m": "POST",
+      "u": "http://127.0.0.1:3000/api/v1-update-newsletter-subscription/6a553fbb3ca4cc310c4d2901",
+      "s": 200
+    },
+    {
+      "m": "GET",
+      "u": "http://127.0.0.1:3000/api/v1-list-favorite-roadmaps",
+      "s": 200
+    }
+  ]
+}

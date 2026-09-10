@@ -1,0 +1,261 @@
+{
+  "checks": [
+    {
+      "name": "favorites_toggle",
+      "ok": true,
+      "detail": {
+        "before": [
+          "frontend",
+          "devsecops",
+          "backend"
+        ],
+        "mid_has": true,
+        "status": {
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "name": "progress_done",
+      "ok": true,
+      "detail": {
+        "done": [
+          "smoke-topic-1"
+        ],
+        "learning": [],
+        "skipped": [
+          "GISOFMKvnBys0O0IMpz2J"
+        ],
+        "personalized": {
+          "topicIds": [],
+          "information": ""
+        }
+      }
+    },
+    {
+      "name": "progress_learning",
+      "ok": true,
+      "detail": {
+        "done": [],
+        "learning": [
+          "smoke-topic-1"
+        ],
+        "skipped": [
+          "GISOFMKvnBys0O0IMpz2J"
+        ],
+        "personalized": {
+          "topicIds": [],
+          "information": ""
+        }
+      }
+    },
+    {
+      "name": "progress_skipped",
+      "ok": true,
+      "detail": {
+        "done": [],
+        "learning": [],
+        "skipped": [
+          "GISOFMKvnBys0O0IMpz2J",
+          "smoke-topic-1"
+        ],
+        "personalized": {
+          "topicIds": [],
+          "information": ""
+        }
+      }
+    },
+    {
+      "name": "progress_pending",
+      "ok": true,
+      "detail": {
+        "done": [],
+        "learning": [],
+        "skipped": [
+          "GISOFMKvnBys0O0IMpz2J"
+        ],
+        "personalized": {
+          "topicIds": [],
+          "information": ""
+        }
+      }
+    },
+    {
+      "name": "weekly_subscriptions",
+      "ok": true,
+      "detail": {
+        "status": 200,
+        "body": {
+          "status": "ok"
+        },
+        "fav": {
+          "roadmapSlugs": [
+            "frontend",
+            "devsecops",
+            "backend"
+          ],
+          "weeklySubscriptions": [
+            "frontend"
+          ]
+        }
+      }
+    },
+    {
+      "name": "clear_resource_progress",
+      "ok": true,
+      "detail": {
+        "clear": {
+          "status": "ok"
+        },
+        "progress": {
+          "done": [],
+          "learning": [],
+          "skipped": [],
+          "personalized": {
+            "topicIds": [],
+            "information": ""
+          },
+          "isFavorite": false,
+          "totalTopicCount": 120
+        }
+      }
+    },
+    {
+      "name": "start_project",
+      "ok": true,
+      "detail": {
+        "start": {
+          "startedAt": "2026-09-08T22:13:36.512111Z"
+        },
+        "status": {
+          "id": "f37a5713e8ca448fad5419e7",
+          "startedAt": "2026-09-08T22:13:36.512111Z",
+          "submittedAt": null,
+          "solutionUrl": null,
+          "upvotes": 0,
+          "downvotes": 0,
+          "languages": []
+        }
+      }
+    },
+    {
+      "name": "stop_project",
+      "ok": true,
+      "detail": {
+        "stop": {
+          "status": "ok"
+        },
+        "status": {
+          "id": null,
+          "startedAt": null,
+          "submittedAt": null,
+          "solutionUrl": null,
+          "upvotes": 0,
+          "downvotes": 0
+        }
+      }
+    },
+    {
+      "name": "complete_lesson",
+      "ok": true,
+      "detail": {
+        "complete": {
+          "packId": "6a10b41ba95e0d5c68dede2f",
+          "doneLessonIds": [
+            "6a0da437a95e0d5c68ded033"
+          ],
+          "doneProjectIds": [],
+          "completedAt": null
+        },
+        "pack": {
+          "packId": "6a10b41ba95e0d5c68dede2f",
+          "doneLessonIds": [
+            "6a0da437a95e0d5c68ded033"
+          ],
+          "doneProjectIds": [],
+          "completedAt": null
+        }
+      }
+    },
+    {
+      "name": "save_personalization",
+      "ok": true,
+      "detail": {
+        "save": {
+          "success": true
+        },
+        "progress": {
+          "done": [],
+          "learning": [],
+          "skipped": [],
+          "personalized": {
+            "topicIds": [
+              "t1"
+            ],
+            "information": "smoke"
+          },
+          "isFavorite": false,
+          "totalTopicCount": 120
+        }
+      }
+    },
+    {
+      "name": "clear_personalization",
+      "ok": true,
+      "detail": {
+        "clear": {
+          "success": true
+        },
+        "progress": {
+          "done": [],
+          "learning": [],
+          "skipped": [],
+          "personalized": {
+            "topicIds": [],
+            "information": ""
+          },
+          "isFavorite": false,
+          "totalTopicCount": 120
+        }
+      }
+    },
+    {
+      "name": "soft_/api/v1-pulse",
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "offline": true
+      }
+    },
+    {
+      "name": "soft_/api/v1-visit",
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "offline": true
+      }
+    },
+    {
+      "name": "newsletter_subscribe",
+      "ok": true,
+      "detail": {
+        "isSubscribed": true,
+        "weeklySubscriptions": [
+          "frontend"
+        ]
+      }
+    },
+    {
+      "name": "newsletter_unsubscribe",
+      "ok": true,
+      "detail": {
+        "isSubscribed": false,
+        "weeklySubscriptions": [
+          "frontend"
+        ]
+      }
+    }
+  ],
+  "ok": true,
+  "failed": []
+}

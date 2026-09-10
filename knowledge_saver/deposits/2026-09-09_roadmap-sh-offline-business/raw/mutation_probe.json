@@ -1,0 +1,145 @@
+[
+  {
+    "method": "patch",
+    "path": "/api/v1-update-weekly-subscriptions",
+    "status": 200,
+    "body": "{\"status\":\"ok\"}"
+  },
+  {
+    "method": "get",
+    "path": "/api/v1-project-status/task-tracker",
+    "status": 200,
+    "body": "{\"id\":\"6aa0850f931a53b23eda6a3e\",\"startedAt\":\"2026-09-08T21:58:39.718Z\",\"upvotes\":0,\"downvotes\":0}"
+  },
+  {
+    "method": "get",
+    "path": "/api/v1-project-status/expense-tracker",
+    "status": 200,
+    "body": "{\"id\":null,\"startedAt\":null,\"submittedAt\":null,\"solutionUrl\":null,\"upvotes\":0,\"downvotes\":0}"
+  },
+  {
+    "method": "get",
+    "path": "/api/v1-start-project/task-tracker",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "post",
+    "path": "/api/v1-start-project/task-tracker",
+    "status": 400,
+    "body": "{\"status\":400,\"message\":\"You have already started this project\",\"errors\":[]}"
+  },
+  {
+    "method": "patch",
+    "path": "/api/v1-start-project/task-tracker",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "put",
+    "path": "/api/v1-start-project/task-tracker",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "get",
+    "path": "/api/v1-project-status/task-tracker",
+    "status": 200,
+    "body": "{\"id\":\"6aa0850f931a53b23eda6a3e\",\"startedAt\":\"2026-09-08T21:58:39.718Z\",\"upvotes\":0,\"downvotes\":0}"
+  },
+  {
+    "method": "post",
+    "path": "/api/v1-stop-project/task-tracker",
+    "status": 200,
+    "body": "{\"status\":\"ok\"}"
+  },
+  {
+    "method": "patch",
+    "path": "/api/v1-stop-project/task-tracker",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "put",
+    "path": "/api/v1-stop-project/task-tracker",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "get",
+    "path": "/api/v1-project-status/task-tracker",
+    "status": 200,
+    "body": "{\"id\":null,\"startedAt\":null,\"submittedAt\":null,\"solutionUrl\":null,\"upvotes\":0,\"downvotes\":0}"
+  },
+  {
+    "method": "get",
+    "path": "/api/v1-complete-lesson/what-is-html",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "post",
+    "path": "/api/v1-complete-lesson/what-is-html",
+    "status": 400,
+    "body": "{\"status\":400,\"message\":\"chapterSlug is required. lessonSlug is required\",\"errors\":[{\"message\":\"chapterSlug is required\",\"location\":\"chapterSlug\"},{\"message\":\"lessonSlug is required\",\"location\":\"lessonSlug\"}]}"
+  },
+  {
+    "method": "patch",
+    "path": "/api/v1-complete-lesson/what-is-html",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "put",
+    "path": "/api/v1-complete-lesson/what-is-html",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "get",
+    "path": "/api/v1-lesson-pack-progress/html",
+    "status": 200,
+    "body": "{\"packId\":\"6a10b41ba95e0d5c68dede2f\",\"doneLessonIds\":[],\"doneProjectIds\":[],\"completedAt\":null}"
+  },
+  {
+    "method": "post",
+    "path": "/api/v1-clear-resource-progress",
+    "status": 200,
+    "body": "{\"status\":\"ok\"}"
+  },
+  {
+    "method": "patch",
+    "path": "/api/v1-clear-resource-progress",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "delete",
+    "path": "/api/v1-clear-resource-progress",
+    "error": "Client.delete() got an unexpected keyword argument 'json'"
+  },
+  {
+    "method": "post",
+    "path": "/api/v1-vote-project/dummy",
+    "status": 500,
+    "body": "{\"status\":500,\"message\":\"Cast to ObjectId failed for value \\\"dummy\\\" (type string) at path \\\"_id\\\" for model \\\"ProjectStatus\\\"\",\"errors\":[]}"
+  },
+  {
+    "method": "post",
+    "path": "/api/v1-save-personalization/python",
+    "status": 400,
+    "body": "{\"status\":400,\"message\":\"\\\"personalized\\\" is required\",\"errors\":[]}"
+  },
+  {
+    "method": "patch",
+    "path": "/api/v1-vote-project/dummy",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  },
+  {
+    "method": "patch",
+    "path": "/api/v1-save-personalization/python",
+    "status": 404,
+    "body": "{\"status\":404,\"message\":\"Not Found\",\"errors\":[]}"
+  }
+]

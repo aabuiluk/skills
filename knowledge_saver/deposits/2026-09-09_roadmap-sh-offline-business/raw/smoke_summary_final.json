@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-08T22:13:36.562757+00:00",
+  "live": null,
+  "local": {
+    "base": "http://127.0.0.1:3000",
+    "pages": 40,
+    "bad_pages": [],
+    "clicks": 52,
+    "api_calls": 768,
+    "api_errors": 0,
+    "page_errors": 57,
+    "mutations": [
+      "PATCH /api/v1-mark-favorite",
+      "PATCH /api/v1-update-weekly-subscriptions",
+      "POST /api/v1-start-project/github-user-activity",
+      "POST /api/v1-start-project/task-tracker",
+      "POST /api/v1-update-newsletter-subscription/6a553fbb3ca4cc310c4d2901",
+      "POST /api/v1-update-newsletter-subscription/6a5544f53ca4cc310c4d2943",
+      "POST /api/v1-update-newsletter-subscription/6a563071e03ea2708d7c613f",
+      "POST /api/v1-update-resource-progress"
+    ]
+  },
+  "api": {
+    "ok": true,
+    "failed": [],
+    "checks": 16
+  }
+}

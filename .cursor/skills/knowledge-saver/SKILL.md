@@ -20,11 +20,9 @@ disable-model-invocation: true
 Оригінали **не видаляємо**, щоб вони не загубились. Копії можна використовувати
 й змінювати; оригінали завжди мають лишатися.
 
-Робочий корінь цього репо:
+Робочий корінь: корінь поточного проєкту (workspace), у якому запускають скіл.
 
-`/Users/abuiluk/LessonPython/pet_projects/skills`
-
-Архів:
+Архів (завжди відносно кореня проєкту):
 
 `knowledge_saver/`
 
@@ -41,11 +39,50 @@ disable-model-invocation: true
 ## Пайплайн (не міняти місцями)
 
 ```
+0. Bootstrap → створити knowledge_saver/ якщо немає
 1. Deposit   → knowledge_saver/deposits/<id>/raw/   (оригінал, immutable)
 2. Manifest  → ORIGIN.md + оновлення INDEX.md
 3. (опційно) Derive → копія / дистилят у скіл або notes/
 4. Ніколи    → rm / overwrite файлів у raw/
 ```
+
+## Крок 0. Bootstrap архіву
+
+**Перед будь-яким deposit** перевір, чи існує `knowledge_saver/` у корені
+проєкту. Якщо немає — **створи** каркас:
+
+```text
+knowledge_saver/
+├── README.md
+├── INDEX.md
+└── deposits/
+```
+
+`README.md` (створи, якщо файлу немає):
+
+```markdown
+# knowledge_saver
+
+Immutable archive of hard-won knowledge for this project.
+
+**Originals stay forever** under `deposits/*/raw/`. Derived skills and edits use
+copies only. Workflow: skill `knowledge-saver`.
+
+Layout: `README.md`, `INDEX.md`, `deposits/YYYY-MM-DD_<slug>/{ORIGIN.md,raw/,notes/}`.
+```
+
+`INDEX.md` (створи, якщо файлу немає):
+
+```markdown
+# Knowledge deposits
+
+| id | date | topic | how_obtained | derived_skills |
+|----|------|-------|--------------|----------------|
+| _(none yet)_ | | | | |
+```
+
+Якщо `knowledge_saver/` уже є — **не** перезаписуй існуючі `README.md` /
+`INDEX.md` / deposits. Лише доповнюй.
 
 ## Крок 1. Deposit (оригінал)
 
@@ -118,6 +155,7 @@ knowledge_saver/deposits/YYYY-MM-DD_<short-slug>/
 
 ## Чеклист
 
+- [ ] Є `knowledge_saver/` (створено на кроці 0, якщо не було)
 - [ ] Створено `deposits/<id>/raw/` з незмінними файлами
 - [ ] Є `ORIGIN.md` з provenance
 - [ ] Оновлено `knowledge_saver/INDEX.md`
