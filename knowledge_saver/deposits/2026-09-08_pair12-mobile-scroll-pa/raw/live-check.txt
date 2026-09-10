@@ -1,0 +1,8 @@
+Phone video 2026-09-08_01-16-10.mp4: Android Chrome, production pythonanywhere,
+python_ai_step pair 12, notebook on, swipe-up stuck on stacked code cells.
+
+Live curl 2026-09-08:
+- presentation.html?download=1: no lh-presentation-chrome, no lh-mobile-code-scroll
+- pair-notebook.js 29440 bytes: Math.min(480) cap, no bindMobileCodeScroll, has pyodide-http
+- frontend assets index-L-l5nc89.css still has is-nav-hidden max-height:0
+- local backend/static index-C5nd7PLO.css has overlay translateY, no max-height:0
