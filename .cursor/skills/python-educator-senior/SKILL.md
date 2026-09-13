@@ -62,4 +62,4 @@ Use `teach` for multi-session learning workspaces; use `scaffold-exercises` when
 - Prefer additive changes.
 - Course text sources live in `scripts/course_build/content/`.
 - Verify before claiming done (`verification-before-completion`).
-- **Python AI Materials:** gold is pairs 15–16 (`teacher-materials-skill/gold-15-16.md`). Never ship generator cards (1 paragraph + snippet). Never tick `public_plan.json`.
+- **Python AI Materials:** gold is pairs **11–16** (`teacher-materials-skill/gold-11-16.md`). Never ship generator cards (1 paragraph + snippet). Never tick `public_plan.json`. Never ship a thinner material version than the previous full layer (v2-on-15–16 incident).
