@@ -13,5 +13,3 @@
 | Статті | `sources.json`, `articles_fetch.json` | дистилят або URL |
 
 Не підвантажуй extracts цілком. На слайд не винось id нотаток.
-
-OD dump (assignments / programy / books): у `lesson_helper` як `data/AI PYTHON_3161`; локальна копія також `D:\knowledge_materials\od\AI PYTHON_3161\` (див. `knowledge_saver/deposits/2026-09-13_netacad-apply-ai-od/`).
