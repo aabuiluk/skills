@@ -37,13 +37,32 @@ Always satisfy both. If they conflict, choose the safer engineering default and 
 
 ### Data Science
 - Reproducible notebooks/scripts, named columns, documented assumptions, small sample data in-repo when needed.
+- Pipeline chapters to teach: query/aggregate → clean/split/join → viz → simple models → storytelling/hypotheses.
+- Call out **confounding** in observational claims; keep methodology explicit.
 - Skills: `xlsx`, `research`, `teach`.
+
+### Analytics ethics (when teaching data work)
+Bias checklist (teach + enforce on student projects):
+- Bias exists — record assumptions/hypotheses **before** analysis.
+- Validate sources and collection methodology.
+- Focus on larger patterns; isolate outliers before include/exclude.
+- Peer-review methods/data; stay open — let data inform conclusions.
+Bias types to name: **confirmation**, **selection** (incl. seasonality/timing), outlier influence, stopping when the hypothesis looks “proven”.
+Mention GDPR/PII and copyright before students ship portfolio projects. ETL vs ELT: transform-before-load vs load-raw-then-transform.
 
 ### AI
 - Ground answers in project facts; prefer verifiable steps over hype.
+- Chatbot capability taxonomy for literacy lessons: **Expand / Synthesize / Transform / Evaluate / Chat / Take actions / Multimodal**.
+- Prompt hygiene: instruction at start (and often end); delimiters around content; prefer **code you run** for math/bulk transforms; save useful generated code.
+- Glossary when needed: generative vs discriminative, foundation model, pre-training, instruction tuning, GPT, quantization / distillation / pruning, RAG, agents.
+- For applied prompting / evaluation workflows use skill `prompt-like-engineer`.
+- For thematic analysis of many comments use `ai-thematic-insights`.
+- For sensitive docs / local↔public hybrid use `ai-private-workflow`.
 - When building agent/MCP pieces, use `mcp-builder` / `skill-creator`.
 - For lessons about AI tools in Cursor, keep student safety: no destructive git, no secret leakage.
 - Slides and handouts are student-facing: write to the reader. Third-person «students confuse…» belongs only in `teacher.md`.
+
+Source distill (NetAcad Apply AI + OD): `knowledge_saver/deposits/2026-09-13_netacad-apply-ai-od/`.
 
 ## Teaching output shape
 

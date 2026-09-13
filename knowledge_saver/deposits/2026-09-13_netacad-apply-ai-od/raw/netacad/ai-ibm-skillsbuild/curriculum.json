@@ -1,0 +1,12 @@
+{
+  "slug": "ai-ibm-skillsbuild",
+  "modules": [
+    "Introduction to Artificial Intelligence",
+    "Natural Language Processing and Computer Vision",
+    "Machine Learning and Deep Learning",
+    "Run AI Models with IBM Watson Studio",
+    "AI Ethics",
+    "Your Future in AI: The Job Landscape",
+    "The Money Maker GANs Game"
+  ]
+}

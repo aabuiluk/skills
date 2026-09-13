@@ -1,0 +1,2329 @@
+{
+  "slug": "data-analytics-essentials",
+  "title": "Data Analytics Essentials",
+  "url": "https://www.netacad.com/launch?id=b69a784a-9b3a-4ddd-a514-f4e6f3b70c45&tab=curriculum&view=24602800-238d-5d25-b79b-15f83389691a",
+  "source": "in-progress-json",
+  "headless": true,
+  "scraped_at": "2026-09-13T12:01:22.162145+00:00",
+  "lesson_count": 322,
+  "total_words": 49468,
+  "unique_bodies": 299,
+  "modules": [
+    {
+      "label": "(current)",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "d2b27267-848f-50bd-a288-9ae9e95d4f35"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "82a52463-236c-52f5-9b87-d52f3b6f3f03"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "f484685a-3ab7-5aaf-bca0-332a3c4fc754"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "69f52e95-bb55-556d-9eac-8bbfded65a9c"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "1f222413-7871-57c5-8779-3b150af4fe68"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "3f17d57c-9d29-5802-97dc-9c794f0bca66"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "670009a9-6c88-5bbb-abe4-3a317f96aa5c"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "f9689f3d-e847-5680-bec8-efec695b78b8"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "25064b7d-c745-5bd9-9f8a-9023b0a50f7a"
+    },
+    {
+      "label": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "015b41d1-62b5-5628-a378-e744ac338096"
+    },
+    {
+      "label": "End of Course Survey",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "a93c7375-3ccb-5ead-b70b-ee58bf4c10b5"
+    },
+    {
+      "label": "Data Analytics Essentials Final Exam",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "a609ebc3-f87f-5bef-ba4a-bbb199abf969"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "current-overview",
+      "title": "(current) — overview",
+      "module": "(current)",
+      "word_count": 16,
+      "file": "lessons/current-overview.md"
+    },
+    {
+      "id": "heading-article1",
+      "title": "Heading Article1",
+      "module": "(current)",
+      "word_count": 10,
+      "file": "lessons/heading-article1.md"
+    },
+    {
+      "id": "0-introduce-the-contents-of-the-module",
+      "title": ".0 Introduce the contents of the module",
+      "module": "(current)",
+      "word_count": 66,
+      "file": "lessons/0-introduce-the-contents-of-the-module.md"
+    },
+    {
+      "id": "1-0-header",
+      "title": ".1.0 Header",
+      "module": "(current)",
+      "word_count": 18,
+      "file": "lessons/1-0-header.md"
+    },
+    {
+      "id": "1-1-sample-portfolios",
+      "title": ".1.1 Sample Portfolios",
+      "module": "(current)",
+      "word_count": 571,
+      "file": "lessons/1-1-sample-portfolios.md"
+    },
+    {
+      "id": "quicknav",
+      "title": "Quicknav",
+      "module": "(current)",
+      "word_count": 10,
+      "file": "lessons/quicknav.md"
+    },
+    {
+      "id": "3-0-header",
+      "title": ".3.0 Header",
+      "module": "(current)",
+      "word_count": 12,
+      "file": "lessons/3-0-header.md"
+    },
+    {
+      "id": "2-1-the-importance-of-programming-in-analytics",
+      "title": ".2.1 The Importance of Programming in Analytics",
+      "module": "(current)",
+      "word_count": 14,
+      "file": "lessons/2-1-the-importance-of-programming-in-analytics.md"
+    },
+    {
+      "id": "2-2-practice-item",
+      "title": ".2.2 Practice Item",
+      "module": "(current)",
+      "word_count": 17,
+      "file": "lessons/2-2-practice-item.md"
+    },
+    {
+      "id": "2-3-the-role-of-python-in-data-analysis",
+      "title": ".2.3 The Role of Python in Data Analysis",
+      "module": "(current)",
+      "word_count": 14,
+      "file": "lessons/2-3-the-role-of-python-in-data-analysis.md"
+    },
+    {
+      "id": "2-4-practice-item",
+      "title": ".2.4 Practice Item",
+      "module": "(current)",
+      "word_count": 20,
+      "file": "lessons/2-4-practice-item.md"
+    },
+    {
+      "id": "new-article-title",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 14,
+      "file": "lessons/new-article-title.md"
+    },
+    {
+      "id": "navigation",
+      "title": "Navigation",
+      "module": "(current)",
+      "word_count": 4,
+      "file": "lessons/navigation.md"
+    },
+    {
+      "id": "4-0-header",
+      "title": ".4.0 header",
+      "module": "(current)",
+      "word_count": 17,
+      "file": "lessons/4-0-header.md"
+    },
+    {
+      "id": "article",
+      "title": "Article",
+      "module": "(current)",
+      "word_count": 45,
+      "file": "lessons/article.md"
+    },
+    {
+      "id": "3-2-take-the-next-steps-quiz",
+      "title": ".3.2 Take the Next Steps Quiz",
+      "module": "(current)",
+      "word_count": 121,
+      "file": "lessons/3-2-take-the-next-steps-quiz.md"
+    },
+    {
+      "id": "new-article-title-2",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/new-article-title-2.md"
+    },
+    {
+      "id": "module-globals-modulenumber-data-analytics-projects-overview",
+      "title": "Module {{_globals._moduleNumber}}: Data Analytics Projects — overview",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 14,
+      "file": "lessons/module-globals-modulenumber-data-analytics-projects-overview.md"
+    },
+    {
+      "id": "heading-article1-2",
+      "title": "Heading Article1",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 9,
+      "file": "lessons/heading-article1-2.md"
+    },
+    {
+      "id": "0-introduce-the-contents-of-the-module-2",
+      "title": ".0 Introduce the contents of the module",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 121,
+      "file": "lessons/0-introduce-the-contents-of-the-module-2.md"
+    },
+    {
+      "id": "1-0-header-2",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 13,
+      "file": "lessons/1-0-header-2.md"
+    },
+    {
+      "id": "1-1-the-value-of-data-analytics",
+      "title": ".1.1 The Value of Data Analytics",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 520,
+      "file": "lessons/1-1-the-value-of-data-analytics.md"
+    },
+    {
+      "id": "quicknav-2",
+      "title": "Quicknav",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 6,
+      "file": "lessons/quicknav-2.md"
+    },
+    {
+      "id": "2-0",
+      "title": ".2.0",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 15,
+      "file": "lessons/2-0.md"
+    },
+    {
+      "id": "article-2",
+      "title": "Article 2",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 780,
+      "file": "lessons/article-2.md"
+    },
+    {
+      "id": "article-4",
+      "title": "Article 4",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 7,
+      "file": "lessons/article-4.md"
+    },
+    {
+      "id": "3-0-header-2",
+      "title": ".3.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 16,
+      "file": "lessons/3-0-header-2.md"
+    },
+    {
+      "id": "3-1-the-importance-of-a-project-portfolio",
+      "title": ".3.1 The Importance of a Project Portfolio",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 19,
+      "file": "lessons/3-1-the-importance-of-a-project-portfolio.md"
+    },
+    {
+      "id": "article-1",
+      "title": "Article 1",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 521,
+      "file": "lessons/article-1.md"
+    },
+    {
+      "id": "3-11-lab-build-and-share-a-project-portfolio",
+      "title": ".3.11 Lab - Build and Share a Project Portfolio",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 9,
+      "file": "lessons/3-11-lab-build-and-share-a-project-portfolio.md"
+    },
+    {
+      "id": "4-0-header-2",
+      "title": ".4.0 header",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 16,
+      "file": "lessons/4-0-header-2.md"
+    },
+    {
+      "id": "article-3",
+      "title": "Article",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 39,
+      "file": "lessons/article-3.md"
+    },
+    {
+      "id": "4-2-quiz-data-analytic-projects",
+      "title": ".4.2 Quiz - Data Analytic Projects",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 177,
+      "file": "lessons/4-2-quiz-data-analytic-projects.md"
+    },
+    {
+      "id": "new-article-title-3",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 8,
+      "file": "lessons/new-article-title-3.md"
+    },
+    {
+      "id": "heading-article1-3",
+      "title": "Heading Article1",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 600,
+      "file": "lessons/heading-article1-3.md"
+    },
+    {
+      "id": "heading-article1-4",
+      "title": "Heading Article1",
+      "module": "Module {{_globals._moduleNumber}}: Data Analytics Projects",
+      "word_count": 1025,
+      "file": "lessons/heading-article1-4.md"
+    },
+    {
+      "id": "module-globals-modulenumber-getting-started-with-data-gathering-and-investigatio",
+      "title": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation — overview",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 16,
+      "file": "lessons/module-globals-modulenumber-getting-started-with-data-gathering-and-investigatio.md"
+    },
+    {
+      "id": "article-5",
+      "title": "article",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 9,
+      "file": "lessons/article-5.md"
+    },
+    {
+      "id": "new-article-title-4",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 90,
+      "file": "lessons/new-article-title-4.md"
+    },
+    {
+      "id": "1-0-header-3",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 16,
+      "file": "lessons/1-0-header-3.md"
+    },
+    {
+      "id": "1-1-analysis-overview",
+      "title": ".1.1 Analysis Overview",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 18,
+      "file": "lessons/1-1-analysis-overview.md"
+    },
+    {
+      "id": "1-2-tools-for-data-analysis",
+      "title": ".1.2 Tools for Data Analysis",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 255,
+      "file": "lessons/1-2-tools-for-data-analysis.md"
+    },
+    {
+      "id": "1-3-introduction-to-kaggle-and-datasets",
+      "title": ".1.3 Introduction to Kaggle and Datasets",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 18,
+      "file": "lessons/1-3-introduction-to-kaggle-and-datasets.md"
+    },
+    {
+      "id": "1-4-lab-perform-basic-analysis",
+      "title": ".1.4 Lab - Perform Basic Analysis",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 63,
+      "file": "lessons/1-4-lab-perform-basic-analysis.md"
+    },
+    {
+      "id": "1-6-practice-item",
+      "title": ".1.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 33,
+      "file": "lessons/1-6-practice-item.md"
+    },
+    {
+      "id": "2-0-header",
+      "title": ".2.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 18,
+      "file": "lessons/2-0-header.md"
+    },
+    {
+      "id": "2-1-video-using-excel-in-analytics-process",
+      "title": ".2.1 Video - Using Excel in Analytics Process",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 19,
+      "file": "lessons/2-1-video-using-excel-in-analytics-process.md"
+    },
+    {
+      "id": "2-2-lab-basic-excel-concepts",
+      "title": ".2.2 Lab - Basic Excel Concepts",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 39,
+      "file": "lessons/2-2-lab-basic-excel-concepts.md"
+    },
+    {
+      "id": "2-3-practice-item",
+      "title": ".2.3 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 67,
+      "file": "lessons/2-3-practice-item.md"
+    },
+    {
+      "id": "2-4-lab-importing-data-into-excel",
+      "title": ".2.4 Lab - Importing Data into Excel",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 139,
+      "file": "lessons/2-4-lab-importing-data-into-excel.md"
+    },
+    {
+      "id": "2-5-practice-item",
+      "title": ".2.5 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 58,
+      "file": "lessons/2-5-practice-item.md"
+    },
+    {
+      "id": "2-6-lab-excel-practice",
+      "title": ".2.6 Lab - Excel Practice",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 33,
+      "file": "lessons/2-6-lab-excel-practice.md"
+    },
+    {
+      "id": "2-7-practice-item",
+      "title": ".2.7 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 51,
+      "file": "lessons/2-7-practice-item.md"
+    },
+    {
+      "id": "3-0-header-3",
+      "title": ".3.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 20,
+      "file": "lessons/3-0-header-3.md"
+    },
+    {
+      "id": "3-1-video-analyzing-data",
+      "title": ".3.1 Video - Analyzing Data",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 20,
+      "file": "lessons/3-1-video-analyzing-data.md"
+    },
+    {
+      "id": "3-3-observations-variables-and-values",
+      "title": ".3.3 Observations, Variables, and Values",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 303,
+      "file": "lessons/3-3-observations-variables-and-values.md"
+    },
+    {
+      "id": "3-3-practice-item",
+      "title": ".3.3 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 34,
+      "file": "lessons/3-3-practice-item.md"
+    },
+    {
+      "id": "3-5-types-of-variables",
+      "title": ".3.5 Types of Variables",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 155,
+      "file": "lessons/3-5-types-of-variables.md"
+    },
+    {
+      "id": "3-5-practice-item",
+      "title": ".3.5 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 33,
+      "file": "lessons/3-5-practice-item.md"
+    },
+    {
+      "id": "3-6-activity-identify-data-analysis-terms",
+      "title": ".3.6 Activity - Identify Data Analysis Terms",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 10,
+      "file": "lessons/3-6-activity-identify-data-analysis-terms.md"
+    },
+    {
+      "id": "4-starting-the-process",
+      "title": ".4. Starting the Process",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 16,
+      "file": "lessons/4-starting-the-process.md"
+    },
+    {
+      "id": "4-1-what-did-i-learn-in-this-module",
+      "title": ".4.1 What Did I Learn in This Module?",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 58,
+      "file": "lessons/4-1-what-did-i-learn-in-this-module.md"
+    },
+    {
+      "id": "4-2-quiz",
+      "title": ".4.2 Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 151,
+      "file": "lessons/4-2-quiz.md"
+    },
+    {
+      "id": "assessmentresult",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 8,
+      "file": "lessons/assessmentresult.md"
+    },
+    {
+      "id": "new-article-title-5",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 8,
+      "file": "lessons/new-article-title-5.md"
+    },
+    {
+      "id": "lab-introduction-to-microsoft-excel-objectives",
+      "title": "​​Lab - Introduction to Microsoft Excel​ Objectives",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 1966,
+      "file": "lessons/lab-introduction-to-microsoft-excel-objectives.md"
+    },
+    {
+      "id": "lab-introduction-to-microsoft-excel-objectives-2",
+      "title": "​​Lab - Introduction to Microsoft Excel​ Objectives",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 2188,
+      "file": "lessons/lab-introduction-to-microsoft-excel-objectives-2.md"
+    },
+    {
+      "id": "lab-importing-data-into-excel",
+      "title": "​Lab - Importing Data into Excel​",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 679,
+      "file": "lessons/lab-importing-data-into-excel.md"
+    },
+    {
+      "id": "lab-excel-practice",
+      "title": "​Lab - Excel Practice​",
+      "module": "Module {{_globals._moduleNumber}}: Getting started with Data Gathering and Investigation",
+      "word_count": 528,
+      "file": "lessons/lab-excel-practice.md"
+    },
+    {
+      "id": "module-globals-modulenumber-preparing-and-cleaning-data-for-analysis-overview",
+      "title": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis — overview",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 15,
+      "file": "lessons/module-globals-modulenumber-preparing-and-cleaning-data-for-analysis-overview.md"
+    },
+    {
+      "id": "article-6",
+      "title": "article",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 8,
+      "file": "lessons/article-6.md"
+    },
+    {
+      "id": "new-article-title-6",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 69,
+      "file": "lessons/new-article-title-6.md"
+    },
+    {
+      "id": "1-0-header-4",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 18,
+      "file": "lessons/1-0-header-4.md"
+    },
+    {
+      "id": "new-article-title-7",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 21,
+      "file": "lessons/new-article-title-7.md"
+    },
+    {
+      "id": "1-2-selecting-relevant-data",
+      "title": ".1.2 Selecting Relevant Data",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 341,
+      "file": "lessons/1-2-selecting-relevant-data.md"
+    },
+    {
+      "id": "1-3-practice-item",
+      "title": ".1.3 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 36,
+      "file": "lessons/1-3-practice-item.md"
+    },
+    {
+      "id": "new-article-title-8",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 11,
+      "file": "lessons/new-article-title-8.md"
+    },
+    {
+      "id": "1-5-static-and-streaming-data",
+      "title": ".1.5 Static and Streaming Data",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 184,
+      "file": "lessons/1-5-static-and-streaming-data.md"
+    },
+    {
+      "id": "1-6-practice-item-2",
+      "title": ".1.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 23,
+      "file": "lessons/1-6-practice-item-2.md"
+    },
+    {
+      "id": "1-7-data-types-and-formats",
+      "title": ".1.7 Data Types and Formats",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 311,
+      "file": "lessons/1-7-data-types-and-formats.md"
+    },
+    {
+      "id": "1-8-practice-item",
+      "title": ".1.8 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 21,
+      "file": "lessons/1-8-practice-item.md"
+    },
+    {
+      "id": "2-0-header-2",
+      "title": ".2.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 15,
+      "file": "lessons/2-0-header-2.md"
+    },
+    {
+      "id": "2-1-characteristics-of-structured-data",
+      "title": ".2.1 Characteristics of Structured Data",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 151,
+      "file": "lessons/2-1-characteristics-of-structured-data.md"
+    },
+    {
+      "id": "2-2-practice-item-2",
+      "title": ".2.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 16,
+      "file": "lessons/2-2-practice-item-2.md"
+    },
+    {
+      "id": "2-3-csv-files",
+      "title": ".2.3 CSV Files",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 197,
+      "file": "lessons/2-3-csv-files.md"
+    },
+    {
+      "id": "2-4-practice-item-2",
+      "title": ".2.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 20,
+      "file": "lessons/2-4-practice-item-2.md"
+    },
+    {
+      "id": "2-5-structured-file-types",
+      "title": ".2.5 Structured File Types",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 33,
+      "file": "lessons/2-5-structured-file-types.md"
+    },
+    {
+      "id": "2-6-practice-item",
+      "title": ".2.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 16,
+      "file": "lessons/2-6-practice-item.md"
+    },
+    {
+      "id": "2-7-lab-working-with-csv-files",
+      "title": ".2.7 Lab - Working with CSV Files",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 118,
+      "file": "lessons/2-7-lab-working-with-csv-files.md"
+    },
+    {
+      "id": "3-0-header-4",
+      "title": ".3.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 13,
+      "file": "lessons/3-0-header-4.md"
+    },
+    {
+      "id": "3-1-video-big-data-and-decision-making",
+      "title": ".3.1 Video - Big Data and Decision Making",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 17,
+      "file": "lessons/3-1-video-big-data-and-decision-making.md"
+    },
+    {
+      "id": "3-2-practice-item",
+      "title": ".3.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 18,
+      "file": "lessons/3-2-practice-item.md"
+    },
+    {
+      "id": "3-3-unstructured-files",
+      "title": ".3.3 Unstructured Files",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 168,
+      "file": "lessons/3-3-unstructured-files.md"
+    },
+    {
+      "id": "3-4-practice-item",
+      "title": ".3.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 24,
+      "file": "lessons/3-4-practice-item.md"
+    },
+    {
+      "id": "3-5-sources-of-unstructured-data",
+      "title": ".3.5 Sources of Unstructured Data",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 90,
+      "file": "lessons/3-5-sources-of-unstructured-data.md"
+    },
+    {
+      "id": "3-6-practice-item",
+      "title": ".3.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 11,
+      "file": "lessons/3-6-practice-item.md"
+    },
+    {
+      "id": "quick-nav",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 7,
+      "file": "lessons/quick-nav.md"
+    },
+    {
+      "id": "4-0-header-3",
+      "title": ".4.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 15,
+      "file": "lessons/4-0-header-3.md"
+    },
+    {
+      "id": "4-1-video-why-is-data-dirty",
+      "title": ".4.1 Video - Why is Data Dirty",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 19,
+      "file": "lessons/4-1-video-why-is-data-dirty.md"
+    },
+    {
+      "id": "4-2-practice-item",
+      "title": ".4.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 26,
+      "file": "lessons/4-2-practice-item.md"
+    },
+    {
+      "id": "4-3-etl-and-elt-processes",
+      "title": ".4.3 ETL and ELT Processes",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 170,
+      "file": "lessons/4-3-etl-and-elt-processes.md"
+    },
+    {
+      "id": "4-4-practice-item",
+      "title": ".4.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 41,
+      "file": "lessons/4-4-practice-item.md"
+    },
+    {
+      "id": "4-5-video-cleaning-data",
+      "title": ".4.5 Video - Cleaning Data",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 19,
+      "file": "lessons/4-5-video-cleaning-data.md"
+    },
+    {
+      "id": "4-6-lab-preparing-data",
+      "title": ".4.6 Lab - Preparing Data",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 66,
+      "file": "lessons/4-6-lab-preparing-data.md"
+    },
+    {
+      "id": "4-7-practice-item",
+      "title": ".4.7 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 32,
+      "file": "lessons/4-7-practice-item.md"
+    },
+    {
+      "id": "4-8-practice-item",
+      "title": ".4.8 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 25,
+      "file": "lessons/4-8-practice-item.md"
+    },
+    {
+      "id": "quick-nav-2",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 9,
+      "file": "lessons/quick-nav-2.md"
+    },
+    {
+      "id": "5-data-acquisition",
+      "title": ".5 Data Acquisition",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 19,
+      "file": "lessons/5-data-acquisition.md"
+    },
+    {
+      "id": "article-7",
+      "title": "Article",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 34,
+      "file": "lessons/article-7.md"
+    },
+    {
+      "id": "5-2-preparing-and-cleaning-data-for-analysis-quiz",
+      "title": ".5.2 Preparing and cleaning data for Analysis Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 156,
+      "file": "lessons/5-2-preparing-and-cleaning-data-for-analysis-quiz.md"
+    },
+    {
+      "id": "assessmentresult-2",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 8,
+      "file": "lessons/assessmentresult-2.md"
+    },
+    {
+      "id": "new-article-title-9",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 8,
+      "file": "lessons/new-article-title-9.md"
+    },
+    {
+      "id": "article-8",
+      "title": "article",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 978,
+      "file": "lessons/article-8.md"
+    },
+    {
+      "id": "article-9",
+      "title": "article",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 2394,
+      "file": "lessons/article-9.md"
+    },
+    {
+      "id": "article-10",
+      "title": "article",
+      "module": "Module {{_globals._moduleNumber}}: Preparing and Cleaning Data for Analysis",
+      "word_count": 816,
+      "file": "lessons/article-10.md"
+    },
+    {
+      "id": "module-globals-modulenumber-transforming-data-with-excel-overview",
+      "title": "Module {{_globals._moduleNumber}}: Transforming Data with Excel — overview",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 17,
+      "file": "lessons/module-globals-modulenumber-transforming-data-with-excel-overview.md"
+    },
+    {
+      "id": "article-11",
+      "title": "article",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 10,
+      "file": "lessons/article-11.md"
+    },
+    {
+      "id": "new-article-title-10",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 143,
+      "file": "lessons/new-article-title-10.md"
+    },
+    {
+      "id": "1-0-header-5",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 23,
+      "file": "lessons/1-0-header-5.md"
+    },
+    {
+      "id": "1-1-organizing-data-with-sorting-and-filtering-in-excel",
+      "title": ".1.1 Organizing Data with Sorting and Filtering in Excel",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 23,
+      "file": "lessons/1-1-organizing-data-with-sorting-and-filtering-in-excel.md"
+    },
+    {
+      "id": "1-2-lab-using-excel-to-sort-and-filter-data",
+      "title": ".1.2 Lab - Using Excel to Sort and Filter Data",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 48,
+      "file": "lessons/1-2-lab-using-excel-to-sort-and-filter-data.md"
+    },
+    {
+      "id": "1-3-practice-item-2",
+      "title": ".1.3 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 36,
+      "file": "lessons/1-3-practice-item-2.md"
+    },
+    {
+      "id": "nav",
+      "title": "Nav",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 13,
+      "file": "lessons/nav.md"
+    },
+    {
+      "id": "2-0-header-3",
+      "title": ".2.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 21,
+      "file": "lessons/2-0-header-3.md"
+    },
+    {
+      "id": "2-1-converting-data-in-excel",
+      "title": ".2.1 Converting Data in Excel",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 23,
+      "file": "lessons/2-1-converting-data-in-excel.md"
+    },
+    {
+      "id": "2-2-practice-item-3",
+      "title": ".2.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 48,
+      "file": "lessons/2-2-practice-item-3.md"
+    },
+    {
+      "id": "2-3-conditional-formatting",
+      "title": ".2.3 Conditional Formatting",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 23,
+      "file": "lessons/2-3-conditional-formatting.md"
+    },
+    {
+      "id": "2-4-practice-item-3",
+      "title": ".2.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 52,
+      "file": "lessons/2-4-practice-item-3.md"
+    },
+    {
+      "id": "2-5-combining-datasets",
+      "title": ".2.5 Combining Datasets",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 23,
+      "file": "lessons/2-5-combining-datasets.md"
+    },
+    {
+      "id": "2-6-practice-item-2",
+      "title": ".2.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 25,
+      "file": "lessons/2-6-practice-item-2.md"
+    },
+    {
+      "id": "2-7-lab-manipulate-data",
+      "title": ".2.7 Lab - Manipulate Data",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 43,
+      "file": "lessons/2-7-lab-manipulate-data.md"
+    },
+    {
+      "id": "2-8-practice-item",
+      "title": ".2.8 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 30,
+      "file": "lessons/2-8-practice-item.md"
+    },
+    {
+      "id": "3-0-header-5",
+      "title": ".3.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 13,
+      "file": "lessons/3-0-header-5.md"
+    },
+    {
+      "id": "3-1-formulas-and-functions",
+      "title": ".3.1 Formulas and Functions",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 17,
+      "file": "lessons/3-1-formulas-and-functions.md"
+    },
+    {
+      "id": "3-2-formulas-and-functions",
+      "title": ".3.2 Formulas and Functions",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 632,
+      "file": "lessons/3-2-formulas-and-functions.md"
+    },
+    {
+      "id": "article-12",
+      "title": "Article",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 59,
+      "file": "lessons/article-12.md"
+    },
+    {
+      "id": "3-4-practice-item-2",
+      "title": ".3.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 41,
+      "file": "lessons/3-4-practice-item-2.md"
+    },
+    {
+      "id": "3-5-pivot-tables",
+      "title": ".3.5 Pivot Tables",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 361,
+      "file": "lessons/3-5-pivot-tables.md"
+    },
+    {
+      "id": "3-7-practice-item",
+      "title": ".3.7 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 19,
+      "file": "lessons/3-7-practice-item.md"
+    },
+    {
+      "id": "3-8-lab-pivot-tables",
+      "title": ".3.8 Lab - Pivot Tables",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 64,
+      "file": "lessons/3-8-lab-pivot-tables.md"
+    },
+    {
+      "id": "3-9-practice-item",
+      "title": ".3.9 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 40,
+      "file": "lessons/3-9-practice-item.md"
+    },
+    {
+      "id": "quick-nav-3",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 7,
+      "file": "lessons/quick-nav-3.md"
+    },
+    {
+      "id": "4-transforming-data-with-excel",
+      "title": ".4 Transforming Data with Excel",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 17,
+      "file": "lessons/4-transforming-data-with-excel.md"
+    },
+    {
+      "id": "4-1-what-did-i-learn-in-this-module-2",
+      "title": ".4.1 What Did I Learn in This Module?",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 26,
+      "file": "lessons/4-1-what-did-i-learn-in-this-module-2.md"
+    },
+    {
+      "id": "4-2-quiz-2",
+      "title": ".4.2 Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 104,
+      "file": "lessons/4-2-quiz-2.md"
+    },
+    {
+      "id": "assessmentresult-3",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 8,
+      "file": "lessons/assessmentresult-3.md"
+    },
+    {
+      "id": "new-article-title-11",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 8,
+      "file": "lessons/new-article-title-11.md"
+    },
+    {
+      "id": "1-2-lab-using-excel-to-sort-and-filter-data-2",
+      "title": ".1.2 ​Lab - Using Excel to Sort and Filter Data​",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 811,
+      "file": "lessons/1-2-lab-using-excel-to-sort-and-filter-data-2.md"
+    },
+    {
+      "id": "2-7-lab-manipulate-data-2",
+      "title": ".2.7 ​​Lab - Manipulate Data​",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 1105,
+      "file": "lessons/2-7-lab-manipulate-data-2.md"
+    },
+    {
+      "id": "3-4-lab-formulas-and-functions",
+      "title": ".3.4 ​​​​Lab – Formulas and Functions​",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 3266,
+      "file": "lessons/3-4-lab-formulas-and-functions.md"
+    },
+    {
+      "id": "3-8-lab-pivot-table-s",
+      "title": ".3.8 ​Lab - Pivot Table​s",
+      "module": "Module {{_globals._moduleNumber}}: Transforming Data with Excel",
+      "word_count": 1187,
+      "file": "lessons/3-8-lab-pivot-table-s.md"
+    },
+    {
+      "id": "module-globals-modulenumber-analyze-the-data-using-statistics-overview",
+      "title": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics — overview",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 12,
+      "file": "lessons/module-globals-modulenumber-analyze-the-data-using-statistics-overview.md"
+    },
+    {
+      "id": "article-13",
+      "title": "article",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 11,
+      "file": "lessons/article-13.md"
+    },
+    {
+      "id": "new-article-title-12",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 77,
+      "file": "lessons/new-article-title-12.md"
+    },
+    {
+      "id": "1-0-header-6",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 14,
+      "file": "lessons/1-0-header-6.md"
+    },
+    {
+      "id": "1-1-what-are-statistics-populations-and-samples",
+      "title": ".1.1 What are Statistics, Populations, and Samples",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 15,
+      "file": "lessons/1-1-what-are-statistics-populations-and-samples.md"
+    },
+    {
+      "id": "1-2-practice-item",
+      "title": ".1.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 16,
+      "file": "lessons/1-2-practice-item.md"
+    },
+    {
+      "id": "1-3-descriptive-statistics",
+      "title": ".1.3 Descriptive Statistics",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 328,
+      "file": "lessons/1-3-descriptive-statistics.md"
+    },
+    {
+      "id": "1-4-practice-item",
+      "title": ".1.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 26,
+      "file": "lessons/1-4-practice-item.md"
+    },
+    {
+      "id": "1-5-inferential-statistics",
+      "title": ".1.5 Inferential Statistics",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 170,
+      "file": "lessons/1-5-inferential-statistics.md"
+    },
+    {
+      "id": "1-6-practice-item-3",
+      "title": ".1.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 15,
+      "file": "lessons/1-6-practice-item-3.md"
+    },
+    {
+      "id": "1-7-statistics-and-big-data",
+      "title": ".1.7 Statistics and Big Data",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 252,
+      "file": "lessons/1-7-statistics-and-big-data.md"
+    },
+    {
+      "id": "1-8-practice-item-2",
+      "title": ".1.8 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 19,
+      "file": "lessons/1-8-practice-item-2.md"
+    },
+    {
+      "id": "quick-nav-4",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 5,
+      "file": "lessons/quick-nav-4.md"
+    },
+    {
+      "id": "2-0-header-4",
+      "title": ".2.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 19,
+      "file": "lessons/2-0-header-4.md"
+    },
+    {
+      "id": "2-1-importance-of-visualizations",
+      "title": ".2.1 Importance of Visualizations",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 18,
+      "file": "lessons/2-1-importance-of-visualizations.md"
+    },
+    {
+      "id": "2-2-practice-item-4",
+      "title": ".2.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 20,
+      "file": "lessons/2-2-practice-item-4.md"
+    },
+    {
+      "id": "2-3-common-types-of-data-visualizations",
+      "title": ".2.3 Common Types of Data Visualizations",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 77,
+      "file": "lessons/2-3-common-types-of-data-visualizations.md"
+    },
+    {
+      "id": "2-4-practice-item-4",
+      "title": ".2.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 20,
+      "file": "lessons/2-4-practice-item-4.md"
+    },
+    {
+      "id": "3-0-header-6",
+      "title": ".3.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 12,
+      "file": "lessons/3-0-header-6.md"
+    },
+    {
+      "id": "3-1-steps-to-create-visualizations-in-excel",
+      "title": ".3.1 Steps to Create Visualizations in Excel",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 14,
+      "file": "lessons/3-1-steps-to-create-visualizations-in-excel.md"
+    },
+    {
+      "id": "3-2-practice-item-2",
+      "title": ".3.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 23,
+      "file": "lessons/3-2-practice-item-2.md"
+    },
+    {
+      "id": "3-3-lab-create-visualizations-in-excel",
+      "title": ".3.3 Lab - Create Visualizations in Excel",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 38,
+      "file": "lessons/3-3-lab-create-visualizations-in-excel.md"
+    },
+    {
+      "id": "3-4-practice-item-3",
+      "title": ".3.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 16,
+      "file": "lessons/3-4-practice-item-3.md"
+    },
+    {
+      "id": "quick-nav-5",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 4,
+      "file": "lessons/quick-nav-5.md"
+    },
+    {
+      "id": "4-0-header-4",
+      "title": ".4.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 15,
+      "file": "lessons/4-0-header-4.md"
+    },
+    {
+      "id": "4-1-discovering-anomalies-through-visualization",
+      "title": ".4.1 Discovering Anomalies Through Visualization",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 17,
+      "file": "lessons/4-1-discovering-anomalies-through-visualization.md"
+    },
+    {
+      "id": "4-2-practice-item-2",
+      "title": ".4.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 51,
+      "file": "lessons/4-2-practice-item-2.md"
+    },
+    {
+      "id": "4-3-outliers-and-anomalies",
+      "title": ".4.3 Outliers and Anomalies",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 226,
+      "file": "lessons/4-3-outliers-and-anomalies.md"
+    },
+    {
+      "id": "4-4-practice-item-2",
+      "title": ".4.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 18,
+      "file": "lessons/4-4-practice-item-2.md"
+    },
+    {
+      "id": "4-5-lab-interpret-visualizations-with-respect-to-outliers",
+      "title": ".4.5 Lab - Interpret Visualizations with Respect to Outliers",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 27,
+      "file": "lessons/4-5-lab-interpret-visualizations-with-respect-to-outliers.md"
+    },
+    {
+      "id": "4-6-practice-item",
+      "title": ".4.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 23,
+      "file": "lessons/4-6-practice-item.md"
+    },
+    {
+      "id": "quick-nav-6",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 7,
+      "file": "lessons/quick-nav-6.md"
+    },
+    {
+      "id": "5-0-header",
+      "title": ".5.0 header",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 22,
+      "file": "lessons/5-0-header.md"
+    },
+    {
+      "id": "5-1-introducing-vlookup",
+      "title": ".5.1 Introducing VLOOKUP",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 21,
+      "file": "lessons/5-1-introducing-vlookup.md"
+    },
+    {
+      "id": "5-2-practice-item",
+      "title": ".5.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 34,
+      "file": "lessons/5-2-practice-item.md"
+    },
+    {
+      "id": "5-3-what-you-can-do-with-vlookup",
+      "title": ".5.3 What You Can Do with VLOOKUP",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 868,
+      "file": "lessons/5-3-what-you-can-do-with-vlookup.md"
+    },
+    {
+      "id": "5-4-practice-item",
+      "title": ".5.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 22,
+      "file": "lessons/5-4-practice-item.md"
+    },
+    {
+      "id": "5-5-lab-using-vlookup-in-data-analysis",
+      "title": ".5.5 Lab - Using vlookup in Data Analysis",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 36,
+      "file": "lessons/5-5-lab-using-vlookup-in-data-analysis.md"
+    },
+    {
+      "id": "5-6-practice-item",
+      "title": ".5.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 39,
+      "file": "lessons/5-6-practice-item.md"
+    },
+    {
+      "id": "5-7-video-analytics-with-excel-summary",
+      "title": ".5.7 Video - Analytics with Excel Summary",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 11,
+      "file": "lessons/5-7-video-analytics-with-excel-summary.md"
+    },
+    {
+      "id": "6-analyze-the-data-using-statistics",
+      "title": ".6 Analyze the Data Using Statistics",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 18,
+      "file": "lessons/6-analyze-the-data-using-statistics.md"
+    },
+    {
+      "id": "6-1-what-did-i-learn-in-this-module",
+      "title": ".6.1 What Did I Learn in This Module?",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 37,
+      "file": "lessons/6-1-what-did-i-learn-in-this-module.md"
+    },
+    {
+      "id": "6-2-analyze-the-data-using-statistics-quiz",
+      "title": ".6.2 Analyze the Data Using Statistics Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 194,
+      "file": "lessons/6-2-analyze-the-data-using-statistics-quiz.md"
+    },
+    {
+      "id": "assessmentresult-4",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 8,
+      "file": "lessons/assessmentresult-4.md"
+    },
+    {
+      "id": "new-article-title-13",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 8,
+      "file": "lessons/new-article-title-13.md"
+    },
+    {
+      "id": "new-article-title-14",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 947,
+      "file": "lessons/new-article-title-14.md"
+    },
+    {
+      "id": "new-article-title-15",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 875,
+      "file": "lessons/new-article-title-15.md"
+    },
+    {
+      "id": "new-article-title-16",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Analyze the Data Using Statistics",
+      "word_count": 872,
+      "file": "lessons/new-article-title-16.md"
+    },
+    {
+      "id": "module-globals-modulenumber-introduction-to-relational-databases-and-sql-overvie",
+      "title": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL — overview",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 13,
+      "file": "lessons/module-globals-modulenumber-introduction-to-relational-databases-and-sql-overvie.md"
+    },
+    {
+      "id": "0-0",
+      "title": ".0.0",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 12,
+      "file": "lessons/0-0.md"
+    },
+    {
+      "id": "new-article-title-17",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 103,
+      "file": "lessons/new-article-title-17.md"
+    },
+    {
+      "id": "1-0-header-7",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 16,
+      "file": "lessons/1-0-header-7.md"
+    },
+    {
+      "id": "1-1-video-introduction-to-databases",
+      "title": ".1.1 Video - Introduction to Databases",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 19,
+      "file": "lessons/1-1-video-introduction-to-databases.md"
+    },
+    {
+      "id": "1-2-flat-file-databases",
+      "title": ".1.2\tFlat File Databases",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 718,
+      "file": "lessons/1-2-flat-file-databases.md"
+    },
+    {
+      "id": "1-3-limitations-of-flat-files",
+      "title": ".1.3 Limitations of Flat Files",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 375,
+      "file": "lessons/1-3-limitations-of-flat-files.md"
+    },
+    {
+      "id": "1-4-relational-databases",
+      "title": ".1.4 Relational Databases",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 622,
+      "file": "lessons/1-4-relational-databases.md"
+    },
+    {
+      "id": "1-5-entity-relationship-diagrams-erds",
+      "title": ".1.5 Entity Relationship Diagrams (ERDs)",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 19,
+      "file": "lessons/1-5-entity-relationship-diagrams-erds.md"
+    },
+    {
+      "id": "quick-nav-7",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 9,
+      "file": "lessons/quick-nav-7.md"
+    },
+    {
+      "id": "2-header",
+      "title": ".2 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 13,
+      "file": "lessons/2-header.md"
+    },
+    {
+      "id": "2-1-the-sql-query-language",
+      "title": ".2.1 The SQL Query Language",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 327,
+      "file": "lessons/2-1-the-sql-query-language.md"
+    },
+    {
+      "id": "new-article-title-18",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 32,
+      "file": "lessons/new-article-title-18.md"
+    },
+    {
+      "id": "2-4-using-sql-to-query-data",
+      "title": ".2.4 Using SQL to Query Data",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 130,
+      "file": "lessons/2-4-using-sql-to-query-data.md"
+    },
+    {
+      "id": "new-article-title-19",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 62,
+      "file": "lessons/new-article-title-19.md"
+    },
+    {
+      "id": "2-9-using-operators-in-sql-queries",
+      "title": ".2.9 Using Operators in SQL Queries",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 550,
+      "file": "lessons/2-9-using-operators-in-sql-queries.md"
+    },
+    {
+      "id": "new-article-title-20",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 8,
+      "file": "lessons/new-article-title-20.md"
+    },
+    {
+      "id": "quick-nav-8",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 8,
+      "file": "lessons/quick-nav-8.md"
+    },
+    {
+      "id": "4-introduction-to-relational-databases-and-sql-summary",
+      "title": ".4 Introduction to Relational Databases and SQL Summary",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 19,
+      "file": "lessons/4-introduction-to-relational-databases-and-sql-summary.md"
+    },
+    {
+      "id": "4-1-what-did-i-learn-in-this-module-3",
+      "title": ".4.1 What Did I Learn in This Module?",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 54,
+      "file": "lessons/4-1-what-did-i-learn-in-this-module-3.md"
+    },
+    {
+      "id": "new-article-title-21",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 8,
+      "file": "lessons/new-article-title-21.md"
+    },
+    {
+      "id": "3-2-introduction-to-relational-databases-and-sql-quiz",
+      "title": ".3.2 Introduction to Relational Databases and SQL Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 119,
+      "file": "lessons/3-2-introduction-to-relational-databases-and-sql-quiz.md"
+    },
+    {
+      "id": "assessmentresult-5",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 8,
+      "file": "lessons/assessmentresult-5.md"
+    },
+    {
+      "id": "new-article-title-22",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Relational Databases and SQL",
+      "word_count": 8,
+      "file": "lessons/new-article-title-22.md"
+    },
+    {
+      "id": "module-globals-modulenumber-introduction-to-structured-queries-overview",
+      "title": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries — overview",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 13,
+      "file": "lessons/module-globals-modulenumber-introduction-to-structured-queries-overview.md"
+    },
+    {
+      "id": "0-0-2",
+      "title": ".0.0",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 8,
+      "file": "lessons/0-0-2.md"
+    },
+    {
+      "id": "new-article-title-23",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 83,
+      "file": "lessons/new-article-title-23.md"
+    },
+    {
+      "id": "1-0-header-8",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 13,
+      "file": "lessons/1-0-header-8.md"
+    },
+    {
+      "id": "1-1-the-database-schema",
+      "title": ".1.1 The Database Schema",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 396,
+      "file": "lessons/1-1-the-database-schema.md"
+    },
+    {
+      "id": "1-2-keys",
+      "title": ".1.2 Keys",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 491,
+      "file": "lessons/1-2-keys.md"
+    },
+    {
+      "id": "1-3-database-relationships",
+      "title": ".1.3 Database Relationships",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 199,
+      "file": "lessons/1-3-database-relationships.md"
+    },
+    {
+      "id": "new-article-title-24",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 45,
+      "file": "lessons/new-article-title-24.md"
+    },
+    {
+      "id": "1-5-practice-item",
+      "title": ".1.5 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 51,
+      "file": "lessons/1-5-practice-item.md"
+    },
+    {
+      "id": "quick-nav-9",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 6,
+      "file": "lessons/quick-nav-9.md"
+    },
+    {
+      "id": "2-0-header-5",
+      "title": ".2.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 16,
+      "file": "lessons/2-0-header-5.md"
+    },
+    {
+      "id": "2-1-working-with-multiple-tables-in-sql",
+      "title": ".2.1 Working with multiple tables in SQL",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 17,
+      "file": "lessons/2-1-working-with-multiple-tables-in-sql.md"
+    },
+    {
+      "id": "2-2-joining-tables",
+      "title": ".2.2 Joining Tables",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 637,
+      "file": "lessons/2-2-joining-tables.md"
+    },
+    {
+      "id": "2-3-types-of-joins",
+      "title": ".2.3 Types of Joins",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 564,
+      "file": "lessons/2-3-types-of-joins.md"
+    },
+    {
+      "id": "2-4-natural-joins",
+      "title": ".2.4 Natural Joins",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 334,
+      "file": "lessons/2-4-natural-joins.md"
+    },
+    {
+      "id": "2-5-practice-item-2",
+      "title": ".2.5 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 23,
+      "file": "lessons/2-5-practice-item-2.md"
+    },
+    {
+      "id": "new-article-title-25",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 7,
+      "file": "lessons/new-article-title-25.md"
+    },
+    {
+      "id": "3-0-header-7",
+      "title": ".3.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 22,
+      "file": "lessons/3-0-header-7.md"
+    },
+    {
+      "id": "3-1-sql-practice",
+      "title": ".3.1 SQL Practice",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 51,
+      "file": "lessons/3-1-sql-practice.md"
+    },
+    {
+      "id": "3-2-practice-item-3",
+      "title": ".3.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 61,
+      "file": "lessons/3-2-practice-item-3.md"
+    },
+    {
+      "id": "3-3-joining-tables",
+      "title": ".3.3 Joining Tables",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 35,
+      "file": "lessons/3-3-joining-tables.md"
+    },
+    {
+      "id": "quick-nav-10",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 12,
+      "file": "lessons/quick-nav-10.md"
+    },
+    {
+      "id": "4-0-header-5",
+      "title": ".4.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 23,
+      "file": "lessons/4-0-header-5.md"
+    },
+    {
+      "id": "new-article-title-26",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 415,
+      "file": "lessons/new-article-title-26.md"
+    },
+    {
+      "id": "4-3-distributed-data-and-nosql",
+      "title": ".4.3 Distributed Data and NoSQL",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 1028,
+      "file": "lessons/4-3-distributed-data-and-nosql.md"
+    },
+    {
+      "id": "quick-nav-11",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 13,
+      "file": "lessons/quick-nav-11.md"
+    },
+    {
+      "id": "7-5-introduction-to-structured-queries-summary",
+      "title": "7.5\tIntroduction to Structured Queries Summary",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 17,
+      "file": "lessons/7-5-introduction-to-structured-queries-summary.md"
+    },
+    {
+      "id": "7-5-1-what-did-i-learn-in-this-module",
+      "title": "7.5.1\tWhat did I learn in this module?",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 102,
+      "file": "lessons/7-5-1-what-did-i-learn-in-this-module.md"
+    },
+    {
+      "id": "7-5-2-reflection-questions",
+      "title": "7.5.2\tReflection Questions",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 8,
+      "file": "lessons/7-5-2-reflection-questions.md"
+    },
+    {
+      "id": "5-2-introduction-to-structured-queries-quiz",
+      "title": ".5.2 Introduction to Structured Queries Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 315,
+      "file": "lessons/5-2-introduction-to-structured-queries-quiz.md"
+    },
+    {
+      "id": "assessmentresult-6",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 8,
+      "file": "lessons/assessmentresult-6.md"
+    },
+    {
+      "id": "new-article-title-27",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Structured Queries",
+      "word_count": 8,
+      "file": "lessons/new-article-title-27.md"
+    },
+    {
+      "id": "module-globals-modulenumber-introduction-to-tableau-overview",
+      "title": "Module {{_globals._moduleNumber}}: Introduction to Tableau — overview",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 11,
+      "file": "lessons/module-globals-modulenumber-introduction-to-tableau-overview.md"
+    },
+    {
+      "id": "0-0-3",
+      "title": ".0.0",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 9,
+      "file": "lessons/0-0-3.md"
+    },
+    {
+      "id": "new-article-title-28",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 63,
+      "file": "lessons/new-article-title-28.md"
+    },
+    {
+      "id": "1-0-header-9",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 13,
+      "file": "lessons/1-0-header-9.md"
+    },
+    {
+      "id": "article-title",
+      "title": "Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 53,
+      "file": "lessons/article-title.md"
+    },
+    {
+      "id": "1-2-practice-item-2",
+      "title": ".1.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 41,
+      "file": "lessons/1-2-practice-item-2.md"
+    },
+    {
+      "id": "1-3-getting-started-in-tableau",
+      "title": ".1.3 Getting Started in Tableau",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 17,
+      "file": "lessons/1-3-getting-started-in-tableau.md"
+    },
+    {
+      "id": "1-4-practice-item-2",
+      "title": ".1.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 27,
+      "file": "lessons/1-4-practice-item-2.md"
+    },
+    {
+      "id": "article-title-2",
+      "title": "Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 54,
+      "file": "lessons/article-title-2.md"
+    },
+    {
+      "id": "1-0-header-10",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 13,
+      "file": "lessons/1-0-header-10.md"
+    },
+    {
+      "id": "article-title-3",
+      "title": "Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 15,
+      "file": "lessons/article-title-3.md"
+    },
+    {
+      "id": "2-2-practice-item-5",
+      "title": ".2.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 37,
+      "file": "lessons/2-2-practice-item-5.md"
+    },
+    {
+      "id": "1-3-getting-started-in-tableau-2",
+      "title": ".1.3 Getting Started in Tableau",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 15,
+      "file": "lessons/1-3-getting-started-in-tableau-2.md"
+    },
+    {
+      "id": "2-4-practice-item-5",
+      "title": ".2.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 36,
+      "file": "lessons/2-4-practice-item-5.md"
+    },
+    {
+      "id": "article-title-4",
+      "title": "Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 45,
+      "file": "lessons/article-title-4.md"
+    },
+    {
+      "id": "2-0-header-6",
+      "title": ".2.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 15,
+      "file": "lessons/2-0-header-6.md"
+    },
+    {
+      "id": "new-article-title-29",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 467,
+      "file": "lessons/new-article-title-29.md"
+    },
+    {
+      "id": "3-6-practice-item-2",
+      "title": ".3.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 22,
+      "file": "lessons/3-6-practice-item-2.md"
+    },
+    {
+      "id": "new-article-title-30",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 121,
+      "file": "lessons/new-article-title-30.md"
+    },
+    {
+      "id": "3-9-practice-item-2",
+      "title": ".3.9 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 21,
+      "file": "lessons/3-9-practice-item-2.md"
+    },
+    {
+      "id": "new-article-title-31",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 9,
+      "file": "lessons/new-article-title-31.md"
+    },
+    {
+      "id": "4-introduction-to-tableau-summary",
+      "title": ".4 Introduction to Tableau Summary",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 16,
+      "file": "lessons/4-introduction-to-tableau-summary.md"
+    },
+    {
+      "id": "4-1-what-did-i-learn-in-this-module-4",
+      "title": ".4.1 What did I learn in this module?",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 30,
+      "file": "lessons/4-1-what-did-i-learn-in-this-module-4.md"
+    },
+    {
+      "id": "4-2-introduction-to-tableau-quiz",
+      "title": ".4.2 Introduction to Tableau Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 180,
+      "file": "lessons/4-2-introduction-to-tableau-quiz.md"
+    },
+    {
+      "id": "assessmentresult-7",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 8,
+      "file": "lessons/assessmentresult-7.md"
+    },
+    {
+      "id": "new-article-title-32",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 8,
+      "file": "lessons/new-article-title-32.md"
+    },
+    {
+      "id": "1-5-lab-exploring-tableau",
+      "title": ".1.5 Lab - Exploring Tableau",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 1150,
+      "file": "lessons/1-5-lab-exploring-tableau.md"
+    },
+    {
+      "id": "2-5-lab-creating-a-visualization",
+      "title": ".2.5 Lab - Creating a Visualization",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 903,
+      "file": "lessons/2-5-lab-creating-a-visualization.md"
+    },
+    {
+      "id": "3-8-lab-dashboarding",
+      "title": ".3.8 ​​Lab - Dashboarding​",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Tableau",
+      "word_count": 1191,
+      "file": "lessons/3-8-lab-dashboarding.md"
+    },
+    {
+      "id": "module-globals-modulenumber-ethics-and-bias-in-data-overview",
+      "title": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data — overview",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 18,
+      "file": "lessons/module-globals-modulenumber-ethics-and-bias-in-data-overview.md"
+    },
+    {
+      "id": "0-0-4",
+      "title": ".0.0",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 11,
+      "file": "lessons/0-0-4.md"
+    },
+    {
+      "id": "new-article-title-33",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 172,
+      "file": "lessons/new-article-title-33.md"
+    },
+    {
+      "id": "1-0-header-11",
+      "title": ".1.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 19,
+      "file": "lessons/1-0-header-11.md"
+    },
+    {
+      "id": "1-1-sample-portfolio",
+      "title": ".1.1 Sample Portfolio",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 653,
+      "file": "lessons/1-1-sample-portfolio.md"
+    },
+    {
+      "id": "1-2-practice-item-3",
+      "title": ".1.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 19,
+      "file": "lessons/1-2-practice-item-3.md"
+    },
+    {
+      "id": "1-3-avoiding-bias",
+      "title": ".1.3 Avoiding Bias",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 125,
+      "file": "lessons/1-3-avoiding-bias.md"
+    },
+    {
+      "id": "quick-nav-12",
+      "title": "quick nav",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 11,
+      "file": "lessons/quick-nav-12.md"
+    },
+    {
+      "id": "2-0-header-7",
+      "title": ".2.0 Header",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 18,
+      "file": "lessons/2-0-header-7.md"
+    },
+    {
+      "id": "2-1-ethical-issues-with-data",
+      "title": ".2.1 Ethical Issues with Data",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 20,
+      "file": "lessons/2-1-ethical-issues-with-data.md"
+    },
+    {
+      "id": "2-2-practice-item-6",
+      "title": ".2.2 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 28,
+      "file": "lessons/2-2-practice-item-6.md"
+    },
+    {
+      "id": "2-3-current-and-future-regulations",
+      "title": ".2.3 Current and Future Regulations",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 330,
+      "file": "lessons/2-3-current-and-future-regulations.md"
+    },
+    {
+      "id": "2-4-practice-item-6",
+      "title": ".2.4 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 23,
+      "file": "lessons/2-4-practice-item-6.md"
+    },
+    {
+      "id": "2-5-data-ethics-scenarios",
+      "title": ".2.5 Data Ethics Scenarios",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 47,
+      "file": "lessons/2-5-data-ethics-scenarios.md"
+    },
+    {
+      "id": "2-6-practice-item-3",
+      "title": ".2.6 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 56,
+      "file": "lessons/2-6-practice-item-3.md"
+    },
+    {
+      "id": "2-7-data-security",
+      "title": ".2.7 Data Security",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 70,
+      "file": "lessons/2-7-data-security.md"
+    },
+    {
+      "id": "2-8-practice-item-2",
+      "title": ".2.8 Practice Item",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 18,
+      "file": "lessons/2-8-practice-item-2.md"
+    },
+    {
+      "id": "new-article-title-34",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 10,
+      "file": "lessons/new-article-title-34.md"
+    },
+    {
+      "id": "ethics-and-bias-in-data-summary",
+      "title": ". Ethics and Bias in Data Summary",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 18,
+      "file": "lessons/ethics-and-bias-in-data-summary.md"
+    },
+    {
+      "id": "3-1-what-did-i-learn-in-this-module",
+      "title": ".3.1 What Did I Learn in this Module?",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 53,
+      "file": "lessons/3-1-what-did-i-learn-in-this-module.md"
+    },
+    {
+      "id": "3-2-ethics-and-bias-in-data-quiz",
+      "title": ".3.2 Ethics and Bias in Data Quiz",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 204,
+      "file": "lessons/3-2-ethics-and-bias-in-data-quiz.md"
+    },
+    {
+      "id": "assessmentresult-8",
+      "title": "assessmentResult",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 8,
+      "file": "lessons/assessmentresult-8.md"
+    },
+    {
+      "id": "new-article-title-35",
+      "title": "New Article Title",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 8,
+      "file": "lessons/new-article-title-35.md"
+    },
+    {
+      "id": "2-9-lab-ethics-of-data-analytics",
+      "title": ".2.9 ​​Lab - Ethics of Data Analytics​",
+      "module": "Module {{_globals._moduleNumber}}: Ethics and Bias in Data",
+      "word_count": 285,
+      "file": "lessons/2-9-lab-ethics-of-data-analytics.md"
+    },
+    {
+      "id": "end-of-course-survey-overview",
+      "title": "End of Course Survey — overview",
+      "module": "End of Course Survey",
+      "word_count": 30,
+      "file": "lessons/end-of-course-survey-overview.md"
+    },
+    {
+      "id": "section",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section.md"
+    },
+    {
+      "id": "section-2",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-2.md"
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 131,
+      "file": "lessons/survey.md"
+    },
+    {
+      "id": "section-3",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-3.md"
+    },
+    {
+      "id": "section-4",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section-4.md"
+    },
+    {
+      "id": "section-5",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-5.md"
+    },
+    {
+      "id": "survey-2",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 139,
+      "file": "lessons/survey-2.md"
+    },
+    {
+      "id": "section-6",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-6.md"
+    },
+    {
+      "id": "data-analytics-essentials-final-exam-overview",
+      "title": "Data Analytics Essentials Final Exam — overview",
+      "module": "Data Analytics Essentials Final Exam",
+      "word_count": 30,
+      "file": "lessons/data-analytics-essentials-final-exam-overview.md"
+    },
+    {
+      "id": "new-article-title-36",
+      "title": "New Article Title",
+      "module": "Data Analytics Essentials Final Exam",
+      "word_count": 10,
+      "file": "lessons/new-article-title-36.md"
+    },
+    {
+      "id": "new-article-title-37",
+      "title": "New Article Title",
+      "module": "Data Analytics Essentials Final Exam",
+      "word_count": 86,
+      "file": "lessons/new-article-title-37.md"
+    },
+    {
+      "id": "assessment",
+      "title": "Assessment",
+      "module": "Data Analytics Essentials Final Exam",
+      "word_count": 960,
+      "file": "lessons/assessment.md"
+    },
+    {
+      "id": "result",
+      "title": "Result",
+      "module": "Data Analytics Essentials Final Exam",
+      "word_count": 4,
+      "file": "lessons/result.md"
+    }
+  ]
+}

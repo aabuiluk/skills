@@ -1,0 +1,6 @@
+﻿dump: D:\knowledge_materials\od\AI PYTHON_3161
+exists: True
+faily_html: 41
+programy_url: 143
+all_links_lines: 266
+video_links_lines: 45

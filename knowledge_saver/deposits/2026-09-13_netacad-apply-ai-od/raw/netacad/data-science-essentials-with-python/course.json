@@ -1,0 +1,492 @@
+{
+  "slug": "data-science-essentials-with-python",
+  "title": "Data Science Essentials with Python",
+  "url": "https://www.netacad.com/launch?id=4a913746-5ce5-49ca-8993-9729ce135833&tab=curriculum&view=8a72c703-66e8-42a3-ade2-aae19e5d05c0",
+  "source": "in-progress-json",
+  "headless": true,
+  "scraped_at": "2026-09-13T11:40:00.835693+00:00",
+  "lesson_count": 61,
+  "total_words": 1708,
+  "unique_bodies": 56,
+  "modules": [
+    {
+      "label": "(current)",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "56e12e16-87fe-51c9-a3cc-71e6914f98fb"
+    },
+    {
+      "label": "Game-Based Intro",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "12f40793-7273-5f10-9a81-816aebc482ac"
+    },
+    {
+      "label": "Coding for Answers",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "902b70ba-e919-5775-8561-9770bc11bd7f"
+    },
+    {
+      "label": "Data Cleaning",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "b32b0c51-9d8e-598a-abc6-98577fef6ed4"
+    },
+    {
+      "label": "Data Visualization",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "4fbe3af0-73da-5f50-a5ab-0dce5ea5d4ef"
+    },
+    {
+      "label": "Data Modeling",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "82a55f84-7003-5b9e-ab0f-3cecdb0aa782"
+    },
+    {
+      "label": "Data Storytelling",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "10b1b019-3feb-5215-bacd-623d08dc7f53"
+    },
+    {
+      "label": "End of Course Survey",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "a93c7375-3ccb-5ead-b70b-ee58bf4c10b5"
+    },
+    {
+      "label": "Data Science Essentials with Python Final Exam",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "31678609-9bd5-5f18-b288-531baa318661"
+    },
+    {
+      "label": "Congratulations",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "c03f4b90-270d-5c95-9c09-5bdc77d7f93c"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "section",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 0,
+      "file": "lessons/section.md"
+    },
+    {
+      "id": "game-based-intro-overview",
+      "title": "Game-Based Intro — overview",
+      "module": "Game-Based Intro",
+      "word_count": 30,
+      "file": "lessons/game-based-intro-overview.md"
+    },
+    {
+      "id": "section-2",
+      "title": "Section",
+      "module": "Game-Based Intro",
+      "word_count": 10,
+      "file": "lessons/section-2.md"
+    },
+    {
+      "id": "section-3",
+      "title": "Section",
+      "module": "Game-Based Intro",
+      "word_count": 7,
+      "file": "lessons/section-3.md"
+    },
+    {
+      "id": "section-4",
+      "title": "Section",
+      "module": "Game-Based Intro",
+      "word_count": 8,
+      "file": "lessons/section-4.md"
+    },
+    {
+      "id": "section-5",
+      "title": "Section",
+      "module": "Game-Based Intro",
+      "word_count": 6,
+      "file": "lessons/section-5.md"
+    },
+    {
+      "id": "section-6",
+      "title": "Section",
+      "module": "Game-Based Intro",
+      "word_count": 6,
+      "file": "lessons/section-6.md"
+    },
+    {
+      "id": "section-7",
+      "title": "Section",
+      "module": "Game-Based Intro",
+      "word_count": 5,
+      "file": "lessons/section-7.md"
+    },
+    {
+      "id": "coding-for-answers-overview",
+      "title": "Coding for Answers — overview",
+      "module": "Coding for Answers",
+      "word_count": 48,
+      "file": "lessons/coding-for-answers-overview.md"
+    },
+    {
+      "id": "section-8",
+      "title": "Section",
+      "module": "Coding for Answers",
+      "word_count": 11,
+      "file": "lessons/section-8.md"
+    },
+    {
+      "id": "section-9",
+      "title": "Section",
+      "module": "Coding for Answers",
+      "word_count": 10,
+      "file": "lessons/section-9.md"
+    },
+    {
+      "id": "section-10",
+      "title": "Section",
+      "module": "Coding for Answers",
+      "word_count": 8,
+      "file": "lessons/section-10.md"
+    },
+    {
+      "id": "section-11",
+      "title": "Section",
+      "module": "Coding for Answers",
+      "word_count": 8,
+      "file": "lessons/section-11.md"
+    },
+    {
+      "id": "section-12",
+      "title": "Section",
+      "module": "Coding for Answers",
+      "word_count": 5,
+      "file": "lessons/section-12.md"
+    },
+    {
+      "id": "section-13",
+      "title": "Section",
+      "module": "Coding for Answers",
+      "word_count": 10,
+      "file": "lessons/section-13.md"
+    },
+    {
+      "id": "data-cleaning-overview",
+      "title": "Data Cleaning — overview",
+      "module": "Data Cleaning",
+      "word_count": 60,
+      "file": "lessons/data-cleaning-overview.md"
+    },
+    {
+      "id": "section-14",
+      "title": "Section",
+      "module": "Data Cleaning",
+      "word_count": 11,
+      "file": "lessons/section-14.md"
+    },
+    {
+      "id": "section-15",
+      "title": "Section",
+      "module": "Data Cleaning",
+      "word_count": 6,
+      "file": "lessons/section-15.md"
+    },
+    {
+      "id": "section-16",
+      "title": "Section",
+      "module": "Data Cleaning",
+      "word_count": 5,
+      "file": "lessons/section-16.md"
+    },
+    {
+      "id": "section-17",
+      "title": "Section",
+      "module": "Data Cleaning",
+      "word_count": 8,
+      "file": "lessons/section-17.md"
+    },
+    {
+      "id": "section-18",
+      "title": "Section",
+      "module": "Data Cleaning",
+      "word_count": 6,
+      "file": "lessons/section-18.md"
+    },
+    {
+      "id": "section-19",
+      "title": "Section",
+      "module": "Data Cleaning",
+      "word_count": 10,
+      "file": "lessons/section-19.md"
+    },
+    {
+      "id": "data-visualization-overview",
+      "title": "Data Visualization — overview",
+      "module": "Data Visualization",
+      "word_count": 56,
+      "file": "lessons/data-visualization-overview.md"
+    },
+    {
+      "id": "section-20",
+      "title": "Section",
+      "module": "Data Visualization",
+      "word_count": 4,
+      "file": "lessons/section-20.md"
+    },
+    {
+      "id": "section-21",
+      "title": "Section",
+      "module": "Data Visualization",
+      "word_count": 7,
+      "file": "lessons/section-21.md"
+    },
+    {
+      "id": "section-22",
+      "title": "Section",
+      "module": "Data Visualization",
+      "word_count": 7,
+      "file": "lessons/section-22.md"
+    },
+    {
+      "id": "section-23",
+      "title": "Section",
+      "module": "Data Visualization",
+      "word_count": 6,
+      "file": "lessons/section-23.md"
+    },
+    {
+      "id": "section-24",
+      "title": "Section",
+      "module": "Data Visualization",
+      "word_count": 6,
+      "file": "lessons/section-24.md"
+    },
+    {
+      "id": "section-25",
+      "title": "Section",
+      "module": "Data Visualization",
+      "word_count": 8,
+      "file": "lessons/section-25.md"
+    },
+    {
+      "id": "data-modeling-overview",
+      "title": "Data Modeling — overview",
+      "module": "Data Modeling",
+      "word_count": 61,
+      "file": "lessons/data-modeling-overview.md"
+    },
+    {
+      "id": "section-26",
+      "title": "Section",
+      "module": "Data Modeling",
+      "word_count": 7,
+      "file": "lessons/section-26.md"
+    },
+    {
+      "id": "section-27",
+      "title": "Section",
+      "module": "Data Modeling",
+      "word_count": 5,
+      "file": "lessons/section-27.md"
+    },
+    {
+      "id": "section-28",
+      "title": "Section",
+      "module": "Data Modeling",
+      "word_count": 6,
+      "file": "lessons/section-28.md"
+    },
+    {
+      "id": "section-29",
+      "title": "Section",
+      "module": "Data Modeling",
+      "word_count": 7,
+      "file": "lessons/section-29.md"
+    },
+    {
+      "id": "section-30",
+      "title": "Section",
+      "module": "Data Modeling",
+      "word_count": 5,
+      "file": "lessons/section-30.md"
+    },
+    {
+      "id": "section-31",
+      "title": "Section",
+      "module": "Data Modeling",
+      "word_count": 10,
+      "file": "lessons/section-31.md"
+    },
+    {
+      "id": "data-storytelling-overview",
+      "title": "Data Storytelling — overview",
+      "module": "Data Storytelling",
+      "word_count": 51,
+      "file": "lessons/data-storytelling-overview.md"
+    },
+    {
+      "id": "section-32",
+      "title": "Section",
+      "module": "Data Storytelling",
+      "word_count": 7,
+      "file": "lessons/section-32.md"
+    },
+    {
+      "id": "section-33",
+      "title": "Section",
+      "module": "Data Storytelling",
+      "word_count": 7,
+      "file": "lessons/section-33.md"
+    },
+    {
+      "id": "section-34",
+      "title": "Section",
+      "module": "Data Storytelling",
+      "word_count": 6,
+      "file": "lessons/section-34.md"
+    },
+    {
+      "id": "section-35",
+      "title": "Section",
+      "module": "Data Storytelling",
+      "word_count": 7,
+      "file": "lessons/section-35.md"
+    },
+    {
+      "id": "section-36",
+      "title": "Section",
+      "module": "Data Storytelling",
+      "word_count": 5,
+      "file": "lessons/section-36.md"
+    },
+    {
+      "id": "section-37",
+      "title": "Section",
+      "module": "Data Storytelling",
+      "word_count": 5,
+      "file": "lessons/section-37.md"
+    },
+    {
+      "id": "section-38",
+      "title": "Section",
+      "module": "Data Storytelling",
+      "word_count": 9,
+      "file": "lessons/section-38.md"
+    },
+    {
+      "id": "end-of-course-survey-overview",
+      "title": "End of Course Survey — overview",
+      "module": "End of Course Survey",
+      "word_count": 30,
+      "file": "lessons/end-of-course-survey-overview.md"
+    },
+    {
+      "id": "section-39",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section-39.md"
+    },
+    {
+      "id": "section-40",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-40.md"
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 131,
+      "file": "lessons/survey.md"
+    },
+    {
+      "id": "section-41",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-41.md"
+    },
+    {
+      "id": "section-42",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section-42.md"
+    },
+    {
+      "id": "section-43",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-43.md"
+    },
+    {
+      "id": "survey-2",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 139,
+      "file": "lessons/survey-2.md"
+    },
+    {
+      "id": "section-44",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-44.md"
+    },
+    {
+      "id": "data-science-essentials-with-python-final-exam-overview",
+      "title": "Data Science Essentials with Python Final Exam — overview",
+      "module": "Data Science Essentials with Python Final Exam",
+      "word_count": 32,
+      "file": "lessons/data-science-essentials-with-python-final-exam-overview.md"
+    },
+    {
+      "id": "article-title",
+      "title": "Article title",
+      "module": "Data Science Essentials with Python Final Exam",
+      "word_count": 10,
+      "file": "lessons/article-title.md"
+    },
+    {
+      "id": "data-science-essentials-with-python-final-exam",
+      "title": "Data Science Essentials with Python Final Exam",
+      "module": "Data Science Essentials with Python Final Exam",
+      "word_count": 98,
+      "file": "lessons/data-science-essentials-with-python-final-exam.md"
+    },
+    {
+      "id": "assessment",
+      "title": "Assessment",
+      "module": "Data Science Essentials with Python Final Exam",
+      "word_count": 480,
+      "file": "lessons/assessment.md"
+    },
+    {
+      "id": "result",
+      "title": "Result",
+      "module": "Data Science Essentials with Python Final Exam",
+      "word_count": 4,
+      "file": "lessons/result.md"
+    },
+    {
+      "id": "section-45",
+      "title": "Section",
+      "module": "Data Science Essentials with Python Final Exam",
+      "word_count": 4,
+      "file": "lessons/section-45.md"
+    },
+    {
+      "id": "congratulations-overview",
+      "title": "Congratulations — overview",
+      "module": "Congratulations",
+      "word_count": 32,
+      "file": "lessons/congratulations-overview.md"
+    },
+    {
+      "id": "congratulations",
+      "title": "Congratulations!",
+      "module": "Congratulations",
+      "word_count": 8,
+      "file": "lessons/congratulations.md"
+    }
+  ]
+}

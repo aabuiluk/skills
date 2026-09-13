@@ -10,6 +10,9 @@ Project Cursor Agent Skills (`aabuiluk/skills`). Homemade / curated skills live 
 | `common_lesson` | Normalize a `python_ai_step` pair to the pair 9/10 reference style |
 | `python-educator-senior` | Local persona: Python educator + senior (Core, AQA, Backend, DS, AI) |
 | `knowledge-saver` | Immutable backup of hard-won knowledge under `knowledge_saver/`, then optional derived skills |
+| `prompt-like-engineer` | Engineer-grade prompting: director principles, blocks, chaining, Align–Inspect–Refine |
+| `ai-thematic-insights` | Modular LLM+spreadsheet thematic analysis (label → theme → sentiment → pivot → recommend) |
+| `ai-private-workflow` | Privacy-first section-by-section AI pipelines (local/public hybrid, redaction) |
 
 ## Knowledge archive
 
@@ -25,7 +28,12 @@ See [`.cursor/skills/knowledge-saver/SKILL.md`](.cursor/skills/knowledge-saver/S
 ├── teacher-materials-skill/
 ├── common_lesson/
 ├── python-educator-senior/
-└── knowledge-saver/
+├── knowledge-saver/
+├── prompt-like-engineer/
+├── ai-thematic-insights/
+└── ai-private-workflow/
 knowledge_saver/          # immutable deposits (not a skill folder)
 └── deposits/
 ```
+
+NetAcad / OD source dump on disk: `D:\knowledge_materials\` (see deposit `2026-09-13_netacad-apply-ai-od`).

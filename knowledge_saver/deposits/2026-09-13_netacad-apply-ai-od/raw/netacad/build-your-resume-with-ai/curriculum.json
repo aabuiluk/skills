@@ -1,0 +1,365 @@
+{
+  "slug": "build-your-resume-with-ai",
+  "modules": [
+    "(current)",
+    "End of Course Survey",
+    "Build your Resume with AI Course Assessment"
+  ],
+  "lessons": [
+    {
+      "id": "current-overview",
+      "title": "(current) — overview",
+      "module": "(current)"
+    },
+    {
+      "id": "1-course-overview",
+      "title": ".1 Course Overview",
+      "module": "(current)"
+    },
+    {
+      "id": "1-1-introduction",
+      "title": ".1.1 Introduction",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "2-plan-your-process",
+      "title": ".2. Plan your process",
+      "module": "(current)"
+    },
+    {
+      "id": "2-1-choose-your-tools",
+      "title": ".2.1 Choose your tools",
+      "module": "(current)"
+    },
+    {
+      "id": "2-2-select-and-download-private-models",
+      "title": ".2.2 Select and download private models",
+      "module": "(current)"
+    },
+    {
+      "id": "2-3-identify-sensitive-information",
+      "title": ".2.3 Identify sensitive information",
+      "module": "(current)"
+    },
+    {
+      "id": "2-4-bulk-vs-section-by-section-processing",
+      "title": ".2.4 Bulk vs. section-by-section processing",
+      "module": "(current)"
+    },
+    {
+      "id": "2-5-identify-task-dependencies",
+      "title": ".2.5 Identify task dependencies",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-2",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "3-1-add-new-content-using-a-source-document",
+      "title": ".3.1 Add new content using a source document",
+      "module": "(current)"
+    },
+    {
+      "id": "3-1-review-your-source-material",
+      "title": ".3.1 Review your source material",
+      "module": "(current)"
+    },
+    {
+      "id": "3-2-prototype-and-redesign",
+      "title": ".3.2 Prototype and redesign",
+      "module": "(current)"
+    },
+    {
+      "id": "3-3-how-to-redo-a-chat-conversation",
+      "title": ".3.3 How to redo a chat conversation",
+      "module": "(current)"
+    },
+    {
+      "id": "3-4-extract-information-and-metadata",
+      "title": ".3.4 Extract information and metadata",
+      "module": "(current)"
+    },
+    {
+      "id": "3-5-llm-self-check-and-sensitive-information",
+      "title": ".3.5 LLM self-check and sensitive information",
+      "module": "(current)"
+    },
+    {
+      "id": "3-6-filter-and-clean-up",
+      "title": ".3.6 Filter and clean up",
+      "module": "(current)"
+    },
+    {
+      "id": "3-7-write-resume-bullet-points",
+      "title": ".3.7 Write resume bullet points",
+      "module": "(current)"
+    },
+    {
+      "id": "3-8-llm-self-check-of-bullet-points",
+      "title": ".3.8 LLM self-check of bullet points",
+      "module": "(current)"
+    },
+    {
+      "id": "3-9-condense-final-bullet-points",
+      "title": ".3.9 Condense final bullet points",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-3",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "4-enhance-existing-content",
+      "title": ".4. Enhance existing content",
+      "module": "(current)"
+    },
+    {
+      "id": "4-1-update-an-internship",
+      "title": ".4.1 Update an internship",
+      "module": "(current)"
+    },
+    {
+      "id": "4-2-enrich-existing-bullet-points",
+      "title": ".4.2 Enrich existing bullet points",
+      "module": "(current)"
+    },
+    {
+      "id": "4-3-review-and-finalize-bullet-points",
+      "title": ".4.3 Review and finalize bullet points",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-4",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "5-llm-assisted-memory-recall",
+      "title": ".5 LLM-assisted memory recall",
+      "module": "(current)"
+    },
+    {
+      "id": "5-1-update-a-project",
+      "title": ".5.1 Update a project",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-5",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "6-review-resume-as-a-whole",
+      "title": ".6 Review resume as a whole",
+      "module": "(current)"
+    },
+    {
+      "id": "6-1-extract-and-group-skills",
+      "title": ".6.1 Extract and group skills",
+      "module": "(current)"
+    },
+    {
+      "id": "6-2-check-if-all-skills-are-listed",
+      "title": ".6.2 Check if all skills are listed",
+      "module": "(current)"
+    },
+    {
+      "id": "6-3-revise-the-summary",
+      "title": ".6.3 Revise the summary",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-6",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "7-style-and-format-your-resume",
+      "title": ".7 Style and format your resume",
+      "module": "(current)"
+    },
+    {
+      "id": "7-1-word-processor-template",
+      "title": ".7.1 Word processor template",
+      "module": "(current)"
+    },
+    {
+      "id": "7-2-format-in-html",
+      "title": ".7.2 Format in HTML",
+      "module": "(current)"
+    },
+    {
+      "id": "7-3-local-llm-vs-public-chatbot",
+      "title": ".7.3 Local LLM vs. Public chatbot",
+      "module": "(current)"
+    },
+    {
+      "id": "7-4-hybrid-use-of-chatbots-and-local-llm",
+      "title": ".7.4 Hybrid use of chatbots and local LLM",
+      "module": "(current)"
+    },
+    {
+      "id": "7-5-llm-guided-learning-about-html-options",
+      "title": ".7.5 LLM-guided learning about HTML options",
+      "module": "(current)"
+    },
+    {
+      "id": "7-6-meta-prompt-to-create-a-template",
+      "title": ".7.6 Meta-prompt to create a template",
+      "module": "(current)"
+    },
+    {
+      "id": "7-7-format-your-resume-as-html",
+      "title": ".7.7 Format your resume as HTML",
+      "module": "(current)"
+    },
+    {
+      "id": "7-8-save-your-resume-as-pdf",
+      "title": ".7.8 Save your resume as PDF",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-7",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "8-customize-your-resume-for-a-job-posting",
+      "title": ".8 Customize your resume for a job posting",
+      "module": "(current)"
+    },
+    {
+      "id": "8-1-overview-of-task-and-workflow",
+      "title": ".8.1 Overview of task and workflow",
+      "module": "(current)"
+    },
+    {
+      "id": "8-2-prototype-and-critique-workflow",
+      "title": ".8.2 Prototype and Critique Workflow",
+      "module": "(current)"
+    },
+    {
+      "id": "8-3-organization-and-transparency",
+      "title": ".8.3 Organization and transparency",
+      "module": "(current)"
+    },
+    {
+      "id": "8-4-address-unmatched-job-requirements",
+      "title": ".8.4 Address unmatched job requirements",
+      "module": "(current)"
+    },
+    {
+      "id": "8-5-accept-reject-modify",
+      "title": ".8.5 Accept/reject/modify",
+      "module": "(current)"
+    },
+    {
+      "id": "8-6-convert-table-to-document",
+      "title": ".8.6 Convert table to document",
+      "module": "(current)"
+    },
+    {
+      "id": "8-7-style-and-format",
+      "title": ".8.7 Style and Format",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-8",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "9-final-thoughts",
+      "title": ".9. Final thoughts",
+      "module": "(current)"
+    },
+    {
+      "id": "9-1-congratulations",
+      "title": ".9.1 Congratulations!",
+      "module": "(current)"
+    },
+    {
+      "id": "new-article-title-9",
+      "title": "New Article Title",
+      "module": "(current)"
+    },
+    {
+      "id": "end-of-course-survey-overview",
+      "title": "End of Course Survey — overview",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-2",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-3",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-4",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-5",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "survey-2",
+      "title": "Survey",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-6",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "build-your-resume-with-ai-course-assessment-overview",
+      "title": "Build your Resume with AI Course Assessment — overview",
+      "module": "Build your Resume with AI Course Assessment"
+    },
+    {
+      "id": "section-7",
+      "title": "Section",
+      "module": "Build your Resume with AI Course Assessment"
+    },
+    {
+      "id": "build-your-resume-with-ai-course-assessment",
+      "title": "Build your Resume with AI Course Assessment",
+      "module": "Build your Resume with AI Course Assessment"
+    },
+    {
+      "id": "section-8",
+      "title": "Section",
+      "module": "Build your Resume with AI Course Assessment"
+    },
+    {
+      "id": "eh-nav-article-1-4-2",
+      "title": "eh-nav-article-1.4.2",
+      "module": "Build your Resume with AI Course Assessment"
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "slug": "build-your-resume-with-ai",
+  "title": "Build your Resume with AI",
+  "url": "https://www.netacad.com/launch?id=506893ce-0916-40e3-9f00-2a2d01ba4e07&tab=curriculum&view=7f3ecab7-0104-470a-8150-c01e9a138787",
+  "source": "in-progress-json",
+  "headless": true,
+  "scraped_at": "2026-09-13T12:00:31.251529+00:00",
+  "lesson_count": 71,
+  "total_words": 5908,
+  "unique_bodies": 67,
+  "modules": [
+    {
+      "label": "(current)",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "fa43a326-ca69-4ee6-b23f-82267ce91202"
+    },
+    {
+      "label": "End of Course Survey",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "a93c7375-3ccb-5ead-b70b-ee58bf4c10b5"
+    },
+    {
+      "label": "Build your Resume with AI Course Assessment",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "14f1f2b3-9c13-4a0c-9e96-ca347bebd08d"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "current-overview",
+      "title": "(current) — overview",
+      "module": "(current)",
+      "word_count": 21,
+      "file": "lessons/current-overview.md"
+    },
+    {
+      "id": "1-course-overview",
+      "title": ".1 Course Overview",
+      "module": "(current)",
+      "word_count": 9,
+      "file": "lessons/1-course-overview.md"
+    },
+    {
+      "id": "1-1-introduction",
+      "title": ".1.1 Introduction",
+      "module": "(current)",
+      "word_count": 318,
+      "file": "lessons/1-1-introduction.md"
+    },
+    {
+      "id": "new-article-title",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 3,
+      "file": "lessons/new-article-title.md"
+    },
+    {
+      "id": "2-plan-your-process",
+      "title": ".2. Plan your process",
+      "module": "(current)",
+      "word_count": 11,
+      "file": "lessons/2-plan-your-process.md"
+    },
+    {
+      "id": "2-1-choose-your-tools",
+      "title": ".2.1 Choose your tools",
+      "module": "(current)",
+      "word_count": 243,
+      "file": "lessons/2-1-choose-your-tools.md"
+    },
+    {
+      "id": "2-2-select-and-download-private-models",
+      "title": ".2.2 Select and download private models",
+      "module": "(current)",
+      "word_count": 335,
+      "file": "lessons/2-2-select-and-download-private-models.md"
+    },
+    {
+      "id": "2-3-identify-sensitive-information",
+      "title": ".2.3 Identify sensitive information",
+      "module": "(current)",
+      "word_count": 265,
+      "file": "lessons/2-3-identify-sensitive-information.md"
+    },
+    {
+      "id": "2-4-bulk-vs-section-by-section-processing",
+      "title": ".2.4 Bulk vs. section-by-section processing",
+      "module": "(current)",
+      "word_count": 205,
+      "file": "lessons/2-4-bulk-vs-section-by-section-processing.md"
+    },
+    {
+      "id": "2-5-identify-task-dependencies",
+      "title": ".2.5 Identify task dependencies",
+      "module": "(current)",
+      "word_count": 165,
+      "file": "lessons/2-5-identify-task-dependencies.md"
+    },
+    {
+      "id": "new-article-title-2",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 4,
+      "file": "lessons/new-article-title-2.md"
+    },
+    {
+      "id": "3-1-add-new-content-using-a-source-document",
+      "title": ".3.1 Add new content using a source document",
+      "module": "(current)",
+      "word_count": 19,
+      "file": "lessons/3-1-add-new-content-using-a-source-document.md"
+    },
+    {
+      "id": "3-1-review-your-source-material",
+      "title": ".3.1 Review your source material",
+      "module": "(current)",
+      "word_count": 176,
+      "file": "lessons/3-1-review-your-source-material.md"
+    },
+    {
+      "id": "3-2-prototype-and-redesign",
+      "title": ".3.2 Prototype and redesign",
+      "module": "(current)",
+      "word_count": 173,
+      "file": "lessons/3-2-prototype-and-redesign.md"
+    },
+    {
+      "id": "3-3-how-to-redo-a-chat-conversation",
+      "title": ".3.3 How to redo a chat conversation",
+      "module": "(current)",
+      "word_count": 126,
+      "file": "lessons/3-3-how-to-redo-a-chat-conversation.md"
+    },
+    {
+      "id": "3-4-extract-information-and-metadata",
+      "title": ".3.4 Extract information and metadata",
+      "module": "(current)",
+      "word_count": 104,
+      "file": "lessons/3-4-extract-information-and-metadata.md"
+    },
+    {
+      "id": "3-5-llm-self-check-and-sensitive-information",
+      "title": ".3.5 LLM self-check and sensitive information",
+      "module": "(current)",
+      "word_count": 89,
+      "file": "lessons/3-5-llm-self-check-and-sensitive-information.md"
+    },
+    {
+      "id": "3-6-filter-and-clean-up",
+      "title": ".3.6 Filter and clean up",
+      "module": "(current)",
+      "word_count": 147,
+      "file": "lessons/3-6-filter-and-clean-up.md"
+    },
+    {
+      "id": "3-7-write-resume-bullet-points",
+      "title": ".3.7 Write resume bullet points",
+      "module": "(current)",
+      "word_count": 60,
+      "file": "lessons/3-7-write-resume-bullet-points.md"
+    },
+    {
+      "id": "3-8-llm-self-check-of-bullet-points",
+      "title": ".3.8 LLM self-check of bullet points",
+      "module": "(current)",
+      "word_count": 135,
+      "file": "lessons/3-8-llm-self-check-of-bullet-points.md"
+    },
+    {
+      "id": "3-9-condense-final-bullet-points",
+      "title": ".3.9 Condense final bullet points",
+      "module": "(current)",
+      "word_count": 113,
+      "file": "lessons/3-9-condense-final-bullet-points.md"
+    },
+    {
+      "id": "new-article-title-3",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/new-article-title-3.md"
+    },
+    {
+      "id": "4-enhance-existing-content",
+      "title": ".4. Enhance existing content",
+      "module": "(current)",
+      "word_count": 11,
+      "file": "lessons/4-enhance-existing-content.md"
+    },
+    {
+      "id": "4-1-update-an-internship",
+      "title": ".4.1 Update an internship",
+      "module": "(current)",
+      "word_count": 81,
+      "file": "lessons/4-1-update-an-internship.md"
+    },
+    {
+      "id": "4-2-enrich-existing-bullet-points",
+      "title": ".4.2 Enrich existing bullet points",
+      "module": "(current)",
+      "word_count": 93,
+      "file": "lessons/4-2-enrich-existing-bullet-points.md"
+    },
+    {
+      "id": "4-3-review-and-finalize-bullet-points",
+      "title": ".4.3 Review and finalize bullet points",
+      "module": "(current)",
+      "word_count": 55,
+      "file": "lessons/4-3-review-and-finalize-bullet-points.md"
+    },
+    {
+      "id": "new-article-title-4",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 4,
+      "file": "lessons/new-article-title-4.md"
+    },
+    {
+      "id": "5-llm-assisted-memory-recall",
+      "title": ".5 LLM-assisted memory recall",
+      "module": "(current)",
+      "word_count": 11,
+      "file": "lessons/5-llm-assisted-memory-recall.md"
+    },
+    {
+      "id": "5-1-update-a-project",
+      "title": ".5.1 Update a project",
+      "module": "(current)",
+      "word_count": 54,
+      "file": "lessons/5-1-update-a-project.md"
+    },
+    {
+      "id": "new-article-title-5",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 4,
+      "file": "lessons/new-article-title-5.md"
+    },
+    {
+      "id": "6-review-resume-as-a-whole",
+      "title": ".6 Review resume as a whole",
+      "module": "(current)",
+      "word_count": 15,
+      "file": "lessons/6-review-resume-as-a-whole.md"
+    },
+    {
+      "id": "6-1-extract-and-group-skills",
+      "title": ".6.1 Extract and group skills",
+      "module": "(current)",
+      "word_count": 65,
+      "file": "lessons/6-1-extract-and-group-skills.md"
+    },
+    {
+      "id": "6-2-check-if-all-skills-are-listed",
+      "title": ".6.2 Check if all skills are listed",
+      "module": "(current)",
+      "word_count": 68,
+      "file": "lessons/6-2-check-if-all-skills-are-listed.md"
+    },
+    {
+      "id": "6-3-revise-the-summary",
+      "title": ".6.3 Revise the summary",
+      "module": "(current)",
+      "word_count": 113,
+      "file": "lessons/6-3-revise-the-summary.md"
+    },
+    {
+      "id": "new-article-title-6",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 6,
+      "file": "lessons/new-article-title-6.md"
+    },
+    {
+      "id": "7-style-and-format-your-resume",
+      "title": ".7 Style and format your resume",
+      "module": "(current)",
+      "word_count": 15,
+      "file": "lessons/7-style-and-format-your-resume.md"
+    },
+    {
+      "id": "7-1-word-processor-template",
+      "title": ".7.1 Word processor template",
+      "module": "(current)",
+      "word_count": 72,
+      "file": "lessons/7-1-word-processor-template.md"
+    },
+    {
+      "id": "7-2-format-in-html",
+      "title": ".7.2 Format in HTML",
+      "module": "(current)",
+      "word_count": 123,
+      "file": "lessons/7-2-format-in-html.md"
+    },
+    {
+      "id": "7-3-local-llm-vs-public-chatbot",
+      "title": ".7.3 Local LLM vs. Public chatbot",
+      "module": "(current)",
+      "word_count": 113,
+      "file": "lessons/7-3-local-llm-vs-public-chatbot.md"
+    },
+    {
+      "id": "7-4-hybrid-use-of-chatbots-and-local-llm",
+      "title": ".7.4 Hybrid use of chatbots and local LLM",
+      "module": "(current)",
+      "word_count": 84,
+      "file": "lessons/7-4-hybrid-use-of-chatbots-and-local-llm.md"
+    },
+    {
+      "id": "7-5-llm-guided-learning-about-html-options",
+      "title": ".7.5 LLM-guided learning about HTML options",
+      "module": "(current)",
+      "word_count": 47,
+      "file": "lessons/7-5-llm-guided-learning-about-html-options.md"
+    },
+    {
+      "id": "7-6-meta-prompt-to-create-a-template",
+      "title": ".7.6 Meta-prompt to create a template",
+      "module": "(current)",
+      "word_count": 147,
+      "file": "lessons/7-6-meta-prompt-to-create-a-template.md"
+    },
+    {
+      "id": "7-7-format-your-resume-as-html",
+      "title": ".7.7 Format your resume as HTML",
+      "module": "(current)",
+      "word_count": 70,
+      "file": "lessons/7-7-format-your-resume-as-html.md"
+    },
+    {
+      "id": "7-8-save-your-resume-as-pdf",
+      "title": ".7.8 Save your resume as PDF",
+      "module": "(current)",
+      "word_count": 113,
+      "file": "lessons/7-8-save-your-resume-as-pdf.md"
+    },
+    {
+      "id": "new-article-title-7",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 6,
+      "file": "lessons/new-article-title-7.md"
+    },
+    {
+      "id": "8-customize-your-resume-for-a-job-posting",
+      "title": ".8 Customize your resume for a job posting",
+      "module": "(current)",
+      "word_count": 19,
+      "file": "lessons/8-customize-your-resume-for-a-job-posting.md"
+    },
+    {
+      "id": "8-1-overview-of-task-and-workflow",
+      "title": ".8.1 Overview of task and workflow",
+      "module": "(current)",
+      "word_count": 153,
+      "file": "lessons/8-1-overview-of-task-and-workflow.md"
+    },
+    {
+      "id": "8-2-prototype-and-critique-workflow",
+      "title": ".8.2 Prototype and Critique Workflow",
+      "module": "(current)",
+      "word_count": 103,
+      "file": "lessons/8-2-prototype-and-critique-workflow.md"
+    },
+    {
+      "id": "8-3-organization-and-transparency",
+      "title": ".8.3 Organization and transparency",
+      "module": "(current)",
+      "word_count": 170,
+      "file": "lessons/8-3-organization-and-transparency.md"
+    },
+    {
+      "id": "8-4-address-unmatched-job-requirements",
+      "title": ".8.4 Address unmatched job requirements",
+      "module": "(current)",
+      "word_count": 105,
+      "file": "lessons/8-4-address-unmatched-job-requirements.md"
+    },
+    {
+      "id": "8-5-accept-reject-modify",
+      "title": ".8.5 Accept/reject/modify",
+      "module": "(current)",
+      "word_count": 100,
+      "file": "lessons/8-5-accept-reject-modify.md"
+    },
+    {
+      "id": "8-6-convert-table-to-document",
+      "title": ".8.6 Convert table to document",
+      "module": "(current)",
+      "word_count": 112,
+      "file": "lessons/8-6-convert-table-to-document.md"
+    },
+    {
+      "id": "8-7-style-and-format",
+      "title": ".8.7 Style and Format",
+      "module": "(current)",
+      "word_count": 100,
+      "file": "lessons/8-7-style-and-format.md"
+    },
+    {
+      "id": "new-article-title-8",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/new-article-title-8.md"
+    },
+    {
+      "id": "9-final-thoughts",
+      "title": ".9. Final thoughts",
+      "module": "(current)",
+      "word_count": 9,
+      "file": "lessons/9-final-thoughts.md"
+    },
+    {
+      "id": "9-1-congratulations",
+      "title": ".9.1 Congratulations!",
+      "module": "(current)",
+      "word_count": 203,
+      "file": "lessons/9-1-congratulations.md"
+    },
+    {
+      "id": "new-article-title-9",
+      "title": "New Article Title",
+      "module": "(current)",
+      "word_count": 3,
+      "file": "lessons/new-article-title-9.md"
+    },
+    {
+      "id": "end-of-course-survey-overview",
+      "title": "End of Course Survey — overview",
+      "module": "End of Course Survey",
+      "word_count": 30,
+      "file": "lessons/end-of-course-survey-overview.md"
+    },
+    {
+      "id": "section",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section.md"
+    },
+    {
+      "id": "section-2",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-2.md"
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 131,
+      "file": "lessons/survey.md"
+    },
+    {
+      "id": "section-3",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-3.md"
+    },
+    {
+      "id": "section-4",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section-4.md"
+    },
+    {
+      "id": "section-5",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-5.md"
+    },
+    {
+      "id": "survey-2",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 139,
+      "file": "lessons/survey-2.md"
+    },
+    {
+      "id": "section-6",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-6.md"
+    },
+    {
+      "id": "build-your-resume-with-ai-course-assessment-overview",
+      "title": "Build your Resume with AI Course Assessment — overview",
+      "module": "Build your Resume with AI Course Assessment",
+      "word_count": 7,
+      "file": "lessons/build-your-resume-with-ai-course-assessment-overview.md"
+    },
+    {
+      "id": "section-7",
+      "title": "Section",
+      "module": "Build your Resume with AI Course Assessment",
+      "word_count": 5,
+      "file": "lessons/section-7.md"
+    },
+    {
+      "id": "build-your-resume-with-ai-course-assessment",
+      "title": "Build your Resume with AI Course Assessment",
+      "module": "Build your Resume with AI Course Assessment",
+      "word_count": 242,
+      "file": "lessons/build-your-resume-with-ai-course-assessment.md"
+    },
+    {
+      "id": "section-8",
+      "title": "Section",
+      "module": "Build your Resume with AI Course Assessment",
+      "word_count": 0,
+      "file": "lessons/section-8.md"
+    },
+    {
+      "id": "eh-nav-article-1-4-2",
+      "title": "eh-nav-article-1.4.2",
+      "module": "Build your Resume with AI Course Assessment",
+      "word_count": 0,
+      "file": "lessons/eh-nav-article-1-4-2.md"
+    }
+  ]
+}

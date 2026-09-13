@@ -1,0 +1,576 @@
+{
+  "slug": "prompt-like-an-engineer",
+  "title": "Prompt Like an Engineer",
+  "url": "https://www.netacad.com/launch?id=5d39b4e4-a46a-4b3a-8c12-9e1a102c9276&tab=curriculum&view=a90de465-8f52-48bc-925a-87969b3fe3b9",
+  "source": "in-progress-json",
+  "headless": true,
+  "scraped_at": "2026-09-13T11:57:22.523842+00:00",
+  "lesson_count": 78,
+  "total_words": 7658,
+  "unique_bodies": 71,
+  "modules": [
+    {
+      "label": "(current)",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "4f220818-566a-4055-a1e8-bb3b83a7b8aa"
+    },
+    {
+      "label": "End of Course Survey",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "a93c7375-3ccb-5ead-b70b-ee58bf4c10b5"
+    },
+    {
+      "label": "Prompt like an Engineer Course Assessment",
+      "course_id": "ff9e491c-49be-4734-803e-a79e6e83dab1",
+      "module_id": "981908dc-026e-45d2-8453-6fa45ef6a589"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "current-overview",
+      "title": "(current) — overview",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/current-overview.md"
+    },
+    {
+      "id": "section",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/section.md"
+    },
+    {
+      "id": "section-2",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 242,
+      "file": "lessons/section-2.md"
+    },
+    {
+      "id": "section-3",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 2,
+      "file": "lessons/section-3.md"
+    },
+    {
+      "id": "1-1-understanding-how-llm-applications-work",
+      "title": ".1.1 Understanding How LLM Applications Work",
+      "module": "(current)",
+      "word_count": 15,
+      "file": "lessons/1-1-understanding-how-llm-applications-work.md"
+    },
+    {
+      "id": "1-1-a-look-inside-the-chatbot",
+      "title": ".1.1 A look inside the chatbot",
+      "module": "(current)",
+      "word_count": 275,
+      "file": "lessons/1-1-a-look-inside-the-chatbot.md"
+    },
+    {
+      "id": "check-your-understanding",
+      "title": "Check Your Understanding",
+      "module": "(current)",
+      "word_count": 23,
+      "file": "lessons/check-your-understanding.md"
+    },
+    {
+      "id": "section-4",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 6,
+      "file": "lessons/section-4.md"
+    },
+    {
+      "id": "2-how-ai-can-fit-in-your-workflow",
+      "title": ".2 How AI Can Fit in Your Workflow",
+      "module": "(current)",
+      "word_count": 19,
+      "file": "lessons/2-how-ai-can-fit-in-your-workflow.md"
+    },
+    {
+      "id": "2-1-guiding-principles",
+      "title": ".2.1 Guiding Principles",
+      "module": "(current)",
+      "word_count": 260,
+      "file": "lessons/2-1-guiding-principles.md"
+    },
+    {
+      "id": "2-2-how-ai-can-fit-in-your-workflow",
+      "title": ".2.2 How AI can fit in your workflow",
+      "module": "(current)",
+      "word_count": 240,
+      "file": "lessons/2-2-how-ai-can-fit-in-your-workflow.md"
+    },
+    {
+      "id": "check-your-understanding-2",
+      "title": "Check Your Understanding",
+      "module": "(current)",
+      "word_count": 29,
+      "file": "lessons/check-your-understanding-2.md"
+    },
+    {
+      "id": "section-5",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/section-5.md"
+    },
+    {
+      "id": "section-6",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 13,
+      "file": "lessons/section-6.md"
+    },
+    {
+      "id": "3-1-overview",
+      "title": ".3.1 Overview",
+      "module": "(current)",
+      "word_count": 187,
+      "file": "lessons/3-1-overview.md"
+    },
+    {
+      "id": "3-2-choose-and-run-a-local-llm",
+      "title": ".3.2 Choose and Run a Local LLM",
+      "module": "(current)",
+      "word_count": 135,
+      "file": "lessons/3-2-choose-and-run-a-local-llm.md"
+    },
+    {
+      "id": "3-3-search-for-a-model",
+      "title": ".3.3 Search for a Model",
+      "module": "(current)",
+      "word_count": 174,
+      "file": "lessons/3-3-search-for-a-model.md"
+    },
+    {
+      "id": "3-4-manage-computer-memory",
+      "title": ".3.4 Manage Computer Memory",
+      "module": "(current)",
+      "word_count": 125,
+      "file": "lessons/3-4-manage-computer-memory.md"
+    },
+    {
+      "id": "3-5-model-size-and-speed",
+      "title": ".3.5 Model Size and Speed",
+      "module": "(current)",
+      "word_count": 127,
+      "file": "lessons/3-5-model-size-and-speed.md"
+    },
+    {
+      "id": "3-6-processor-type-and-speed",
+      "title": ".3.6 Processor Type and Speed",
+      "module": "(current)",
+      "word_count": 144,
+      "file": "lessons/3-6-processor-type-and-speed.md"
+    },
+    {
+      "id": "3-7-reasoning-vs-instruct-models",
+      "title": ".3.7 Reasoning vs. Instruct Models",
+      "module": "(current)",
+      "word_count": 158,
+      "file": "lessons/3-7-reasoning-vs-instruct-models.md"
+    },
+    {
+      "id": "check-your-understanding-3",
+      "title": "Check Your Understanding",
+      "module": "(current)",
+      "word_count": 32,
+      "file": "lessons/check-your-understanding-3.md"
+    },
+    {
+      "id": "section-7",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 5,
+      "file": "lessons/section-7.md"
+    },
+    {
+      "id": "section-8",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 11,
+      "file": "lessons/section-8.md"
+    },
+    {
+      "id": "4-1-general-strategies",
+      "title": ".4.1 General Strategies",
+      "module": "(current)",
+      "word_count": 141,
+      "file": "lessons/4-1-general-strategies.md"
+    },
+    {
+      "id": "4-2-prompt-building-blocks",
+      "title": ".4.2 Prompt Building Blocks",
+      "module": "(current)",
+      "word_count": 187,
+      "file": "lessons/4-2-prompt-building-blocks.md"
+    },
+    {
+      "id": "4-3-context-window-limits",
+      "title": ".4.3 Context Window Limits",
+      "module": "(current)",
+      "word_count": 170,
+      "file": "lessons/4-3-context-window-limits.md"
+    },
+    {
+      "id": "4-4-prompt-by-example",
+      "title": ".4.4 Prompt by Example",
+      "module": "(current)",
+      "word_count": 156,
+      "file": "lessons/4-4-prompt-by-example.md"
+    },
+    {
+      "id": "4-5-chain-of-thought",
+      "title": ".4.5 Chain of Thought",
+      "module": "(current)",
+      "word_count": 156,
+      "file": "lessons/4-5-chain-of-thought.md"
+    },
+    {
+      "id": "4-6-prompt-chaining",
+      "title": ".4.6 Prompt Chaining",
+      "module": "(current)",
+      "word_count": 155,
+      "file": "lessons/4-6-prompt-chaining.md"
+    },
+    {
+      "id": "4-7-multi-expert-panel",
+      "title": ".4.7 Multi-Expert Panel",
+      "module": "(current)",
+      "word_count": 242,
+      "file": "lessons/4-7-multi-expert-panel.md"
+    },
+    {
+      "id": "check-your-understanding-4",
+      "title": "Check Your Understanding",
+      "module": "(current)",
+      "word_count": 23,
+      "file": "lessons/check-your-understanding-4.md"
+    },
+    {
+      "id": "section-9",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 4,
+      "file": "lessons/section-9.md"
+    },
+    {
+      "id": "section-10",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 15,
+      "file": "lessons/section-10.md"
+    },
+    {
+      "id": "5-1-copy-and-paste",
+      "title": ".5.1 Copy and Paste",
+      "module": "(current)",
+      "word_count": 113,
+      "file": "lessons/5-1-copy-and-paste.md"
+    },
+    {
+      "id": "5-2-upload-text-as-attachments",
+      "title": ".5.2 Upload Text as Attachments",
+      "module": "(current)",
+      "word_count": 190,
+      "file": "lessons/5-2-upload-text-as-attachments.md"
+    },
+    {
+      "id": "5-3-tabular-data",
+      "title": ".5.3 Tabular Data",
+      "module": "(current)",
+      "word_count": 238,
+      "file": "lessons/5-3-tabular-data.md"
+    },
+    {
+      "id": "5-4-file-encoding",
+      "title": ".5.4 File Encoding",
+      "module": "(current)",
+      "word_count": 195,
+      "file": "lessons/5-4-file-encoding.md"
+    },
+    {
+      "id": "check-your-understanding-5",
+      "title": "Check Your Understanding",
+      "module": "(current)",
+      "word_count": 38,
+      "file": "lessons/check-your-understanding-5.md"
+    },
+    {
+      "id": "section-11",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 6,
+      "file": "lessons/section-11.md"
+    },
+    {
+      "id": "section-12",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 11,
+      "file": "lessons/section-12.md"
+    },
+    {
+      "id": "6-1-overview",
+      "title": ".6.1 Overview",
+      "module": "(current)",
+      "word_count": 185,
+      "file": "lessons/6-1-overview.md"
+    },
+    {
+      "id": "6-2-is-it-true",
+      "title": ".6.2 Is it True?",
+      "module": "(current)",
+      "word_count": 173,
+      "file": "lessons/6-2-is-it-true.md"
+    },
+    {
+      "id": "6-3-does-it-work",
+      "title": ".6.3 Does it Work?",
+      "module": "(current)",
+      "word_count": 158,
+      "file": "lessons/6-3-does-it-work.md"
+    },
+    {
+      "id": "6-4-is-it-what-you-want",
+      "title": ".6.4 Is it What You Want?",
+      "module": "(current)",
+      "word_count": 155,
+      "file": "lessons/6-4-is-it-what-you-want.md"
+    },
+    {
+      "id": "6-5-is-it-logical",
+      "title": ".6.5 Is it Logical?",
+      "module": "(current)",
+      "word_count": 169,
+      "file": "lessons/6-5-is-it-logical.md"
+    },
+    {
+      "id": "check-your-understanding-6",
+      "title": "Check Your Understanding",
+      "module": "(current)",
+      "word_count": 27,
+      "file": "lessons/check-your-understanding-6.md"
+    },
+    {
+      "id": "section-13",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 4,
+      "file": "lessons/section-13.md"
+    },
+    {
+      "id": "section-14",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/section-14.md"
+    },
+    {
+      "id": "7-1-general-advice",
+      "title": ".7.1 General Advice",
+      "module": "(current)",
+      "word_count": 200,
+      "file": "lessons/7-1-general-advice.md"
+    },
+    {
+      "id": "7-2-review-prompts-and-responses",
+      "title": ".7.2 Review Prompts and Responses",
+      "module": "(current)",
+      "word_count": 169,
+      "file": "lessons/7-2-review-prompts-and-responses.md"
+    },
+    {
+      "id": "7-3-manual-review",
+      "title": ".7.3 Manual Review",
+      "module": "(current)",
+      "word_count": 177,
+      "file": "lessons/7-3-manual-review.md"
+    },
+    {
+      "id": "7-4-giving-the-llm-feedback",
+      "title": ".7.4 Giving the LLM Feedback",
+      "module": "(current)",
+      "word_count": 194,
+      "file": "lessons/7-4-giving-the-llm-feedback.md"
+    },
+    {
+      "id": "7-5-llm-assisted-evaluation",
+      "title": ".7.5 LLM-Assisted Evaluation",
+      "module": "(current)",
+      "word_count": 190,
+      "file": "lessons/7-5-llm-assisted-evaluation.md"
+    },
+    {
+      "id": "7-6-making-edits-easier-to-read",
+      "title": ".7.6 Making Edits Easier to Read",
+      "module": "(current)",
+      "word_count": 160,
+      "file": "lessons/7-6-making-edits-easier-to-read.md"
+    },
+    {
+      "id": "7-7-compare-versions",
+      "title": ".7.7 Compare Versions",
+      "module": "(current)",
+      "word_count": 207,
+      "file": "lessons/7-7-compare-versions.md"
+    },
+    {
+      "id": "7-8-compare-text-files",
+      "title": ".7.8 Compare Text Files",
+      "module": "(current)",
+      "word_count": 280,
+      "file": "lessons/7-8-compare-text-files.md"
+    },
+    {
+      "id": "check-your-understanding-7",
+      "title": "Check Your Understanding",
+      "module": "(current)",
+      "word_count": 31,
+      "file": "lessons/check-your-understanding-7.md"
+    },
+    {
+      "id": "section-15",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 0,
+      "file": "lessons/section-15.md"
+    },
+    {
+      "id": "section-16",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 9,
+      "file": "lessons/section-16.md"
+    },
+    {
+      "id": "8-1-congratulations",
+      "title": ".8.1 Congratulations!",
+      "module": "(current)",
+      "word_count": 144,
+      "file": "lessons/8-1-congratulations.md"
+    },
+    {
+      "id": "section-17",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 3,
+      "file": "lessons/section-17.md"
+    },
+    {
+      "id": "section-18",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 8,
+      "file": "lessons/section-18.md"
+    },
+    {
+      "id": "prompting-like-an-engineer-build-a-private-book-recommender-with-a-local-llm",
+      "title": "Prompting Like an Engineer: Build a Private Book Recommender with a Local LLM",
+      "module": "(current)",
+      "word_count": 2,
+      "file": "lessons/prompting-like-an-engineer-build-a-private-book-recommender-with-a-local-llm.md"
+    },
+    {
+      "id": "section-19",
+      "title": "Section",
+      "module": "(current)",
+      "word_count": 2,
+      "file": "lessons/section-19.md"
+    },
+    {
+      "id": "end-of-course-survey-overview",
+      "title": "End of Course Survey — overview",
+      "module": "End of Course Survey",
+      "word_count": 30,
+      "file": "lessons/end-of-course-survey-overview.md"
+    },
+    {
+      "id": "section-20",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section-20.md"
+    },
+    {
+      "id": "section-21",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-21.md"
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 131,
+      "file": "lessons/survey.md"
+    },
+    {
+      "id": "section-22",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-22.md"
+    },
+    {
+      "id": "section-23",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 12,
+      "file": "lessons/section-23.md"
+    },
+    {
+      "id": "section-24",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 68,
+      "file": "lessons/section-24.md"
+    },
+    {
+      "id": "survey-2",
+      "title": "Survey",
+      "module": "End of Course Survey",
+      "word_count": 139,
+      "file": "lessons/survey-2.md"
+    },
+    {
+      "id": "section-25",
+      "title": "Section",
+      "module": "End of Course Survey",
+      "word_count": 5,
+      "file": "lessons/section-25.md"
+    },
+    {
+      "id": "prompt-like-an-engineer-course-assessment-overview",
+      "title": "Prompt like an Engineer Course Assessment — overview",
+      "module": "Prompt like an Engineer Course Assessment",
+      "word_count": 6,
+      "file": "lessons/prompt-like-an-engineer-course-assessment-overview.md"
+    },
+    {
+      "id": "section-26",
+      "title": "Section",
+      "module": "Prompt like an Engineer Course Assessment",
+      "word_count": 241,
+      "file": "lessons/section-26.md"
+    },
+    {
+      "id": "section-27",
+      "title": "Section",
+      "module": "Prompt like an Engineer Course Assessment",
+      "word_count": 0,
+      "file": "lessons/section-27.md"
+    },
+    {
+      "id": "section-28",
+      "title": "Section",
+      "module": "Prompt like an Engineer Course Assessment",
+      "word_count": 0,
+      "file": "lessons/section-28.md"
+    }
+  ]
+}

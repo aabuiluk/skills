@@ -1,0 +1,443 @@
+{
+  "slug": "introduction-to-modern-ai",
+  "modules": [
+    "(current)",
+    "Module {{_globals._moduleNumber}}: Introduction to Modern AI",
+    "About the course assessment",
+    "End of Course Survey",
+    "Introduction to Modern AI Course Assessment",
+    "And one more thing…"
+  ],
+  "lessons": [
+    {
+      "id": "current-overview",
+      "title": "(current) — overview",
+      "module": "(current)"
+    },
+    {
+      "id": "0-open-ended-project",
+      "title": ".0 Open Ended Project",
+      "module": "(current)"
+    },
+    {
+      "id": "0-1-open-ended-project-intro",
+      "title": ".0.1 Open Ended Project Intro",
+      "module": "(current)"
+    },
+    {
+      "id": "0-2-make-a-video-of-your-project",
+      "title": ".0.2 Make a Video of your Project",
+      "module": "(current)"
+    },
+    {
+      "id": "section",
+      "title": "Section",
+      "module": "(current)"
+    },
+    {
+      "id": "module-globals-modulenumber-introduction-to-modern-ai-overview",
+      "title": "Module {{_globals._moduleNumber}}: Introduction to Modern AI — overview",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-intro-and-foundations",
+      "title": ".0. Intro and foundations",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-1-intro-to-the-course",
+      "title": ".0.1 Intro to the Course",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-2-what-you-ll-be-able-to-do",
+      "title": ".0.2 What you’ll be able to do",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-3-definition-of-ai",
+      "title": ".0.3 Definition of AI",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-4-intelligence",
+      "title": ".0.4 Intelligence",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-5-machine-learning",
+      "title": ".0.5 Machine Learning",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-6-models",
+      "title": ".0.6 Models",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "0-7-study-tip-the-big-picture",
+      "title": ".0.7 Study Tip: The Big Picture",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "section-2",
+      "title": "Section",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "1-computer-vision",
+      "title": ".1. Computer Vision",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "1-1-object-detection",
+      "title": ".1.1 Object Detection",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "1-2-similarity-search",
+      "title": ".1.2 Similarity Search",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "1-3-image-segmentation",
+      "title": ".1.3 Image Segmentation",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "1-4-optical-character-recognition",
+      "title": ".1.4 Optical Character Recognition",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "1-5-take-a-break",
+      "title": ".1.5 Take a Break",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "section-3",
+      "title": "Section",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "2-machine-translation",
+      "title": ".2. Machine Translation",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "2-1-machine-translation-words-and-word-order",
+      "title": ".2.1 Machine Translation: Words and Word Order",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "2-2-machine-translation-context",
+      "title": ".2.2 Machine Translation: Context",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "2-3-machine-translation-idiomatic-vs-literal",
+      "title": ".2.3 Machine Translation: Idiomatic vs Literal",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "2-4-machine-translation-distance-between-two-words",
+      "title": ".2.4 Machine Translation: Distance between Two Words",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "2-5-think-like-a-detective",
+      "title": ".2.5 Think Like a Detective",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "section-4",
+      "title": "Section",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-chatbots",
+      "title": ".3. Chatbots",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-1-what-you-can-do-with-chatbots",
+      "title": ".3.1 What you can do with Chatbots",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-2-predict-the-next-word",
+      "title": ".3.2 Predict the Next Word",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-3-hallucinations",
+      "title": ".3.3 Hallucinations",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-4-memory",
+      "title": ".3.4 Memory",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-5-level-of-difficulty",
+      "title": ".3.5 Level of Difficulty",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-6-use-multiple-chatbots",
+      "title": ".3.6 Use Multiple Chatbots",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-7-test-it-before-you-rely-on-it",
+      "title": ".3.7 Test it Before you Rely on it",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-8-how-to-write-your-prompts",
+      "title": ".3.8 How to Write your Prompts",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "3-9-silver-linings",
+      "title": ".3.9 Silver Linings",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "section-5",
+      "title": "Section",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-ways-to-use-chatbots",
+      "title": ".4 Ways to use Chatbots",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-1-expand-answer-questions",
+      "title": ".4.1 Expand: Answer Questions",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-2-expand-generating-ideas",
+      "title": ".4.2 Expand: Generating Ideas",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-3-synthesize-summarize",
+      "title": ".4.3 Synthesize: Summarize",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-4-synthesize-label",
+      "title": ".4.4 Synthesize: Label",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-5-transform-translate",
+      "title": ".4.5 Transform: Translate",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-6-transform-reword-and-revise",
+      "title": ".4.6 Transform: Reword and Revise",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-7-evaluate-fact-check",
+      "title": ".4.7 Evaluate: Fact check",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-8-evaluate-grading",
+      "title": ".4.8 Evaluate: Grading",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-9-evaluate-qualitative-scoring",
+      "title": ".4.9 Evaluate: Qualitative scoring",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-10-chat-how-s-it-going",
+      "title": ".4.10 Chat: How’s it going?",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-11-chat-mock-interview",
+      "title": ".4.11 Chat: Mock Interview",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-12-chat-chatbot-to-chatbot-collaboration",
+      "title": ".4.12 Chat: Chatbot to Chatbot Collaboration",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-13-take-actions-tools",
+      "title": ".4.13 Take Actions: Tools",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-14-image-generation",
+      "title": ".4.14 Image Generation",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-15-take-actions-personal-assistants",
+      "title": ".4.15 Take Actions: Personal Assistants",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "4-16-multimodal-prompting-with-images-and-text",
+      "title": ".4.16 Multimodal: Prompting with Images and Text",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "section-6",
+      "title": "Section",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "5-9-generative-ai-and-other-vocabulary-words",
+      "title": ".5.9 Generative AI and Other Vocabulary Words",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "5-1-generative-ai-and-other-vocabulary-words-part-1",
+      "title": ".5.1 Generative AI and Other Vocabulary Words Part 1",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "5-2-generative-ai-and-other-vocabulary-words-part-2",
+      "title": ".5.2  Generative AI and Other Vocabulary Words Part 2",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "5-3-skill-stacking",
+      "title": ".5.3 Skill Stacking",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "section-7",
+      "title": "Section",
+      "module": "Module {{_globals._moduleNumber}}: Introduction to Modern AI"
+    },
+    {
+      "id": "about-the-course-assessment-overview",
+      "title": "About the course assessment — overview",
+      "module": "About the course assessment"
+    },
+    {
+      "id": "article-title",
+      "title": "Article title",
+      "module": "About the course assessment"
+    },
+    {
+      "id": "video-about-the-course-assessment",
+      "title": "Video: About the course assessment",
+      "module": "About the course assessment"
+    },
+    {
+      "id": "section-8",
+      "title": "Section",
+      "module": "About the course assessment"
+    },
+    {
+      "id": "end-of-course-survey-overview",
+      "title": "End of Course Survey — overview",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-9",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-10",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-11",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-12",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-13",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "survey-2",
+      "title": "Survey",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "section-14",
+      "title": "Section",
+      "module": "End of Course Survey"
+    },
+    {
+      "id": "introduction-to-modern-ai-course-assessment-overview",
+      "title": "Introduction to Modern AI Course Assessment — overview",
+      "module": "Introduction to Modern AI Course Assessment"
+    },
+    {
+      "id": "article-title-2",
+      "title": "Article title",
+      "module": "Introduction to Modern AI Course Assessment"
+    },
+    {
+      "id": "course-assessment",
+      "title": "Course Assessment",
+      "module": "Introduction to Modern AI Course Assessment"
+    },
+    {
+      "id": "assessment",
+      "title": "Assessment",
+      "module": "Introduction to Modern AI Course Assessment"
+    },
+    {
+      "id": "result",
+      "title": "Result",
+      "module": "Introduction to Modern AI Course Assessment"
+    },
+    {
+      "id": "section-15",
+      "title": "Section",
+      "module": "Introduction to Modern AI Course Assessment"
+    },
+    {
+      "id": "and-one-more-thing-overview",
+      "title": "And one more thing… — overview",
+      "module": "And one more thing…"
+    },
+    {
+      "id": "and-one-more-thing",
+      "title": "And one more thing…",
+      "module": "And one more thing…"
+    },
+    {
+      "id": "and-one-more-thing-2",
+      "title": "And one more thing…",
+      "module": "And one more thing…"
+    },
+    {
+      "id": "section-16",
+      "title": "Section",
+      "module": "And one more thing…"
+    }
+  ]
+}

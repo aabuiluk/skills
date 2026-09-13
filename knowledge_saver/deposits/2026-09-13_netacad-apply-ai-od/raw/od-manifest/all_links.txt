@@ -1,0 +1,266 @@
+Назва	Джерело	Посилання
+[Packtpub.com / Matthew Rever] Computer Vision Projects with Python 3 [2018, ENG]	url	https://drive.google.com/drive/folders/1t5TY27oCYM39JImzbJLu7eQgPY6O8Fno?usp=sharing
+[Pearson / O'Reilly Media] Skill Up with Python: Data Science and Machine Learning Recipes by Shaun Wassell [2024, ENG + Sub]	url	https://drive.google.com/drive/folders/1Isx_2iWxi4Evj6_VWFk4xtDxa9eQ_0Wd?usp=drive_link
+[Udemy] Learn OpenCV Python 2022 | Computer Vision Course [2022, ENG]	url	https://drive.google.com/drive/folders/1bRC0kSAVZ2bP0oi9eGfHFcGxOEIckQrL?usp=sharing
+[Udemy] Machine Learning in Python with 5 Machine Learning Projects [04.2021, ENG]	url	https://drive.google.com/drive/folders/1AXymogqWnyOgkBBtHcngYMfqj5_azoZn?usp=sharing
+[Udemy] Natural Language Processing (NLP) in Python with 8 Projects [11.2021, ENG]	url	https://drive.google.com/drive/folders/1D9lz_MXJeY77OjeshSFrweoh5izHH__r?usp=sharing
+[Udemy] Practical AI with Python and Reinforcement Learning [07.2021, ENG]	url	https://drive.google.com/drive/folders/1iME5ABgd3MKtUs8goM9pqmjmAR1d0rrv?usp=sharing
+[Udemy] Python for Data Science & Machine Learning from A-Z [01.2021, ENG]	url	https://drive.google.com/drive/folders/1zSbbqpEh83Ly8MnVpA4G_m-o2Sd0KaRE?usp=sharing
+[Udemy] Python Programming: Machine Learning, Deep Learning | Python [05.2021, ENG]	url	https://drive.google.com/drive/folders/1zJItqyddYRH0fdiAeHgQhOsxMDvhQ46W?usp=sharing
+[Udemy] The Complete Python Pro Bootcamp for Data Science and AI [2022, ENG]	url	https://drive.google.com/drive/folders/1B1Nqp3sue-Pucd4p87KkGB-8jLfMxvNd?usp=sharing
+Програма курсу 
+Штучний інтелект з використанням Python	html_link	https://materials.itstep.org/content/beef810f-be75-4b3c-9c1b-a8124a1a4b01/uk
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://materials.itstep.org/css/style-new.css?t=1789291919
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://fsx3.itstep.org/api/v1/files/lnvaNmCB7CbcdqBV1K0z326HNaclqvZr?inline
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/monokai-sublime.min.css
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://fonts.googleapis.com
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://fonts.gstatic.com
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://fsx3.itstep.org/api/v1/files/v0XHkB00baS7nrMZDLFGr-fpDDrW450J?inline=true&h=1080&w=1920
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.netacad.com/courses/introduction-to-modern-ai
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.netacad.com/courses/ai-ibm-skillsbuild
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.netacad.com/courses/data-science-essentials-with-python
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://vincentarelbundock.github.io/Rdatasets/csv/Ecdat/Housing.csv
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.marktechpost.com/2021/02/12/logistic-regression-with-a-real-world-example-in-python/
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://playground.tensorflow.org/
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://medium.datadriveninvestor.com/handwritten-digit-classification-using-neural-network-in-pytorch-eeef32c7a94
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.machinelearningmastery.ru/complete-guide-of-activation-functions-34076e95d044/
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/code
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.kaggle.com/vladislavkisin/word2vec-in-supervised-nlp-tasks-shortcut
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://pytorch.org/tutorials/intermediate/char_rnn_generation_tutorial.html
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://www.kaggle.com/gdeagle19/rfm-k-means-on-retail-dataset/notebook#Step-3.-Customer-segmentation-using-K-Means
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://medium.com/@bindhubalu/content-based-recommender-system-4db1b3de03e7
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://grouplens.org/datasets/movielens/20m/
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://itstep.org
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://code.jquery.com/jquery-3.3.1.min.js
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://fsx3.itstep.org/api/v1/files/nad_9aNCEHczO7VuFz6sQ-ODRnXdg7ir?inline
+Програма курсу 
+Штучний інтелект з використанням Python	html	https://materials.itstep.org/js/script-new.js?t=1789291919
+Домашнє завдання 1	html_link	https://materials.itstep.org/content/b5dd5148-e12e-4067-9d18-c7c7590d3cec/uk
+Домашнє завдання 1	html	https://materials.itstep.org/css/style-new.css?t=1789291920
+Домашнє завдання 1	html	https://materials.itstep.org/js/script-new.js?t=1789291920
+Домашнє завдання 2.1	html_link	https://materials.itstep.org/content/495f3ecd-53b6-47f8-a9c8-ea9ce4387772/uk
+Домашнє завдання 2.2	html_link	https://materials.itstep.org/content/dfc2eac1-2a18-49e0-855a-5e5ce65d5c1f/uk
+Домашнє завдання 2.2	html	https://materials.itstep.org/css/style-new.css?t=1789291921
+Домашнє завдання 2.2	html	https://materials.itstep.org/js/script-new.js?t=1789291921
+Домашнє завдання 2.3	html_link	https://materials.itstep.org/content/fa7ab090-2b15-48a0-a14d-cd2ce519e0a5/uk
+Домашнє завдання 2.4	html_link	https://materials.itstep.org/content/81941686-a769-4850-8f40-1c06c5b28797/uk
+Домашнє завдання 2.4	html	https://materials.itstep.org/css/style-new.css?t=1789291922
+Домашнє завдання 2.4	html	https://materials.itstep.org/js/script-new.js?t=1789291922
+Домашнє завдання 3.1	html_link	https://materials.itstep.org/content/7d67d6ba-7cae-40bc-befe-129939bd1a3e/uk
+Домашнє завдання 3.2	html_link	https://materials.itstep.org/content/666c1cf0-526d-480c-881f-003556669211/uk
+Домашнє завдання 3.2	html	https://materials.itstep.org/css/style-new.css?t=1789291923
+Домашнє завдання 3.2	html	https://materials.itstep.org/js/script-new.js?t=1789291923
+Домашнє завдання 3.3	html_link	https://materials.itstep.org/content/95a4a139-57b8-4229-a789-5619c7bcdc79/uk
+Домашнє завдання 3.4	html_link	https://materials.itstep.org/content/2a942d9d-3036-4102-bc33-28c4f40ca2b2/uk
+Домашнє завдання 3.4	html	https://materials.itstep.org/css/style-new.css?t=1789291924
+Домашнє завдання 3.4	html	https://materials.itstep.org/js/script-new.js?t=1789291924
+Домашнє завдання 4.1	html_link	https://materials.itstep.org/content/37205e90-7206-414c-aeb7-9562f7429e58/uk
+Домашнє завдання 4.1	html	https://materials.itstep.org/css/style-new.css?t=1789291925
+Домашнє завдання 4.1	html	https://materials.itstep.org/js/script-new.js?t=1789291925
+Домашнє завдання 4.2	html_link	https://materials.itstep.org/content/ae349d5a-d123-4c1b-8484-14da847cc982/uk
+Домашнє завдання 4.2	html	https://materials.itstep.org/css/style-new.css?t=1789291926
+Домашнє завдання 4.2	html	https://materials.itstep.org/js/script-new.js?t=1789291926
+Домашнє завдання 5.1	html_link	https://materials.itstep.org/content/6a8ac0ed-7497-413b-a386-5fc6611cfa58/uk
+Домашнє завдання 5.1	html	https://materials.itstep.org/css/style-new.css?t=1789291927
+Домашнє завдання 5.1	html	https://materials.itstep.org/js/script-new.js?t=1789291927
+Домашнє завдання 5.2	html_link	https://materials.itstep.org/content/e0d0b732-e2cf-4e20-8676-120d6dbf507d/uk
+Домашнє завдання 5.2	html	https://materials.itstep.org/css/style-new.css?t=1789291929
+Домашнє завдання 5.2	html	https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/code
+Домашнє завдання 5.2	html	https://materials.itstep.org/js/script-new.js?t=1789291929
+Домашнє завдання 6.1	html_link	https://materials.itstep.org/content/21f00fac-246b-49c7-a141-af3a32c87948/uk
+Домашнє завдання 6.1	html	https://materials.itstep.org/css/style-new.css?t=1789291930
+Домашнє завдання 6.1	html	https://materials.itstep.org/js/script-new.js?t=1789291930
+Домашнє завдання 6.2	html_link	https://materials.itstep.org/content/a0e410e6-a1d2-43e5-9d85-5466c4e3a490/uk
+Домашнє завдання 6.2	html	https://materials.itstep.org/css/style-new.css?t=1789291932
+Домашнє завдання 6.2	html	https://materials.itstep.org/js/script-new.js?t=1789291932
+Домашнє завдання 6.3	html_link	https://materials.itstep.org/content/9f5e32ec-e110-4913-ba6c-0789e06099f7/uk
+Домашнє завдання 6.3	html	https://materials.itstep.org/css/style-new.css?t=1789291934
+Домашнє завдання 6.3	html	https://materials.itstep.org/js/script-new.js?t=1789291934
+Домашнє завдання 7	html_link	https://materials.itstep.org/content/4541b4db-eb2c-4807-bb4b-6d204b2fede2/uk
+Домашнє завдання 7	html	https://materials.itstep.org/css/style-new.css?t=1789291935
+Домашнє завдання 7	html	https://materials.itstep.org/js/script-new.js?t=1789291935
+Домашнє завдання 7.1	html_link	https://materials.itstep.org/content/c497286b-d31b-4016-b3de-0126e354b227/uk
+Домашнє завдання 7.1	html	https://materials.itstep.org/css/style-new.css?t=1789291938
+Домашнє завдання 7.1	html	https://materials.itstep.org/js/script-new.js?t=1789291938
+Домашнє завдання 7.2	html_link	https://materials.itstep.org/content/ddfffe0c-0edd-4d21-9807-e00451a4858d/uk
+Домашнє завдання 7.2	html	https://materials.itstep.org/css/style-new.css?t=1789291940
+Домашнє завдання 7.2	html	https://materials.itstep.org/js/script-new.js?t=1789291940
+Домашнє завдання 7.3	html_link	https://materials.itstep.org/content/1a809611-e240-42ad-b074-c23a36ae6b91/uk
+Домашнє завдання 7.3	html	https://materials.itstep.org/css/style-new.css?t=1789291941
+Домашнє завдання 7.3	html	https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/books.csv
+Домашнє завдання 7.3	html	https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/ratings.csv
+Домашнє завдання 7.3	html	https://materials.itstep.org/js/script-new.js?t=1789291941
+Практичне завдання 1	html_link	https://materials.itstep.org/content/cb10a5c3-bfa1-448a-9f6b-b042171856b0/uk
+Практичне завдання 1	html	https://materials.itstep.org/css/style-new.css?t=1789291942
+Практичне завдання 1	html	https://materials.itstep.org/js/script-new.js?t=1789291942
+Практичне завдання 2.1	html_link	https://materials.itstep.org/content/87ae5a8d-d799-4a87-87d7-b4867107dab5/uk
+Практичне завдання 2.1	html	https://materials.itstep.org/css/style-new.css?t=1789291944
+Практичне завдання 2.1	html	https://materials.itstep.org/js/script-new.js?t=1789291944
+Практичне завдання 2.2	html_link	https://materials.itstep.org/content/2133a8b3-35d0-4a50-ba06-b67d60e94afb/uk
+Практичне завдання 2.2	html	https://materials.itstep.org/css/style-new.css?t=1789291945
+Практичне завдання 2.2	html	https://materials.itstep.org/js/script-new.js?t=1789291945
+Практичне завдання 2.3	html_link	https://materials.itstep.org/content/9b44e3c1-146b-409e-a80b-a89ea82e693e/uk
+Практичне завдання 2.3	html	https://materials.itstep.org/css/style-new.css?t=1789291947
+Практичне завдання 2.3	html	https://materials.itstep.org/js/script-new.js?t=1789291947
+Практичне завдання 2.4	html_link	https://materials.itstep.org/content/cb24c82e-69f3-4322-960d-fea4fa4ad30b/uk
+Практичне завдання 2.4	html	https://materials.itstep.org/css/style-new.css?t=1789291949
+Практичне завдання 2.4	html	https://materials.itstep.org/js/script-new.js?t=1789291949
+Практичне завдання 3.1	html_link	https://materials.itstep.org/content/96006df5-ea3c-49ff-8734-e319dc01a9d7/uk
+Практичне завдання 3.1	html	https://materials.itstep.org/css/style-new.css?t=1789291951
+Практичне завдання 3.1	html	https://materials.itstep.org/js/script-new.js?t=1789291951
+Практичне завдання 3.2	html_link	https://materials.itstep.org/content/6e880643-b5b1-41ce-a841-fc3336123584/uk
+Практичне завдання 3.2	html	https://materials.itstep.org/css/style-new.css?t=1789291954
+Практичне завдання 3.2	html	https://materials.itstep.org/js/script-new.js?t=1789291954
+Практичне завдання 3.3	html_link	https://materials.itstep.org/content/6c578d0a-b742-4c19-8513-d6b970468137/uk
+Практичне завдання 3.3	html	https://materials.itstep.org/css/style-new.css?t=1789291957
+Практичне завдання 3.3	html	https://materials.itstep.org/js/script-new.js?t=1789291957
+Практичне завдання 3.4	html_link	https://materials.itstep.org/content/f1344b6f-0cd4-4859-b521-019007e05013/uk
+Практичне завдання 4.1	html_link	https://materials.itstep.org/content/d0a20c55-5e45-42f6-9eac-2484c1edaa25/uk
+Практичне завдання 4.1	html	https://materials.itstep.org/css/style-new.css?t=1789291958
+Практичне завдання 4.1	html	https://materials.itstep.org/js/script-new.js?t=1789291958
+Практичне завдання 4.2	html_link	https://materials.itstep.org/content/d29168d7-b233-4c4c-a9a3-cb2db3887d4d/uk
+Практичне завдання 4.2	html	https://materials.itstep.org/css/style-new.css?t=1789291959
+Практичне завдання 4.2	html	https://materials.itstep.org/js/script-new.js?t=1789291959
+Практичне завдання 5.1	html_link	https://materials.itstep.org/content/a7eb3d14-c673-4acb-87c4-021357f0968f/uk
+Практичне завдання 5.1	html	https://materials.itstep.org/css/style-new.css?t=1789291960
+Практичне завдання 5.1	html	https://materials.itstep.org/js/script-new.js?t=1789291960
+Практичне завдання 5.2	html_link	https://materials.itstep.org/content/a874d18f-700f-485e-b459-d12a8e6139ad/uk
+Практичне завдання 5.2	html	https://materials.itstep.org/css/style-new.css?t=1789291962
+Практичне завдання 5.2	html	https://materials.itstep.org/js/script-new.js?t=1789291962
+Практичне завдання 6.1	html_link	https://materials.itstep.org/content/6102a006-4e7d-4be6-8fc1-1083555d1092/uk
+Практичне завдання 6.1	html	https://materials.itstep.org/css/style-new.css?t=1789291964
+Практичне завдання 6.1	html	https://materials.itstep.org/js/script-new.js?t=1789291964
+Практичне завдання 6.2	html_link	https://materials.itstep.org/content/621d8d77-7796-4f67-a150-85d5dc8a2bd8/uk
+Практичне завдання 6.2	html	https://materials.itstep.org/css/style-new.css?t=1789291966
+Практичне завдання 6.2	html	https://materials.itstep.org/js/script-new.js?t=1789291966
+Практичне завдання 6.3	html_link	https://materials.itstep.org/content/7f4e64a2-89fa-4a90-8107-320d0e737626/uk
+Практичне завдання 6.3	html	https://materials.itstep.org/css/style-new.css?t=1789291969
+Практичне завдання 6.3	html	https://materials.itstep.org/js/script-new.js?t=1789291969
+Практичне завдання 7	html_link	https://materials.itstep.org/content/66a4d188-7761-4f64-ba9e-6daaa27f6a34/uk
+Практичне завдання 7	html	https://materials.itstep.org/css/style-new.css?t=1789291974
+Практичне завдання 7	html	https://materials.itstep.org/js/script-new.js?t=1789291974
+Практичне завдання 7.1	html_link	https://materials.itstep.org/content/4f29e018-3bb5-4b93-bd37-2f022e2a7228/uk
+Практичне завдання 7.1	html	https://materials.itstep.org/css/style-new.css?t=1789291975
+Практичне завдання 7.1	html	https://materials.itstep.org/js/script-new.js?t=1789291975
+Практичне завдання 7.2	html_link	https://materials.itstep.org/content/2cfc1e97-3b1c-4883-bd53-3cc37ce24d1a/uk
+Практичне завдання 7.2	html	https://materials.itstep.org/css/style-new.css?t=1789291976
+Практичне завдання 7.2	html	https://materials.itstep.org/js/script-new.js?t=1789291976
+Практичне завдання 7.3	html_link	https://materials.itstep.org/content/f98bc9ef-c367-46f5-ac8a-cd228af12a1b/uk
+Практичне завдання 7.3	html	https://materials.itstep.org/css/style-new.css?t=1789291978
+Практичне завдання 7.3	html	https://materials.itstep.org/js/script-new.js?t=1789291978
+Practical Explainable AI Using Python: Artificial Intelligence Model Explanations Using Python-based Libraries, Extensions, and Frameworks	url	https://drive.google.com/file/d/1oKy4BAOF7C9jCg4AYuUbGMcrnnCBXamK/view?usp=sharing
+Build Your Own AI Investor: With Machine Learning and Python, Step by Step	url	https://drive.google.com/file/d/1POreBRYGXTJAJn790HzD6lYb1CB92PVm/view?usp=sharing
+Generative AI with Python and TensorFlow 2: Create images, text, and music with VAEs, GANs, LSTMs, Transformer models	url	https://drive.google.com/file/d/1hn-HLJb9I96hR18AbxrdfkER7faKYxyr/view?usp=sharing
+Python: Beginner's Guide to Artificial Intelligence: Build applications to intelligently interact with the world around you using Python	url	https://drive.google.com/file/d/1X0W4VEZQLMEiitQHHsVhwB7dH8tHHc1E/view?usp=sharing
+Pro Deep Learning with TensorFlow 2.0: A Mathematical Approach to Advanced Artificial Intelligence in Python	url	https://drive.google.com/file/d/1HwL-UF3eG2RVQTVUqADgdx2WMe88UjC7/view?usp=sharing
+Python for Scientific Computing and Artificial Intelligence	url	https://drive.google.com/file/d/1onoQBH7-WQFwFqjonhkh19J4MvPfqjS3/view?usp=sharing
+Essentials of Python for Artificial Intelligence and Machine Learning	url	https://drive.google.com/file/d/1NwEOSIKHesWsr52bdL1xuOcC4PwsWa05/view?usp=sharing
+Neural Network Computer Vision with OpenCV 5: Build computer vision solutions using Python and DNN module	url	https://drive.google.com/file/d/1yybX-CggVoIzidd5NhRBfLJgpdC9DjB1/view?usp=sharing
+Learning OpenCV 5 Computer Vision with Python - Fourth Edition	url	https://drive.google.com/file/d/1JjFY1_RtyZpF9qONz12U8BtxI7DdF71b/view?usp=sharing
+Generative AI with LangChain: Build large language model (LLM) apps with Python, ChatGPT and other LLMs	url	https://drive.google.com/file/d/1VxQ4DPpcsCIhK-I2iE0CBH03U9w2Hu1e/view?usp=sharing
+OpenCV Course - Full Tutorial with Python	url	https://www.youtube.com/embed/oXlwWbU8l2o
+Python OpenCV for Beginners - Full Course - Learn Computer Vision	url	https://www.youtube.com/embed/44xdiWLm4Xo
+Create a Large Language Model from Scratch with Python – Tutorial	url	https://www.youtube.com/embed/UU1WVnMk4E8
+Natural Language Processing with spaCy & Python - Course for Beginners	url	https://www.youtube.com/embed/dIUTsFT2MeQ
+Machine Learning with Python and Scikit-Learn – Full Course	url	https://www.youtube.com/embed/hDKCxebp88A
+Machine Learning for Everybody – Full Course	url	https://www.youtube.com/embed/i_LwzRVP7bg
+Machine Learning in 2024 – Beginner's Course	url	https://www.youtube.com/embed/bmmQA8A-yUA
+Deep Learning for Computer Vision with Python and TensorFlow – Complete Course	url	https://www.youtube.com/embed/IA3WxTTPXqQ
+Generative AI Full Course – Gemini Pro, OpenAI, Llama, Langchain, Pinecone, Vector Databases & More	url	https://www.youtube.com/embed/mEsleV16qdo
+What is artificial intelligence (AI)? Everything you need to know	url	https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence
+What is AI (artificial intelligence)?	url	https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-ai
+AI Datasets: Unlocking the Secrets of Artificial Intelligence	url	https://resources.defined.ai/blog/ai-datasets/
+The 50 best free datasets for machine learning	url	https://www.telusinternational.com/insights/ai-data/article/the-50-best-free-datasets-for-machine-learning
+How to Use Jupyter Notebooks: The Ultimate Guide	url	https://www.datacamp.com/tutorial/tutorial-jupyter-notebook
+Python pandas tutorial: The ultimate guide for beginners	url	https://www.datacamp.com/tutorial/pandas
+Pandas Tutorial	url	https://www.w3schools.com/python/pandas/default.asp
+NumPy Tutorial	url	https://www.w3schools.com/python/numpy/default.asp
+NumPy: the absolute basics for beginners	url	https://numpy.org/doc/stable/user/absolute_beginners.html
+Statistics as the Foundation of Data Science	url	https://dedekurniawann.medium.com/statistics-as-the-foundation-of-data-science-9b42ab6a50e7
+Statistics Tutorial	url	https://www.w3schools.com/statistics/
+Introduction to Plotting with Matplotlib in Python	url	https://www.datacamp.com/tutorial/matplotlib-tutorial-python
+Artificial Intelligence Tutorial | AI Tutorial for Beginners	url	https://www.youtube.com/embed/PGRUefsr4CU
+10 Free Dataset Resources for Your Next Project!	url	https://www.youtube.com/embed/JcDnoEtsoCU
+10 BEST MACHINE LEARNING PROJECTS WITH DATASETS	url	https://www.youtube.com/embed/HF6NJnBq2Ig
+How is data prepared for machine learning?	url	https://www.youtube.com/embed/P8ERBy91Y90
+Jupyter Notebook Complete Beginner Guide - From Jupyter to Jupyterlab, Google Colab and Kaggle!	url	https://www.youtube.com/embed/5pf0_bpNbkw
+Python NumPy Tutorial for Beginners	url	https://www.youtube.com/embed/QUT1VHiLmmI
+NumPy Full Python Course - Data Science Fundamentals	url	https://www.youtube.com/embed/4c_mwnYdbhQ
+Learning Pandas for Data Analysis? Start Here	url	https://www.youtube.com/embed/DkjCaAMBGWM
+Pandas & Python for Data Analysis by Example – Full Course for Beginners	url	https://www.youtube.com/embed/gtjxAH8uaP0
+Statistics - A Full University Course on Data Science Basics	url	https://www.youtube.com/embed/xxpc-HPKN28
+Matplotlib Crash Course	url	https://www.youtube.com/embed/3Xc3CA655Y4
+Basics of Regression	url	https://makemeanalyst.com/basics-of-regression/
+Top 10 Machine Learning Algorithms For Beginners: Supervised, and More	url	https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article
+Supervised Machine Learning	url	https://www.geeksforgeeks.org/supervised-machine-learning/
+Supervised Machine Learning	url	https://www.javatpoint.com/supervised-machine-learning
+An Ultimate Tutorial to Neural Networks	url	https://www.simplilearn.com/tutorials/deep-learning-tutorial/neural-network
+Introduction to Neural Networks	url	https://pyimagesearch.com/2021/05/06/introduction-to-neural-networks/
+What is a neural network?	url	https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/
+Introduction to Deep Neural Networks	url	https://www.datacamp.com/tutorial/introduction-to-deep-neural-networks
+Computer Vision Tutorial	url	https://www.geeksforgeeks.org/computer-vision/
+A Gentle Introduction to Computer Vision	url	https://machinelearningmastery.com/what-is-computer-vision/
+Python Computer Vision Tutorials	url	https://realpython.com/tutorials/computer-vision/
+The Top 10 Computer Vision Packages for Python	url	https://www.activestate.com/blog/the-top-10-computer-vision-packages-for-python/
+What is Natural Language Processing (NLP)? A Comprehensive Guide for Beginners	url	https://www.datacamp.com/blog/what-is-natural-language-processing
+NLP Tutorial – Text Pre-Processing Techniques for Beginners	url	https://www.freecodecamp.org/news/natural-language-processing-techniques-for-beginners/
+Natural Language Processing (NLP) Tutorial	url	https://www.geeksforgeeks.org/natural-language-processing-nlp-tutorial/
+What is Natural Language Processing (NLP)?	url	https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-natural-language-processing-nlp
+What Is Generative AI and How Does it Work?	url	https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-generative-ai
+Introduction to Generative AI and Large Language Models	url	https://github.com/microsoft/generative-ai-for-beginners/blob/main/01-introduction-to-genai/README.md
+Prompt Engineering Guide	url	https://learnprompting.org/docs/intro
+Prompt engineering	url	https://platform.openai.com/docs/guides/prompt-engineering
+Developer quickstart	url	https://platform.openai.com/docs/quickstart
+A Beginner's Guide to The OpenAI API: Hands-On Tutorial and Best Practices	url	https://www.datacamp.com/tutorial/guide-to-openai-api-on-tutorial-best-practices
+A Complete LangChain Guide	url	https://nanonets.com/blog/langchain/
+Introduction to Unsupervised Learning	url	https://www.datacamp.com/blog/introduction-to-unsupervised-learning
+Unsupervised Machine Learning	url	https://www.javatpoint.com/unsupervised-machine-learning
+Unsupervised Learning: Clearly Explained	url	https://www.alexanderthamm.com/en/blog/this-is-how-unsupervised-machine-learning-works/
+Unsupervised Machine Learning: Algorithms, Types with Example	url	https://www.guru99.com/unsupervised-machine-learning.html
+Supervised vs. Unsupervised Learning	url	https://www.youtube.com/embed/W01tIRP_Rqs
+Supervised learning part 01	url	https://www.youtube.com/embed/JMpbbSZ6hj8
+Supervised learning part 02	url	https://www.youtube.com/embed/epzqq3m0d20
+But what is a Neural Network?	url	https://www.youtube.com/embed/aircAruvnKk
+Neural Network Full Course | Neural Network Tutorial For Beginners | Neural Networks | Simplilearn	url	https://www.youtube.com/embed/ob1yS9g-Zcs
+Neural Networks & TensorfFlow Crash Course	url	https://www.youtube.com/embed/tZt6gRlRcgk
+Introduction to Convolutional Neural Networks for Visual Recognition	url	https://www.youtube.com/embed?listType=playlist&list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ
+Natural Language Processing In AI 2023 | Natural Language Processing Course 2023 | Simplilearn	url	https://www.youtube.com/embed/kqg-c3ACxgk
+Complete Natural Language Processing (NLP) Tutorial in Python! (with examples)	url	https://www.youtube.com/embed/M7SWr5xObkA
+Introduction to Generative AI	url	https://www.youtube.com/embed/cZaNf2rA30k
+Generative AI in a Nutshell - how to survive and thrive in the age of AI	url	https://www.youtube.com/embed/2IK3DFHRFfw
+Prompt Engineering Tutorial – Master ChatGPT and LLM Responses	url	https://www.youtube.com/embed/_ZvnD73m40o
+Coding with an AI pair programmer: Getting started with GitHub Copilot	url	https://www.youtube.com/embed/dhfTaSGYQ4o
+Get Started with the Future of Coding: GitHub Copilot	url	https://www.youtube.com/embed?listType=playlist&list=PLj6YeMhvp2S5_hvBl2SE-7YCHYlLQ0bPt
+Learn Amazon Q Developer (CodeWhisperer) in 16 Minutes	url	https://www.youtube.com/embed/X8pxN8TLQ8o
+LangChain Crash Course for Beginners	url	https://www.youtube.com/embed/lG7Uxts9SXs
+Unsupervised learning part 01	url	https://www.youtube.com/embed/cYH5NX3hal8
+Unsupervised learning part 02	url	https://www.youtube.com/embed/gKWO7D6VH9M
+Machine Learning Full Course - Learn Machine Learning 10 Hours	url	https://www.youtube.com/embed/GwIo3gDZCVQ
+PyTorch for Deep Learning & Machine Learning – Full Course	url	https://www.youtube.com/embed/V_xro1bcAuA
