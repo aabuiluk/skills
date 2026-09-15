@@ -3,8 +3,9 @@ name: teacher-materials-skill
 description: >-
   Пише методичні матеріали Python AI Materials: зріз teacher_kb → веб-пара
   журналу → автономний роздаток у lesson_materials/ (тултіпи запечені в HTML).
-  Рішення 1–N у results/, без X.1. Еталон густини — пари 11–16. Always-on
-  у lesson_helper (див. homemade-skills-always).
+  Рішення 1–N у results/, без X.1. Лише коли користувач явно назвав
+  teacher-materials-skill.
+disable-model-invocation: true
 ---
 
 # teacher-materials-skill
@@ -14,19 +15,13 @@ description: >-
 `/Users/abuiluk/LessonPython/pet_projects/lesson_helper`
 
 Канон у `lesson_helper`: `.agents/skills/teaching/teacher-materials-skill/`.
-Опубліковане дзеркало — `skills/.cursor/skills/teacher-materials-skill` (aabuiluk/skills).
-Мова матеріалів — **українська**.
+Опубліковане дзеркало — цей каталог (`skills` / aabuiluk/skills). Мова матеріалів — **українська**.
 
 Не збирай роздаток руками. Після веб-пари запускай білдер.
 
-Деталі: [kb.md](kb.md), [pack-layout.md](pack-layout.md), [presentation.md](presentation.md),
-**еталон густини** [gold-11-16.md](gold-11-16.md) (пари **11–16**), вузько 15–16 — [gold-15-16.md](gold-15-16.md).
+Деталі: [kb.md](kb.md), [pack-layout.md](pack-layout.md), [presentation.md](presentation.md), **еталон густини** [gold-15-16.md](gold-15-16.md) (пари 15–16).
 
-Карта «1 абзац + snippet + 1 callout» з `generate_pairs_15_50.py` — **не** матеріал.
-Нова або переписана пара = щільність **11–16**, інакше халтура.
-**Заборонено** супер-скорочені material-версії (інцидент v2 на 15–16) — див. gold-11-16.
-Завдання ITSTEP завжди з **прикладом виконання для викладача**.
-`public_plan.json` / галочки не чіпати.
+Карта «1 абзац + snippet + 1 callout» з `generate_pairs_15_50.py` — **не** матеріал. Нова або переписана пара має бути як 15–16, інакше це халтура. `public_plan.json` / галочки не чіпати.
 
 ## Голос: студент читає сам
 
@@ -113,13 +108,12 @@ python3 backend/data/courses/python_ai_materials/tools/query_teacher_kb.py "nump
 | `SLOVNYK_TERMINOLOGII.html` / `.md` | Повний словник |
 | `manifest.json` | Для журналу |
 
-Правила (див. [presentation.md](presentation.md) і [gold-11-16.md](gold-11-16.md)):
+Правила (див. [presentation.md](presentation.md) і [gold-15-16.md](gold-15-16.md)):
 
 - Непарна пара: **18:30–19:50**. Парна: **20:00–21:20**. Сума timed = `duration_min` (зазвичай 80).
 - Порядок: теорія + **приклади з lead** (`main`) → extra з KB **перед** практикою (без HH:MM) → ITSTEP (`task`) → **checkpoint 3 хв + exit ticket 4 хв** → `deep-study` в кінці (take-home). Extra/deep-study не входять у 80.
-- ≥10 lead, ≥4 блоки «Приклад ·», `.lh-teacher-note` на кожному блоці, повний `teacher.md`. Не тонкі картки генератора.
-- ITSTEP: «Звідки дані і навіщо» + умова + орієнтир + **приклад виконання для викладача** (кроки, `# ->`, що зламати). X.1 — «за аналогією», без розвʼязку студенту.
-- Нова material-версія на step **не може** бути тоншою за повний шар 11–16 / v4 15–16.
+- ≥10 lead, ≥4 блоки «Приклад ·», повний `teacher.md`. Не тонкі картки генератора.
+- ITSTEP: «Звідки дані і навіщо» + умова + орієнтир. X.1 — «за аналогією», без розвʼязку.
 - Extra: «Джерела» без sqlite-id. Нові терміни — в `assets/term-glossary.js`, далі копії в пари.
 - Оболонка як у готових пар (wide stage). Після правок HTML:
 
@@ -159,9 +153,7 @@ python3 backend/data/courses/python_ai_materials/tools/build_lesson_materials_1_
 ## Чеклист
 
 - [ ] Взято `--note` / `--sheet`, не весь extract
-- [ ] Веб: таймінг HTML = `plan.json`; extra перед практикою; checkpoint+exit після ITSTEP; deep-study в кінці; густина як пари **11–16** ([gold-11-16.md](gold-11-16.md))
-- [ ] Кожне ITSTEP-завдання має teacher **приклад виконання**
-- [ ] Немає супер-скороченого version-шару (порівняй з v4 15–16)
+- [ ] Веб: таймінг HTML = `plan.json`; extra перед практикою; checkpoint+exit після ITSTEP; deep-study в кінці; густина як пари 15–16 ([gold-15-16.md](gold-15-16.md))
 - [ ] `verify_pair_windows.py` для курсу — OK
 - [ ] Запущено `build_lesson_materials_1_14.py` без помилок
 - [ ] У HTML роздатку є `const ENTRIES` і коментар `baked term-glossary.js`

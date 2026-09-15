@@ -1,0 +1,113 @@
+# Матриця першоджерел для розширення курсу Python AI
+
+Дата перевірки: **2026-09-15**. Нумерація і назви взяті з `../catalog.json`; теми звірені з [програмою ITSTEP 2.0.0](https://materials.itstep.org/content/beef810f-be75-4b3c-9c1b-a8124a1a4b01/uk).
+
+Використано лише офіційні документації, оригінальні праці та сторінки власників даних. Описи нижче — власний стислий переказ. Перед додаванням датасету перевірте його ліцензію, розмір і персональні дані.
+
+## Модуль 1
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 01 / m01-p01 | Вступ до ШІ, DS і ML | [Turing 1950](https://academic.oup.com/mind/article/LIX/236/433/986238); [Dartmouth proposal](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) | Часова шкала 1950–1956–сьогодення; вправа на межі AI/ML/DS; кейс оцінювання користі й ризику AI. |
+| 02 / m01-p02 | Датасети, ознаки, Jupyter | [JupyterLab guide](https://jupyterlab.readthedocs.io/en/stable/user/interface.html); [UCI Iris](https://archive.ics.uci.edu/dataset/53/iris); [Datasheets for Datasets](https://arxiv.org/abs/1803.09010) | Екскурсія notebook/kernel/cell; паспорт Iris з features, target, походженням та обмеженнями; пошук витоку target. |
+
+## Модуль 2
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 03 / m02-p01 | NumPy, векторизація, pandas та I/O | [NumPy basics](https://numpy.org/doc/stable/user/absolute_beginners.html); [broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html); [pandas I/O](https://pandas.pydata.org/docs/user_guide/io.html) | Експеримент list проти ndarray; shape/axis/broadcasting; CSV round-trip з явними dtype. |
+| 04 / m02-p02 | DataFrame та інформаційні методи | [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html); [DataFrame API](https://pandas.pydata.org/docs/reference/frame.html); [missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html) | “Перші 7 хвилин EDA”: shape, head, sample, info, describe, isna; картки з помилковими dtype; data-quality report. |
+| 05 / m02-p03 | Mean, mode, median, variance, std | [Python statistics](https://docs.python.org/3/library/statistics.html); [NumPy statistics](https://numpy.org/doc/stable/reference/routines.statistics.html); [NIST location](https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm) | Контрприклади, де mean оманливе; population проти sample variance; вибір стійкої статистики для зарплат із викидом. |
+| 06 / m02-p04 | Розподіли, коваріація, кореляція | [SciPy distributions](https://docs.scipy.org/doc/scipy/tutorial/stats/probability_distributions.html); [NumPy Generator](https://numpy.org/doc/stable/reference/random/generator.html); [NIST correlation](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35c.htm) | Симуляції uniform/normal/Poisson із seed; різні форми зв’язку за однакової кореляції; вибір розподілу до процесу. |
+| 07 / m02-p05 | Figure, Axes, функції, гістограми | [Figure intro](https://matplotlib.org/stable/users/explain/figure/figure_intro.html); [subplots](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html); [hist](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html) | Object-oriented API; вплив bins і масштабу; рубрика читабельності: назва, одиниці, легенда, джерело. |
+| 08 / m02-p06 | Pie, box, scatter, bar | [plot types](https://matplotlib.org/stable/plot_types/index.html); [boxplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html); [scatter](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html) | Вибір графіка під питання; читання квартилів і викидів; редизайн невдалої pie-діаграми в bar chart. |
+
+## Модуль 3
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 09 / m03-p01 | Регресія з однією змінною | [LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html); [OLS guide](https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares); [NIST least squares](https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm) | Ручне передбачення з коефіцієнтів; залишки й екстраполяція; пояснення slope в одиницях задачі. |
+| 10 / m03-p02 | Метрики регресії та loss | [regression metrics](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics); [MSE](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html); [R²](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html) | Чутливість MAE/MSE/R² до викиду; loss проти metric; вибір метрики за бізнес-вартістю помилки. |
+| 11 / m03-p03 | Градієнтний спуск | [PyTorch optimization](https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html); [autograd](https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html); [SciPy optimize](https://docs.scipy.org/doc/scipy/tutorial/optimize.html) | Траєкторії для трьох learning rates; numerical gradient check; діагностика divergence, plateau і забутого `zero_grad`. |
+| 12 / m03-p04 | Множинна регресія, sklearn | [Pipeline](https://scikit-learn.org/stable/modules/compose.html#pipeline); [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html); [ColumnTransformer](https://scikit-learn.org/stable/modules/generated/sklearn.compose.ColumnTransformer.html) | Leakage-safe pipeline для різних типів ознак; інтерпретація коефіцієнтів після scaling; порівняння з ручним preprocessing. |
+| 13 / m03-p05 | Housing, preprocessing, validation | [California Housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html); [cross-validation](https://scikit-learn.org/stable/modules/cross_validation.html); [common pitfalls](https://scikit-learn.org/stable/common_pitfalls.html) | Data card, geographic split і baseline; leakage до/після Pipeline; holdout проти k-fold зі середнім і розкидом. |
+| 14 / m03-p06 | Поліноми, регуляризація, дерева, logistic | [polynomial features](https://scikit-learn.org/stable/modules/preprocessing.html#generating-polynomial-features); [linear models](https://scikit-learn.org/stable/modules/linear_model.html); [XGBoost](https://xgboost.readthedocs.io/en/stable/tutorials/model.html); [log loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html) | Реальне XGBoost-навчання; bias–variance за degree і shrinkage; cross-entropy через ймовірності та калібрування. |
+
+## Модуль 4
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 15 / m04-p01 | Персептрон і MLP | [Rosenblatt paper](https://psycnet.apa.org/record/1959-09865-001); [sklearn Perceptron](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Perceptron.html); [PyTorch neural nets](https://docs.pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html) | Лінійна межа й XOR; один ручний update; перехід від perceptron до MLP через hidden layer. |
+| 16 / m04-p02 | Тензори, autograd, nn.Module | [tensors](https://docs.pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html); [autograd mechanics](https://docs.pytorch.org/docs/stable/notes/autograd.html); [nn.Module](https://docs.pytorch.org/docs/stable/generated/torch.nn.Module.html) | Shape tracing, device/dtype і gradient check; parameter registration; пошук від’єднаного computational graph. |
+| 17 / m04-p03 | Dropout і регуляризація | [Dropout paper](https://jmlr.org/papers/v15/srivastava14a.html); [nn.Dropout](https://docs.pytorch.org/docs/stable/generated/torch.nn.Dropout.html); [AdamW](https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html) | Train/eval статистика виходів; ablation dropout × weight decay; пояснення вимкнення dropout на inference. |
+| 18 / m04-p04 | MLP у PyTorch | [PyTorch quickstart](https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html); [digits](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html); [reproducibility](https://docs.pytorch.org/docs/stable/notes/randomness.html) | Dataset→DataLoader→train→evaluate; confusion matrix і gallery помилок; seed і збереження state dict. |
+| 19 / m04-p05 | Активації та градієнти | [Glorot 2010](https://proceedings.mlr.press/v9/glorot10a.html); [ReLU paper](https://proceedings.mlr.press/v15/glorot11a.html); [PyTorch activations](https://docs.pytorch.org/docs/stable/nn.html#non-linear-activations-weighted-sum-nonlinearity) | Hooks для норм градієнтів; sigmoid/tanh/ReLU на глибокій MLP; стабілізація ініціалізацією і clipping. |
+| 20 / m04-p06 | Серцеві захворювання, NN | [UCI Heart Disease](https://archive.ics.uci.edu/dataset/45/heart+disease); [BCEWithLogitsLoss](https://docs.pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html); [Model Cards](https://arxiv.org/abs/1810.03993) | Офіційний кардіологічний dataset; imbalance, threshold, precision/recall; model card із застереженням “не діагноз”. |
+
+## Модуль 5
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 21 / m05-p01 | Класифікація зображень і CNN | [PyTorch CIFAR-10](https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html); [CIFAR owner](https://www.cs.toronto.edu/~kriz/cifar.html); [Conv2d](https://docs.pytorch.org/docs/stable/generated/torch.nn.Conv2d.html) | Tensor NCHW і receptive field; baseline MLP проти CNN; передбачення shape після шарів. |
+| 22 / m05-p02 | Згортка, фільтри, шари | [conv2d](https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.conv2d.html); [CS231n CNN](https://cs231n.github.io/convolutional-networks/); [pooling](https://docs.pytorch.org/docs/stable/nn.html#pooling-layers) | Ручна 2D-згортка, edge kernels, формула output size; добір padding/stride без втрати розміру. |
+| 23 / m05-p03 | CNN на MNIST | [MNIST owner](https://yann.lecun.com/exdb/mnist/); [FashionMNIST](https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.FashionMNIST.html); [CrossEntropyLoss](https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html) | Logits, softmax та integer labels; per-class recall і gallery помилок; стійкість до зсуву/шуму. |
+| 24 / m05-p04 | Batching, BatchNorm, deep nets | [BatchNorm paper](https://proceedings.mlr.press/v37/ioffe15.html); [BatchNorm2d](https://docs.pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html); [DataLoader](https://docs.pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader) | Ablation batch size/BatchNorm; running stats і `train()`/`eval()`; діагностика нестабільної validation accuracy. |
+| 25 / m05-p05 | CNN-архітектури, пневмонія | [LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf); [AlexNet](https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html); [ResNet](https://arxiv.org/abs/1512.03385); [Chest X-Ray data](https://data.mendeley.com/datasets/rscbjbr9sj/3); [transfer learning](https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) | End-to-end X-ray кейс: patient-safe split, imbalance, augmentation, transfer; порівняння блоків архітектур; leakage і клінічні межі. |
+
+## Модуль 6
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 26 / m06-p01 | NLTK preprocessing | [NLTK Book](https://www.nltk.org/book/); [NLTK API](https://www.nltk.org/api/nltk.html); [WordNet](https://wordnet.princeton.edu/) | Українські/англійські контрприклади токенізації; stemming проти lemmatization; вплив stop-word removal на ознаки. |
+| 27 / m06-p02 | Корпуси та embeddings | [NLTK corpora](https://www.nltk.org/book/ch02.html); [word2vec](https://arxiv.org/abs/1301.3781); [GloVe project](https://nlp.stanford.edu/projects/glove/) | Corpus card, co-occurrence matrix, nearest neighbors; коректне порівняння CBOW/skip-gram і глобальної статистики GloVe. |
+| 28 / m06-p03 | Word2Vec/GloVe: практика | [Gensim Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html); [GloVe paper](https://aclanthology.org/D14-1162/); [gensim data](https://radimrehurek.com/gensim/downloader.html) | Notebook із pretrained vectors; similarity/analogy та пошук bias; порівняння OOV і пам’яті. |
+| 29 / m06-p04 | RNN, LSTM, Transformers | [LSTM paper](https://www.bioinf.jku.at/publications/older/2604.pdf); [Transformer](https://arxiv.org/abs/1706.03762); [PyTorch sequence models](https://docs.pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html) | Hidden state tracing; послідовна RNN проти parallel attention; masked attention і норми градієнтів. |
+| 30 / m06-p05 | Seq2seq і transfer learning | [Seq2seq](https://arxiv.org/abs/1409.3215); [attention NMT](https://arxiv.org/abs/1409.0473); [HF translation](https://huggingface.co/docs/transformers/tasks/translation); [HF training](https://huggingface.co/docs/transformers/training) | Runnable encoder–decoder з attention; та сама задача pretrained-моделлю; порівняння якості, часу й даних. |
+
+## Модуль 7
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 31 / m07-p01 | SVD і dimensionality reduction | [NumPy SVD](https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html); [TruncatedSVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html); [Eckart–Young record](https://eudml.org/doc/131456) | Low-rank reconstruction і error vs rank; compression ratio; відновлення зображення та роль singular values. |
+| 32 / m07-p02 | PCA 2D проти SVD | [PCA API](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html); [PCA guide](https://scikit-learn.org/stable/modules/decomposition.html#pca); [UCI Iris](https://archive.ics.uci.edu/dataset/53/iris) | Centering, explained variance, inverse transform; PCA проти TruncatedSVD на центрованих і сирих даних. |
+| 33 / m07-p03 | K-Means | [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html); [clustering guide](https://scikit-learn.org/stable/modules/clustering.html#k-means); [silhouette](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html) | Assign/update, k-means++ і кілька seeds; вибір k за silhouette та предметною інтерпретацією. |
+| 34 / m07-p04 | DBSCAN, сегментація | [original DBSCAN](https://www.dbs.ifi.lmu.de/Publikationen/Papers/KDD-96.final.frame.pdf); [DBSCAN API](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html); [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) | Core/border/noise і масштаб; eps через k-distance plot; опис сегментів без причинних вигадок. |
+| 35 / m07-p05 | Content-based книги | [Open Library API](https://openlibrary.org/developers/api); [TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html); [cosine similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) | Прозорі metadata; user profile як агрегат TF-IDF; пояснення рекомендації й diversity. |
+| 36 / m07-p06 | Collaborative filtering | [MovieLens](https://grouplens.org/datasets/movielens/); [MovieLens paper](https://dl.acm.org/doi/10.1145/2827872); [SciPy sparse](https://docs.scipy.org/doc/scipy/reference/sparse.html) | Sparse user–item matrix, popularity baseline, factorization; cold start; temporal split і ranking metric. |
+
+## Модуль 8
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 37 / m08-p01 | Generative AI і cloud | [Gemini models](https://ai.google.dev/gemini-api/docs/models); [Vertex AI overview](https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform); [NIST GenAI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) | Карта foundation model→API→app; local/AI Studio/Vertex; класифікація ризиків, даних і відповідальності. |
+| 38 / m08-p02 | Prompt Engineering | [Gemini prompting](https://ai.google.dev/gemini-api/docs/prompting-strategies); [Vertex prompt design](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/prompt-design-strategies); [system instructions](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/system-instruction-introduction) | Test-driven prompt→cases→metric→revision; instruction/context/schema/few-shot; поліпшення без зміни eval set. |
+| 39 / m08-p03 | CoT, ReAct, ToT та інші патерни | [CoT](https://arxiv.org/abs/2201.11903); [ReAct](https://arxiv.org/abs/2210.03629); [Tree of Thoughts](https://arxiv.org/abs/2305.10601); [structured output](https://ai.google.dev/gemini-api/docs/structured-output) | Порівняння патернів на однакових задачах і вартості; просити перевірюваний результат, не приховане reasoning; JSON-schema validation. |
+| 40 / m08-p04 | Контекст, hallucinations, Vertex/Gemini | [long context](https://ai.google.dev/gemini-api/docs/long-context); [Vertex quickstart](https://cloud.google.com/vertex-ai/generative-ai/docs/start/quickstarts/quickstart-multimodal); [IAM](https://cloud.google.com/vertex-ai/docs/general/access-control); [quotas](https://cloud.google.com/vertex-ai/generative-ai/docs/quotas) | Optional реальний SDK-трек з ADC/IAM/quota; needle-in-context; виявлення непідтверджених тверджень і цитована відповідь. |
+| 41 / m08-p05 | RAG і Vector Search | [RAG quickstart](https://cloud.google.com/vertex-ai/generative-ai/docs/rag-engine/rag-quickstart); [Vector Search](https://cloud.google.com/vertex-ai/docs/vector-search/overview); [RAG paper](https://arxiv.org/abs/2005.11401); [reranking](https://cloud.google.com/vertex-ai/generative-ai/docs/retrieval-and-ranking) | Ingest→chunk→embed→retrieve→generate; окремі retrieval і groundedness evals; chunk size, top-k, reranking. |
+| 42 / m08-p06 | Agents, Agent Engine, GenAI app | [Agent Engine](https://cloud.google.com/vertex-ai/generative-ai/docs/reasoning-engine/overview); [function calling](https://ai.google.dev/gemini-api/docs/function-calling); [deploy](https://cloud.google.com/vertex-ai/generative-ai/docs/reasoning-engine/deploy); [Cloud Logging](https://cloud.google.com/logging/docs) | Agent loop із read-only tool, schema validation і timeout; optional deploy, trace, IAM, budget; обробка tool failure без циклу. |
+
+## Модуль 9
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 43 / m09-p01 | Екосистема LLM-фреймворків | [LangChain](https://docs.langchain.com/oss/python/langchain/overview); [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview); [LlamaIndex](https://docs.llamaindex.ai/en/stable/); [CrewAI](https://docs.crewai.com/en/introduction) | Одна задача й порівняння abstractions/state/persistence/tools/deploy; вибір мінімального стека і випадок без framework. |
+| 44 / m09-p02 | PromptTemplate, LCEL, Memory | [prompt templates](https://python.langchain.com/docs/concepts/prompt_templates/); [runnables](https://python.langchain.com/docs/concepts/runnables/); [messages](https://python.langchain.com/docs/concepts/messages/); [Google Vertex integration](https://python.langchain.com/docs/integrations/chat/google_vertex_ai_palm/) | Реальний Runnable/LCEL замість саморобного Pipe; ChatPromptTemplate, history, optional Vertex; schema і streaming tests. |
+| 45 / m09-p03 | Tools і Function Calling | [LangChain tools](https://docs.langchain.com/oss/python/langchain/tools); [tool calling](https://python.langchain.com/docs/concepts/tool_calling/); [Gemini functions](https://ai.google.dev/gemini-api/docs/function-calling); [ReAct](https://arxiv.org/abs/2210.03629) | Typed tool, argument validation і controlled failure; порівняння payload; захист від невалідного/небезпечного виклику. |
+| 46 / m09-p04 | Workflow і валідація | [LangGraph workflows](https://docs.langchain.com/oss/python/langgraph/workflows-agents); [HITL](https://docs.langchain.com/oss/python/langchain/human-in-the-loop); [persistence](https://docs.langchain.com/oss/python/langgraph/persistence); [Pydantic](https://docs.pydantic.dev/latest/concepts/models/) | Typed state graph з router/validation/retry cap; interrupt/checkpoint; відновлення після помилки і human approval. |
+| 47 / m09-p05 | LangSmith і метрики | [observability](https://docs.langchain.com/langsmith/observability); [evaluation](https://docs.langchain.com/langsmith/evaluation-concepts); [datasets](https://docs.langchain.com/langsmith/manage-datasets); [Vertex evaluation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/evaluation-overview) | Реальний optional trace і сумісний local fallback; curated eval set; окремі retrieval, correctness, latency, cost. |
+| 48 / m09-p06 | Інтеграційний GenAI-ланцюжок | [LangChain RAG](https://python.langchain.com/docs/tutorials/rag/); [LangSmith quickstart](https://docs.langchain.com/langsmith/evaluation-quickstart); [LangGraph testing](https://docs.langchain.com/oss/python/langgraph/test); [12-factor config](https://12factor.net/config) | Retrieve→generate→validate→log із контрактами; integration tests, failure injection, secrets discipline; захист за trace/eval evidence. |
+
+## Модуль 10
+
+| Пара | Тема | 2–5 першоджерел | Що використати |
+|---|---|---|---|
+| 49 / m10-p01 | Підготовка й пробні задачі | [ITSTEP 2.0.0](https://materials.itstep.org/content/beef810f-be75-4b3c-9c1b-a8124a1a4b01/uk); [sklearn evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html); [PyTorch reproducibility](https://docs.pytorch.org/docs/stable/notes/randomness.html); [NIST Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) | Blueprint за outcomes M1–M9; задачі data/ML/DL/GenAI; обов’язкові reproducibility, metric, limits і risks. |
+| 50 / m10-p02 | Іспит / захист проєкту | [ITSTEP 2.0.0](https://materials.itstep.org/content/beef810f-be75-4b3c-9c1b-a8124a1a4b01/uk); [Model Cards](https://arxiv.org/abs/1810.03993); [Datasheets](https://arxiv.org/abs/1803.09010); [Rules of ML](https://developers.google.com/machine-learning/guides/rules-of-ml) | Рубрика problem/data/baseline/eval/error analysis/reproducibility/ethics/demo; dataset/model card; стандартизовані питання комісії. |
+
+## Індекс власників
+
+- Стандарти й відповідальне AI: NIST та автори Model Cards/Datasheets.
+- Scientific Python і ML: PSF, NumPy, SciPy, pandas, Matplotlib, scikit-learn, UCI, GroupLens.
+- DL/CV/NLP: PyTorch, NLTK, Stanford NLP, оригінальні праці й власники датасетів.
+- GenAI/cloud: Google AI for Developers і Google Cloud Vertex AI.
+- Оркестрація: офіційні документації LangChain, LangGraph, LangSmith, LlamaIndex і CrewAI.
