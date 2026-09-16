@@ -25,7 +25,7 @@ Source deposit: `knowledge_saver/deposits/2026-09-16_strategy-of-cource-building
 
 Користувач дає програму (URL, PDF, markdown, вставка) і просить розкласти на пари, меню курсу, catalog, тематичний план. Не чекай назви скіла.
 
-Цей скіл **не** пише `presentation.html`, `teacher.md`, роздаток. Скелет сторінки пари (зони й типи блоків) — `tactic_of_cource_building`. Повна лекція — `teacher-materials-skill` / `common_lesson`.
+Цей скіл **не** пише `presentation.html`, `teacher.md`, роздаток. Скелет сторінки пари (зони й типи блоків) — `tactic_of_cource_building`. Ріст і graft джерел у існуючі слоти — `growth_of_cource_building`. Повна лекція — `teacher-materials-skill` / `common_lesson`.
 
 ## Дві поверхні: `/courses` і `/course`
 

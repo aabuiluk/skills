@@ -1,0 +1,11 @@
+Owner intent (2026-09-16): будь-який матеріал, будь-яка пара може бути покращена і легко розширена потім, коли буде доступ до більшої кількості матеріалу.
+
+Trilogy:
+- strategy_of_cource_building = menu of pairs
+- tactic_of_cource_building = page skeleton with holes
+- growth_of_cource_building = holes stay hooks; new sources graft into existing ids; versions add, never hide density
+
+In-repo evidence:
+- tactic fill rule: empty slot text = «Потребує допрацювання», slot not deleted
+- python_ai_step data-material-version-from additive layers (v4+ density, v7 teacher, v11 short/detail, v12 task format)
+- forbidden: material v2 on pairs 15–16 used until= to hide the full from=4.0 layer

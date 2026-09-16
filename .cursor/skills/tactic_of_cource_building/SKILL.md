@@ -29,7 +29,7 @@ Source deposit: `knowledge_saver/deposits/2026-09-16_tactic-of-cource-building/`
 
 Немає списку пар — спочатку `strategy_of_cource_building`, потім ця схема на кожну пару.
 
-Не пиши повну густину лекції (lead, SVG, walkthrough). Це скелет. Полірування — `explaine_simple` / `common_lesson` / `teacher-materials-skill`, коли попросять.
+Не пиши повну густину лекції (lead, SVG, walkthrough). Це скелет. Дірка — хук на потім (`growth_of_cource_building`). Полірування — `explaine_simple` / `common_lesson` / `teacher-materials-skill`, коли попросять.
 
 ## Пайплайн
 
