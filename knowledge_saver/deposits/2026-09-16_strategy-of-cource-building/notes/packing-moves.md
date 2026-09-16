@@ -13,3 +13,5 @@ Program: 10 modules, 50 pairs × 80 min. Menu shows modules + pair title + offic
 | Exam split | Last module is exam | pair 49 prep, pair 50 defense |
 
 Title = 80-min classroom name. Syllabus = official program wording this pair ticks.
+
+Journal surfaces (same catalog): `/courses/{slug}` teacher full menu + publish checkboxes; `/course/{slug}` student subset. See skill `references/courses-vs-course.md`.

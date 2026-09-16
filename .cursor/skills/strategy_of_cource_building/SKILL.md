@@ -6,8 +6,9 @@ description: >-
   тематичний план python_ai_step (50 пар з програми ITSTEP). Застосовуй,
   коли треба розбити syllabus / програму курсу / ITSTEP на пари, побудувати
   catalog або меню журналу, strategy_of_cource_building, course building
-  strategy, тематичний план, або «як у меню python_ai_step». Не пише
-  презентації й teacher.md — лише розклад пар.
+  strategy, тематичний план, «як у меню python_ai_step», або розподіл
+  /courses (викладач) vs /course (студент). Не пише презентації й
+  teacher.md — лише розклад пар і гейт публікації.
 ---
 
 # strategy_of_cource_building
@@ -16,7 +17,7 @@ description: >-
 
 Еталон: тематичний план [python_ai_step](https://csctemplate.pythonanywhere.com/courses/python_ai_step), зроблений з програми [Штучний інтелект з Python 2.0.0](https://materials.itstep.org/content/beef810f-be75-4b3c-9c1b-a8124a1a4b01/uk) (50 пар × 80 хв).
 
-Джерело еталону: [gold-python-ai-step.md](references/gold-python-ai-step.md). Лінзи за тематикою: [topic-lenses.md](references/topic-lenses.md). Поля виводу: [output-schema.md](references/output-schema.md).
+Джерело еталону: [gold-python-ai-step.md](references/gold-python-ai-step.md). Лінзи за тематикою: [topic-lenses.md](references/topic-lenses.md). Поля виводу: [output-schema.md](references/output-schema.md). Дві поверхні журналу: [courses-vs-course.md](references/courses-vs-course.md).
 
 Source deposit: `knowledge_saver/deposits/2026-09-16_strategy-of-cource-building/`.
 
@@ -26,7 +27,21 @@ Source deposit: `knowledge_saver/deposits/2026-09-16_strategy-of-cource-building
 
 Цей скіл **не** пише `presentation.html`, `teacher.md`, роздаток. Далі, якщо просять матеріали, — `teacher-materials-skill` / `common_lesson`.
 
-## Що бачить студент у меню (і тільки це)
+## Дві поверхні: `/courses` і `/course`
+
+Один розклад. Два URL. Деталі: [courses-vs-course.md](references/courses-vs-course.md).
+
+| | Викладач | Студент |
+|--|----------|---------|
+| UI | `/courses/{slug}` | `/course/{slug}` |
+| Меню | увесь catalog | лише галочки `public_plan` |
+| Лекція | `?teacher=1`, нотатки, `teacher.md` | без teacher-хрому |
+
+Емітити **повний** план (вигляд `/courses`). Не ставити галочки й не писати `public_plan.json`. Студенти побачать пару, коли власник поставить галочку.
+
+Не робити другий «студентський» тематичний план з іншими назвами.
+
+## Форма меню (спільна)
 
 Hero: назва, тривалість (`N пар · по 80 хв`), кількість модулів, subtitle, мета.
 
@@ -129,8 +144,8 @@ N пари · пари {start}–{end}
 
 Два артефакти (схема: [output-schema.md](references/output-schema.md)):
 
-1. `thematic-plan.md` — вигляд меню.
-2. `catalog.json` — `modules` + `pairs`.
+1. `thematic-plan.md` — повний вигляд `/courses` + два URL (`/courses` викладач, `/course` студент).
+2. `catalog.json` — `modules` + `pairs` (увесь курс, не зріз публікації).
 
 Зупинись. Не створюй каталоги `mXX/pair_YY/` і не став галочки публікації.
 
@@ -141,6 +156,8 @@ N пари · пари {start}–{end}
 Не: переписані пункти програми замість verbatim syllabus.
 Не: презентація замість меню.
 Не: перекидання пар з модуля в модуль всупереч програмі.
+Не: окремий розклад «для студентів» і «для викладача».
+Не: публікація всіх пар у `public_plan.json`.
 
 ## Перевірка
 
@@ -148,3 +165,4 @@ N пари · пари {start}–{end}
 - Кожен модуль у меню: назва, N пар, діапазон global_index, overview, outcomes, список пар.
 - Кожна пара: global_index, title, duration_min, syllabus з офіційними пунктами, 3–4 objectives.
 - Тематика змінює **пакування** (лінзи), не ламає формат меню.
+- У плані є обидва URL: `/courses/{slug}` і `/course/{slug}`. Catalog повний, без галочок.

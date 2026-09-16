@@ -2,9 +2,12 @@
 
 Еталон **лише** тематичного плану журналу, не слайдів.
 
-- Меню: https://csctemplate.pythonanywhere.com/courses/python_ai_step
+- Викладач (повний план): https://csctemplate.pythonanywhere.com/courses/python_ai_step
+- Студент (лише опубліковане): https://csctemplate.pythonanywhere.com/course/python_ai_step
 - Програма: https://materials.itstep.org/content/beef810f-be75-4b3c-9c1b-a8124a1a4b01/uk
 - Локальний catalog: `backend/data/courses/python_ai_step/catalog.json`
+
+Дві поверхні — [courses-vs-course.md](courses-vs-course.md). Карта нижче = `/courses` (усі 50 пар). `/course` показує підмножину з галочок, з тими самими назвами.
 
 Hero еталона: 50 пар · по 80 хв, 10 модулів. Назви модулів — офіційні ITSTEP, не перейменовувати.
 
