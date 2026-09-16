@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прототип · блоки · пара 17</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0f1412;
+  --panel: #18211c;
+  --panel-2: #1e2a24;
+  --ink: #e8f0e7;
+  --mute: #9aafa0;
+  --line: #2f4137;
+  --accent: #7dffb3;
+  --accent-ink: #062416;
+  --warm: #ffb86b;
+  --blue: #7ec8ff;
+  --rose: #ff8fab;
+  --font: "Manrope", "Segoe UI", sans-serif;
+  --display: "Fraunces", Georgia, serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --rail-w: 300px;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  color: var(--ink);
+  font-family: var(--font);
+  line-height: 1.55;
+  background:
+    radial-gradient(900px 420px at 10% -10%, rgba(125,255,179,.12), transparent 60%),
+    radial-gradient(700px 380px at 100% 0%, rgba(126,200,255,.10), transparent 55%),
+    var(--bg);
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+[contenteditable="true"] { outline: none; min-width: 2ch; }
+[contenteditable="true"]:focus {
+  box-shadow: inset 0 0 0 1px rgba(125,255,179,.45);
+  border-radius: 6px;
+}
+[contenteditable="true"]:empty::before {
+  content: attr(data-ph);
+  color: var(--mute);
+  opacity: .7;
+}
+
+.builder {
+  position: sticky; top: 0; z-index: 80;
+  display: flex; flex-wrap: wrap; gap: .5rem .75rem; align-items: center;
+  padding: .55rem .75rem;
+  background: rgba(16,23,19,.96);
+  border-bottom: 1px solid var(--line);
+}
+.builder b { font-family: var(--display); font-size: .95rem; color: #fff; }
+.builder .hint { color: var(--mute); font-size: .78rem; flex: 1 1 12rem; }
+.builder button, .ghost-btn, .palette button {
+  appearance: none; cursor: pointer;
+  border: 1px solid var(--line); color: var(--ink);
+  background: rgba(255,255,255,.03);
+  border-radius: 999px; padding: .35rem .7rem;
+  font: 700 .75rem var(--font); letter-spacing: .04em; text-transform: uppercase;
+  text-decoration: none; display: inline-flex; align-items: center; gap: .35rem;
+  min-height: 36px;
+}
+.builder button:hover, .ghost-btn:hover, .palette button:hover {
+  border-color: var(--accent); color: var(--accent);
+}
+.builder button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+.palette {
+  display: flex; flex-wrap: wrap; gap: .4rem;
+  padding: .55rem .75rem .7rem;
+  background: #101713;
+  border-bottom: 1px solid var(--line);
+}
+.palette .lab {
+  width: 100%;
+  font-size: .62rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--warm); font-weight: 800;
+}
+.palette button[data-kind="main"] { color: var(--blue); }
+.palette button[data-kind="task"] { color: var(--warm); }
+.palette button[data-kind="deep"] { color: var(--rose); }
+.palette button[data-kind="check"] { color: var(--warm); }
+.palette button[data-kind="chrome"] { color: var(--accent); }
+.palette button.is-on { background: rgba(125,255,179,.16); border-color: var(--accent); }
+
+.structure-dock {
+  position: fixed; right: .5rem; bottom: .5rem; z-index: 90;
+  width: min(280px, calc(100vw - 1rem));
+  max-height: 22vh;
+  display: flex; flex-direction: column;
+  border: 1px solid var(--line); border-radius: 14px;
+  background: #101713; box-shadow: 0 16px 40px rgba(0,0,0,.45);
+}
+.structure-dock header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: .5rem .7rem; border-bottom: 1px solid var(--line);
+  font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--warm);
+  font-weight: 800;
+}
+.structure-dock pre {
+  margin: 0; padding: .65rem .75rem; overflow: auto;
+  font-family: var(--mono); font-size: .72rem; line-height: 1.4; color: #d9f5e4;
+}
+
+.app { min-height: 100dvh; display: flex; flex-direction: column; }
+.zone {
+  min-height: 52px;
+  outline: 1px dashed transparent;
+  transition: outline-color .15s ease, background .15s ease;
+}
+.zone.is-over, .zone.is-target { outline-color: var(--accent); background: rgba(125,255,179,.06); }
+.zone-label {
+  font-size: .62rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--mute); padding: .2rem .4rem; display: block;
+}
+
+.chrome {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px;
+  padding: 6px 8px;
+  background: #101713; border-bottom: 1px solid var(--line);
+}
+.chrome .lh-block {
+  margin: 0; border-radius: 999px; overflow: visible;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.03);
+  min-height: 32px;
+}
+.chrome .lh-block .block-body,
+.chrome .lh-block .kind,
+.chrome .lh-block .clock,
+.chrome .lh-block .block-remove { display: none; }
+.chrome .block-tip { width: 22px; height: 22px; font-size: .65rem; }
+.chrome .lh-block .block-head {
+  border: 0; background: transparent; padding: 0 .2rem 0 0; gap: .35rem; align-items: center;
+}
+.chrome .drag-handle { width: 18px; height: 28px; }
+.chrome h3 { font-size: .82rem !important; font-family: var(--font) !important; padding: 0 .55rem; }
+
+.body {
+  flex: 1 1 auto; min-height: 0;
+  display: grid;
+  grid-template-columns: var(--rail-w) minmax(0, 1fr) 0fr;
+  transition: grid-template-columns .2s ease;
+}
+.body.has-notebook { grid-template-columns: var(--rail-w) minmax(0, 1fr) minmax(280px, 34vw); }
+
+.rail {
+  background: #101713;
+  border-right: 1px solid var(--line);
+  padding: .55rem .5rem 1rem; overflow: auto;
+  min-height: calc(100dvh - 160px);
+}
+.rail .mark {
+  display: inline-block; font-size: .68rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--accent-ink); background: var(--accent); padding: .22rem .45rem; font-weight: 700;
+}
+.toc { list-style: none; margin: 0; padding: 0; counter-reset: thesis; }
+.toc li { margin: 0 0 .3rem; }
+.toc a {
+  counter-increment: thesis;
+  display: grid; grid-template-columns: 1.4rem 1fr; gap: .25rem;
+  color: #b7c7bc; text-decoration: none; font-size: .8rem; padding: .22rem .15rem;
+  border-left: 2px solid transparent;
+}
+.toc a::before {
+  content: counter(thesis, decimal-leading-zero); color: var(--accent);
+  font-family: var(--mono); font-size: .72rem; padding-top: .15rem;
+}
+
+.stage { padding: .45rem .5rem 1.4rem; min-width: 0; overflow: auto; }
+.lh-block {
+  border: 1px solid var(--line); background: rgba(24,33,28,.88);
+  border-radius: 10px; margin: 0 0 .4rem; overflow: hidden;
+}
+.lh-block[data-type="banner"] {
+  background: linear-gradient(160deg, var(--panel), var(--panel-2));
+}
+.lh-block[data-type="teacher"] {
+  border: 1px solid #60a5fa; border-left: 5px solid #3b82f6;
+  background: linear-gradient(145deg, rgba(30, 64, 175, .22), rgba(15, 23, 42, .94));
+}
+.lh-block[data-type="extra"] { border-left: 4px solid var(--rose); }
+.lh-block[data-type="task"],
+.lh-block[data-type="homework"] { border-left: 4px solid var(--warm); }
+.lh-block[data-type="checkpoint"],
+.lh-block[data-type="exit"] { border-left: 4px solid var(--blue); }
+
+.block-head {
+  display: flex; justify-content: space-between; gap: .35rem; flex-wrap: wrap;
+  align-items: center; padding: .35rem .55rem;
+  border-bottom: 1px solid var(--line); background: rgba(255,255,255,.02);
+}
+.block-head h3 {
+  margin: 0; font-family: var(--display); font-size: .95rem; color: #fff; line-height: 1.2;
+  flex: 1 1 8rem;
+}
+.kind {
+  font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700;
+  border-radius: 999px; padding: .22rem .5rem; border: 1px solid var(--line);
+}
+.kind.main { color: var(--blue); border-color: rgba(126,200,255,.35); }
+.kind.task { color: var(--warm); border-color: rgba(255,184,107,.4); }
+.kind.deep { color: var(--rose); border-color: rgba(255,143,171,.4); }
+.kind.chrome { color: var(--accent); border-color: rgba(125,255,179,.4); }
+.kind.check { color: var(--warm); border-color: rgba(255,184,107,.4); }
+.kind.nav { color: var(--accent); border-color: rgba(125,255,179,.4); }
+.kind.tool { color: var(--rose); border-color: rgba(255,143,171,.4); }
+.clock { font-family: var(--mono); font-size: .75rem; color: var(--mute); }
+.block-body { padding: .4rem .55rem .5rem; }
+.block-body p { color: #d3e0d6; margin: 0; }
+.callout {
+  border: 1px solid var(--line); border-left: 3px solid var(--accent);
+  background: rgba(125,255,179,.06); padding: .4rem .55rem; border-radius: 8px; margin: 0;
+}
+.callout.tip { border-left-color: var(--blue); background: rgba(126,200,255,.07); }
+.callout.trap { border-left-color: var(--rose); background: rgba(255,143,171,.08); }
+.callout.task { border-left-color: var(--warm); background: rgba(255,184,107,.08); }
+.pre, pre {
+  display: block; overflow-x: auto; margin: 0;
+  background: #0b100e; border: 1px solid var(--line); border-radius: 12px;
+  padding: .45rem .55rem; color: #d9f5e4;
+  font-family: var(--mono); font-size: .82rem; line-height: 1.45; white-space: pre-wrap;
+}
+.viz {
+  min-height: 44px; padding: .4rem .55rem; border-radius: 8px;
+  border: 1px dashed var(--line); background: rgba(0,0,0,.22);
+  color: var(--mute); font-size: .85rem;
+}
+.notebook {
+  border-left: 1px solid var(--line); background: #0b100e;
+  padding: .45rem; overflow: auto; min-height: calc(100dvh - 160px);
+}
+.notebook .lh-block { background: #15221b; }
+
+.drag-handle, .block-remove, .block-tip {
+  flex: 0 0 auto;
+  width: 24px; height: 24px;
+  border: 1px dashed var(--line); border-radius: 8px;
+  background: rgba(255,255,255,.04); color: var(--mute);
+  cursor: pointer; display: inline-grid; place-items: center;
+  font-size: .85rem; user-select: none;
+}
+.block-tip {
+  font: 800 .72rem var(--mono);
+  color: var(--accent);
+  border-style: solid;
+  border-color: rgba(125,255,179,.45);
+}
+.block-tip:hover, .block-tip:focus-visible {
+  background: rgba(125,255,179,.16);
+  color: #fff;
+}
+#block-tip {
+  position: fixed;
+  z-index: 1200;
+  max-width: min(360px, calc(100vw - 24px));
+  padding: .7rem .8rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #101713;
+  color: #e8f0e7;
+  font-size: .82rem;
+  line-height: 1.45;
+  box-shadow: 0 12px 28px rgba(0,0,0,.45);
+  pointer-events: none;
+}
+#block-tip .tip-type {
+  font-family: var(--mono);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin: 0 0 .35rem;
+}
+#block-tip .tip-body { margin: 0; color: #e8f0e7; }
+.drag-handle { cursor: grab; letter-spacing: -.08em; }
+.drag-handle:active { cursor: grabbing; }
+.block-remove:hover { color: var(--rose); border-color: var(--rose); }
+.lh-block.is-dragging { opacity: .45; }
+.placeholder {
+  border: 2px dashed var(--accent); border-radius: 14px;
+  background: rgba(125,255,179,.08);
+  min-height: 44px; margin: 0 0 1rem;
+}
+.chrome .placeholder { min-width: 88px; min-height: 40px; margin: 0; border-radius: 999px; }
+.lh-block:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+@media (max-width: 899px) {
+  .body, .body.has-notebook { grid-template-columns: 1fr; }
+  .rail, .notebook { min-height: auto; border-right: 0; border-left: 0; }
+  .structure-dock { max-height: 24vh; }
+}
+</style>
+</head>
+<body class="lh-edit">
+
+<header class="builder">
+  <b>Прототип блоків</b>
+  <span class="hint">Клік по типу додає порожній блок у виділену зону. Тягніть тип на зону або ⋮⋮ між блоками. У блоці можна набирати заголовок і текст.</span>
+  <button type="button" id="btn-reset">Скинути</button>
+  <button type="button" id="btn-copy">Копіювати JSON</button>
+  <button type="button" class="primary" id="btn-json">Завантажити JSON</button>
+  <button type="button" id="btn-html">Завантажити HTML</button>
+</header>
+
+<nav class="palette" id="palette" aria-label="Типи блоків"></nav>
+
+<div class="app" id="app">
+  <div class="chrome zone is-target" data-zone="chrome" aria-label="Верхня панель">
+    <span class="zone-label">зона · chrome</span>
+  </div>
+  <div class="body" id="body">
+    <aside class="rail zone" data-zone="rail" aria-label="Зміст">
+      <span class="zone-label">зона · rail</span>
+    </aside>
+    <main class="stage zone" data-zone="stage" aria-label="Лекція">
+      <span class="zone-label">зона · stage</span>
+    </main>
+    <aside class="notebook zone" data-zone="notebook" aria-label="Зошит">
+      <span class="zone-label">зона · notebook</span>
+    </aside>
+  </div>
+</div>
+
+<aside class="structure-dock" aria-live="polite">
+  <header>
+    <span>Структура</span>
+    <span id="struct-stamp">DOM</span>
+  </header>
+  <pre id="structure-json"></pre>
+</aside>
+
+<script>
+(function () {
+  "use strict";
+  var STORAGE_KEY = "lh.prototype.pair17.blocks.v3";
+  var seq = 1;
+  var targetZone = "stage";
+  var dragEl = null;
+  var newType = null;
+  var placeholder = document.createElement("div");
+  placeholder.className = "placeholder";
+  placeholder.setAttribute("aria-hidden", "true");
+
+  var TYPES = [
+    {
+      type: "chrome", kind: "chrome", label: "Кнопка панелі", zone: "chrome",
+      tip: "Сюди піде елемент верхньої панелі журналу: «До плану», номер пари, версія студентів, превʼю, зошит, попередня/наступна, завантажити."
+    },
+    {
+      type: "toc", kind: "nav", label: "Зміст", zone: "rail",
+      tip: "Сюди піде бічне меню пари. Пункти збираються з заголовків блоків лекції, кожен з якорем на свій id."
+    },
+    {
+      type: "banner", kind: "main", label: "План", zone: "stage",
+      tip: "Сюди піде шапка пари: kicker, назва, lead, пігулки таймінгу на 80 хв і список цілей."
+    },
+    {
+      type: "theory", kind: "main", label: "Теорія", zone: "stage",
+      tip: "Сюди піде студентська теорія: lead-місток, один факт, пояснення, далі схема або код і callout «Зверніть увагу»."
+    },
+    {
+      type: "example", kind: "main", label: "Приклад", zone: "stage",
+      tip: "Сюди піде короткий runnable приклад до абстракції: код до 15 рядків, підпис «Приклад · N», очікуваний вивід # ->."
+    },
+    {
+      type: "diagram", kind: "main", label: "Схема", zone: "stage",
+      tip: "Сюди піде SVG-карта кроку. На кожному підписаному блоці схеми — тултіп з тим самим фактом, що в реченні."
+    },
+    {
+      type: "code", kind: "main", label: "Код", zone: "stage",
+      tip: "Сюди піде комірка Python у лекції: language-python, позначка RUNNABLE або EXCERPT. Журнал дзеркалить її в зошит."
+    },
+    {
+      type: "callout", kind: "main", label: "Зверніть увагу", zone: "stage",
+      tip: "Сюди піде врізка до студента: «Зверніть увагу», «Коротко», «Джерела» або «Орієнтир». Без голосу «поясніть студентам»."
+    },
+    {
+      type: "trap", kind: "main", label: "Часта пастка", zone: "stage",
+      tip: "Сюди піде типова плутанина теми. Формулювання до читача: «часто плутають… зверніть увагу…», не «студенти часто»."
+    },
+    {
+      type: "extra", kind: "deep", label: "Додатково", zone: "stage",
+      tip: "Сюди піде опційний шар для сильніших. Не входить у 80 хв. У таймінг-стрічці буде позначка (опц.)."
+    },
+    {
+      type: "teacher", kind: "deep", label: "Для викладача", zone: "stage",
+      tip: "Сюди піде текст лише для викладача: дошка, live, навмисна помилка, відповіді. Студенту цей блок не видно."
+    },
+    {
+      type: "task", kind: "task", label: "Практика ITSTEP", zone: "stage",
+      tip: "Сюди піде офіційне завдання: «Звідки дані і навіщо», умова, лінк LMS, практика X.1 без готового файлу. Розвʼязок — у нотатці викладача."
+    },
+    {
+      type: "homework", kind: "task", label: "Домашнє", zone: "stage",
+      tip: "Сюди піде офіційне ДЗ перед stretch. Умови з аркуша ITSTEP. Еталонний код лише в блоці викладача, не в студентському тексті."
+    },
+    {
+      type: "checkpoint", kind: "check", label: "Checkpoint", zone: "stage",
+      tip: "Сюди піде мікроперевірка ~3 хв: 4 короткі питання і «Де перечитати» з якорями на теорію. Стоїть після кластера практика, не одразу після першого завдання."
+    },
+    {
+      type: "exit", kind: "check", label: "Exit ticket", zone: "stage",
+      tip: "Сюди піде вихідна перевірка ~4 хв: 1–2 питання на кінець пари і «Де перечитати». Входить у 80 хв."
+    },
+    {
+      type: "notebook", kind: "tool", label: "Зошит", zone: "notebook",
+      tip: "Сюди піде бічна панель Python у браузері. Комірки беруться з <pre> лекції; кнопки Запуск / Restart, ядро Pyodide."
+    }
+  ];
+  var TYPE_MAP = {};
+  TYPES.forEach(function (t) { TYPE_MAP[t.type] = t; });
+
+  var KIND_LABEL = {
+    chrome: "chrome",
+    nav: "навігація",
+    main: "теорія",
+    task: "практика",
+    deep: "глибше",
+    check: "перевірка",
+    tool: "інструмент"
+  };
+
+  function uid(type) {
+    seq += 1;
+    return type + "-" + seq;
+  }
+
+  function zoneEl(name) {
+    return document.querySelector('[data-zone="' + name + '"]');
+  }
+  function zones() {
+    return Array.prototype.slice.call(document.querySelectorAll("[data-zone]"));
+  }
+  function blocksIn(zone) {
+    return Array.prototype.slice.call(zone.querySelectorAll(":scope > .lh-block"));
+  }
+
+  function innerFor(type) {
+    if (type === "code") return '<pre class="pre" contenteditable="true" data-ph="код…"></pre>';
+    if (type === "diagram") return '<div class="viz" contenteditable="true" data-ph="схема…"></div>';
+    if (type === "callout") return '<div class="callout tip"><b>Зверніть увагу</b><p contenteditable="true" data-ph="текст…"></p></div>';
+    if (type === "trap") return '<div class="callout trap"><b>Часта пастка</b><p contenteditable="true" data-ph="текст…"></p></div>';
+    if (type === "task" || type === "homework") return '<div class="callout task"><b>Умова</b><p contenteditable="true" data-ph="текст…"></p></div>';
+    if (type === "toc") return '<span class="mark">ITSTEP</span><ol class="toc js-toc"></ol>';
+    if (type === "notebook") return '<pre class="pre" contenteditable="true" data-ph="комірка…"></pre>';
+    return '<p contenteditable="true" data-ph="наберіть текст…"></p>';
+  }
+
+  function makeBlock(spec) {
+    var meta = TYPE_MAP[spec.type] || TYPE_MAP.theory;
+    var id = spec.id || uid(meta.type);
+    var title = spec.title != null ? spec.title : meta.label;
+    var kind = spec.kind || meta.kind;
+    var el = document.createElement("article");
+    el.className = "lh-block";
+    el.setAttribute("data-block", id);
+    el.setAttribute("data-type", meta.type);
+    el.setAttribute("data-kind", kind);
+    el.setAttribute("data-title", title);
+    el.setAttribute("data-tip", meta.tip || "");
+    el.id = id;
+    el.tabIndex = 0;
+    el.innerHTML =
+      '<div class="block-head">' +
+        '<button type="button" class="drag-handle" draggable="true" aria-label="Перетягнути">⋮⋮</button>' +
+        '<h3 contenteditable="true" data-ph="назва…">' + escapeHtml(title) + "</h3>" +
+        '<span class="kind ' + kind + '">' + (KIND_LABEL[kind] || kind) + "</span>" +
+        '<button type="button" class="block-tip" aria-label="Що сюди додаватиметься">i</button>' +
+        '<button type="button" class="block-remove" aria-label="Прибрати">×</button>' +
+      "</div>" +
+      '<div class="block-body">' + innerFor(meta.type) + "</div>";
+    if (spec.text) {
+      var field = el.querySelector("[contenteditable='true']:not(h3)");
+      if (field) field.textContent = spec.text;
+    }
+    return el;
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  function readText(el) {
+    var field = el.querySelector(".block-body [contenteditable='true']");
+    return field ? String(field.textContent || "").trim() : "";
+  }
+
+  function snapshot() {
+    var out = { savedAt: new Date().toISOString(), zones: {} };
+    zones().forEach(function (zone) {
+      out.zones[zone.getAttribute("data-zone")] = blocksIn(zone).map(function (el) {
+        return {
+          id: el.getAttribute("data-block"),
+          type: el.getAttribute("data-type"),
+          kind: el.getAttribute("data-kind"),
+          title: el.getAttribute("data-title"),
+          text: readText(el)
+        };
+      });
+    });
+    return out;
+  }
+
+  function renderStructure() {
+    var data = snapshot();
+    document.getElementById("structure-json").textContent = JSON.stringify(data, null, 2);
+    document.getElementById("struct-stamp").textContent = data.savedAt.slice(11, 19);
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); } catch (e) {}
+    rebuildToc();
+    document.getElementById("body").classList.toggle(
+      "has-notebook",
+      blocksIn(zoneEl("notebook")).length > 0
+    );
+    return data;
+  }
+
+  function rebuildToc() {
+    var lists = document.querySelectorAll(".js-toc");
+    var stage = zoneEl("stage");
+    var items = blocksIn(stage).map(function (el) {
+      return { id: el.id, title: el.getAttribute("data-title") || el.id };
+    });
+    lists.forEach(function (list) {
+      list.innerHTML = "";
+      items.forEach(function (item) {
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = "#" + item.id;
+        a.textContent = item.title;
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+    });
+  }
+
+  function clearZones() {
+    zones().forEach(function (zone) {
+      blocksIn(zone).forEach(function (el) { el.remove(); });
+    });
+  }
+
+  function applySnapshot(data) {
+    clearZones();
+    if (!data || !data.zones) return;
+    Object.keys(data.zones).forEach(function (name) {
+      var zone = zoneEl(name);
+      if (!zone) return;
+      (data.zones[name] || []).forEach(function (item) {
+        var n = parseInt(String(item.id || "").split("-").pop(), 10);
+        if (n >= seq) seq = n;
+        zone.appendChild(makeBlock(item));
+      });
+    });
+    renderStructure();
+  }
+
+  function seed() {
+    var layout = {
+      chrome: [
+        ["chrome", "До плану"],
+        ["chrome", "Пара 17/50"],
+        ["chrome", "☰"],
+        ["chrome", "Dropout і регуляризація"],
+        ["chrome", "Студенти · 12.0"],
+        ["chrome", "Версія · 12.0"],
+        ["chrome", "Для викладача"],
+        ["chrome", "Редактор"],
+        ["chrome", "Зошит"],
+        ["chrome", "← 16"],
+        ["chrome", "18 →"],
+        ["chrome", "Окремо"],
+        ["chrome", "Завантажити"]
+      ],
+      rail: [
+        ["toc", "Зміст"]
+      ],
+      notebook: [
+        ["notebook", "Комірка · train/eval"],
+        ["notebook", "Комірка · активації"],
+        ["notebook", "Комірка · Dropout p"],
+        ["notebook", "Комірка · MAE / R²"],
+        ["notebook", "Комірка · завдання 1"],
+        ["notebook", "Комірка · завдання 2"]
+      ],
+      stage: [
+        ["banner", "План і цілі"],
+        ["teacher", "Бриф пари"],
+        ["teacher", "Вау-приклад на старті"],
+        ["teacher", "Що робимо сьогодні"],
+        ["theory", "Карта пари · 10 кроків"],
+        ["diagram", "Карта · схема 10 кроків"],
+        ["extra", "Пояснення кроків"],
+        ["extra", "Коротко / детально"],
+        ["theory", "Навіщо регуляризація"],
+        ["diagram", "Крок 1 · train vs test"],
+        ["callout", "Коротко · regularization"],
+        ["teacher", "Кроки · регуляризація"],
+        ["example", "train() і eval()"],
+        ["code", "Демо Dropout"],
+        ["diagram", "Маска train / прозорий eval"],
+        ["callout", "Зверніть увагу · eval"],
+        ["trap", "Часта пастка · метрика в train()"],
+        ["extra", "Розбір train/eval"],
+        ["teacher", "Кроки · train/eval"],
+        ["theory", "Чому без eval() таблиця бреше"],
+        ["theory", "Split і scaling"],
+        ["code", "train_test_split + scaler"],
+        ["trap", "Часта пастка · fit на test"],
+        ["checkpoint", "Мікроперевірка · 15 хв"],
+        ["teacher", "Кроки · split"],
+        ["example", "Чотири hidden-активації"],
+        ["diagram", "ReLU / Tanh / LeakyReLU / SiLU"],
+        ["code", "build_model(act)"],
+        ["extra", "Розбір активацій"],
+        ["trap", "Swish = nn.SiLU()"],
+        ["teacher", "Кроки · активації"],
+        ["theory", "MAE і R² на тесті"],
+        ["callout", "Зверніть увагу · R² може бути < 0"],
+        ["example", "MLP HealthRisk"],
+        ["code", "10 → 32 → 1 · 385 параметрів"],
+        ["extra", "Розбір MLP"],
+        ["checkpoint", "Мікроперевірка · 30 хв"],
+        ["teacher", "Кроки · HealthRisk"],
+        ["theory", "Dropout після hidden"],
+        ["diagram", "Де стоїть Dropout"],
+        ["extra", "Розбір Dropout"],
+        ["teacher", "Кроки · Dropout"],
+        ["example", "p = 0.1 / 0.3 / 0.5"],
+        ["code", "Цикл по p"],
+        ["trap", "Часта пастка · p — це вимкнути, не keep"],
+        ["theory", "Train/test gap"],
+        ["diagram", "Overfitting як розрив кривих"],
+        ["checkpoint", "Мікроперевірка · 45 хв"],
+        ["example", "eval() і no_grad()"],
+        ["code", "with torch.no_grad()"],
+        ["callout", "Орієнтир · обидва важелі"],
+        ["extra", "Що означає p у Dropout"],
+        ["extra", "overfitting / underfitting"],
+        ["teacher", "Кроки · gap"],
+        ["task", "ITSTEP Практичне 4.2"],
+        ["task", "Завдання 1 · активації"],
+        ["callout", "Звідки дані і навіщо · 1"],
+        ["teacher", "Walkthrough · завдання 1"],
+        ["checkpoint", "Мікроперевірка · 60 хв"],
+        ["task", "Завдання 2 · Dropout p=0.3"],
+        ["callout", "Звідки дані і навіщо · 2"],
+        ["teacher", "Walkthrough · завдання 2"],
+        ["checkpoint", "Checkpoint"],
+        ["extra", "Cursor · акцент"],
+        ["extra", "Cursor · демо"],
+        ["extra", "Cursor · практика"],
+        ["extra", "Codex · акцент"],
+        ["extra", "Codex · практика"],
+        ["extra", "Паспорт даних"],
+        ["teacher", "Нотатки v7"],
+        ["homework", "Домашнє · ITSTEP"],
+        ["teacher", "Еталон ДЗ"],
+        ["exit", "Exit ticket"],
+        ["extra", "Deep-study · weight decay"],
+        ["teacher", "Кроки · deep-study"]
+      ]
+    };
+    Object.keys(layout).forEach(function (zoneName) {
+      var zone = zoneEl(zoneName);
+      layout[zoneName].forEach(function (item) {
+        zone.appendChild(makeBlock({ type: item[0], title: item[1] }));
+      });
+    });
+    renderStructure();
+  }
+
+  function setTarget(name) {
+    targetZone = name;
+    zones().forEach(function (z) {
+      z.classList.toggle("is-target", z.getAttribute("data-zone") === name);
+    });
+  }
+
+  function addBlock(type, zoneName, beforeEl) {
+    var meta = TYPE_MAP[type];
+    if (!meta) return;
+    var zone = zoneEl(zoneName || targetZone || meta.zone);
+    if (!zone) zone = zoneEl(meta.zone);
+    var el = makeBlock({ type: meta.type, title: meta.label });
+    if (beforeEl && beforeEl.parentNode === zone) zone.insertBefore(el, beforeEl);
+    else zone.appendChild(el);
+    var title = el.querySelector("h3");
+    if (title) title.focus();
+    renderStructure();
+    return el;
+  }
+
+  function paintPalette() {
+    var nav = document.getElementById("palette");
+    nav.innerHTML = '<span class="lab">Набрати блоки</span>';
+    TYPES.forEach(function (t) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.setAttribute("data-add", t.type);
+      btn.setAttribute("data-kind", t.kind);
+      btn.setAttribute("draggable", "true");
+      btn.setAttribute("data-tip", t.tip || "");
+      btn.setAttribute("aria-label", t.label + ". " + (t.tip || ""));
+      btn.textContent = "+ " + t.label;
+      nav.appendChild(btn);
+    });
+  }
+
+  function closestBlock(node) {
+    while (node && node !== document) {
+      if (node.classList && node.classList.contains("lh-block")) return node;
+      node = node.parentNode;
+    }
+    return null;
+  }
+  function closestZone(node) {
+    while (node && node !== document) {
+      if (node.getAttribute && node.getAttribute("data-zone")) return node;
+      node = node.parentNode;
+    }
+    return null;
+  }
+  function afterElement(zone, x, y) {
+    var kids = blocksIn(zone).filter(function (el) { return el !== dragEl; });
+    var horizontal = zone.getAttribute("data-zone") === "chrome";
+    var best = null;
+    var bestOffset = Number.NEGATIVE_INFINITY;
+    kids.forEach(function (child) {
+      var box = child.getBoundingClientRect();
+      var offset = horizontal ? x - box.left - box.width / 2 : y - box.top - box.height / 2;
+      if (offset < 0 && offset > bestOffset) {
+        bestOffset = offset;
+        best = child;
+      }
+    });
+    return best;
+  }
+
+  document.addEventListener("click", function (e) {
+    var add = e.target.closest && e.target.closest("[data-add]");
+    if (add) {
+      addBlock(add.getAttribute("data-add"));
+      return;
+    }
+    var remove = e.target.closest && e.target.closest(".block-remove");
+    if (remove) {
+      var block = closestBlock(remove);
+      if (block) block.remove();
+      renderStructure();
+      return;
+    }
+    var zone = closestZone(e.target);
+    if (zone) setTarget(zone.getAttribute("data-zone"));
+  });
+
+  document.addEventListener("input", function (e) {
+    var block = closestBlock(e.target);
+    if (!block) return;
+    if (e.target.tagName === "H3") {
+      var title = String(e.target.textContent || "").trim() || block.getAttribute("data-type");
+      block.setAttribute("data-title", title);
+    }
+    renderStructure();
+  });
+
+  document.addEventListener("dragstart", function (e) {
+    hideTip();
+    var add = e.target.closest && e.target.closest("[data-add]");
+    if (add) {
+      newType = add.getAttribute("data-add");
+      dragEl = null;
+      e.dataTransfer.effectAllowed = "copy";
+      e.dataTransfer.setData("text/plain", "new:" + newType);
+      return;
+    }
+    if (!e.target.classList || !e.target.classList.contains("drag-handle")) {
+      e.preventDefault();
+      return;
+    }
+    dragEl = closestBlock(e.target);
+    newType = null;
+    if (!dragEl) { e.preventDefault(); return; }
+    e.dataTransfer.effectAllowed = "move";
+    e.dataTransfer.setData("text/plain", dragEl.getAttribute("data-block"));
+    dragEl.classList.add("is-dragging");
+  });
+
+  document.addEventListener("dragend", function () {
+    if (placeholder.parentNode) placeholder.parentNode.removeChild(placeholder);
+    if (dragEl) dragEl.classList.remove("is-dragging");
+    dragEl = null;
+    newType = null;
+    zones().forEach(function (z) { z.classList.remove("is-over"); });
+    renderStructure();
+  });
+
+  document.addEventListener("dragover", function (e) {
+    if (!dragEl && !newType) return;
+    var zone = closestZone(e.target);
+    if (!zone) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect = dragEl ? "move" : "copy";
+    zones().forEach(function (z) { z.classList.toggle("is-over", z === zone); });
+    var after = afterElement(zone, e.clientX, e.clientY);
+    if (after) zone.insertBefore(placeholder, after);
+    else zone.appendChild(placeholder);
+  });
+
+  document.addEventListener("drop", function (e) {
+    e.preventDefault();
+    var zone = closestZone(e.target) || (placeholder.parentNode && closestZone(placeholder));
+    if (newType) {
+      var before = placeholder.parentNode ? placeholder.nextElementSibling : null;
+      if (placeholder.parentNode) placeholder.parentNode.removeChild(placeholder);
+      addBlock(newType, zone && zone.getAttribute("data-zone"), before && before.classList.contains("lh-block") ? before : null);
+      newType = null;
+      return;
+    }
+    if (!dragEl || !placeholder.parentNode) return;
+    placeholder.parentNode.insertBefore(dragEl, placeholder);
+    placeholder.parentNode.removeChild(placeholder);
+    renderStructure();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Delete" && e.shiftKey) {
+      var el = closestBlock(document.activeElement);
+      if (!el) return;
+      e.preventDefault();
+      el.remove();
+      renderStructure();
+      return;
+    }
+    if (!e.altKey || (e.key !== "ArrowUp" && e.key !== "ArrowDown")) return;
+    var block = closestBlock(document.activeElement);
+    if (!block) return;
+    e.preventDefault();
+    var zone = block.parentNode;
+    if (e.key === "ArrowUp" && block.previousElementSibling && block.previousElementSibling.classList.contains("lh-block")) {
+      zone.insertBefore(block, block.previousElementSibling);
+    }
+    if (e.key === "ArrowDown" && block.nextElementSibling && block.nextElementSibling.classList.contains("lh-block")) {
+      zone.insertBefore(block.nextElementSibling, block);
+    }
+    block.focus();
+    renderStructure();
+  });
+
+  function download(name, text, type) {
+    var blob = new Blob([text], { type: type || "text/plain" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url; a.download = name; a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  document.getElementById("btn-copy").addEventListener("click", function () {
+    navigator.clipboard.writeText(JSON.stringify(snapshot(), null, 2));
+  });
+  document.getElementById("btn-json").addEventListener("click", function () {
+    download("pair17-structure.json", JSON.stringify(snapshot(), null, 2), "application/json");
+  });
+  document.getElementById("btn-html").addEventListener("click", function () {
+    var clone = document.documentElement.cloneNode(true);
+    var builder = clone.querySelector(".builder");
+    var palette = clone.querySelector(".palette");
+    var dock = clone.querySelector(".structure-dock");
+    if (builder) builder.remove();
+    if (palette) palette.remove();
+    if (dock) dock.remove();
+    download("pair17-layout.html", "<!DOCTYPE html>\n" + clone.outerHTML, "text/html");
+  });
+  document.getElementById("btn-reset").addEventListener("click", function () {
+    try { localStorage.removeItem(STORAGE_KEY); } catch (err) {}
+    location.reload();
+  });
+
+  var tipBox = document.createElement("div");
+  tipBox.id = "block-tip";
+  tipBox.hidden = true;
+  document.body.appendChild(tipBox);
+
+  function hideTip() { tipBox.hidden = true; }
+  function showTip(anchor, text, typeLabel) {
+    if (!text) { hideTip(); return; }
+    tipBox.innerHTML =
+      (typeLabel ? '<p class="tip-type">' + escapeHtml(typeLabel) + "</p>" : "") +
+      '<p class="tip-body">' + escapeHtml(text) + "</p>";
+    tipBox.hidden = false;
+    var box = anchor.getBoundingClientRect();
+    var w = tipBox.offsetWidth;
+    var h = tipBox.offsetHeight;
+    var x = box.left;
+    var y = box.bottom + 8;
+    if (x + w > window.innerWidth - 12) x = window.innerWidth - w - 12;
+    if (y + h > window.innerHeight - 12) y = box.top - h - 8;
+    if (x < 12) x = 12;
+    if (y < 12) y = 12;
+    tipBox.style.left = x + "px";
+    tipBox.style.top = y + "px";
+  }
+  function tipFrom(node) {
+    if (!node || !node.closest) return null;
+    var add = node.closest("[data-add]");
+    if (add) {
+      return { el: add, text: add.getAttribute("data-tip"), label: add.textContent.replace(/^\+\s*/, "") };
+    }
+    var btn = node.closest && node.closest(".block-tip");
+    var block = closestBlock(node);
+    if (btn && block) {
+      return { el: btn, text: block.getAttribute("data-tip"), label: block.getAttribute("data-title") };
+    }
+    if (block && !node.closest("[contenteditable]")) {
+      return { el: block, text: block.getAttribute("data-tip"), label: block.getAttribute("data-title") };
+    }
+    return null;
+  }
+  document.addEventListener("pointerover", function (e) {
+    var info = tipFrom(e.target);
+    if (info) showTip(info.el, info.text, info.label);
+  });
+  document.addEventListener("pointerout", function (e) {
+    var next = e.relatedTarget;
+    if (next && tipFrom(next)) return;
+    hideTip();
+  });
+  document.addEventListener("focusin", function (e) {
+    var info = tipFrom(e.target);
+    if (info) showTip(info.el, info.text, info.label);
+  });
+  document.addEventListener("focusout", hideTip);
+
+  paintPalette();
+  setTarget("stage");
+  var saved = null;
+  try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null"); } catch (err) {}
+  if (saved && saved.zones) applySnapshot(saved);
+  else seed();
+})();
+</script>
+</body>
+</html>
