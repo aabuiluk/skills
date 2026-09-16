@@ -1,0 +1,629 @@
+{
+  "live_email_ok": true,
+  "pages": [
+    {
+      "canonical": "/",
+      "live": {
+        "status": 200,
+        "title": "Dashboard - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Personal Ask anything + Create Team Your Bookmarks Server Side Game Developer Technical Writer UX Design Cyber Security PostgreSQL QA Docker Role Based Roadmaps Learn with AI Frontend Backend Full Stack Android DevOps De",
+        "final_url": "https://roadmap.sh/dashboard"
+      },
+      "local": {
+        "status": 200,
+        "title": "Dashboard - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Your Bookmarks Role Based Roadmaps Learn with AI Frontend Backend Full Stack Android DevOps DevSecOps Data Analyst AI Engineer AI and Data Scientist Data Engineer Machine Learning Product Design PostgreSQL iOS Blockchain QA Software Architect Cyber Security UX Design Technical Writer Game Developer Server Side Game Developer MLOps Product Manager Engineering Manager Developer Relations BI Analyst Network Engineer Forward Deployed Engineer Skill Based Ro",
+        "final_url": "http://127.0.0.1:3000/site/dashboard"
+      },
+      "parity_ok": true
+    },
+    {
+      "canonical": "/roadmaps",
+      "live": {
+        "status": 200,
+        "title": "Developer Roadmaps",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Developer Roadmaps Community driven, up-to-date paths to learn any tool or technology. All Roadmaps 94 Absolute Beginners 34 Web Development 69 Frameworks 9 Languages / Platforms 23 AI & Machine Learning 25 DevOps 49 Mob",
+        "final_url": "https://roadmap.sh/roadmaps/?g=Web+Development"
+      },
+      "local": {
+        "status": 200,
+        "title": "Developer Roadmaps",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Developer Roadmaps Community driven, up-to-date paths to learn any tool or technology. All Roadmaps 94 Absolute Beginners 34 Web Development 69 Frameworks 9 Languages / Platforms 23 AI & Machine Learning 25 DevOps 49 Mobile Development 9 Databases 26 Computer Science 31 Management 9 Game Development 7 Design 3 Blockchain 4 Cyber Security 11 Best Practices 5 NEW ROADMAPS R Programming Power BI ROLE BASED ROADMAPS Frontend Backend Fu",
+        "final_url": "http://127.0.0.1:3000/site/roadmaps"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/guides",
+      "live": {
+        "status": 200,
+        "title": "Guides - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Guides Succinct graphical explanations to engineering topics. Python Remove from List: Full Guide + ExamplesNEW · SEPTEMBER Textual Matrix Multiplication in Python: The Complete Decision GuideNEW · SEPTEMBER Textual Fix ",
+        "final_url": "https://roadmap.sh/guides"
+      },
+      "local": {
+        "status": 200,
+        "title": "Guides - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Guides Succinct graphical explanations to engineering topics. Matrix Multiplication in Python: The Complete Decision GuideNEW · SEPTEMBER Textual Fix \"Invalid Syntax\" in Python (8 Common Causes)NEW · SEPTEMBER Textual Top 10 Best LLM Observability Tools in 2026 Textual Automated Regression Testing: The Complete 2026 Guide Textual The or Operator in Python: Complete Guide with Examples Textual Types of NoSQL Databases: How to Choose",
+        "final_url": "http://127.0.0.1:3000/site/guides"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/projects",
+      "live": {
+        "status": 200,
+        "title": "Project Ideas",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Project Ideas Browse the ever-growing list of projects ideas and solutions. All Projects Frontend Backend DevOps HTML CSS JavaScript Node.js Go Python Java AI and Data Scientist AI Engineer Angular API Design AWS BI Anal",
+        "final_url": "https://roadmap.sh/projects"
+      },
+      "local": {
+        "status": 200,
+        "title": "Project Ideas",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Project Ideas Browse the ever-growing list of projects ideas and solutions. All Projects Frontend Backend DevOps HTML CSS JavaScript Node.js Go Python Java AI and Data Scientist AI Engineer Angular API Design AWS BI Analyst C++ Cloudflare Cyber Security Data Analyst DevSecOps Django Docker Laravel Linux MongoDB Next.js PHP Prompt Engineering QA React Redis Ruby Rust Shell / Bash Spring Boot SQL TypeScript Vue All Projects Matches f",
+        "final_url": "http://127.0.0.1:3000/site/projects"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/questions",
+      "live": {
+        "status": 200,
+        "title": "Questions",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Questions Quizzes to help you test and improve your knowledge and skill up Top 60+ Angular Interview Questions (and answers) Question Top 60+ Spring Boot Interview Questions and Answers Question Top 50 Kubernetes Intervi",
+        "final_url": "https://roadmap.sh/questions"
+      },
+      "local": {
+        "status": 200,
+        "title": "Questions",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Questions Quizzes to help you test and improve your knowledge and skill up Top 60+ Angular Interview Questions (and answers) Question Top 60+ Spring Boot Interview Questions and Answers Question Top 50 Kubernetes Interview Questions and Answers Question 30 C++ Interview Questions and Answers (+Quiz!) Question Top 30 System Design Interview Questions (+ Quiz!) Question Top 37 REST API Interview Questions (and Answers) Question Top 2",
+        "final_url": "http://127.0.0.1:3000/site/questions"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/leaderboard",
+      "live": {
+        "status": 200,
+        "title": "Leaderboard",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Leaderboard Longest Visit Streak Active Lifetime 1 Kishore Y 299 2 Mark Nassef 283 3 IgorLutiy 266 4 Lost 266 5 Sandesh Hegde 261 6 M Saad Ahmad 240 7 Kulakov Timofey 234 8 Vitor-Santana 223 9 cogitoergosudo 219 10 Chris",
+        "final_url": "https://roadmap.sh/leaderboard"
+      },
+      "local": {
+        "status": 404,
+        "title": "",
+        "oops_or_error_ui": true,
+        "page_errors": [],
+        "body_snip": "{\"detail\":\"Not in local copy: /leaderboard\"}",
+        "final_url": "http://127.0.0.1:3000/site/leaderboard"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/dashboard",
+      "live": {
+        "status": 200,
+        "title": "Dashboard - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Personal Ask anything + Create Team Your Bookmarks GraphQL Full Stack Android Server Side Game Developer UX Design Cyber Security PostgreSQL Role Based Roadmaps Learn with AI Frontend Backend Full Stack Android DevOps De",
+        "final_url": "https://roadmap.sh/dashboard"
+      },
+      "local": {
+        "status": 200,
+        "title": "",
+        "oops_or_error_ui": true,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Not found Page not found. How about these pages? Try Again Homepage Roadmaps Roadmaps Guides FAQs YouTube roadmap.sh by @nilbuild Community created roadmaps, best practices, projects, articles, resources and journeys to help you choose your path and grow in your career. © roadmap.sh·Terms·Privacy· The top DevOps resource for Kubernetes, cloud-native computing, and",
+        "final_url": "http://127.0.0.1:3000/site"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/account",
+      "live": {
+        "status": 200,
+        "title": "Activity | Andrii Builuk",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account CHOOSE TEAM Andrii Builuk Activity Profile Friends Roadmaps Road Card Billing Settings 1 Topics Completed 14 Currently Learning 3d Visit Streak CONTINUE FOLLOWING Frontend 0% Full Stack 0% Server Side Game Developer 0% B",
+        "final_url": "https://roadmap.sh/account"
+      },
+      "local": {
+        "status": 200,
+        "title": "Login - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Login Welcome back! Let's take you to your account. Continue with GitHub Continue with Google Continue with LinkedIn Continue with Apple OR Use your email address Don't have an account? Sign up By continuing to use our services, you acknowledge that you have both read and agree to our Terms of Service and Privacy Policy. ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/login"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/account/billing",
+      "live": {
+        "status": 200,
+        "title": "Billing | Andrii Builuk",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account CHOOSE TEAM Andrii Builuk Activity Profile Friends Roadmaps Road Card Billing Settings Current Subscription Thank you for being a pro member. Your plan details are below. PAYMENT $10 / month RENEWS ON October 7, 2026 Swi",
+        "final_url": "https://roadmap.sh/account/billing"
+      },
+      "local": {
+        "status": 200,
+        "title": "Login - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Login Welcome back! Let's take you to your account. Continue with GitHub Continue with Google Continue with LinkedIn Continue with Apple OR Use your email address Don't have an account? Sign up By continuing to use our services, you acknowledge that you have both read and agree to our Terms of Service and Privacy Policy. ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/login"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/account/settings",
+      "live": {
+        "status": 200,
+        "title": "Account Settings | Andrii Builuk",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account CHOOSE TEAM Andrii Builuk Activity Profile Friends Roadmaps Road Card Billing Settings Account Password Newsletter Update Email You have used google when signing up. Please set your password first. Current Email Please s",
+        "final_url": "https://roadmap.sh/account/settings"
+      },
+      "local": {
+        "status": 200,
+        "title": "Login - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Login Welcome back! Let's take you to your account. Continue with GitHub Continue with Google Continue with LinkedIn Continue with Apple OR Use your email address Don't have an account? Sign up By continuing to use our services, you acknowledge that you have both read and agree to our Terms of Service and Privacy Policy. ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/login"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/premium",
+      "live": {
+        "status": 200,
+        "title": "Premium Features - AI-Powered Learning | roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Joined by 18K+ developers Learn fasterwith AI Generate courses, guides, structured roadmaps, quizzes, instant answers, and get a personal coach — all tailored to your skill level. Upgrade for just $10/month → Try for Fre",
+        "final_url": "https://roadmap.sh/premium"
+      },
+      "local": {
+        "status": 200,
+        "title": "Premium Features - AI-Powered Learning | roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Joined by 18K+ developers Learn fasterwith AI Generate courses, guides, structured roadmaps, quizzes, instant answers, and get a personal coach — all tailored to your skill level. Upgrade for just $10/month → Try for Free 2 months free with yearly plan · Cancel anytime · Plans for teams AI Courses Roadmaps Personal Coach Quizzes Instant Answers Career Guidance 3.2MActive Learners 160K+Roadmaps Created 150K+Courses Generated 1M+AI C",
+        "final_url": "http://127.0.0.1:3000/site/premium"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/ai",
+      "live": {
+        "status": 200,
+        "title": "Roadmap AI",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member What can I help you learn? The more detail you share, the more personalized your",
+        "final_url": "https://roadmap.sh/ai/course"
+      },
+      "local": {
+        "status": 200,
+        "title": "Roadmap AI",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Staff Picks Community Free Signup or Login What can I help you learn? The more detail you share, the more personalized your course Roadmap Course Guide Docker fundamentals Event-driven architecture Regex mastery Linux internals ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/ai/course"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/ai/chat",
+      "live": {
+        "status": 200,
+        "title": "AI Chat",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI My Learning Plans Roadmaps Courses Guides Quizzes Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member Chat History New Chat No chat history How can I help you? Help select a c",
+        "final_url": "https://roadmap.sh/ai/chat"
+      },
+      "local": {
+        "status": 200,
+        "title": "AI Chat",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI My Learning Plans Roadmaps Courses Guides Quizzes Ask AI Tutor Roadmap Chat Staff Picks Community Free Signup or Login How can I help you? Help select a career path Help me find a job Learn a Topic Test my Knowledge What roadmap should I pick? What are the best jobs for me? Recommend me a project based on my expertise Recommend me a topic I can learn in an hour Personalize Upload Resume ⋮⋮ Hub Roadmaps Guide",
+        "final_url": "http://127.0.0.1:3000/site/ai/chat"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/ai/library",
+      "live": {
+        "status": 200,
+        "title": "Learning Plans - AI Library",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI My Learning Plans Roadmaps Courses Guides Quizzes Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member Library Explore your AI-generated guides, courses, learning plans and roa",
+        "final_url": "https://roadmap.sh/ai/library/learning-plans"
+      },
+      "local": {
+        "status": 200,
+        "title": "Learning Plans - AI Library",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI My Learning Plans Roadmaps Courses Guides Quizzes Ask AI Tutor Roadmap Chat Community Library Explore your AI-generated guides, courses, learning plans and roadmaps New PlansCoursesGuidesRoadmapsQuizzes Loading your learning plans... ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/ai/library/learning-plans"
+      },
+      "parity_ok": true
+    },
+    {
+      "canonical": "/ai/library/learning-plans",
+      "live": {
+        "status": 200,
+        "title": "Learning Plans - AI Library",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI My Learning Plans Roadmaps Courses Guides Quizzes Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member Library Explore your AI-generated guides, courses, learning plans and roa",
+        "final_url": "https://roadmap.sh/ai/library/learning-plans"
+      },
+      "local": {
+        "status": 200,
+        "title": "Learning Plans - AI Library",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI My Learning Plans Roadmaps Courses Guides Quizzes Ask AI Tutor Roadmap Chat Community Library Explore your AI-generated guides, courses, learning plans and roadmaps New PlansCoursesGuidesRoadmapsQuizzes Loading your learning plans... ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/ai/library/learning-plans"
+      },
+      "parity_ok": true
+    },
+    {
+      "canonical": "/ai/quiz",
+      "live": {
+        "status": 200,
+        "title": "AI Quiz",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member What should I quiz you on? The more detail you share, the more personalized your",
+        "final_url": "https://roadmap.sh/ai/quiz"
+      },
+      "local": {
+        "status": 200,
+        "title": "AI Quiz",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Staff Picks Community Free Signup or Login What should I quiz you on? The more detail you share, the more personalized your quiz Multi-Choice Open-Ended Mixed Data structures HTTP status codes CSS specificity Shell scripting ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/ai/quiz"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/ai/course",
+      "live": {
+        "status": 200,
+        "title": "Roadmap AI",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member What can I help you learn? The more detail you share, the more personalized your",
+        "final_url": "https://roadmap.sh/ai/course"
+      },
+      "local": {
+        "status": 200,
+        "title": "Roadmap AI",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Staff Picks Community Free Signup or Login What can I help you learn? The more detail you share, the more personalized your course Roadmap Course Guide Design patterns WebSockets Linux internals Data structures refresh ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/ai/course"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/ai/guide",
+      "live": {
+        "status": 200,
+        "title": "AI Guide",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member What can I help you learn? The more detail you share, the more personalized your",
+        "final_url": "https://roadmap.sh/ai/guide"
+      },
+      "local": {
+        "status": 200,
+        "title": "AI Guide",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Staff Picks Community Free Signup or Login What can I help you learn? The more detail you share, the more personalized your guide Roadmap Course Guide REST vs RPC Floating point Sharding Rate limiting ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/ai/guide"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/ai/roadmap",
+      "live": {
+        "status": 200,
+        "title": "AI Roadmap",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Community Andrii Builuk Pro Member What can I help you learn? The more detail you share, the more personalized your",
+        "final_url": "https://roadmap.sh/ai/roadmap"
+      },
+      "local": {
+        "status": 200,
+        "title": "AI Roadmap",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "AI Tutor by roadmap.sh Your personalized learning companion for any topic Create with AI Plan Roadmap Course Guide Quiz My Learning Ask AI Tutor Roadmap Chat Staff Picks Community Free Signup or Login What can I help you learn? The more detail you share, the more personalized your roadmap Roadmap Course Guide DevOps engineer Observability Freelance developer AI engineer ⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin",
+        "final_url": "http://127.0.0.1:3000/site/ai/roadmap"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/packs",
+      "live": {
+        "status": 200,
+        "title": "Lesson Packs - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Lesson Packs Created by the roadmap.sh team Lesson Packs Short lessons, hands-on projects, and an AI tutor to make hard topics finally click. Browse all packs New packs added every month Visual, practical lessons Hands-o",
+        "final_url": "https://roadmap.sh/packs"
+      },
+      "local": {
+        "status": 200,
+        "title": "Lesson Packs - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Lesson Packs Created by the roadmap.sh team Lesson Packs Short lessons, hands-on projects, and an AI tutor to make hard topics finally click. Browse all packs New packs added every month Visual, practical lessons Hands-on project ideas AI tutor on the side New packs every month Build CLI Apps with Node.js Learn how to build practical CLI apps with Node.js and npm 21 Lessons 9 Projects 2.7 hours read JavaScript Foundations The JavaS",
+        "final_url": "http://127.0.0.1:3000/site/packs"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/newsletters",
+      "live": {
+        "status": 200,
+        "title": "Newsletters - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Newsletters Weekly tech newsletters for developers - curated news, deep dives, and career-shaping roadmap updates. DevOps Weekly Practical updates on cloud infrastructure, CI/CD, platform engineering, observability, auto",
+        "final_url": "https://roadmap.sh/newsletters"
+      },
+      "local": {
+        "status": 200,
+        "title": "Newsletters - roadmap.sh",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Newsletters Weekly tech newsletters for developers - curated news, deep dives, and career-shaping roadmap updates. DevOps Weekly Practical updates on cloud infrastructure, CI/CD, platform engineering, observability, automation, and the tools shaping modern DevOps. Subscribe 177.6k subscribers AI Weekly The most important AI developments, useful new tools, emerging techniques, and practical ways to build and work with AI. Subscribe ",
+        "final_url": "http://127.0.0.1:3000/site/newsletters"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/frontend",
+      "live": {
+        "status": 200,
+        "title": "Frontend Developer Roadmap: What is Frontend Development?",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account PARTNERGet the latest Frontend news from our sister site TheNewStack.io ← All Roadmaps Prefer us on Google Weekly Newsletter Download Frontend Developer Step by step guide to becoming a modern frontend developer in 2026 ",
+        "final_url": "https://roadmap.sh/frontend"
+      },
+      "local": {
+        "status": 200,
+        "title": "Frontend Developer Roadmap: What is Frontend Development?",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up PARTNERGet the latest Frontend news from our sister site TheNewStack.io ← All Roadmaps Prefer us on Google Weekly Newsletter Download Frontend Developer Step by step guide to becoming a modern frontend developer in 2026 Roadmap Projects AI Tutor Personalize Join 140,860+ others tracking their progress on this roadmap Sign up free What is a Frontend Developer? Continue Learning with following relevant tracks Front-end Internet How d",
+        "final_url": "http://127.0.0.1:3000/site/frontend"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/backend",
+      "live": {
+        "status": 200,
+        "title": "Backend Developer Roadmap: What is Backend Development",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account PARTNERGet the latest Backend news from our sister site TheNewStack.io ← All Roadmaps Prefer us on Google Weekly Newsletter Download Backend Developer Step by step guide to becoming a modern backend developer in 2026 Roa",
+        "final_url": "https://roadmap.sh/backend"
+      },
+      "local": {
+        "status": 200,
+        "title": "Backend Developer Roadmap: What is Backend Development",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up PARTNERGet the latest Backend news from our sister site TheNewStack.io ← All Roadmaps Prefer us on Google Weekly Newsletter Download Backend Developer Step by step guide to becoming a modern backend developer in 2026 Roadmap Projects AI Tutor Personalize Join 140,860+ others tracking their progress on this roadmap Sign up free What is Backend Development? Time Series Realtime Key-Value Open API Specs Have a look at the following re",
+        "final_url": "http://127.0.0.1:3000/site/backend"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/python",
+      "live": {
+        "status": 200,
+        "title": "Learn to become a modern Python developer",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account ← All Roadmaps Prefer us on Google Weekly Newsletter Download Python Developer Step by step guide to becoming a Python developer in 2026 Roadmap Projects AI Tutor Personalize Mark any topic to start tracking Watch demo W",
+        "final_url": "https://roadmap.sh/python"
+      },
+      "local": {
+        "status": 200,
+        "title": "Learn to become a modern Python developer",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up ← All Roadmaps Prefer us on Google Weekly Newsletter Download Python Developer Step by step guide to becoming a Python developer in 2026 Roadmap Projects AI Tutor Personalize Join 140,860+ others tracking their progress on this roadmap Sign up free What is a Python developer? Python Related Roadmaps Backend Roadmap DevOps Roadmap Django Roadmap Python for Data Analysis Have a look at the following related roadmaps Backend Python fo",
+        "final_url": "http://127.0.0.1:3000/site/python"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/get-started",
+      "live": {
+        "status": 200,
+        "title": "Developer Roadmaps",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Get AI-Powered Learning Guidance Our AI Tutor analyzes your experience, suggests relevant roadmaps, and provides detailed answers to help you progress in your tech career. Chat with AI Tutor Beginner Roadmaps Are you an ",
+        "final_url": "https://roadmap.sh/get-started"
+      },
+      "local": {
+        "status": 200,
+        "title": "Developer Roadmaps",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Get AI-Powered Learning Guidance Our AI Tutor analyzes your experience, suggests relevant roadmaps, and provides detailed answers to help you progress in your tech career. Chat with AI Tutor Beginner Roadmaps Are you an Absolute beginner? Here are some beginner friendly roadmaps you should start with. Frontend Developer Develop the part of web apps that users interact with i.e. things rendered in the browser. Backend Developer Deve",
+        "final_url": "http://127.0.0.1:3000/site/get-started"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/teams",
+      "live": {
+        "status": 200,
+        "title": "Teams",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Roadmaps for Teams Train, plan and track your team's skills and career growth. Create custom roadmaps for your team Plan, track and document your team's skills and growth Invite your team members Get insights on your tea",
+        "final_url": "https://roadmap.sh/teams"
+      },
+      "local": {
+        "status": 200,
+        "title": "Teams",
+        "oops_or_error_ui": false,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Roadmaps for Teams Train, plan and track your team's skills and career growth. Create custom roadmaps for your team Plan, track and document your team's skills and growth Invite your team members Get insights on your team's skills and growth Create your Team or Login to your account Track and guide your team’s knowledge Individual and team level growth plans, progress tracking, skill gap analysis, team insights and more. Growth pla",
+        "final_url": "http://127.0.0.1:3000/site/teams"
+      },
+      "parity_ok": false
+    },
+    {
+      "canonical": "/best-practices",
+      "live": {
+        "status": 200,
+        "title": "Developer Roadmaps",
+        "oops_or_error_ui": false,
+        "page_errors": [],
+        "body_snip": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Roadmaps AI Tutor Lesson Packs Newsletters 3 Account Developer Roadmaps Community driven, up-to-date paths to learn any tool or technology. All Roadmaps 94 Absolute Beginners 34 Web Development 69 Frameworks 9 Languages / Platforms 23 AI & Machine Learning 25 DevOps 49 Mob",
+        "final_url": "https://roadmap.sh/roadmaps/?g=Web+Development"
+      },
+      "local": {
+        "status": 200,
+        "title": "",
+        "oops_or_error_ui": true,
+        "page_errors": [
+          "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+        ],
+        "body_snip": "⋮⋮ Hub Roadmaps Guides Projects Questions ProfDevMap DeltaPath Admin Roadmaps AI Tutor Lesson Packs Newsletters Upgrade Login Sign Up Oops! No result found for routeId \"routes/_redirect.best-practices\" Try Again Homepage Roadmaps Error: No result found for routeId \"routes/_redirect.best-practices\" at pt (http://127.0.0.1:3000/assets/chunk-LFPYN7LY-CxYJBB4n.js:5:9644) at http://127.0.0.1:3000/assets/chunk-LFPYN7LY-CxYJBB4n.js:5:6273 at async http://127.0.0.1:3000/assets/chunk-LFPYN7LY-CxYJBB4n.js",
+        "final_url": "http://127.0.0.1:3000/site/best-practices"
+      },
+      "parity_ok": false
+    }
+  ],
+  "fail_count": 24,
+  "local_broken": [
+    "/roadmaps",
+    "/guides",
+    "/projects",
+    "/questions",
+    "/leaderboard",
+    "/dashboard",
+    "/account",
+    "/account/billing",
+    "/account/settings",
+    "/premium",
+    "/ai",
+    "/ai/chat",
+    "/ai/quiz",
+    "/ai/course",
+    "/ai/guide",
+    "/ai/roadmap",
+    "/packs",
+    "/newsletters",
+    "/frontend",
+    "/backend",
+    "/python",
+    "/get-started",
+    "/teams",
+    "/best-practices"
+  ],
+  "live_broken": [
+    "/projects",
+    "/premium",
+    "/get-started"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-09-09T18:09:28.874456+00:00",
+  "live": {
+    "base": "https://roadmap.sh",
+    "pages": 60,
+    "bad_pages": [],
+    "clicks": 90,
+    "api_calls": 1089,
+    "api_errors": 153,
+    "page_errors": 20,
+    "mutations": [
+      "PATCH /api/v1-mark-favorite",
+      "POST /api/v1-start-project/expense-tracker",
+      "POST /api/v1-start-project/github-user-activity",
+      "POST /api/v1-start-project/task-tracker",
+      "POST /api/v1-update-newsletter-subscription/6a563071e03ea2708d7c613f",
+      "POST /api/v1-update-resource-progress",
+      "POST /api/v1/consent",
+      "POST /api/v1/log"
+    ]
+  },
+  "local": {
+    "base": "http://127.0.0.1:3000",
+    "pages": 60,
+    "bad_pages": [],
+    "clicks": 49,
+    "api_calls": 312,
+    "api_errors": 0,
+    "page_errors": 58,
+    "mutations": [
+      "PATCH /api/v1-mark-favorite"
+    ]
+  },
+  "api": {
+    "ok": true,
+    "failed": [],
+    "checks": 16
+  }
+}

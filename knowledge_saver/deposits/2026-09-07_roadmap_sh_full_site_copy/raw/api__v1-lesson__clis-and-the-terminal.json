@@ -1,0 +1,1517 @@
+{
+  "_id": "6a32bbf543b548b57e937f4e",
+  "title": "CLIs and the Terminal",
+  "slug": "clis-and-the-terminal",
+  "type": "lesson",
+  "description": "Learn what CLI apps are and how terminal commands work.",
+  "content": {
+    "type": "doc",
+    "attrs": {
+      "version": 1
+    },
+    "content": [
+      {
+        "type": "heading",
+        "attrs": {
+          "textAlign": null,
+          "id": "7181770c-1f53-40bd-9e26-f7028e99c044",
+          "data-toc-id": "7181770c-1f53-40bd-9e26-f7028e99c044",
+          "suggestion": null,
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "CLIs and the Terminal"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "If you followed our "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "/packs/javascript-foundations",
+                  "target": "_blank",
+                  "rel": "noopener noreferrer nofollow",
+                  "class": null,
+                  "title": null
+                }
+              }
+            ],
+            "text": "lesson pack about JavaScript"
+          },
+          {
+            "type": "text",
+            "text": ", you would have written JavaScript in the browser i.e. ran it on a web page or the browser console. A command-line app works differently. The user does not click buttons or submit forms. They type a command into the terminal."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "In this lesson pack, you will learn Node.js while building CLI apps. This is a project-based pack, so follow along and run the examples as you read. Each lesson builds a small tool or improves one from an earlier lesson."
+          }
+        ]
+      },
+      {
+        "type": "previewBoundary",
+        "attrs": {
+          "suggestion": null
+        }
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "In this lesson, you will build a tiny command called "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "where-am-i"
+          },
+          {
+            "type": "text",
+            "text": ". It will print the folder where the command started. This will teach you about what CLI apps are, different parts, working directories and more."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "textAlign": null,
+          "id": "9f754603-fe3f-4a28-af58-4ae309b83725",
+          "data-toc-id": "9f754603-fe3f-4a28-af58-4ae309b83725",
+          "suggestion": null,
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "What a CLI app is"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "CLI stands for "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ],
+            "text": "command-line interface"
+          },
+          {
+            "type": "text",
+            "text": ". A CLI app is a command-line program you control by typing commands."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "In a browser app, the interface is the page i.e. user gives their input by interacting with buttons, links, and text fields. In a CLI app, the interface is the command line and the user interacts by using words. The program responds with text, files, or actions."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Here are some examples of the terminal commands:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "node app.js\nnpm install\ngit status"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "In these examples, "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "node"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "npm"
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "git"
+          },
+          {
+            "type": "text",
+            "text": " are CLI apps. The words after the command are passed to the CLI app as input and tell it what to do."
+          }
+        ]
+      },
+      {
+        "type": "bulletList",
+        "attrs": {
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "listItem",
+            "attrs": {
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "textAlign": null,
+                  "suggestion": null
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Read "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "text": "node app.js"
+                  },
+                  {
+                    "type": "text",
+                    "text": " as: start Node.js and ask it to run "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "text": "app.js"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "attrs": {
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "textAlign": null,
+                  "suggestion": null
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Read "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "text": "npm install"
+                  },
+                  {
+                    "type": "text",
+                    "text": " as: start npm and ask it to install the packages for this project."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "listItem",
+            "attrs": {
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "textAlign": null,
+                  "suggestion": null
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Read "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "text": "git status"
+                  },
+                  {
+                    "type": "text",
+                    "text": " as: start Git and ask it to show the current state of the repository."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "textAlign": null,
+          "id": "90211ea7-ec64-4081-bc50-b11855084b0b",
+          "data-toc-id": "90211ea7-ec64-4081-bc50-b11855084b0b",
+          "suggestion": null,
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Commands have parts"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Take a look at the command below."
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "node where-am-i.js"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "The first word is the command name i.e. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "node"
+          },
+          {
+            "type": "text",
+            "text": " and the next word is an argument i.e. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "where-am-i.js"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Commands can also have flags. In the example below:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "git status --short"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "git"
+          },
+          {
+            "type": "text",
+            "text": " is the command. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "status"
+          },
+          {
+            "type": "text",
+            "text": " is the action. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "--short"
+          },
+          {
+            "type": "text",
+            "text": " is a flag that asks Git to print a shorter version of the output."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "suggestion": null,
+          "src": "https://assets.roadmap.sh/guest/cropped-bg6la.png",
+          "alt": "",
+          "title": "",
+          "description": "",
+          "width": "100%",
+          "align": "left",
+          "showCaption": false,
+          "aspectRatio": "original",
+          "originalAspectRatio": "1536/842"
+        }
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "textAlign": null,
+          "id": "611706ef-7e52-4847-aee2-109b42252752",
+          "data-toc-id": "611706ef-7e52-4847-aee2-109b42252752",
+          "suggestion": null,
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "The terminal has a current folder"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "When you run a command, it starts from a folder. That folder is called the "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ],
+            "text": "current working directory"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "This matters because many commands read or write files relative to that folder. If you run a command from your Desktop, it starts from your Desktop. If you move into a project folder, it starts from there."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Open your terminal and run the "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "pwd"
+          },
+          {
+            "type": "text",
+            "text": " command and it will print the current working directory when you run the command."
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "pwd"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "On macOS and Linux, "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "pwd"
+          },
+          {
+            "type": "text",
+            "text": " means \"print working directory\". PowerShell supports this too, so Windows users use the same command."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Move to another folder with "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "cd"
+          },
+          {
+            "type": "text",
+            "text": ":"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "cd projects"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "If you run "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "pwd"
+          },
+          {
+            "type": "text",
+            "text": " now, you will get the different output from before."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "textAlign": null,
+          "id": "237d8c4a-7ddf-4176-8efc-b1fe73735dd8",
+          "data-toc-id": "237d8c4a-7ddf-4176-8efc-b1fe73735dd8",
+          "suggestion": null,
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Build where-am-i"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Create a file called "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "where-am-i.js"
+          },
+          {
+            "type": "text",
+            "text": " and put this code inside it:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "js"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "const currentFolder = process.cwd();\n\nconsole.log(`Current folder: ${currentFolder}`);"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "The first line asks Node.js for the folder where the program started. The second line prints that folder."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "The important part is "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "process.cwd()"
+          },
+          {
+            "type": "text",
+            "text": ". Node.js provides a "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "process"
+          },
+          {
+            "type": "text",
+            "text": " object to give your program information about the running process. We will look closer at "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "process"
+          },
+          {
+            "type": "text",
+            "text": " in the next lesson. For now, remember that "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "process.cwd()"
+          },
+          {
+            "type": "text",
+            "text": " gives you the folder where the command started."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "textAlign": null,
+          "id": "74fa468b-c6cc-4eec-aa5e-2e8ab2ced1ea",
+          "data-toc-id": "74fa468b-c6cc-4eec-aa5e-2e8ab2ced1ea",
+          "suggestion": null,
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Run the command"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Now run the file from your terminal using"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "node where-am-i.js"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "You should see output like this:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "txt"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Current folder: /Users/ava/projects/cli-practice"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Your folder path will be different. The command prints the folder where you ran it."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "textAlign": null,
+          "id": "2f4a3609-2e87-4c80-9c2e-389ba5588a02",
+          "data-toc-id": "2f4a3609-2e87-4c80-9c2e-389ba5588a02",
+          "suggestion": null,
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Try it"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Create a new folder and move into it:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "mkdir cli-practice\ncd cli-practice"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Create a file called "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ],
+            "text": "where-am-i.js"
+          },
+          {
+            "type": "text",
+            "text": " with this code:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "js"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "const currentFolder = process.cwd();\n\nconsole.log(`Current folder: ${currentFolder}`);"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Run it:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "node where-am-i.js"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Read the output. It shows the folder you are in."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Now move up one folder:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "cd .."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Run the file again by giving Node.js the path:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "bash"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "node cli-practice/where-am-i.js"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "The printed folder should change. The file is the same, but the command started from a different folder."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally, edit the label in your file:"
+          }
+        ]
+      },
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "suggestion": null,
+          "language": "js"
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "const currentFolder = process.cwd();\n\nconsole.log(`This command started in: ${currentFolder}`);"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Run the command again. You changed the JavaScript output, but the terminal command stayed the same."
+          }
+        ]
+      },
+      {
+        "type": "qaSection",
+        "attrs": {
+          "suggestion": null,
+          "category": ""
+        },
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "textAlign": null,
+              "id": "07776f48-2140-4ab8-876e-7fa6d9fac611",
+              "data-toc-id": "07776f48-2140-4ab8-876e-7fa6d9fac611",
+              "suggestion": null,
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Test Your Understanding"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "textAlign": null,
+              "id": "a35e676e-5884-4038-9e33-d8c3809649fb",
+              "data-toc-id": "a35e676e-5884-4038-9e33-d8c3809649fb",
+              "suggestion": null,
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "What is a CLI?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "attrs": {
+              "textAlign": null,
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "A CLI is a command-line interface. It is a program you control by typing commands into the terminal instead of clicking buttons on a screen. Tools like "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "npm"
+              },
+              {
+                "type": "text",
+                "text": ", and "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "git"
+              },
+              {
+                "type": "text",
+                "text": " are CLI apps. You start them by typing their command name, then you pass extra words to tell them what work to do."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "textAlign": null,
+              "id": "68504438-6781-4521-ac67-ac8ead85e1c0",
+              "data-toc-id": "68504438-6781-4521-ac67-ac8ead85e1c0",
+              "suggestion": null,
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Is "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "node where-am-i.js"
+              },
+              {
+                "type": "text",
+                "text": " JavaScript syntax?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "attrs": {
+              "textAlign": null,
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "No. "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "node where-am-i.js"
+              },
+              {
+                "type": "text",
+                "text": " is a terminal command, not JavaScript syntax. The command starts the Node.js program and gives it a file named "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "where-am-i.js"
+              },
+              {
+                "type": "text",
+                "text": ". Node.js then reads that file and runs the JavaScript inside it."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "textAlign": null,
+              "id": "7c808227-c89e-418e-8cb3-b7296ecf6062",
+              "data-toc-id": "7c808227-c89e-418e-8cb3-b7296ecf6062",
+              "suggestion": null,
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "What is the current working directory?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "attrs": {
+              "textAlign": null,
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "The current working directory is the folder where a command starts. When a CLI reads or writes files, it often uses this folder as its starting point. If you run the same command from a different folder, the command may read different files, write files somewhere else, or print a different path."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "textAlign": null,
+              "id": "adf9215a-9a51-4030-969c-5ec9f7c5b822",
+              "data-toc-id": "adf9215a-9a51-4030-969c-5ec9f7c5b822",
+              "suggestion": null,
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "What does "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "node"
+              },
+              {
+                "type": "text",
+                "text": " do in "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "node where-am-i.js"
+              },
+              {
+                "type": "text",
+                "text": "?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "attrs": {
+              "textAlign": null,
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "node"
+              },
+              {
+                "type": "text",
+                "text": " starts the Node.js program. The next word, "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "where-am-i.js"
+              },
+              {
+                "type": "text",
+                "text": ", is passed to Node.js as an argument. Node.js uses that argument as the JavaScript file to read and run."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "textAlign": null,
+              "id": "20a974fe-df2f-43dd-b65c-edb860eb03f6",
+              "data-toc-id": "20a974fe-df2f-43dd-b65c-edb860eb03f6",
+              "suggestion": null,
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "What does "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "process.cwd()"
+              },
+              {
+                "type": "text",
+                "text": " give us?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "attrs": {
+              "textAlign": null,
+              "suggestion": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "process.cwd()"
+              },
+              {
+                "type": "text",
+                "text": " gives us the current working directory. In this lesson, it lets the "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "where-am-i.js"
+              },
+              {
+                "type": "text",
+                "text": " script print the folder where the command started. We are not changing folders from JavaScript here. We are only asking Node.js to tell us where the command began."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "attrs": {
+          "textAlign": null,
+          "suggestion": null
+        }
+      }
+    ]
+  },
+  "authorId": "689e3be9a36f4a805da932b0",
+  "seo": {
+    "keywords": [],
+    "_id": "6a32bbf543b548b57e937f4b"
+  },
+  "tags": [],
+  "viewCount": 0,
+  "questionCount": 0,
+  "questionTopicCount": 0,
+  "metadata": {
+    "questions": [],
+    "_id": "6a32bbf543b548b57e937f4c"
+  },
+  "readingTime": {
+    "computed": 4,
+    "_id": "6a4e55ecdd873c5a784d8dbf"
+  },
+  "createdAt": "2026-06-17T15:23:33.926Z",
+  "updatedAt": "2026-07-08T13:51:40.355Z",
+  "author": {
+    "_id": "689e3be9a36f4a805da932b0",
+    "name": "Kamran Ahmed",
+    "slug": "kamran",
+    "bio": "Kamran is the founder of roadmap.sh and works on it full-time. Over the past decade he's shipped across startups and scale-ups, with most of his work in open source, he's a Google Developer Expert, a GitHub Star, and the second-most-starred developer on GitHub globally.",
+    "avatar": "https://assets.roadmap.sh/guest/me-zghbm.jpeg",
+    "socialLinks": {
+      "twitter": "https://x.com/nilbuild",
+      "linkedin": "https://linkedin.com/in/nilbuild",
+      "github": "https://github.com/nilbuild",
+      "website": "https://kamran.fyi",
+      "_id": "6a7286d6c84807390820f848"
+    }
+  },
+  "isLocked": false
+}

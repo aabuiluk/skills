@@ -1,0 +1,13 @@
+{
+  "_id": "6a9ebf6966115c1e97b289f5",
+  "name": "Andrii Builuk",
+  "email": "andrii.builuk8@gmail.com",
+  "authProvider": "google",
+  "newEmail": null,
+  "avatar": "6a9ebf6966115c1e97b289f5_1788788585603",
+  "updatedAt": "2026-09-07T19:42:20.220Z",
+  "createdAt": "2026-09-07T13:43:05.594Z",
+  "weeklySubscriptions": [
+    "frontend"
+  ]
+}
