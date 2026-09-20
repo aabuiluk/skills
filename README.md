@@ -43,3 +43,4 @@ knowledge_saver/          # immutable deposits (not a skill folder)
 ```
 
 NetAcad / OD source dump on disk: `D:\knowledge_materials\` (see deposit `2026-09-13_netacad-apply-ai-od`).
+Teaching cluster map (bender + lesson_helper + roadmap): each project's `CLUSTER.md` / `python -m cluster status`.

@@ -6,6 +6,8 @@
 
 Живий білдер: у lesson_helper `/prototype-pair17-blocks.html`. JSON-знімок = формат виводу скіла.
 
+**Уточнення до схеми 17.** На **кожен** `theory` — два положення в тому ж `id`: `коротко` і `детально`. Це не другий слот і не сторінковий `extra`. Інші типи (`example`, `task`, `trap`, …) лишаються одним `text`.
+
 ## chrome
 
 ```text
@@ -58,11 +60,14 @@ teacher     Вау-приклад на старті
 teacher     Що робимо сьогодні
 
 theory      Карта пари · 10 кроків
+            коротко    {10 фактів}
+            детально   {пояснення кроків}
 diagram     Карта · схема 10 кроків
 extra       Пояснення кроків
-extra       Коротко / детально
 
 theory      {факт 1}
+            коротко    {факт + схема}
+            детально   {розбір}
 diagram     {схема факту 1}
 callout     Коротко · {термін}
 teacher     Кроки · {факт 1}
@@ -76,7 +81,11 @@ extra       Розбір {прикладу}
 teacher     Кроки · {приклад}
 
 theory      {уточнення / місток}
+            коротко    {факт}
+            детально   {розбір}
 theory      {підготовка даних / split}
+            коротко    {факт}
+            детально   {розбір}
 code        {код підготовки}
 trap        Часта пастка · {leakage}
 checkpoint  Мікроперевірка · 15 хв
@@ -90,6 +99,8 @@ trap        {синонім / API-пастка}
 teacher     Кроки · {приклад}
 
 theory      {метрики / критерій якості}
+            коротко    {факт}
+            детально   {розбір}
 callout     Зверніть увагу
 example     {наскрізний кейс}
 code        {архітектура / рахунок параметрів}
@@ -98,6 +109,8 @@ checkpoint  Мікроперевірка · 30 хв
 teacher     Кроки · {кейс}
 
 theory      {механізм теми}
+            коротко    {факт}
+            детально   {розбір}
 diagram     {де стоїть у пайплайні}
 extra       Розбір механізму
 teacher     Кроки · {механізм}
@@ -106,6 +119,8 @@ example     {порівняння параметрів}
 code        {цикл / таблиця}
 trap        Часта пастка · {означення параметра}
 theory      {сигнал overfitting / gap}
+            коротко    {факт}
+            детально   {розбір}
 diagram     {криві train vs test}
 checkpoint  Мікроперевірка · 45 хв
 example     {чесне вимірювання}
@@ -151,10 +166,11 @@ stage:
   teacher     Вау-приклад на старті
   teacher     Що робимо сьогодні
   theory      Карта пари · 10 кроків
+              коротко / детально
   diagram     Карта · схема 10 кроків
   extra       Пояснення кроків
-  extra       Коротко / детально
   theory      Навіщо регуляризація
+              коротко / детально
   diagram     Крок 1 · train vs test
   callout     Коротко · regularization
   teacher     Кроки · регуляризація
@@ -166,7 +182,9 @@ stage:
   extra       Розбір train/eval
   teacher     Кроки · train/eval
   theory      Чому без eval() таблиця бреше
+              коротко / детально
   theory      Split і scaling
+              коротко / детально
   code        train_test_split + scaler
   trap        Часта пастка · fit на test
   checkpoint  Мікроперевірка · 15 хв
@@ -178,6 +196,7 @@ stage:
   trap        Swish = nn.SiLU()
   teacher     Кроки · активації
   theory      MAE і R² на тесті
+              коротко / детально
   callout     Зверніть увагу · R² може бути < 0
   example     MLP HealthRisk
   code        10 → 32 → 1 · 385 параметрів
@@ -185,6 +204,7 @@ stage:
   checkpoint  Мікроперевірка · 30 хв
   teacher     Кроки · HealthRisk
   theory      Dropout після hidden
+              коротко / детально
   diagram     Де стоїть Dropout
   extra       Розбір Dropout
   teacher     Кроки · Dropout
@@ -192,6 +212,7 @@ stage:
   code        Цикл по p
   trap        Часта пастка · p — це вимкнути, не keep
   theory      Train/test gap
+              коротко / детально
   diagram     Overfitting як розрив кривих
   checkpoint  Мікроперевірка · 45 хв
   example     eval() і no_grad()
@@ -236,3 +257,5 @@ stage:
 | Exit ticket | 4 |
 
 `extra`, `teacher`, мікроперевірки 15/30/45/60, homework, deep-study — **опційно**, поза 80, якщо немає власного `data-timing="required"`.
+
+Положення `детально` у `theory` **не додає хвилин**: це той самий required-слот, інша глибина.

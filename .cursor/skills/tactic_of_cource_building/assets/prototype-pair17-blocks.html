@@ -216,6 +216,27 @@ a { color: var(--accent); text-underline-offset: 3px; }
 .clock { font-family: var(--mono); font-size: .75rem; color: var(--mute); }
 .block-body { padding: .4rem .55rem .5rem; }
 .block-body p { color: #d3e0d6; margin: 0; }
+.positions {
+  display: grid;
+  gap: .4rem;
+}
+.positions section {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: .35rem .5rem .4rem;
+  background: rgba(0,0,0,.18);
+}
+.positions section[data-position="детально"] {
+  border-color: rgba(255,143,171,.35);
+}
+.positions b {
+  display: block;
+  font-size: .62rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--warm);
+  margin: 0 0 .25rem;
+}
 .callout {
   border: 1px solid var(--line); border-left: 3px solid var(--accent);
   background: rgba(125,255,179,.06); padding: .4rem .55rem; border-radius: 8px; margin: 0;
@@ -342,7 +363,7 @@ a { color: var(--accent); text-underline-offset: 3px; }
 <script>
 (function () {
   "use strict";
-  var STORAGE_KEY = "lh.prototype.pair17.blocks.v3";
+  var STORAGE_KEY = "lh.prototype.pair17.blocks.v4";
   var seq = 1;
   var targetZone = "stage";
   var dragEl = null;
@@ -366,7 +387,7 @@ a { color: var(--accent); text-underline-offset: 3px; }
     },
     {
       type: "theory", kind: "main", label: "Теорія", zone: "stage",
-      tip: "Сюди піде студентська теорія: lead-місток, один факт, пояснення, далі схема або код і callout «Зверніть увагу»."
+      tip: "Сюди піде студентська теорія з двома положеннями на одному id: коротко (факт + схема) і детально (розбір). Не два слоти й не окремий extra."
     },
     {
       type: "example", kind: "main", label: "Приклад", zone: "stage",
@@ -446,6 +467,12 @@ a { color: var(--accent); text-underline-offset: 3px; }
   }
 
   function innerFor(type) {
+    if (type === "theory") {
+      return '<div class="positions">' +
+        '<section data-position="коротко"><b>Коротко</b><p contenteditable="true" data-ph="факт + схема…"></p></section>' +
+        '<section data-position="детально"><b>Детально</b><p contenteditable="true" data-ph="розбір…"></p></section>' +
+        "</div>";
+    }
     if (type === "code") return '<pre class="pre" contenteditable="true" data-ph="код…"></pre>';
     if (type === "diagram") return '<div class="viz" contenteditable="true" data-ph="схема…"></div>';
     if (type === "callout") return '<div class="callout tip"><b>Зверніть увагу</b><p contenteditable="true" data-ph="текст…"></p></div>';
@@ -479,11 +506,37 @@ a { color: var(--accent); text-underline-offset: 3px; }
         '<button type="button" class="block-remove" aria-label="Прибрати">×</button>' +
       "</div>" +
       '<div class="block-body">' + innerFor(meta.type) + "</div>";
+    fillPositions(el, spec);
+    return el;
+  }
+
+  function positionField(el, name) {
+    return el.querySelector('[data-position="' + name + '"] [contenteditable="true"]');
+  }
+
+  function fillPositions(el, spec) {
+    var type = el.getAttribute("data-type");
+    if (type === "theory") {
+      var shortText = (spec.positions && spec.positions["коротко"]) || spec.text || "";
+      var detailText = (spec.positions && spec.positions["детально"]) || "";
+      var shortField = positionField(el, "коротко");
+      var detailField = positionField(el, "детально");
+      if (shortField) shortField.textContent = shortText;
+      if (detailField) detailField.textContent = detailText;
+      return;
+    }
     if (spec.text) {
       var field = el.querySelector("[contenteditable='true']:not(h3)");
       if (field) field.textContent = spec.text;
     }
-    return el;
+  }
+
+  function readPositions(el) {
+    if (el.getAttribute("data-type") !== "theory") return null;
+    return {
+      "коротко": positionField(el, "коротко") ? String(positionField(el, "коротко").textContent || "").trim() : "",
+      "детально": positionField(el, "детально") ? String(positionField(el, "детально").textContent || "").trim() : ""
+    };
   }
 
   function escapeHtml(value) {
@@ -494,6 +547,8 @@ a { color: var(--accent); text-underline-offset: 3px; }
   }
 
   function readText(el) {
+    var positions = readPositions(el);
+    if (positions) return positions["коротко"];
     var field = el.querySelector(".block-body [contenteditable='true']");
     return field ? String(field.textContent || "").trim() : "";
   }
@@ -502,13 +557,16 @@ a { color: var(--accent); text-underline-offset: 3px; }
     var out = { savedAt: new Date().toISOString(), zones: {} };
     zones().forEach(function (zone) {
       out.zones[zone.getAttribute("data-zone")] = blocksIn(zone).map(function (el) {
-        return {
+        var item = {
           id: el.getAttribute("data-block"),
           type: el.getAttribute("data-type"),
           kind: el.getAttribute("data-kind"),
           title: el.getAttribute("data-title"),
           text: readText(el)
         };
+        var positions = readPositions(el);
+        if (positions) item.positions = positions;
+        return item;
       });
     });
     return out;
@@ -603,7 +661,6 @@ a { color: var(--accent); text-underline-offset: 3px; }
         ["theory", "Карта пари · 10 кроків"],
         ["diagram", "Карта · схема 10 кроків"],
         ["extra", "Пояснення кроків"],
-        ["extra", "Коротко / детально"],
         ["theory", "Навіщо регуляризація"],
         ["diagram", "Крок 1 · train vs test"],
         ["callout", "Коротко · regularization"],
