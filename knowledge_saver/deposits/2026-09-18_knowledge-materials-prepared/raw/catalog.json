@@ -1,0 +1,568 @@
+{
+  "source": "D:\\knowledge_materials",
+  "books": [
+    {
+      "slug": "build-your-own-ai-investor",
+      "title": "Build Your Own AI Investor: With Machine Learning and Python, Step by Step, Second Edition",
+      "authors": [
+        "Lee",
+        "Damon"
+      ],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Build Your Own AI Investor_ With Machine Learning and Python, Step by Step\\Build Your Own AI Investor_ With Machine Learning and Python, Step by Step.pdf",
+      "ext": ".pdf",
+      "pages": 281,
+      "usable_pages": 277,
+      "chapters": 7,
+      "files": 10,
+      "topics": [
+        "pandas",
+        "scikit-learn",
+        "investing-ml"
+      ],
+      "lesson_use": "ML на таблицях (акції): pandas → ознаки → sklearn. Для пар про пайплайн, не про DL."
+    },
+    {
+      "slug": "essentials-of-python-for-ai-ml",
+      "title": "Essentials of Python for Artificial Intelligence and Machine Learning",
+      "authors": [],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Essentials of Python for Artificial Intelligence and Machine Learning\\Essentials of Python for Artificial Intelligence and Machine Learning.pdf",
+      "ext": ".pdf",
+      "pages": 524,
+      "usable_pages": 505,
+      "chapters": 11,
+      "files": 26,
+      "topics": [
+        "numpy",
+        "pandas",
+        "matplotlib",
+        "scikit-learn"
+      ],
+      "lesson_use": "NumPy / Pandas / візуалізація / MLOps — каркас пар про дані."
+    },
+    {
+      "slug": "generative-ai-with-langchain",
+      "title": "Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a",
+      "authors": [],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a\\Generative AI with LangChain_ Build large language model (LLM) apps with Python, ChatGPT a.pdf",
+      "ext": ".pdf",
+      "pages": 361,
+      "usable_pages": 344,
+      "chapters": 10,
+      "files": 19,
+      "topics": [
+        "transformers",
+        "generative-ai",
+        "prompting",
+        "langchain"
+      ],
+      "lesson_use": "LLM-застосунок: промпт, ланцюг, RAG. Для модуля Generative AI / LangChain."
+    },
+    {
+      "slug": "generative-ai-with-python-and-tensorflow-2",
+      "title": "Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs",
+      "authors": [],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs\\Generative AI with Python and TensorFlow 2_ Create images, text, and music with VAEs, GANs.pdf",
+      "ext": ".pdf",
+      "pages": 489,
+      "usable_pages": 478,
+      "chapters": 13,
+      "files": 25,
+      "topics": [
+        "deep-learning",
+        "generative-ai",
+        "opencv"
+      ],
+      "lesson_use": "VAE / GAN / текст / музика на TF2. Концепції генерації, код застарілий."
+    },
+    {
+      "slug": "learning-opencv-5",
+      "title": "Learning OpenCV 5 Computer Vision with Python - Fourth Edition",
+      "authors": [
+        "Joseph Howse"
+      ],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Learning OpenCV 5 Computer Vision with Python - Fourth Edition\\Learning OpenCV 5 Computer Vision with Python - Fourth Edition.epub",
+      "ext": ".epub",
+      "pages": 115,
+      "usable_pages": 111,
+      "chapters": 4,
+      "files": 7,
+      "topics": [
+        "cnn",
+        "opencv"
+      ],
+      "lesson_use": "OpenCV 5: кадр, фільтр, детектор. Для CV-пар."
+    },
+    {
+      "slug": "opencv-dnn-computer-vision",
+      "title": "Neural Network Computer Vision with OpenCV 5",
+      "authors": [
+        "Gopi Krishna Nuti"
+      ],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python\\Neural Network Computer Vision with OpenCV 5_ Build computer vision solutions using Python.epub",
+      "ext": ".epub",
+      "pages": 309,
+      "usable_pages": 297,
+      "chapters": 11,
+      "files": 14,
+      "topics": [
+        "neural-networks",
+        "deep-learning",
+        "cnn",
+        "opencv"
+      ],
+      "lesson_use": "DNN-модуль OpenCV, не чистий PyTorch. Міст CV ↔ нейромережа."
+    },
+    {
+      "slug": "practical-explainable-ai",
+      "title": "Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py",
+      "authors": [],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py\\Practical Explainable AI Using Python_ Artificial Intelligence Model Explanations Using Py.pdf",
+      "ext": ".pdf",
+      "pages": 356,
+      "usable_pages": 350,
+      "chapters": 14,
+      "files": 16,
+      "topics": [
+        "explainable-ai"
+      ],
+      "lesson_use": "SHAP / LIME / пояснення моделі. Для «чому модель так вирішила»."
+    },
+    {
+      "slug": "pro-deep-learning-tf2",
+      "title": "Pro Deep Learning with TensorFlow 2.0",
+      "authors": [],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte\\Pro Deep Learning with TensorFlow 2.0_ A Mathematical Approach to Advanced Artificial Inte.pdf",
+      "ext": ".pdf",
+      "pages": 667,
+      "usable_pages": 657,
+      "chapters": 6,
+      "files": 25,
+      "topics": [
+        "numpy",
+        "deep-learning"
+      ],
+      "lesson_use": "Математика DL + TF2. Брати інтуїцію, код на слайд — NumPy/PyTorch."
+    },
+    {
+      "slug": "python-scientific-computing-ai",
+      "title": "Python for Scientific Computing and Artificial Intelligence",
+      "authors": [
+        "Stephen Lynch"
+      ],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Python for Scientific Computing and Artificial Intelligence\\Python for Scientific Computing and Artificial Intelligence.pdf",
+      "ext": ".pdf",
+      "pages": 334,
+      "usable_pages": 312,
+      "chapters": 21,
+      "files": 21,
+      "topics": [
+        "numpy"
+      ],
+      "lesson_use": "NumPy/SciPy/лінал як ґрунт для ML."
+    },
+    {
+      "slug": "python-beginners-guide-to-ai",
+      "title": "Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i",
+      "authors": [],
+      "program": "AI PYTHON_3161",
+      "source": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i\\Python_ Beginner's Guide to Artificial Intelligence_ Build applications to intelligently i.pdf",
+      "ext": ".pdf",
+      "pages": 662,
+      "usable_pages": 661,
+      "chapters": 24,
+      "files": 31,
+      "topics": [
+        "python-basics"
+      ],
+      "lesson_use": "Оглядний AI на Python: від синтаксису до моделей."
+    },
+    {
+      "slug": "mastering-python-for-web",
+      "title": "Mastering Python for Web; A Beginner’s Guide",
+      "authors": [
+        "Sufyan bin Uzayr"
+      ],
+      "program": "PythonCore_3680",
+      "source": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\Mastering Python for Web_ A Beginner's Guide\\Mastering Python for Web_ A Beginner's Guide.pdf",
+      "ext": ".pdf",
+      "pages": 303,
+      "usable_pages": 298,
+      "chapters": 6,
+      "files": 13,
+      "topics": [
+        "python-basics"
+      ],
+      "lesson_use": "Веб на Python. Для Core / API, не для AI-пар."
+    },
+    {
+      "slug": "python-crash-course",
+      "title": "Python Crash Course, 3rd Edition",
+      "authors": [
+        "Eric Matthes"
+      ],
+      "program": "PythonCore_3680",
+      "source": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\Python Crash Course\\Python Crash Course.pdf",
+      "ext": ".pdf",
+      "pages": 554,
+      "usable_pages": 512,
+      "chapters": 20,
+      "files": 34,
+      "topics": [
+        "data-types",
+        "python-basics"
+      ],
+      "lesson_use": "Еталон початкового Python (Matthes). Списки, dict, файли, проєкти."
+    },
+    {
+      "slug": "python-complete-guide",
+      "title": "Python. Исчерпывающее руководство",
+      "authors": [],
+      "program": "PythonCore_3680",
+      "source": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\Python. Исчерпывающее руководство\\Python. Исчерпывающее руководство.pdf",
+      "ext": ".pdf",
+      "pages": 368,
+      "usable_pages": 358,
+      "chapters": 10,
+      "files": 15,
+      "topics": [
+        "oop",
+        "opencv"
+      ],
+      "lesson_use": "Щільний довідник мови: типи, функції, класи, stdlib."
+    },
+    {
+      "slug": "quick-python-3",
+      "title": "Quick Python 3; 1",
+      "authors": [
+        "Matuszek David"
+      ],
+      "program": "PythonCore_3680",
+      "source": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\Quick Python 3\\Quick Python 3.pdf",
+      "ext": ".pdf",
+      "pages": 129,
+      "usable_pages": 117,
+      "chapters": 54,
+      "files": 54,
+      "topics": [],
+      "lesson_use": "Короткий мінімум синтаксису + тести + GUI."
+    },
+    {
+      "slug": "the-python-book",
+      "title": "The Python Book",
+      "authors": [
+        "Mastrodomenico",
+        "Rob"
+      ],
+      "program": "PythonCore_3680",
+      "source": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\The Python Book\\The Python Book.pdf",
+      "ext": ".pdf",
+      "pages": 275,
+      "usable_pages": 257,
+      "chapters": 33,
+      "files": 34,
+      "topics": [
+        "pandas"
+      ],
+      "lesson_use": "Огляд мови до pandas/plot/API/scraping."
+    },
+    {
+      "slug": "big-book-of-python-projects",
+      "title": "Большая книга проектов Python",
+      "authors": [],
+      "program": "PythonCore_3680",
+      "source": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\Большая книга проектов Python\\Большая книга проектов Python.pdf",
+      "ext": ".pdf",
+      "pages": 432,
+      "usable_pages": 419,
+      "chapters": 80,
+      "files": 80,
+      "topics": [],
+      "lesson_use": "81 мініпроєкт (ігри, шифри). Лабораторна 80 хв, не теорія модуля."
+    },
+    {
+      "slug": "znakomstvo-s-python",
+      "title": "Знакомство с Python",
+      "authors": [],
+      "program": "PythonCore_3680",
+      "source": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\Знакомство с Python\\Знакомство с Python.pdf",
+      "ext": ".pdf",
+      "pages": 509,
+      "usable_pages": 501,
+      "chapters": 21,
+      "files": 21,
+      "topics": [],
+      "lesson_use": "Вступ до Python (без PDF TOC — нарізано сторінками)."
+    }
+  ],
+  "youtube_count": 47,
+  "video_courses": [
+    {
+      "slug": "computer-vision-projects-with-python-3",
+      "title": "[Packtpub.com _ Matthew Rever] Computer Vision Projects with Python 3 [2018, ENG]",
+      "program": "AI PYTHON_3161",
+      "lessons": 19,
+      "with_transcript": 0,
+      "topics": [
+        "cnn",
+        "opencv"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\[Packtpub.com _ Matthew Rever] Computer Vision Projects with Python 3 [2018, ENG]"
+    },
+    {
+      "slug": "skill-up-with-python-data-science-and-machine-learning-",
+      "title": "[Pearson _ O'Reilly Media] Skill Up with Python_ Data Science and Machine Learning Recipes",
+      "program": "AI PYTHON_3161",
+      "lessons": 21,
+      "with_transcript": 21,
+      "topics": [
+        "scikit-learn"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\[Pearson _ O'Reilly Media] Skill Up with Python_ Data Science and Machine Learning Recipes"
+    },
+    {
+      "slug": "learn-opencv-python-2022-computer-vision-course",
+      "title": "[Udemy] Learn OpenCV Python 2022 _ Computer Vision Course [2022, ENG]",
+      "program": "AI PYTHON_3161",
+      "lessons": 37,
+      "with_transcript": 0,
+      "topics": [
+        "cnn",
+        "opencv"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\[Udemy] Learn OpenCV Python 2022 _ Computer Vision Course [2022, ENG]"
+    },
+    {
+      "slug": "natural-language-processing-nlp-in-python-with-8-projec",
+      "title": "[Udemy] Natural Language Processing (NLP) in Python with 8 Projects [11.2021, ENG]",
+      "program": "AI PYTHON_3161",
+      "lessons": 88,
+      "with_transcript": 88,
+      "topics": [
+        "nlp"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\[Udemy] Natural Language Processing (NLP) in Python with 8 Projects [11.2021, ENG]"
+    },
+    {
+      "slug": "practical-ai-with-python-and-reinforcement-learning",
+      "title": "[Udemy] Practical AI with Python and Reinforcement Learning [07.2021, ENG]",
+      "program": "AI PYTHON_3161",
+      "lessons": 121,
+      "with_transcript": 121,
+      "topics": [
+        "reinforcement"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\[Udemy] Practical AI with Python and Reinforcement Learning [07.2021, ENG]"
+    },
+    {
+      "slug": "python-for-data-science-machine-learning-from-a-z",
+      "title": "[Udemy] Python for Data Science & Machine Learning from A-Z [01.2021, ENG]",
+      "program": "AI PYTHON_3161",
+      "lessons": 140,
+      "with_transcript": 140,
+      "topics": [
+        "scikit-learn"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\[Udemy] Python for Data Science & Machine Learning from A-Z [01.2021, ENG]"
+    },
+    {
+      "slug": "python-programming-machine-learning-deep-learning-pytho",
+      "title": "[Udemy] Python Programming_ Machine Learning, Deep Learning _ Python [05.2021, ENG]",
+      "program": "AI PYTHON_3161",
+      "lessons": 59,
+      "with_transcript": 59,
+      "topics": [
+        "scikit-learn",
+        "deep-learning"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\AI PYTHON_3161\\faily\\gdrive\\[Udemy] Python Programming_ Machine Learning, Deep Learning _ Python [05.2021, ENG]"
+    },
+    {
+      "slug": "advanced-python-python-oop-with-10-real-world-programs",
+      "title": "[Udemy] Advanced Python_ Python OOP with 10 Real-World Programs [12.2021, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 31,
+      "with_transcript": 31,
+      "topics": [
+        "oop"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy] Advanced Python_ Python OOP with 10 Real-World Programs [12.2021, ENG]"
+    },
+    {
+      "slug": "complete-python-developer-in-2022-zero-to-mastery",
+      "title": "[Udemy] Complete Python Developer in 2022_ Zero to Mastery [04-2022, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 277,
+      "with_transcript": 277,
+      "topics": [],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy] Complete Python Developer in 2022_ Zero to Mastery [04-2022, ENG]"
+    },
+    {
+      "slug": "python-3-deep-dive-part-1-functional",
+      "title": "[Udemy] Python 3_ Deep Dive (Part 1 – Functional) [08.2020, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 156,
+      "with_transcript": 0,
+      "topics": [
+        "functions"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy] Python 3_ Deep Dive (Part 1 – Functional) [08.2020, ENG]"
+    },
+    {
+      "slug": "python-3-deep-dive-part-2-iteration-generators",
+      "title": "[Udemy] Python 3_ Deep Dive (Part 2 – Iteration, Generators) [08.2020, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 134,
+      "with_transcript": 0,
+      "topics": [
+        "functions"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy] Python 3_ Deep Dive (Part 2 – Iteration, Generators) [08.2020, ENG]"
+    },
+    {
+      "slug": "python-3-deep-dive-part-3-hash-maps",
+      "title": "[Udemy] Python 3_ Deep Dive (Part 3 – Hash Maps) [11.2020, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 80,
+      "with_transcript": 0,
+      "topics": [],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy] Python 3_ Deep Dive (Part 3 – Hash Maps) [11.2020, ENG]"
+    },
+    {
+      "slug": "python-3-deep-dive-part-4-oop",
+      "title": "[Udemy] Python 3_ Deep Dive (Part 4 – OOP) [01.2021, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 162,
+      "with_transcript": 0,
+      "topics": [
+        "oop"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy] Python 3_ Deep Dive (Part 4 – OOP) [01.2021, ENG]"
+    },
+    {
+      "slug": "python-course-learn-oop-by-doing-a-game-project",
+      "title": "[Udemy]Python Course - Learn OOP by Doing a Game Project [2022, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 18,
+      "with_transcript": 0,
+      "topics": [
+        "oop"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy]Python Course - Learn OOP by Doing a Game Project [2022, ENG]"
+    },
+    {
+      "slug": "python-for-absolute-beginners",
+      "title": "[Udemy]Python for Absolute Beginners [2022, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 101,
+      "with_transcript": 101,
+      "topics": [
+        "python-basics"
+      ],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy]Python for Absolute Beginners [2022, ENG]"
+    },
+    {
+      "slug": "python-in-practice-15-projects-to-master-python",
+      "title": "[Udemy]Python In Practice _ 15 Projects to Master Python [2022, ENG]",
+      "program": "PythonCore_3680",
+      "lessons": 98,
+      "with_transcript": 24,
+      "topics": [],
+      "source_dir": "D:\\knowledge_materials\\od\\PythonCore_3680\\faily\\gdrive\\[Udemy]Python In Practice _ 15 Projects to Master Python [2022, ENG]"
+    }
+  ],
+  "web_articles_count": 63,
+  "gfg_count": 9,
+  "netacad_articles_count": 155,
+  "netacad_courses": [
+    {
+      "slug": "ai-ibm-skillsbuild",
+      "title": "AI Fundamentals with IBM SkillsBuild",
+      "lessons": 8,
+      "words": 570,
+      "topics": [],
+      "url": "https://www.netacad.com/courses/ai-ibm-skillsbuild?courseLang=en-US"
+    },
+    {
+      "slug": "build-your-resume-with-ai",
+      "title": "Build your Resume with AI",
+      "lessons": 71,
+      "words": 5908,
+      "topics": [],
+      "url": "https://www.netacad.com/launch?id=506893ce-0916-40e3-9f00-2a2d01ba4e07&tab=curriculum&view=7f3ecab7-0104-470a-8150-c01e9a138787"
+    },
+    {
+      "slug": "data-analytics-essentials",
+      "title": "Data Analytics Essentials",
+      "lessons": 322,
+      "words": 49468,
+      "topics": [],
+      "url": "https://www.netacad.com/launch?id=b69a784a-9b3a-4ddd-a514-f4e6f3b70c45&tab=curriculum&view=24602800-238d-5d25-b79b-15f83389691a"
+    },
+    {
+      "slug": "data-science-essentials-with-python",
+      "title": "Data Science Essentials with Python",
+      "lessons": 61,
+      "words": 1708,
+      "topics": [],
+      "url": "https://www.netacad.com/launch?id=4a913746-5ce5-49ca-8993-9729ce135833&tab=curriculum&view=8a72c703-66e8-42a3-ade2-aae19e5d05c0"
+    },
+    {
+      "slug": "find-insights-with-ai",
+      "title": "Find Insights with AI",
+      "lessons": 93,
+      "words": 8665,
+      "topics": [],
+      "url": "https://www.netacad.com/launch?id=ef17410f-3aec-484d-8c36-e1405eda3437&tab=curriculum&view=d4984139-fcba-5619-b41f-d0c72f3878f6"
+    },
+    {
+      "slug": "introduction-to-modern-ai",
+      "title": "Introduction to Modern AI",
+      "lessons": 86,
+      "words": 6515,
+      "topics": [],
+      "url": "https://www.netacad.com/launch?id=e38d8d2d-39db-4c01-8722-0924a495415f&tab=curriculum&view=ccd7e243-f2c2-55ae-9f18-5b92cfb833d4"
+    },
+    {
+      "slug": "prompt-like-an-engineer",
+      "title": "Prompt Like an Engineer",
+      "lessons": 78,
+      "words": 7658,
+      "topics": [
+        "prompting"
+      ],
+      "url": "https://www.netacad.com/launch?id=5d39b4e4-a46a-4b3a-8c12-9e1a102c9276&tab=curriculum&view=a90de465-8f52-48bc-925a-87969b3fe3b9"
+    }
+  ],
+  "od_courses": [
+    {
+      "slug": "ai-python-3161",
+      "title": "Штучний інтелект з використанням Python (додаткові матеріали OD)",
+      "program": "AI PYTHON_3161",
+      "role": "рекомендовані книжки, відеокурс, ДЗ/практика з OD",
+      "pages": 41
+    },
+    {
+      "slug": "python-ai-3158",
+      "title": "Штучний інтелект з використанням Python (офіційні сторінки ITSTEP)",
+      "program": "PYTHON AI_3158",
+      "role": "сценарії уроків, практика, ДЗ — первинне джерело програми",
+      "pages": 109
+    },
+    {
+      "slug": "python-core-3680",
+      "title": "Python Core (OD)",
+      "program": "PythonCore_3680",
+      "role": "базовий Python: книжки, Udemy, GeekForGeeks, ДЗ/практика",
+      "pages": 55
+    }
+  ]
+}

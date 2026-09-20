@@ -1,0 +1,1 @@
+v14 is additive (`from=14.0`). Pairs 1–15 and 19–20 get the 16–18 explaine_simple stack. Pairs 16–18 get tactic passport + growth teacher notes without a second 10-step map. student_active=14.0 with all 50 pairs in overrides. No version 13.0.

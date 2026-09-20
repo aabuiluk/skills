@@ -1,12 +1,6 @@
 # Структурна схема пари
 
-Канон порядку — `seed()` у [prototype-pair17-blocks.html](../assets/prototype-pair17-blocks.html).
-
-Це **схема типів**, не обовʼязково заголовки Dropout. Заголовки нижче — золотий примірник (пара 17). На нову тему перейменуй `title` під syllabus цієї пари; `type` і порядок зон не міняй.
-
-Живий білдер: у lesson_helper `/prototype-pair17-blocks.html`. JSON-знімок = формат виводу скіла.
-
-**Уточнення до схеми 17.** На **кожен** `theory` — два положення в тому ж `id`: `коротко` і `детально`. Це не другий слот і не сторінковий `extra`. Інші типи (`example`, `task`, `trap`, …) лишаються одним `text`.
+Це **схема типів**. На нову тему перейменуй `title` під syllabus цієї пари; `type` і порядок зон не міняй. Не копіюй заголовки з живої пари й не звіряйся з HTML-прототипом.
 
 ## chrome
 
@@ -36,7 +30,7 @@ toc  Зміст
 
 ## notebook
 
-Одна комірка на кожен runnable `code` / `task` зі `stage`. Золото пари 17 — шість слотів:
+Одна комірка на кожен runnable `code` / `task` зі `stage`. Поки комірок не відомо — шість слотів:
 
 ```text
 notebook  Комірка · {приклад 1}
@@ -49,7 +43,7 @@ notebook  Комірка · завдання 2
 
 Якщо комірок ще не відомо — лиши 6 слотів з `Потребує допрацювання`.
 
-## stage (золотий порядок)
+## stage (порядок типів)
 
 Кластери не розривай. Teacher-близнюк стоїть **одразу після** студентського кластера, який він веде.
 
@@ -60,14 +54,11 @@ teacher     Вау-приклад на старті
 teacher     Що робимо сьогодні
 
 theory      Карта пари · 10 кроків
-            коротко    {10 фактів}
-            детально   {пояснення кроків}
 diagram     Карта · схема 10 кроків
 extra       Пояснення кроків
+extra       Коротко / детально
 
 theory      {факт 1}
-            коротко    {факт + схема}
-            детально   {розбір}
 diagram     {схема факту 1}
 callout     Коротко · {термін}
 teacher     Кроки · {факт 1}
@@ -81,11 +72,7 @@ extra       Розбір {прикладу}
 teacher     Кроки · {приклад}
 
 theory      {уточнення / місток}
-            коротко    {факт}
-            детально   {розбір}
 theory      {підготовка даних / split}
-            коротко    {факт}
-            детально   {розбір}
 code        {код підготовки}
 trap        Часта пастка · {leakage}
 checkpoint  Мікроперевірка · 15 хв
@@ -99,8 +86,6 @@ trap        {синонім / API-пастка}
 teacher     Кроки · {приклад}
 
 theory      {метрики / критерій якості}
-            коротко    {факт}
-            детально   {розбір}
 callout     Зверніть увагу
 example     {наскрізний кейс}
 code        {архітектура / рахунок параметрів}
@@ -109,8 +94,6 @@ checkpoint  Мікроперевірка · 30 хв
 teacher     Кроки · {кейс}
 
 theory      {механізм теми}
-            коротко    {факт}
-            детально   {розбір}
 diagram     {де стоїть у пайплайні}
 extra       Розбір механізму
 teacher     Кроки · {механізм}
@@ -119,8 +102,6 @@ example     {порівняння параметрів}
 code        {цикл / таблиця}
 trap        Часта пастка · {означення параметра}
 theory      {сигнал overfitting / gap}
-            коротко    {факт}
-            детально   {розбір}
 diagram     {криві train vs test}
 checkpoint  Мікроперевірка · 45 хв
 example     {чесне вимірювання}
@@ -155,98 +136,9 @@ extra       Deep-study
 teacher     Кроки · deep-study
 ```
 
-## Золоті заголовки пари 17
-
-Лише як приклад заповнення, не як шаблон назв для іншого курсу:
-
-```text
-stage:
-  banner      План і цілі
-  teacher     Бриф пари
-  teacher     Вау-приклад на старті
-  teacher     Що робимо сьогодні
-  theory      Карта пари · 10 кроків
-              коротко / детально
-  diagram     Карта · схема 10 кроків
-  extra       Пояснення кроків
-  theory      Навіщо регуляризація
-              коротко / детально
-  diagram     Крок 1 · train vs test
-  callout     Коротко · regularization
-  teacher     Кроки · регуляризація
-  example     train() і eval()
-  code        Демо Dropout
-  diagram     Маска train / прозорий eval
-  callout     Зверніть увагу · eval
-  trap        Часта пастка · метрика в train()
-  extra       Розбір train/eval
-  teacher     Кроки · train/eval
-  theory      Чому без eval() таблиця бреше
-              коротко / детально
-  theory      Split і scaling
-              коротко / детально
-  code        train_test_split + scaler
-  trap        Часта пастка · fit на test
-  checkpoint  Мікроперевірка · 15 хв
-  teacher     Кроки · split
-  example     Чотири hidden-активації
-  diagram     ReLU / Tanh / LeakyReLU / SiLU
-  code        build_model(act)
-  extra       Розбір активацій
-  trap        Swish = nn.SiLU()
-  teacher     Кроки · активації
-  theory      MAE і R² на тесті
-              коротко / детально
-  callout     Зверніть увагу · R² може бути < 0
-  example     MLP HealthRisk
-  code        10 → 32 → 1 · 385 параметрів
-  extra       Розбір MLP
-  checkpoint  Мікроперевірка · 30 хв
-  teacher     Кроки · HealthRisk
-  theory      Dropout після hidden
-              коротко / детально
-  diagram     Де стоїть Dropout
-  extra       Розбір Dropout
-  teacher     Кроки · Dropout
-  example     p = 0.1 / 0.3 / 0.5
-  code        Цикл по p
-  trap        Часта пастка · p — це вимкнути, не keep
-  theory      Train/test gap
-              коротко / детально
-  diagram     Overfitting як розрив кривих
-  checkpoint  Мікроперевірка · 45 хв
-  example     eval() і no_grad()
-  code        with torch.no_grad()
-  callout     Орієнтир · обидва важелі
-  extra       Що означає p у Dropout
-  extra       overfitting / underfitting
-  teacher     Кроки · gap
-  task        ITSTEP Практичне 4.2
-  task        Завдання 1 · активації
-  callout     Звідки дані і навіщо · 1
-  teacher     Walkthrough · завдання 1
-  checkpoint  Мікроперевірка · 60 хв
-  task        Завдання 2 · Dropout p=0.3
-  callout     Звідки дані і навіщо · 2
-  teacher     Walkthrough · завдання 2
-  checkpoint  Checkpoint
-  extra       Cursor · акцент
-  extra       Cursor · демо
-  extra       Cursor · практика
-  extra       Codex · акцент
-  extra       Codex · практика
-  extra       Паспорт даних
-  teacher     Нотатки v7
-  homework    Домашнє · ITSTEP
-  teacher     Еталон ДЗ
-  exit        Exit ticket
-  extra       Deep-study · weight decay
-  teacher     Кроки · deep-study
-```
-
 ## Таймінг 80 хв
 
-У пігулки банера входять лише блоки з хвилинами **required**. Золотий розподіл пари 17 (сума 80):
+У пігулки банера входять лише блоки з хвилинами **required**. Типовий розподіл (сума 80):
 
 | Слот | хв |
 |------|----|
@@ -257,5 +149,3 @@ stage:
 | Exit ticket | 4 |
 
 `extra`, `teacher`, мікроперевірки 15/30/45/60, homework, deep-study — **опційно**, поза 80, якщо немає власного `data-timing="required"`.
-
-Положення `детально` у `theory` **не додає хвилин**: це той самий required-слот, інша глибина.

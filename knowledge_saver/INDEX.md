@@ -18,3 +18,16 @@
 | 2026-09-16_strategy-of-cource-building | 2026-09-16 | Surface pair menu of python_ai_step (50×80) as gold for splitting any syllabus | investigate | `.agents/skills/teaching/strategy_of_cource_building` |
 | 2026-09-16_tactic-of-cource-building | 2026-09-16 | Pair-page block scheme from prototype-pair17-blocks (zones, types, seed) | owner prototype | `.agents/skills/teaching/tactic_of_cource_building` |
 | 2026-09-16_growth-of-cource-building | 2026-09-16 | Pair stays teachable and graftable when more sources arrive (hooks, additive versions) | owner directive | `.agents/skills/teaching/growth_of_cource_building` |
+| 2026-09-17_step-v14-pairs-1-20 | 2026-09-17 | python_ai_step material v14.0: explaine_simple + tactic/growth on pairs 1–20 | high-token | explaine_simple, tactic_of_cource_building, growth_of_cource_building |
+| 2026-09-18_astra-web-syllabus | 2026-09-18 | Програма Astra: пряме джерело ITSTEP | HTTPS GET | astra/ |
+| 2026-09-18_books-prepared | 2026-09-18 | Four course books split for AI lesson writing | other (local PDFs) | `books_prepared/` |
+| 2026-09-18_knowledge-materials-prepared | 2026-09-18 | D:\knowledge_materials → AI-loadable books/articles/videos/courses | other (local archive) | `knowledge_materials_prepared/` |
+| 2026-09-18_step-v17-inventory-depth | 2026-09-18 | step 1.17: in-block Скорочено/Детально + full inventory graft on pairs 17–20 | other (inventory + KB + OD + Astra) | |
+| 2026-09-20_local-materials-catalog | 2026-09-20 | Живий зріз усіх локальних методичних матеріалів і джерел на DESKTOP-GREEN | investigate | |
+| 2026-09-20_bender-roadmap-catalog | 2026-09-20 | Bender (чекер, D:\\ dump) + roadmap kb doctor / six bases | investigate | |
+| 2026-09-20_materials-and-books | 2026-09-20 | Книжки й методичні матеріали (lesson_helper + bender + roadmap + D:\\) | investigate | |
+| 2026-09-20_python-ai-program-materials-plan | 2026-09-20 | План джерел на модуль для програми ITSTEP Python AI 2.0.0 | other | |
+| 2026-09-20_kol-materials-plan | 2026-09-20 | План джерел на модуль для програми КОЛ «Основи програмування на Python» 1.0.0 | high-token | |
+| 2026-09-20_python-ai-author-course | 2026-09-20 | Журнальний курс python_ai_author (50 пар, хаб «Програми в розробці») | other | |
+| 2026-09-20_itstep-html-program-books | 2026-09-20 | HTML-книги по двох програмах ITSTEP (Python AI 2.0.0 + КОЛ 1.0.0) | download + high-token | |
+| 2026-09-21_python-ai-author-live-materials-audit | 2026-09-21 | Live python_ai_author: дублікати коротко/детально + % джерел на пару | investigate | |

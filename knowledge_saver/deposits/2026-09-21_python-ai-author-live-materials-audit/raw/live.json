@@ -1,0 +1,731 @@
+{
+  "login": {
+    "status": 200,
+    "ok": true,
+    "n": 14
+  },
+  "hub": {
+    "title": "Lesson Journal",
+    "url": "https://csctemplate.pythonanywhere.com/courses/python_ai_author",
+    "text_len": 3149,
+    "headings": [
+      "Штучний інтелект з використанням Python Версія 2.0.0",
+      "Версія перегляду",
+      "Версія для студентів",
+      "Тематичний план",
+      "Каталог ресурсів (1)"
+    ],
+    "links": [
+      {
+        "text": "Штучний інтелект із використанням PythonКурс · 50 пар · по 80 хв · v1.0.0",
+        "href": "/courses/python_ai_step"
+      },
+      {
+        "text": "Основи програмування на Python (КОЛ)Курс · 94 пари · по 80 хв · v1.0.0",
+        "href": "/courses/python_kol"
+      },
+      {
+        "text": "Інтернатура · ДмитроКурс · 20 пар · по 60 хв · 2×/тиждень · v1.1.0",
+        "href": "/courses/intern_dmytro"
+      },
+      {
+        "text": "Інтернатура · ОфеліяКурс · 20 пар · по 60 хв · 2×/тиждень · v1.1.0",
+        "href": "/courses/intern_ofelya"
+      },
+      {
+        "text": "Штучний інтелект з використанням Python Версія 2.0.0Курс · 50 пар · по 80 хв · v0.2",
+        "href": "/courses/python_ai_author"
+      },
+      {
+        "text": "КОЛ · авторський 1.0.0Курс · 94 пари · по 80 хв · v1.0.0",
+        "href": "/courses/python_kol_author"
+      },
+      {
+        "text": "Python AI MaterialsКурс · 50 пар готово · по 80 хв (вікно пари) · v1.0.0-m10",
+        "href": "/courses/python_ai_materials"
+      },
+      {
+        "text": "Як бачать відвідувачі",
+        "href": "/course/python_ai_author"
+      }
+    ],
+    "has_login": false
+  },
+  "pairs": [
+    {
+      "gi": 1,
+      "status": 200,
+      "bytes": 591484,
+      "depth_bars": 43,
+      "explain": 0,
+      "chrome_hint": 40,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 2,
+      "status": 200,
+      "bytes": 643928,
+      "depth_bars": 41,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 3,
+      "status": 200,
+      "bytes": 538406,
+      "depth_bars": 39,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 4,
+      "status": 200,
+      "bytes": 581627,
+      "depth_bars": 39,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 5,
+      "status": 200,
+      "bytes": 553049,
+      "depth_bars": 41,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 6,
+      "status": 200,
+      "bytes": 448923,
+      "depth_bars": 39,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 7,
+      "status": 200,
+      "bytes": 467221,
+      "depth_bars": 39,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 8,
+      "status": 200,
+      "bytes": 428660,
+      "depth_bars": 41,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 9,
+      "status": 200,
+      "bytes": 530442,
+      "depth_bars": 43,
+      "explain": 0,
+      "chrome_hint": 40,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 10,
+      "status": 200,
+      "bytes": 642396,
+      "depth_bars": 47,
+      "explain": 0,
+      "chrome_hint": 44,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 11,
+      "status": 200,
+      "bytes": 501853,
+      "depth_bars": 43,
+      "explain": 0,
+      "chrome_hint": 40,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 12,
+      "status": 200,
+      "bytes": 726369,
+      "depth_bars": 45,
+      "explain": 0,
+      "chrome_hint": 42,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 13,
+      "status": 200,
+      "bytes": 680113,
+      "depth_bars": 41,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 14,
+      "status": 200,
+      "bytes": 692218,
+      "depth_bars": 49,
+      "explain": 0,
+      "chrome_hint": 46,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 15,
+      "status": 200,
+      "bytes": 302381,
+      "depth_bars": 49,
+      "explain": 0,
+      "chrome_hint": 46,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 16,
+      "status": 200,
+      "bytes": 447005,
+      "depth_bars": 65,
+      "explain": 2,
+      "chrome_hint": 62,
+      "book": 0,
+      "map": 7,
+      "teacher_today": 4,
+      "dup_h3": [
+        {
+          "title": "Для викладача · що робимо сьогодні",
+          "n": 2
+        }
+      ],
+      "snippet": ""
+    },
+    {
+      "gi": 17,
+      "status": 200,
+      "bytes": 625795,
+      "depth_bars": 109,
+      "explain": 2,
+      "chrome_hint": 106,
+      "book": 19,
+      "map": 8,
+      "teacher_today": 6,
+      "dup_h3": [
+        {
+          "title": "Для викладача · що робимо сьогодні",
+          "n": 3
+        }
+      ],
+      "snippet": ""
+    },
+    {
+      "gi": 18,
+      "status": 200,
+      "bytes": 454609,
+      "depth_bars": 59,
+      "explain": 2,
+      "chrome_hint": 56,
+      "book": 1,
+      "map": 8,
+      "teacher_today": 6,
+      "dup_h3": [
+        {
+          "title": "Для викладача · що робимо сьогодні",
+          "n": 3
+        }
+      ],
+      "snippet": ""
+    },
+    {
+      "gi": 19,
+      "status": 200,
+      "bytes": 760016,
+      "depth_bars": 45,
+      "explain": 2,
+      "chrome_hint": 42,
+      "book": 1,
+      "map": 4,
+      "teacher_today": 4,
+      "dup_h3": [
+        {
+          "title": "Для викладача · що робимо сьогодні",
+          "n": 2
+        }
+      ],
+      "snippet": ""
+    },
+    {
+      "gi": 20,
+      "status": 200,
+      "bytes": 792199,
+      "depth_bars": 47,
+      "explain": 2,
+      "chrome_hint": 44,
+      "book": 1,
+      "map": 4,
+      "teacher_today": 4,
+      "dup_h3": [
+        {
+          "title": "Для викладача · що робимо сьогодні",
+          "n": 2
+        }
+      ],
+      "snippet": ""
+    },
+    {
+      "gi": 21,
+      "status": 200,
+      "bytes": 478037,
+      "depth_bars": 30,
+      "explain": 0,
+      "chrome_hint": 30,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 22,
+      "status": 200,
+      "bytes": 447361,
+      "depth_bars": 30,
+      "explain": 0,
+      "chrome_hint": 30,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 23,
+      "status": 200,
+      "bytes": 548464,
+      "depth_bars": 30,
+      "explain": 0,
+      "chrome_hint": 30,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 24,
+      "status": 200,
+      "bytes": 520878,
+      "depth_bars": 30,
+      "explain": 0,
+      "chrome_hint": 30,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 25,
+      "status": 200,
+      "bytes": 518271,
+      "depth_bars": 32,
+      "explain": 0,
+      "chrome_hint": 32,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 26,
+      "status": 200,
+      "bytes": 530968,
+      "depth_bars": 38,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 27,
+      "status": 200,
+      "bytes": 461678,
+      "depth_bars": 38,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 28,
+      "status": 200,
+      "bytes": 464469,
+      "depth_bars": 38,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 29,
+      "status": 200,
+      "bytes": 543780,
+      "depth_bars": 40,
+      "explain": 0,
+      "chrome_hint": 40,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 30,
+      "status": 200,
+      "bytes": 603106,
+      "depth_bars": 40,
+      "explain": 0,
+      "chrome_hint": 40,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 31,
+      "status": 200,
+      "bytes": 497499,
+      "depth_bars": 38,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 32,
+      "status": 200,
+      "bytes": 580283,
+      "depth_bars": 38,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 33,
+      "status": 200,
+      "bytes": 473801,
+      "depth_bars": 36,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 34,
+      "status": 200,
+      "bytes": 456446,
+      "depth_bars": 36,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 35,
+      "status": 200,
+      "bytes": 423837,
+      "depth_bars": 38,
+      "explain": 0,
+      "chrome_hint": 38,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 36,
+      "status": 200,
+      "bytes": 458292,
+      "depth_bars": 36,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 37,
+      "status": 200,
+      "bytes": 617056,
+      "depth_bars": 42,
+      "explain": 0,
+      "chrome_hint": 42,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 38,
+      "status": 200,
+      "bytes": 505593,
+      "depth_bars": 40,
+      "explain": 0,
+      "chrome_hint": 40,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 39,
+      "status": 200,
+      "bytes": 594567,
+      "depth_bars": 40,
+      "explain": 0,
+      "chrome_hint": 40,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 40,
+      "status": 200,
+      "bytes": 582159,
+      "depth_bars": 42,
+      "explain": 0,
+      "chrome_hint": 42,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 41,
+      "status": 200,
+      "bytes": 657904,
+      "depth_bars": 44,
+      "explain": 0,
+      "chrome_hint": 44,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 42,
+      "status": 200,
+      "bytes": 681312,
+      "depth_bars": 42,
+      "explain": 0,
+      "chrome_hint": 42,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 43,
+      "status": 200,
+      "bytes": 657713,
+      "depth_bars": 34,
+      "explain": 0,
+      "chrome_hint": 34,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 44,
+      "status": 200,
+      "bytes": 611171,
+      "depth_bars": 34,
+      "explain": 0,
+      "chrome_hint": 34,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 45,
+      "status": 200,
+      "bytes": 578862,
+      "depth_bars": 36,
+      "explain": 0,
+      "chrome_hint": 36,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 46,
+      "status": 200,
+      "bytes": 488648,
+      "depth_bars": 34,
+      "explain": 0,
+      "chrome_hint": 34,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 47,
+      "status": 200,
+      "bytes": 600239,
+      "depth_bars": 34,
+      "explain": 0,
+      "chrome_hint": 34,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 48,
+      "status": 200,
+      "bytes": 524231,
+      "depth_bars": 34,
+      "explain": 0,
+      "chrome_hint": 34,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 49,
+      "status": 200,
+      "bytes": 510650,
+      "depth_bars": 34,
+      "explain": 0,
+      "chrome_hint": 34,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    },
+    {
+      "gi": 50,
+      "status": 200,
+      "bytes": 486776,
+      "depth_bars": 30,
+      "explain": 0,
+      "chrome_hint": 30,
+      "book": 0,
+      "map": 0,
+      "teacher_today": 0,
+      "dup_h3": [],
+      "snippet": ""
+    }
+  ]
+}
